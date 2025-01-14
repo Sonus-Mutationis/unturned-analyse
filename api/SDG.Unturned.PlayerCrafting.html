@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerCrafting | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerCrafting | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerCrafting">
+
+
+
+  <h1 id="SDG_Unturned_PlayerCrafting" data-uid="SDG.Unturned.PlayerCrafting" class="text-break">
+Class PlayerCrafting  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerCrafting : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerCrafting</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerCrafting__ctor_" data-uid="SDG.Unturned.PlayerCrafting.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting__ctor" data-uid="SDG.Unturned.PlayerCrafting.#ctor">
+  PlayerCrafting()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerCrafting()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerCrafting_onCraftBlueprintRequested" data-uid="SDG.Unturned.PlayerCrafting.onCraftBlueprintRequested">
+  onCraftBlueprintRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PlayerCraftingRequestHandler onCraftBlueprintRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerCraftingRequestHandler.html">PlayerCraftingRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerCrafting_onCraftingRequested" data-uid="SDG.Unturned.PlayerCrafting.onCraftingRequested">
+  onCraftingRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the static onCraftBlueprintRequested for ease-of-use instead.&quot;)]
+public PlayerCraftingRequestHandler onCraftingRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerCraftingRequestHandler.html">PlayerCraftingRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerCrafting_onCraftingUpdated" data-uid="SDG.Unturned.PlayerCrafting.onCraftingUpdated">
+  onCraftingUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CraftingUpdated onCraftingUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.CraftingUpdated.html">CraftingUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerCrafting_ReceiveCraft_" data-uid="SDG.Unturned.PlayerCrafting.ReceiveCraft*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_ReceiveCraft_SDG_Unturned_ServerInvocationContext__System_UInt16_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerCrafting.ReceiveCraft(SDG.Unturned.ServerInvocationContext@,System.UInt16,System.Byte,System.Boolean)">
+  ReceiveCraft(in ServerInvocationContext, ushort, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10)]
+public void ReceiveCraft(in ServerInvocationContext context, ushort id, byte index, bool force)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_ReceiveRefreshCrafting_" data-uid="SDG.Unturned.PlayerCrafting.ReceiveRefreshCrafting*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_ReceiveRefreshCrafting" data-uid="SDG.Unturned.PlayerCrafting.ReceiveRefreshCrafting">
+  ReceiveRefreshCrafting()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellCraft&quot;)]
+public void ReceiveRefreshCrafting()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_ReceiveStripAttachments_" data-uid="SDG.Unturned.PlayerCrafting.ReceiveStripAttachments*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_ReceiveStripAttachments_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerCrafting.ReceiveStripAttachments(System.Byte,System.Byte,System.Byte)">
+  ReceiveStripAttachments(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askStripAttachments&quot;)]
+public void ReceiveStripAttachments(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_ServerRefreshOwnerCrafting_" data-uid="SDG.Unturned.PlayerCrafting.ServerRefreshOwnerCrafting*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_ServerRefreshOwnerCrafting" data-uid="SDG.Unturned.PlayerCrafting.ServerRefreshOwnerCrafting">
+  ServerRefreshOwnerCrafting()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requested for plugin use.
+Notifies owner they should refresh the crafting menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerRefreshOwnerCrafting()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_askCraft_" data-uid="SDG.Unturned.PlayerCrafting.askCraft*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_askCraft_Steamworks_CSteamID_System_UInt16_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerCrafting.askCraft(Steamworks.CSteamID,System.UInt16,System.Byte,System.Boolean)">
+  askCraft(CSteamID, ushort, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askCraft(CSteamID steamID, ushort id, byte index, bool force)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_askStripAttachments_" data-uid="SDG.Unturned.PlayerCrafting.askStripAttachments*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_askStripAttachments_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerCrafting.askStripAttachments(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askStripAttachments(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askStripAttachments(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_getIgnoringBlueprint_" data-uid="SDG.Unturned.PlayerCrafting.getIgnoringBlueprint*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_getIgnoringBlueprint_SDG_Unturned_Blueprint_" data-uid="SDG.Unturned.PlayerCrafting.getIgnoringBlueprint(SDG.Unturned.Blueprint)">
+  getIgnoringBlueprint(Blueprint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get whether this player is ignoring a blueprint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getIgnoringBlueprint(Blueprint blueprint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>blueprint</code> <a class="xref" href="SDG.Unturned.Blueprint.html">Blueprint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_isBlueprintBlacklisted_" data-uid="SDG.Unturned.PlayerCrafting.isBlueprintBlacklisted*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_isBlueprintBlacklisted_SDG_Unturned_Blueprint_" data-uid="SDG.Unturned.PlayerCrafting.isBlueprintBlacklisted(SDG.Unturned.Blueprint)">
+  isBlueprintBlacklisted(Blueprint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBlueprintBlacklisted(Blueprint blueprint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>blueprint</code> <a class="xref" href="SDG.Unturned.Blueprint.html">Blueprint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_removeItem_" data-uid="SDG.Unturned.PlayerCrafting.removeItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_removeItem_System_Byte_SDG_Unturned_ItemJar_" data-uid="SDG.Unturned.PlayerCrafting.removeItem(System.Byte,SDG.Unturned.ItemJar)">
+  removeItem(byte, ItemJar)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void removeItem(byte page, ItemJar jar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>jar</code> <a class="xref" href="SDG.Unturned.ItemJar.html">ItemJar</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_sendCraft_" data-uid="SDG.Unturned.PlayerCrafting.sendCraft*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_sendCraft_System_UInt16_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerCrafting.sendCraft(System.UInt16,System.Byte,System.Boolean)">
+  sendCraft(ushort, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendCraft(ushort id, byte index, bool force)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_sendStripAttachments_" data-uid="SDG.Unturned.PlayerCrafting.sendStripAttachments*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_sendStripAttachments_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerCrafting.sendStripAttachments(System.Byte,System.Byte,System.Byte)">
+  sendStripAttachments(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendStripAttachments(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_setIgnoringBlueprint_" data-uid="SDG.Unturned.PlayerCrafting.setIgnoringBlueprint*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_setIgnoringBlueprint_SDG_Unturned_Blueprint_System_Boolean_" data-uid="SDG.Unturned.PlayerCrafting.setIgnoringBlueprint(SDG.Unturned.Blueprint,System.Boolean)">
+  setIgnoringBlueprint(Blueprint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set whether this player is ignoring a blueprint.
+This is a kludge to help with accidentally crafting items like blindfolds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setIgnoringBlueprint(Blueprint blueprint, bool isIgnoring)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>blueprint</code> <a class="xref" href="SDG.Unturned.Blueprint.html">Blueprint</a></dt>
+    <dd></dd>
+    <dt><code>isIgnoring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerCrafting_tellCraft_" data-uid="SDG.Unturned.PlayerCrafting.tellCraft*"></a>
+
+  <h3 id="SDG_Unturned_PlayerCrafting_tellCraft_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerCrafting.tellCraft(Steamworks.CSteamID)">
+  tellCraft(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellCraft(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

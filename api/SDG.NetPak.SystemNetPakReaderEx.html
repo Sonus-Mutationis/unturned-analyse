@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SystemNetPakReaderEx | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SystemNetPakReaderEx | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.NetPak.SystemNetPakReaderEx">
+
+
+
+  <h1 id="SDG_NetPak_SystemNetPakReaderEx" data-uid="SDG.NetPak.SystemNetPakReaderEx" class="text-break">
+Class SystemNetPakReaderEx  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.NetPak.html">NetPak</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SDG.NetPak.Runtime.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SystemNetPakReaderEx</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SystemNetPakReaderEx</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadClampedFloat_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadClampedFloat*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadClampedFloat_SDG_NetPak_NetPakReader_System_Int32_System_Int32_System_Single__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadClampedFloat(SDG.NetPak.NetPakReader,System.Int32,System.Int32,System.Single@)">
+  ReadClampedFloat(NetPakReader, int, int, out float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Values outside the range are clamped into range.
+For example intBitCount of 7 allows range [-64, +64).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadClampedFloat(this NetPakReader reader, int intBitCount, int fracBitCount, out float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>intBitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>fracBitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadDateTime_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadDateTime*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadDateTime_SDG_NetPak_NetPakReader_System_DateTime__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadDateTime(SDG.NetPak.NetPakReader,System.DateTime@)">
+  ReadDateTime(NetPakReader, out DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadDateTime(this NetPakReader reader, out DateTime value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadDegrees_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadDegrees*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadDegrees_SDG_NetPak_NetPakReader_System_Single__System_Int32_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadDegrees(SDG.NetPak.NetPakReader,System.Single@,System.Int32)">
+  ReadDegrees(NetPakReader, out float, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadDegrees(this NetPakReader reader, out float value, int bitCount = 8)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadFloat_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadFloat*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadFloat_SDG_NetPak_NetPakReader_System_Single__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadFloat(SDG.NetPak.NetPakReader,System.Single@)">
+  ReadFloat(NetPakReader, out float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadFloat(this NetPakReader reader, out float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadGuid_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadGuid*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadGuid_SDG_NetPak_NetPakReader_System_Guid__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadGuid(SDG.NetPak.NetPakReader,System.Guid@)">
+  ReadGuid(NetPakReader, out Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadGuid(this NetPakReader reader, out Guid value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadInt16_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt16*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadInt16_SDG_NetPak_NetPakReader_System_Int16__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt16(SDG.NetPak.NetPakReader,System.Int16@)">
+  ReadInt16(NetPakReader, out short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadInt16(this NetPakReader reader, out short value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadInt32_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt32*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadInt32_SDG_NetPak_NetPakReader_System_Int32__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt32(SDG.NetPak.NetPakReader,System.Int32@)">
+  ReadInt32(NetPakReader, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadInt32(this NetPakReader reader, out int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadInt64_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt64*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadInt64_SDG_NetPak_NetPakReader_System_Int64__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt64(SDG.NetPak.NetPakReader,System.Int64@)">
+  ReadInt64(NetPakReader, out long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadInt64(this NetPakReader reader, out long value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadInt8_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt8*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadInt8_SDG_NetPak_NetPakReader_System_SByte__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadInt8(SDG.NetPak.NetPakReader,System.SByte@)">
+  ReadInt8(NetPakReader, out sbyte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadInt8(this NetPakReader reader, out sbyte value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.sbyte">sbyte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadList_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadList*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadList__1_SDG_NetPak_NetPakReader_System_Collections_Generic_List___0__SDG_NetPak_SystemNetPakReaderEx_ReadListItemWithReader___0__SDG_NetPak_NetLength_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadList``1(SDG.NetPak.NetPakReader,System.Collections.Generic.List{``0},SDG.NetPak.SystemNetPakReaderEx.ReadListItemWithReader{``0},SDG.NetPak.NetLength)">
+  ReadList&lt;T&gt;(NetPakReader, List&lt;T&gt;, ReadListItemWithReader&lt;T&gt;, NetLength)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadList&lt;T&gt;(this NetPakReader reader, List&lt;T&gt; list, SystemNetPakReaderEx.ReadListItemWithReader&lt;T&gt; readFunc, NetLength maxLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>readFunc</code> <a class="xref" href="SDG.NetPak.SystemNetPakReaderEx.html">SystemNetPakReaderEx</a>.<a class="xref" href="SDG.NetPak.SystemNetPakReaderEx.ReadListItemWithReader-1.html">ReadListItemWithReader</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>maxLength</code> <a class="xref" href="SDG.NetPak.NetLength.html">NetLength</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadList_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadList*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadList__1_SDG_NetPak_NetPakReader_System_Collections_Generic_List___0__SDG_NetPak_SystemNetPakReaderEx_ReadListItem___0__SDG_NetPak_NetLength_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadList``1(SDG.NetPak.NetPakReader,System.Collections.Generic.List{``0},SDG.NetPak.SystemNetPakReaderEx.ReadListItem{``0},SDG.NetPak.NetLength)">
+  ReadList&lt;T&gt;(NetPakReader, List&lt;T&gt;, ReadListItem&lt;T&gt;, NetLength)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadList&lt;T&gt;(this NetPakReader reader, List&lt;T&gt; list, SystemNetPakReaderEx.ReadListItem&lt;T&gt; readFunc, NetLength maxLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>readFunc</code> <a class="xref" href="SDG.NetPak.SystemNetPakReaderEx.html">SystemNetPakReaderEx</a>.<a class="xref" href="SDG.NetPak.SystemNetPakReaderEx.ReadListItem-1.html">ReadListItem</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>maxLength</code> <a class="xref" href="SDG.NetPak.NetLength.html">NetLength</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadRadians_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadRadians*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadRadians_SDG_NetPak_NetPakReader_System_Single__System_Int32_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadRadians(SDG.NetPak.NetPakReader,System.Single@,System.Int32)">
+  ReadRadians(NetPakReader, out float, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadRadians(this NetPakReader reader, out float value, int bitCount = 8)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>bitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadSignedInt_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadSignedInt*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadSignedInt_SDG_NetPak_NetPakReader_System_Int32_System_Int32__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadSignedInt(SDG.NetPak.NetPakReader,System.Int32,System.Int32@)">
+  ReadSignedInt(NetPakReader, int, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>For example bitCount of 7 allows range [-64, +64).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadSignedInt(this NetPakReader reader, int bitCount, out int value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>bitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadSignedNormalizedFloat_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadSignedNormalizedFloat*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadSignedNormalizedFloat_SDG_NetPak_NetPakReader_System_Int32_System_Single__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadSignedNormalizedFloat(SDG.NetPak.NetPakReader,System.Int32,System.Single@)">
+  ReadSignedNormalizedFloat(NetPakReader, int, out float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decode a float in the range [-1.0, +1.0]. Endpoints and midpoint (0.0) are encoded exactly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadSignedNormalizedFloat(this NetPakReader reader, int bitCount, out float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>bitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadStateArray_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadStateArray*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadStateArray_SDG_NetPak_NetPakReader_System_Byte____" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadStateArray(SDG.NetPak.NetPakReader,System.Byte[]@)">
+  ReadStateArray(NetPakReader, out byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ideally should not be used by new code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadStateArray(this NetPakReader reader, out byte[] value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadString_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadString*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadString_SDG_NetPak_NetPakReader_System_String__System_Int32_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadString(SDG.NetPak.NetPakReader,System.String@,System.Int32)">
+  ReadString(NetPakReader, out string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadString(this NetPakReader reader, out string value, int lengthBitCount = 11)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>lengthBitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt16_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt16*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt16_SDG_NetPak_NetPakReader_System_UInt16__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt16(SDG.NetPak.NetPakReader,System.UInt16@)">
+  ReadUInt16(NetPakReader, out ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadUInt16(this NetPakReader reader, out ushort value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt32_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt32*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt32_SDG_NetPak_NetPakReader_System_UInt32__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt32(SDG.NetPak.NetPakReader,System.UInt32@)">
+  ReadUInt32(NetPakReader, out uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadUInt32(this NetPakReader reader, out uint value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt64_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt64*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt64_SDG_NetPak_NetPakReader_System_UInt64__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt64(SDG.NetPak.NetPakReader,System.UInt64@)">
+  ReadUInt64(NetPakReader, out ulong)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadUInt64(this NetPakReader reader, out ulong value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt8_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt8*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadUInt8_SDG_NetPak_NetPakReader_System_Byte__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUInt8(SDG.NetPak.NetPakReader,System.Byte@)">
+  ReadUInt8(NetPakReader, out byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadUInt8(this NetPakReader reader, out byte value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadUnsignedClampedFloat_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUnsignedClampedFloat*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadUnsignedClampedFloat_SDG_NetPak_NetPakReader_System_Int32_System_Int32_System_Single__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUnsignedClampedFloat(SDG.NetPak.NetPakReader,System.Int32,System.Int32,System.Single@)">
+  ReadUnsignedClampedFloat(NetPakReader, int, int, out float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Values outside the range are clamped into range.
+For example intBitCount of 7 allows range [0, 128).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadUnsignedClampedFloat(this NetPakReader reader, int intBitCount, int fracBitCount, out float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>intBitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>fracBitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_SystemNetPakReaderEx_ReadUnsignedNormalizedFloat_" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUnsignedNormalizedFloat*"></a>
+
+  <h3 id="SDG_NetPak_SystemNetPakReaderEx_ReadUnsignedNormalizedFloat_SDG_NetPak_NetPakReader_System_Int32_System_Single__" data-uid="SDG.NetPak.SystemNetPakReaderEx.ReadUnsignedNormalizedFloat(SDG.NetPak.NetPakReader,System.Int32,System.Single@)">
+  ReadUnsignedNormalizedFloat(NetPakReader, int, out float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decode a float in the range [0.0, 1.0]. Endpoints are encoded exactly, but not the midpoint (0.5).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadUnsignedNormalizedFloat(this NetPakReader reader, int bitCount, out float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.NetPak.NetPakReader.html">NetPakReader</a></dt>
+    <dd></dd>
+    <dt><code>bitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

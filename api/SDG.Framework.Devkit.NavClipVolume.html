@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NavClipVolume | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NavClipVolume | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Framework.Devkit.NavClipVolume">
+
+
+
+  <h1 id="SDG_Framework_Devkit_NavClipVolume" data-uid="SDG.Framework.Devkit.NavClipVolume" class="text-break">
+Class NavClipVolume  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Framework.html">Framework</a>.<a class="xref" href="SDG.Framework.Devkit.html">Devkit</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NavClipVolume : LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;, IDevkitHierarchyItem, IFormattedFileReadable, IFormattedFileWritable, IDevkitInteractableBeginSelectionHandler, IDevkitInteractableEndSelectionHandler, ITransformedHandler</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html">DevkitHierarchyItemBase</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html">DevkitHierarchyWorldItem</a></div>
+      <div><a class="xref" href="SDG.Unturned.VolumeBase.html">VolumeBase</a></div>
+      <div><a class="xref" href="SDG.Unturned.LevelVolume-2.html">LevelVolume</a>&lt;<a class="xref" href="SDG.Framework.Devkit.NavClipVolume.html">NavClipVolume</a>, <a class="xref" href="SDG.Framework.Devkit.NavClipVolumeManager.html">NavClipVolumeManager</a>&gt;</div>
+      <div><span class="xref">NavClipVolume</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReadable.html">IFormattedFileReadable</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWritable.html">IFormattedFileWritable</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.Interactable.IDevkitInteractableBeginSelectionHandler.html">IDevkitInteractableBeginSelectionHandler</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.Interactable.IDevkitInteractableEndSelectionHandler.html">IDevkitInteractableEndSelectionHandler</a></div>
+      <div><a class="xref" href="SDG.Unturned.ITransformedHandler.html">ITransformedHandler</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_falloffDistance">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.falloffDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_editorGameObject">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.editorGameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_editorMeshFilter">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.editorMeshFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_editorMeshRenderer">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.editorMeshRenderer</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_forceShouldAddCollider">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.forceShouldAddCollider</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_supportsBoxShape">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.supportsBoxShape</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_supportsSphereShape">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.supportsSphereShape</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_supportsFalloff">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.supportsFalloff</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_CreateMenu">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.CreateMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_beginSelection_SDG_Framework_Devkit_Interactable_InteractionData_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.beginSelection(InteractionData)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_endSelection_SDG_Framework_Devkit_Interactable_InteractionData_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.endSelection(InteractionData)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnTransformed_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Boolean_System_Boolean_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.OnTransformed(Vector3, Quaternion, Vector3, Vector3, Quaternion, Vector3, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_IsPositionInsideVolume_UnityEngine_Vector3_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.IsPositionInsideVolume(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_IsPositionInsideVolumeWithAlpha_UnityEngine_Vector3_System_Single__">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.IsPositionInsideVolumeWithAlpha(Vector3, out float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetBoxSize">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetBoxSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetBoxExtents">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetBoxExtents()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetInnerBoxSize">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetInnerBoxSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetInnerBoxExtents">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetInnerBoxExtents()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalInnerBoxSize">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetLocalInnerBoxSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalInnerBoxExtents">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetLocalInnerBoxExtents()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetSphereRadius">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalSphereRadius">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetLocalSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetWorldSpaceInnerSphereRadius">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetWorldSpaceInnerSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalInnerSphereRadius">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.GetLocalInnerSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_SetSphereRadius_System_Single_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.SetSphereRadius(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_CalculateWorldBounds">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.CalculateWorldBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_CalculateLocalBounds">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.CalculateLocalBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_UpdateEditorVisibility_SDG_Unturned_ELevelVolumeVisibility_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.UpdateEditorVisibility(ELevelVolumeVisibility)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnEnable">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnDisable">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_readHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.readHierarchyItem(IFormattedFileReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_writeHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.writeHierarchyItem(IFormattedFileWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_Awake">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_Start">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnDestroy">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_AppendBaseMenu_SDG_Unturned_ISleekElement_">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.AppendBaseMenu(ISleekElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_Shape">LevelVolume&lt;NavClipVolume, NavClipVolumeManager&gt;.Shape</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.VolumeBase.html#SDG_Unturned_VolumeBase_CreateMenu">VolumeBase.CreateMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_read_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_">DevkitHierarchyWorldItem.read(IFormattedFileReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_readHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_">DevkitHierarchyWorldItem.readHierarchyItem(IFormattedFileReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_write_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_">DevkitHierarchyWorldItem.write(IFormattedFileWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_writeHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_">DevkitHierarchyWorldItem.writeHierarchyItem(IFormattedFileWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_inspectablePosition">DevkitHierarchyWorldItem.inspectablePosition</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_inspectableRotation">DevkitHierarchyWorldItem.inspectableRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_inspectableScale">DevkitHierarchyWorldItem.inspectableScale</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_GetNetIdFromInstanceId">DevkitHierarchyItemBase.GetNetIdFromInstanceId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_instanceID">DevkitHierarchyItemBase.instanceID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_areaSelectGameObject">DevkitHierarchyItemBase.areaSelectGameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_ShouldSave">DevkitHierarchyItemBase.ShouldSave</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_CanBeSelected">DevkitHierarchyItemBase.CanBeSelected</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_NavClipVolume__ctor_" data-uid="SDG.Framework.Devkit.NavClipVolume.#ctor*"></a>
+
+  <h3 id="SDG_Framework_Devkit_NavClipVolume__ctor" data-uid="SDG.Framework.Devkit.NavClipVolume.#ctor">
+  NavClipVolume()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NavClipVolume()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_NavClipVolume_Awake_" data-uid="SDG.Framework.Devkit.NavClipVolume.Awake*"></a>
+
+  <h3 id="SDG_Framework_Devkit_NavClipVolume_Awake" data-uid="SDG.Framework.Devkit.NavClipVolume.Awake">
+  Awake()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

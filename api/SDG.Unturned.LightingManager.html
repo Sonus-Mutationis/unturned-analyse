@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LightingManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LightingManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.LightingManager">
+
+
+
+  <h1 id="SDG_Unturned_LightingManager" data-uid="SDG.Unturned.LightingManager" class="text-break">
+Class LightingManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LightingManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">LightingManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_LightingManager__ctor_" data-uid="SDG.Unturned.LightingManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager__ctor" data-uid="SDG.Unturned.LightingManager.#ctor">
+  LightingManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LightingManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_SAVEDATA_VERSION" data-uid="SDG.Unturned.LightingManager.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_SAVEDATA_VERSION_ADDED_DATE_COUNTER" data-uid="SDG.Unturned.LightingManager.SAVEDATA_VERSION_ADDED_DATE_COUNTER">
+  SAVEDATA_VERSION_ADDED_DATE_COUNTER
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_ADDED_DATE_COUNTER = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_SAVEDATA_VERSION_INITIAL" data-uid="SDG.Unturned.LightingManager.SAVEDATA_VERSION_INITIAL">
+  SAVEDATA_VERSION_INITIAL
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Version before named version constants were introduced. (2023-11-07)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_INITIAL = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onDayNightUpdated" data-uid="SDG.Unturned.LightingManager.onDayNightUpdated">
+  onDayNightUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DayNightUpdated onDayNightUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DayNightUpdated.html">DayNightUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onDayNightUpdated_ModHook" data-uid="SDG.Unturned.LightingManager.onDayNightUpdated_ModHook">
+  onDayNightUpdated_ModHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delegate not reset when level reset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DayNightUpdated onDayNightUpdated_ModHook</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DayNightUpdated.html">DayNightUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onMoonUpdated" data-uid="SDG.Unturned.LightingManager.onMoonUpdated">
+  onMoonUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MoonUpdated onMoonUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.MoonUpdated.html">MoonUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onMoonUpdated_ModHook" data-uid="SDG.Unturned.LightingManager.onMoonUpdated_ModHook">
+  onMoonUpdated_ModHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delegate not reset when level reset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MoonUpdated onMoonUpdated_ModHook</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.MoonUpdated.html">MoonUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onRainUpdated" data-uid="SDG.Unturned.LightingManager.onRainUpdated">
+  onRainUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RainUpdated onRainUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RainUpdated.html">RainUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onRainUpdated_ModHook" data-uid="SDG.Unturned.LightingManager.onRainUpdated_ModHook">
+  onRainUpdated_ModHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delegate not reset when level reset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RainUpdated onRainUpdated_ModHook</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RainUpdated.html">RainUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onSnowUpdated" data-uid="SDG.Unturned.LightingManager.onSnowUpdated">
+  onSnowUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SnowUpdated onSnowUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SnowUpdated.html">SnowUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onSnowUpdated_ModHook" data-uid="SDG.Unturned.LightingManager.onSnowUpdated_ModHook">
+  onSnowUpdated_ModHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delegate not reset when level reset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SnowUpdated onSnowUpdated_ModHook</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SnowUpdated.html">SnowUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_onTimeOfDayChanged" data-uid="SDG.Unturned.LightingManager.onTimeOfDayChanged">
+  onTimeOfDayChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TimeOfDayChanged onTimeOfDayChanged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TimeOfDayChanged.html">TimeOfDayChanged</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_rainDuration" data-uid="SDG.Unturned.LightingManager.rainDuration">
+  rainDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static uint rainDuration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_rainFrequency" data-uid="SDG.Unturned.LightingManager.rainFrequency">
+  rainFrequency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static uint rainFrequency</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_snowDuration" data-uid="SDG.Unturned.LightingManager.snowDuration">
+  snowDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static uint snowDuration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LightingManager_snowFrequency" data-uid="SDG.Unturned.LightingManager.snowFrequency">
+  snowFrequency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static uint snowFrequency</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_LightingManager_DateCounter_" data-uid="SDG.Unturned.LightingManager.DateCounter*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_DateCounter" data-uid="SDG.Unturned.LightingManager.DateCounter">
+  DateCounter
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of in-game days this world has run.
+Incremented each time night ends.
+Saved between sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long DateCounter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_cycle_" data-uid="SDG.Unturned.LightingManager.cycle*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_cycle" data-uid="SDG.Unturned.LightingManager.cycle">
+  cycle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint cycle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_day_" data-uid="SDG.Unturned.LightingManager.day*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_day" data-uid="SDG.Unturned.LightingManager.day">
+  day
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float day { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_hasRain_" data-uid="SDG.Unturned.LightingManager.hasRain*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_hasRain" data-uid="SDG.Unturned.LightingManager.hasRain">
+  hasRain
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static bool hasRain { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_hasSnow_" data-uid="SDG.Unturned.LightingManager.hasSnow*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_hasSnow" data-uid="SDG.Unturned.LightingManager.hasSnow">
+  hasSnow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static bool hasSnow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_isDaytime_" data-uid="SDG.Unturned.LightingManager.isDaytime*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_isDaytime" data-uid="SDG.Unturned.LightingManager.isDaytime">
+  isDaytime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isDaytime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_isFullMoon_" data-uid="SDG.Unturned.LightingManager.isFullMoon*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_isFullMoon" data-uid="SDG.Unturned.LightingManager.isFullMoon">
+  isFullMoon
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isFullMoon { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_isNighttime_" data-uid="SDG.Unturned.LightingManager.isNighttime*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_isNighttime" data-uid="SDG.Unturned.LightingManager.isNighttime">
+  isNighttime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isNighttime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_levelWeatherOverride_" data-uid="SDG.Unturned.LightingManager.levelWeatherOverride*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_levelWeatherOverride" data-uid="SDG.Unturned.LightingManager.levelWeatherOverride">
+  levelWeatherOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get weather override for the currently loaded level.
+Warning: this is kept for backwards compatibility, whereas newer maps will set LevelAsset.perpetualWeather.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ELevelWeatherOverride levelWeatherOverride { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ELevelWeatherOverride.html">ELevelWeatherOverride</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_offset_" data-uid="SDG.Unturned.LightingManager.offset*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_offset" data-uid="SDG.Unturned.LightingManager.offset">
+  offset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint offset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_time_" data-uid="SDG.Unturned.LightingManager.time*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_time" data-uid="SDG.Unturned.LightingManager.time">
+  time
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint time { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_LightingManager_ActivatePerpetualWeather_" data-uid="SDG.Unturned.LightingManager.ActivatePerpetualWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ActivatePerpetualWeather_SDG_Unturned_WeatherAssetBase_" data-uid="SDG.Unturned.LightingManager.ActivatePerpetualWeather(SDG.Unturned.WeatherAssetBase)">
+  ActivatePerpetualWeather(WeatherAssetBase)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set weather active and disable scheduling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ActivatePerpetualWeather(WeatherAssetBase asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.WeatherAssetBase.html">WeatherAssetBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_DisableWeather_" data-uid="SDG.Unturned.LightingManager.DisableWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_DisableWeather" data-uid="SDG.Unturned.LightingManager.DisableWeather">
+  DisableWeather()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancel active weather and prevent next weather from being scheduled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisableWeather()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ForecastWeatherImmediately_" data-uid="SDG.Unturned.LightingManager.ForecastWeatherImmediately*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ForecastWeatherImmediately_SDG_Unturned_WeatherAssetBase_" data-uid="SDG.Unturned.LightingManager.ForecastWeatherImmediately(SDG.Unturned.WeatherAssetBase)">
+  ForecastWeatherImmediately(WeatherAssetBase)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ForecastWeatherImmediately(WeatherAssetBase weatherAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>weatherAsset</code> <a class="xref" href="SDG.Unturned.WeatherAssetBase.html">WeatherAssetBase</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if given weather has config.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_IsWeatherActive_" data-uid="SDG.Unturned.LightingManager.IsWeatherActive*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_IsWeatherActive_SDG_Unturned_WeatherAssetBase_" data-uid="SDG.Unturned.LightingManager.IsWeatherActive(SDG.Unturned.WeatherAssetBase)">
+  IsWeatherActive(WeatherAssetBase)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWeatherActive(WeatherAssetBase weatherAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>weatherAsset</code> <a class="xref" href="SDG.Unturned.WeatherAssetBase.html">WeatherAssetBase</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ReceiveDateCounter_" data-uid="SDG.Unturned.LightingManager.ReceiveDateCounter*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ReceiveDateCounter_System_Int64_" data-uid="SDG.Unturned.LightingManager.ReceiveDateCounter(System.Int64)">
+  ReceiveDateCounter(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveDateCounter(long newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ReceiveInitialLightingState_" data-uid="SDG.Unturned.LightingManager.ReceiveInitialLightingState*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ReceiveInitialLightingState_System_UInt32_System_UInt32_System_UInt32_System_Byte_System_Byte_System_Guid_System_Single_SDG_Unturned_NetId_System_Int32_" data-uid="SDG.Unturned.LightingManager.ReceiveInitialLightingState(System.UInt32,System.UInt32,System.UInt32,System.Byte,System.Byte,System.Guid,System.Single,SDG.Unturned.NetId,System.Int32)">
+  ReceiveInitialLightingState(uint, uint, uint, byte, byte, Guid, float, NetId, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLighting&quot;)]
+public static void ReceiveInitialLightingState(uint serverTime, uint newCycle, uint newOffset, byte moon, byte wind, Guid activeWeatherGuid, float activeWeatherBlendAlpha, NetId activeWeatherNetId, int newDateCounter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serverTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newCycle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>moon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>wind</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>activeWeatherGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>activeWeatherBlendAlpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>activeWeatherNetId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+    <dt><code>newDateCounter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ReceiveLightingActiveWeather_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingActiveWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ReceiveLightingActiveWeather_System_Guid_System_Single_SDG_Unturned_NetId_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingActiveWeather(System.Guid,System.Single,SDG.Unturned.NetId)">
+  ReceiveLightingActiveWeather(Guid, float, NetId)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLightingActiveWeather&quot;)]
+public static void ReceiveLightingActiveWeather(Guid assetGuid, float blendAlpha, NetId netId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>blendAlpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>netId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ReceiveLightingCycle_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingCycle*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ReceiveLightingCycle_System_UInt32_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingCycle(System.UInt32)">
+  ReceiveLightingCycle(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLightingCycle&quot;)]
+public static void ReceiveLightingCycle(uint newScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ReceiveLightingOffset_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingOffset*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ReceiveLightingOffset_System_UInt32_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingOffset(System.UInt32)">
+  ReceiveLightingOffset(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLightingOffset&quot;)]
+public static void ReceiveLightingOffset(uint newOffset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ReceiveLightingWind_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingWind*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ReceiveLightingWind_System_Byte_" data-uid="SDG.Unturned.LightingManager.ReceiveLightingWind(System.Byte)">
+  ReceiveLightingWind(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLightingWind&quot;)]
+public static void ReceiveLightingWind(byte newWind)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newWind</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_ResetScheduledWeather_" data-uid="SDG.Unturned.LightingManager.ResetScheduledWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_ResetScheduledWeather" data-uid="SDG.Unturned.LightingManager.ResetScheduledWeather">
+  ResetScheduledWeather()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancel scheduled weather and re-evaluate on next update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetScheduledWeather()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_SetScheduledWeather_" data-uid="SDG.Unturned.LightingManager.SetScheduledWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_SetScheduledWeather_SDG_Unturned_WeatherAssetBase_System_Single_System_Single_" data-uid="SDG.Unturned.LightingManager.SetScheduledWeather(SDG.Unturned.WeatherAssetBase,System.Single,System.Single)">
+  SetScheduledWeather(WeatherAssetBase, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetScheduledWeather(WeatherAssetBase weatherAsset, float forecastDuration, float activeDuration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>weatherAsset</code> <a class="xref" href="SDG.Unturned.WeatherAssetBase.html">WeatherAssetBase</a></dt>
+    <dd></dd>
+    <dt><code>forecastDuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>activeDuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_askLighting_" data-uid="SDG.Unturned.LightingManager.askLighting*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_askLighting_Steamworks_CSteamID_" data-uid="SDG.Unturned.LightingManager.askLighting(Steamworks.CSteamID)">
+  askLighting(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askLighting(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_getCustomWeather_" data-uid="SDG.Unturned.LightingManager.getCustomWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_getCustomWeather" data-uid="SDG.Unturned.LightingManager.getCustomWeather">
+  getCustomWeather()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by LevelLighting.GetActiveWeatherAsset&quot;)]
+public static WeatherAssetBase getCustomWeather()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.WeatherAssetBase.html">WeatherAssetBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_load_" data-uid="SDG.Unturned.LightingManager.load*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_load" data-uid="SDG.Unturned.LightingManager.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_save_" data-uid="SDG.Unturned.LightingManager.save*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_save" data-uid="SDG.Unturned.LightingManager.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLighting_" data-uid="SDG.Unturned.LightingManager.tellLighting*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLighting_Steamworks_CSteamID_System_UInt32_System_UInt32_System_UInt32_System_Byte_System_Byte_System_Byte_System_Byte_System_Guid_" data-uid="SDG.Unturned.LightingManager.tellLighting(Steamworks.CSteamID,System.UInt32,System.UInt32,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte,System.Guid)">
+  tellLighting(CSteamID, uint, uint, uint, byte, byte, byte, byte, Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLighting(CSteamID steamID, uint serverTime, uint newCycle, uint newOffset, byte moon, byte wind, byte rain, byte snow, Guid activeWeatherGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>serverTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newCycle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>moon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>wind</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>snow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>activeWeatherGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLighting_" data-uid="SDG.Unturned.LightingManager.tellLighting*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLighting_Steamworks_CSteamID_System_UInt32_System_UInt32_System_UInt32_System_Byte_System_Byte_System_Guid_System_Single_" data-uid="SDG.Unturned.LightingManager.tellLighting(Steamworks.CSteamID,System.UInt32,System.UInt32,System.UInt32,System.Byte,System.Byte,System.Guid,System.Single)">
+  tellLighting(CSteamID, uint, uint, uint, byte, byte, Guid, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLighting(CSteamID steamID, uint serverTime, uint newCycle, uint newOffset, byte moon, byte wind, Guid activeWeatherGuid, float activeWeatherBlendAlpha)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>serverTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newCycle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>moon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>wind</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>activeWeatherGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>activeWeatherBlendAlpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLightingActiveWeather_" data-uid="SDG.Unturned.LightingManager.tellLightingActiveWeather*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLightingActiveWeather_Steamworks_CSteamID_System_Guid_System_Single_" data-uid="SDG.Unturned.LightingManager.tellLightingActiveWeather(Steamworks.CSteamID,System.Guid,System.Single)">
+  tellLightingActiveWeather(CSteamID, Guid, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLightingActiveWeather(CSteamID steamID, Guid assetGuid, float blendAlpha)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>blendAlpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLightingCycle_" data-uid="SDG.Unturned.LightingManager.tellLightingCycle*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLightingCycle_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.LightingManager.tellLightingCycle(Steamworks.CSteamID,System.UInt32)">
+  tellLightingCycle(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLightingCycle(CSteamID steamID, uint newScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLightingOffset_" data-uid="SDG.Unturned.LightingManager.tellLightingOffset*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLightingOffset_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.LightingManager.tellLightingOffset(Steamworks.CSteamID,System.UInt32)">
+  tellLightingOffset(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLightingOffset(CSteamID steamID, uint newOffset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLightingRain_" data-uid="SDG.Unturned.LightingManager.tellLightingRain*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLightingRain_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.LightingManager.tellLightingRain(Steamworks.CSteamID,System.Byte)">
+  tellLightingRain(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLightingRain(CSteamID steamID, byte newRain)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newRain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLightingSnow_" data-uid="SDG.Unturned.LightingManager.tellLightingSnow*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLightingSnow_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.LightingManager.tellLightingSnow(Steamworks.CSteamID,System.Byte)">
+  tellLightingSnow(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLightingSnow(CSteamID steamID, byte newSnow)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newSnow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LightingManager_tellLightingWind_" data-uid="SDG.Unturned.LightingManager.tellLightingWind*"></a>
+
+  <h3 id="SDG_Unturned_LightingManager_tellLightingWind_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.LightingManager.tellLightingWind(Steamworks.CSteamID,System.Byte)">
+  tellLightingWind(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLightingWind(CSteamID steamID, byte newWind)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newWind</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

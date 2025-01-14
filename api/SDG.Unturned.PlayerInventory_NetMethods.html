@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerInventory_NetMethods | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerInventory_NetMethods | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerInventory_NetMethods">
+
+
+
+  <h1 id="SDG_Unturned_PlayerInventory_NetMethods" data-uid="SDG.Unturned.PlayerInventory_NetMethods" class="text-break">
+Class PlayerInventory_NetMethods  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedClass(typeof(PlayerInventory))]
+public static class PlayerInventory_NetMethods</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PlayerInventory_NetMethods</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDragItem_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDragItem_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDragItem_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDragItem_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveDragItem_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDragItem&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveDragItem_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDragItem_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDragItem_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDragItem_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDragItem_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  ReceiveDragItem_Write(NetPakWriter, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDragItem&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveDragItem_Write(NetPakWriter writer, byte page_0, byte x_0, byte y_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDropItem_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDropItem_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDropItem_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDropItem_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveDropItem_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDropItem&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveDropItem_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDropItem_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDropItem_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveDropItem_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveDropItem_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte)">
+  ReceiveDropItem_Write(NetPakWriter, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDropItem&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveDropItem_Write(NetPakWriter writer, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveInventory_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveInventory_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveInventory_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveInventory_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveInventory_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveInventory&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveInventory_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemAdd_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemAdd_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemAdd_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemAdd_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveItemAdd_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveItemAdd&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveItemAdd_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemAdd_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemAdd_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemAdd_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemAdd_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte,System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte[])">
+  ReceiveItemAdd_Write(NetPakWriter, byte, byte, byte, byte, ushort, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveItemAdd&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveItemAdd_Write(NetPakWriter writer, byte page, byte x, byte y, byte rot, ushort id, byte amount, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemRemove_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemRemove_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemRemove_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemRemove_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveItemRemove_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveItemRemove&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveItemRemove_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemRemove_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemRemove_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveItemRemove_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveItemRemove_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte)">
+  ReceiveItemRemove_Write(NetPakWriter, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveItemRemove&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveItemRemove_Write(NetPakWriter writer, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSize_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSize_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSize_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSize_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveSize_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSize&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveSize_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSize_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSize_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSize_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSize_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte)">
+  ReceiveSize_Write(NetPakWriter, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSize&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveSize_Write(NetPakWriter writer, byte page, byte newWidth, byte newHeight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveStoraging_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveStoraging_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveStoraging_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveStoraging_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveStoraging_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveStoraging&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveStoraging_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSwapItem_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSwapItem_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSwapItem_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSwapItem_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveSwapItem_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSwapItem&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveSwapItem_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSwapItem_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSwapItem_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveSwapItem_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveSwapItem_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapItem_Write(NetPakWriter, byte, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSwapItem&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveSwapItem_Write(NetPakWriter writer, byte page_0, byte x_0, byte y_0, byte rot_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateAmount_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateAmount_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateAmount_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateAmount_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveUpdateAmount_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveUpdateAmount&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveUpdateAmount_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateAmount_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateAmount_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateAmount_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateAmount_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte)">
+  ReceiveUpdateAmount_Write(NetPakWriter, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveUpdateAmount&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveUpdateAmount_Write(NetPakWriter writer, byte page, byte index, byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateInvState_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateInvState_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateInvState_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateInvState_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveUpdateInvState_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveUpdateInvState&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveUpdateInvState_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateInvState_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateInvState_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateInvState_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateInvState_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte[])">
+  ReceiveUpdateInvState_Write(NetPakWriter, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveUpdateInvState&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveUpdateInvState_Write(NetPakWriter writer, byte page, byte index, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateQuality_Read_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateQuality_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateQuality_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateQuality_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveUpdateQuality_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveUpdateQuality&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveUpdateQuality_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateQuality_Write_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateQuality_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_NetMethods_ReceiveUpdateQuality_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory_NetMethods.ReceiveUpdateQuality_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte)">
+  ReceiveUpdateQuality_Write(NetPakWriter, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveUpdateQuality&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveUpdateQuality_Write(NetPakWriter writer, byte page, byte index, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

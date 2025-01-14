@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enum EPluginWidgetFlags | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enum EPluginWidgetFlags | Unturned Analyse Doc ">
+      
+      <meta name="description" content="32-bit mask granting server plugins additional control over custom UIs. Only replicated to owner.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.EPluginWidgetFlags">
+
+
+
+
+  <h1 id="SDG_Unturned_EPluginWidgetFlags" data-uid="SDG.Unturned.EPluginWidgetFlags" class="text-break">
+Enum EPluginWidgetFlags  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>32-bit mask granting server plugins additional control over custom UIs.
+Only replicated to owner.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum EPluginWidgetFlags</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="SDG_Unturned_EPluginWidgetFlags_Default"><code>Default = ShowInteractWithEnemy | ShowDeathMenu | ShowLifeMeters | ShowStatusIcons | ShowUseableGunStatus | ShowVehicleStatus | ShowCenterDot | ShowReputationChangeNotification</code></dt>
+    <dd><p>Default flags set when player spawns.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ForceBlur"><code>ForceBlur = 4</code></dt>
+    <dd><p>Enable background blur regardless of other UI state.
+Takes precedence over NoBlur.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_Modal"><code>Modal = 1</code></dt>
+    <dd><p>Enables cursor movement while not in a vanilla menu.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_NoBlur"><code>NoBlur = 2</code></dt>
+    <dd><p>Disable background blur regardless of other UI state.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_None"><code>None = 0</code></dt>
+    <dd></dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowCenterDot"><code>ShowCenterDot = 16384</code></dt>
+    <dd><p>Enable center dot when guns are not equipped.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowDeathMenu"><code>ShowDeathMenu = 16</code></dt>
+    <dd><p>Enable explanation and respawn buttons while dead.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowFood"><code>ShowFood = 64</code></dt>
+    <dd><p>Enable food meter in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowHealth"><code>ShowHealth = 32</code></dt>
+    <dd><p>Enable health meter in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowInteractWithEnemy"><code>ShowInteractWithEnemy = 8</code></dt>
+    <dd><p>Enable title card while focusing a nearby player.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowLifeMeters"><code>ShowLifeMeters = ShowHealth | ShowFood | ShowWater | ShowVirus | ShowStamina | ShowOxygen</code></dt>
+    <dd></dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowOxygen"><code>ShowOxygen = 1024</code></dt>
+    <dd><p>Enable oxygen meter in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowReputationChangeNotification"><code>ShowReputationChangeNotification = 32768</code></dt>
+    <dd><p>Enable popup when in-game rep is increased/decreased.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowStamina"><code>ShowStamina = 512</code></dt>
+    <dd><p>Enable stamina meter in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowStatusIcons"><code>ShowStatusIcons = 2048</code></dt>
+    <dd><p>Enable icons for bleeding, broken bones, temperature, starving, dehydrating, infected, drowning, full moon,
+safezone, and arrested status.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowUseableGunStatus"><code>ShowUseableGunStatus = 4096</code></dt>
+    <dd><p>Enable UseableGun ammo and firemode in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowVehicleStatus"><code>ShowVehicleStatus = 8192</code></dt>
+    <dd><p>Enable vehicle fuel, speed, health, battery charge, and locked status in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowVirus"><code>ShowVirus = 256</code></dt>
+    <dd><p>Enable virus/radiation/infection meter in the HUD.</p>
+</dd>
+    <dt id="SDG_Unturned_EPluginWidgetFlags_ShowWater"><code>ShowWater = 128</code></dt>
+    <dd><p>Enable water meter in the HUD.</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

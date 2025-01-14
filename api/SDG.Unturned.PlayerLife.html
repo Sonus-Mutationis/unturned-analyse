@@ -1,0 +1,4250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerLife | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerLife | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerLife">
+
+
+
+  <h1 id="SDG_Unturned_PlayerLife" data-uid="SDG.Unturned.PlayerLife" class="text-break">
+Class PlayerLife  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerLife : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerLife</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLife__ctor_" data-uid="SDG.Unturned.PlayerLife.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife__ctor" data-uid="SDG.Unturned.PlayerLife.#ctor">
+  PlayerLife()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerLife()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnRevived_Global" data-uid="SDG.Unturned.PlayerLife.OnRevived_Global">
+  OnRevived_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after player finishes respawning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnRevived_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnTellBleeding_Global" data-uid="SDG.Unturned.PlayerLife.OnTellBleeding_Global">
+  OnTellBleeding_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnTellBleeding_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnTellBroken_Global" data-uid="SDG.Unturned.PlayerLife.OnTellBroken_Global">
+  OnTellBroken_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnTellBroken_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnTellFood_Global" data-uid="SDG.Unturned.PlayerLife.OnTellFood_Global">
+  OnTellFood_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnTellFood_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnTellHealth_Global" data-uid="SDG.Unturned.PlayerLife.OnTellHealth_Global">
+  OnTellHealth_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnTellHealth_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnTellVirus_Global" data-uid="SDG.Unturned.PlayerLife.OnTellVirus_Global">
+  OnTellVirus_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnTellVirus_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnTellWater_Global" data-uid="SDG.Unturned.PlayerLife.OnTellWater_Global">
+  OnTellWater_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife&gt; OnTellWater_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_RocketLegacyOnDeath" data-uid="SDG.Unturned.PlayerLife.RocketLegacyOnDeath">
+  RocketLegacyOnDeath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerLife, EDeathCause, ELimb, CSteamID&gt; RocketLegacyOnDeath</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-4">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>, <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a>, <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a>, <span class="xref">CSteamID</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_SAVEDATA_VERSION" data-uid="SDG.Unturned.PlayerLife.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Future version numbers for all systems will specify what changed.&quot;)]
+public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_SAVEDATA_VERSION_LATEST" data-uid="SDG.Unturned.PlayerLife.SAVEDATA_VERSION_LATEST">
+  SAVEDATA_VERSION_LATEST
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION_LATEST</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_SAVEDATA_VERSION_WITH_OXYGEN" data-uid="SDG.Unturned.PlayerLife.SAVEDATA_VERSION_WITH_OXYGEN">
+  SAVEDATA_VERSION_WITH_OXYGEN
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION_WITH_OXYGEN</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onBleedingUpdated" data-uid="SDG.Unturned.PlayerLife.onBleedingUpdated">
+  onBleedingUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BleedingUpdated onBleedingUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.BleedingUpdated.html">BleedingUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onBrokenUpdated" data-uid="SDG.Unturned.PlayerLife.onBrokenUpdated">
+  onBrokenUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BrokenUpdated onBrokenUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.BrokenUpdated.html">BrokenUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onDamaged" data-uid="SDG.Unturned.PlayerLife.onDamaged">
+  onDamaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Damaged onDamaged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Damaged.html">Damaged</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onFoodUpdated" data-uid="SDG.Unturned.PlayerLife.onFoodUpdated">
+  onFoodUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FoodUpdated onFoodUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.FoodUpdated.html">FoodUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onHealthUpdated" data-uid="SDG.Unturned.PlayerLife.onHealthUpdated">
+  onHealthUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HealthUpdated onHealthUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HealthUpdated.html">HealthUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onLifeUpdated" data-uid="SDG.Unturned.PlayerLife.onLifeUpdated">
+  onLifeUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LifeUpdated onLifeUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.LifeUpdated.html">LifeUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onOxygenUpdated" data-uid="SDG.Unturned.PlayerLife.onOxygenUpdated">
+  onOxygenUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OxygenUpdated onOxygenUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.OxygenUpdated.html">OxygenUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onPlayerLifeUpdated" data-uid="SDG.Unturned.PlayerLife.onPlayerLifeUpdated">
+  onPlayerLifeUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PlayerLifeUpdated onPlayerLifeUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerLifeUpdated.html">PlayerLifeUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onStaminaUpdated" data-uid="SDG.Unturned.PlayerLife.onStaminaUpdated">
+  onStaminaUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaminaUpdated onStaminaUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.StaminaUpdated.html">StaminaUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onTemperatureUpdated" data-uid="SDG.Unturned.PlayerLife.onTemperatureUpdated">
+  onTemperatureUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TemperatureUpdated onTemperatureUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TemperatureUpdated.html">TemperatureUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onVirusUpdated" data-uid="SDG.Unturned.PlayerLife.onVirusUpdated">
+  onVirusUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VirusUpdated onVirusUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VirusUpdated.html">VirusUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onVisionUpdated" data-uid="SDG.Unturned.PlayerLife.onVisionUpdated">
+  onVisionUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisionUpdated onVisionUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VisionUpdated.html">VisionUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onWaterUpdated" data-uid="SDG.Unturned.PlayerLife.onWaterUpdated">
+  onWaterUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaterUpdated onWaterUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.WaterUpdated.html">WaterUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLife_IsAlive_" data-uid="SDG.Unturned.PlayerLife.IsAlive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_IsAlive" data-uid="SDG.Unturned.PlayerLife.IsAlive">
+  IsAlive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAlive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_deathCause_" data-uid="SDG.Unturned.PlayerLife.deathCause*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_deathCause" data-uid="SDG.Unturned.PlayerLife.deathCause">
+  deathCause
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EDeathCause deathCause { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_deathKiller_" data-uid="SDG.Unturned.PlayerLife.deathKiller*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_deathKiller" data-uid="SDG.Unturned.PlayerLife.deathKiller">
+  deathKiller
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CSteamID deathKiller { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_deathLimb_" data-uid="SDG.Unturned.PlayerLife.deathLimb*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_deathLimb" data-uid="SDG.Unturned.PlayerLife.deathLimb">
+  deathLimb
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ELimb deathLimb { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_food_" data-uid="SDG.Unturned.PlayerLife.food*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_food" data-uid="SDG.Unturned.PlayerLife.food">
+  food
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte food { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_health_" data-uid="SDG.Unturned.PlayerLife.health*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_health" data-uid="SDG.Unturned.PlayerLife.health">
+  health
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte health { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_isAggressor_" data-uid="SDG.Unturned.PlayerLife.isAggressor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_isAggressor" data-uid="SDG.Unturned.PlayerLife.isAggressor">
+  isAggressor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isAggressor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_isBleeding_" data-uid="SDG.Unturned.PlayerLife.isBleeding*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_isBleeding" data-uid="SDG.Unturned.PlayerLife.isBleeding">
+  isBleeding
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBleeding { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_isBroken_" data-uid="SDG.Unturned.PlayerLife.isBroken*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_isBroken" data-uid="SDG.Unturned.PlayerLife.isBroken">
+  isBroken
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBroken { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_isDead_" data-uid="SDG.Unturned.PlayerLife.isDead*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_isDead" data-uid="SDG.Unturned.PlayerLife.isDead">
+  isDead
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isDead { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_lastDeath_" data-uid="SDG.Unturned.PlayerLife.lastDeath*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_lastDeath" data-uid="SDG.Unturned.PlayerLife.lastDeath">
+  lastDeath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lastDeath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_lastRespawn_" data-uid="SDG.Unturned.PlayerLife.lastRespawn*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_lastRespawn" data-uid="SDG.Unturned.PlayerLife.lastRespawn">
+  lastRespawn
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lastRespawn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_oxygen_" data-uid="SDG.Unturned.PlayerLife.oxygen*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_oxygen" data-uid="SDG.Unturned.PlayerLife.oxygen">
+  oxygen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte oxygen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_stamina_" data-uid="SDG.Unturned.PlayerLife.stamina*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_stamina" data-uid="SDG.Unturned.PlayerLife.stamina">
+  stamina
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte stamina { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_temperature_" data-uid="SDG.Unturned.PlayerLife.temperature*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_temperature" data-uid="SDG.Unturned.PlayerLife.temperature">
+  temperature
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerTemperature temperature { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerTemperature.html">EPlayerTemperature</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_virus_" data-uid="SDG.Unturned.PlayerLife.virus*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_virus" data-uid="SDG.Unturned.PlayerLife.virus">
+  virus
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte virus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_vision_" data-uid="SDG.Unturned.PlayerLife.vision*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_vision" data-uid="SDG.Unturned.PlayerLife.vision">
+  vision
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte vision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_warmth_" data-uid="SDG.Unturned.PlayerLife.warmth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_warmth" data-uid="SDG.Unturned.PlayerLife.warmth">
+  warmth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint warmth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_wasPvPDeath_" data-uid="SDG.Unturned.PlayerLife.wasPvPDeath*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_wasPvPDeath" data-uid="SDG.Unturned.PlayerLife.wasPvPDeath">
+  wasPvPDeath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool wasPvPDeath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_water_" data-uid="SDG.Unturned.PlayerLife.water*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_water" data-uid="SDG.Unturned.PlayerLife.water">
+  water
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte water { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveBleeding_" data-uid="SDG.Unturned.PlayerLife.ReceiveBleeding*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveBleeding_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.ReceiveBleeding(System.Boolean)">
+  ReceiveBleeding(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellBleeding&quot;)]
+public void ReceiveBleeding(bool newBleeding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveBroken_" data-uid="SDG.Unturned.PlayerLife.ReceiveBroken*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveBroken_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.ReceiveBroken(System.Boolean)">
+  ReceiveBroken(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellBroken&quot;)]
+public void ReceiveBroken(bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveDamagedEvent_" data-uid="SDG.Unturned.PlayerLife.ReceiveDamagedEvent*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveDamagedEvent_System_Byte_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerLife.ReceiveDamagedEvent(System.Byte,UnityEngine.Vector3)">
+  ReceiveDamagedEvent(byte, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveDamagedEvent(byte damageAmount, Vector3 damageDirection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>damageAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>damageDirection</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveDead_" data-uid="SDG.Unturned.PlayerLife.ReceiveDead*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveDead_UnityEngine_Vector3_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.PlayerLife.ReceiveDead(UnityEngine.Vector3,SDG.Unturned.ERagdollEffect)">
+  ReceiveDead(Vector3, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellDead&quot;)]
+public void ReceiveDead(Vector3 newRagdoll, ERagdollEffect newRagdollEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveDeath_" data-uid="SDG.Unturned.PlayerLife.ReceiveDeath*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveDeath_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerLife.ReceiveDeath(SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID)">
+  ReceiveDeath(EDeathCause, ELimb, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellDeath&quot;)]
+public void ReceiveDeath(EDeathCause newCause, ELimb newLimb, CSteamID newKiller)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newCause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveFood_" data-uid="SDG.Unturned.PlayerLife.ReceiveFood*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveFood_System_Byte_" data-uid="SDG.Unturned.PlayerLife.ReceiveFood(System.Byte)">
+  ReceiveFood(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellFood&quot;)]
+public void ReceiveFood(byte newFood)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveHealth_" data-uid="SDG.Unturned.PlayerLife.ReceiveHealth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveHealth_System_Byte_" data-uid="SDG.Unturned.PlayerLife.ReceiveHealth(System.Byte)">
+  ReceiveHealth(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellHealth&quot;)]
+public void ReceiveHealth(byte newHealth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveLifeStats_" data-uid="SDG.Unturned.PlayerLife.ReceiveLifeStats*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveLifeStats_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.ReceiveLifeStats(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Boolean,System.Boolean)">
+  ReceiveLifeStats(byte, byte, byte, byte, byte, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLifeWithOxygen&quot;)]
+public void ReceiveLifeStats(byte newHealth, byte newFood, byte newWater, byte newVirus, byte newOxygen, bool newBleeding, bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newOxygen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveModifyHallucination_" data-uid="SDG.Unturned.PlayerLife.ReceiveModifyHallucination*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveModifyHallucination_System_Int16_" data-uid="SDG.Unturned.PlayerLife.ReceiveModifyHallucination(System.Int16)">
+  ReceiveModifyHallucination(short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the server to induce a hallucination.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;clientModifyHallucination&quot;)]
+public void ReceiveModifyHallucination(short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveModifyStamina_" data-uid="SDG.Unturned.PlayerLife.ReceiveModifyStamina*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveModifyStamina_System_Int16_" data-uid="SDG.Unturned.PlayerLife.ReceiveModifyStamina(System.Int16)">
+  ReceiveModifyStamina(short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the server to modify stamina.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;clientModifyStamina&quot;)]
+public void ReceiveModifyStamina(short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveModifyWarmth_" data-uid="SDG.Unturned.PlayerLife.ReceiveModifyWarmth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveModifyWarmth_System_Int16_" data-uid="SDG.Unturned.PlayerLife.ReceiveModifyWarmth(System.Int16)">
+  ReceiveModifyWarmth(short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the server to modify warmth.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;clientModifyWarmth&quot;)]
+public void ReceiveModifyWarmth(short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveRespawnRequest_" data-uid="SDG.Unturned.PlayerLife.ReceiveRespawnRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveRespawnRequest_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.ReceiveRespawnRequest(System.Boolean)">
+  ReceiveRespawnRequest(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askRespawn&quot;)]
+public void ReceiveRespawnRequest(bool atHome)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>atHome</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveRevive_" data-uid="SDG.Unturned.PlayerLife.ReceiveRevive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveRevive_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.PlayerLife.ReceiveRevive(UnityEngine.Vector3,System.Byte)">
+  ReceiveRevive(Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellRevive&quot;)]
+public void ReceiveRevive(Vector3 position, byte angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveSuicideRequest_" data-uid="SDG.Unturned.PlayerLife.ReceiveSuicideRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveSuicideRequest" data-uid="SDG.Unturned.PlayerLife.ReceiveSuicideRequest">
+  ReceiveSuicideRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSuicide&quot;)]
+public void ReceiveSuicideRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveVirus_" data-uid="SDG.Unturned.PlayerLife.ReceiveVirus*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveVirus_System_Byte_" data-uid="SDG.Unturned.PlayerLife.ReceiveVirus(System.Byte)">
+  ReceiveVirus(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVirus&quot;)]
+public void ReceiveVirus(byte newVirus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ReceiveWater_" data-uid="SDG.Unturned.PlayerLife.ReceiveWater*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ReceiveWater_System_Byte_" data-uid="SDG.Unturned.PlayerLife.ReceiveWater(System.Byte)">
+  ReceiveWater(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWater&quot;)]
+public void ReceiveWater(byte newWater)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_ServerRespawn_" data-uid="SDG.Unturned.PlayerLife.ServerRespawn*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_ServerRespawn_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.ServerRespawn(System.Boolean)">
+  ServerRespawn(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used by plugins to respawn the player bypassing timers. Issue #2701</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerRespawn(bool atHome)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>atHome</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askBlind_" data-uid="SDG.Unturned.PlayerLife.askBlind*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askBlind_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askBlind(System.Byte)">
+  askBlind(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askBlind(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askBreath_" data-uid="SDG.Unturned.PlayerLife.askBreath*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askBreath_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askBreath(System.Byte)">
+  askBreath(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askBreath(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDamage_" data-uid="SDG.Unturned.PlayerLife.askDamage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDamage_System_Byte_UnityEngine_Vector3_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_SDG_Unturned_EPlayerKill__" data-uid="SDG.Unturned.PlayerLife.askDamage(System.Byte,UnityEngine.Vector3,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID,SDG.Unturned.EPlayerKill@)">
+  askDamage(byte, Vector3, EDeathCause, ELimb, CSteamID, out EPlayerKill)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDamage(byte amount, Vector3 newRagdoll, EDeathCause newCause, ELimb newLimb, CSteamID newKiller, out EPlayerKill kill)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newCause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDamage_" data-uid="SDG.Unturned.PlayerLife.askDamage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDamage_System_Byte_UnityEngine_Vector3_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_SDG_Unturned_EPlayerKill__System_Boolean_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.PlayerLife.askDamage(System.Byte,UnityEngine.Vector3,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID,SDG.Unturned.EPlayerKill@,System.Boolean,SDG.Unturned.ERagdollEffect)">
+  askDamage(byte, Vector3, EDeathCause, ELimb, CSteamID, out EPlayerKill, bool, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDamage(byte amount, Vector3 newRagdoll, EDeathCause newCause, ELimb newLimb, CSteamID newKiller, out EPlayerKill kill, bool trackKill = false, ERagdollEffect newRagdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newCause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>trackKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDamage_" data-uid="SDG.Unturned.PlayerLife.askDamage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDamage_System_Byte_UnityEngine_Vector3_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_SDG_Unturned_EPlayerKill__System_Boolean_SDG_Unturned_ERagdollEffect_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.askDamage(System.Byte,UnityEngine.Vector3,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID,SDG.Unturned.EPlayerKill@,System.Boolean,SDG.Unturned.ERagdollEffect,System.Boolean)">
+  askDamage(byte, Vector3, EDeathCause, ELimb, CSteamID, out EPlayerKill, bool, ERagdollEffect, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDamage(byte amount, Vector3 newRagdoll, EDeathCause newCause, ELimb newLimb, CSteamID newKiller, out EPlayerKill kill, bool trackKill = false, ERagdollEffect newRagdollEffect = ERagdollEffect.NONE, bool canCauseBleeding = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newCause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>trackKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+    <dt><code>canCauseBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDamage_" data-uid="SDG.Unturned.PlayerLife.askDamage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDamage_System_Byte_UnityEngine_Vector3_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_SDG_Unturned_EPlayerKill__System_Boolean_SDG_Unturned_ERagdollEffect_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.askDamage(System.Byte,UnityEngine.Vector3,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID,SDG.Unturned.EPlayerKill@,System.Boolean,SDG.Unturned.ERagdollEffect,System.Boolean,System.Boolean)">
+  askDamage(byte, Vector3, EDeathCause, ELimb, CSteamID, out EPlayerKill, bool, ERagdollEffect, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDamage(byte amount, Vector3 newRagdoll, EDeathCause newCause, ELimb newLimb, CSteamID newKiller, out EPlayerKill kill, bool trackKill = false, ERagdollEffect newRagdollEffect = ERagdollEffect.NONE, bool canCauseBleeding = true, bool bypassSafezone = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newCause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>trackKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+    <dt><code>canCauseBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>bypassSafezone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Should damage be dealt even while inside safezone?</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDehydrate_" data-uid="SDG.Unturned.PlayerLife.askDehydrate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDehydrate_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askDehydrate(System.Byte)">
+  askDehydrate(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDehydrate(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDisinfect_" data-uid="SDG.Unturned.PlayerLife.askDisinfect*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDisinfect_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askDisinfect(System.Byte)">
+  askDisinfect(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDisinfect(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askDrink_" data-uid="SDG.Unturned.PlayerLife.askDrink*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askDrink_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askDrink(System.Byte)">
+  askDrink(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDrink(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askEat_" data-uid="SDG.Unturned.PlayerLife.askEat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askEat_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askEat(System.Byte)">
+  askEat(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askEat(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askHeal_" data-uid="SDG.Unturned.PlayerLife.askHeal*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askHeal_System_Byte_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.askHeal(System.Byte,System.Boolean,System.Boolean)">
+  askHeal(byte, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askHeal(byte amount, bool healBleeding, bool healBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>healBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>healBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askInfect_" data-uid="SDG.Unturned.PlayerLife.askInfect*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askInfect_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askInfect(System.Byte)">
+  askInfect(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askInfect(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askLife_" data-uid="SDG.Unturned.PlayerLife.askLife*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askLife_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerLife.askLife(Steamworks.CSteamID)">
+  askLife(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askLife(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askRadiate_" data-uid="SDG.Unturned.PlayerLife.askRadiate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askRadiate_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askRadiate(System.Byte)">
+  askRadiate(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askRadiate(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askRespawn_" data-uid="SDG.Unturned.PlayerLife.askRespawn*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askRespawn_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.askRespawn(Steamworks.CSteamID,System.Boolean)">
+  askRespawn(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askRespawn(CSteamID steamID, bool atHome)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>atHome</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askRest_" data-uid="SDG.Unturned.PlayerLife.askRest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askRest_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askRest(System.Byte)">
+  askRest(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askRest(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askStarve_" data-uid="SDG.Unturned.PlayerLife.askStarve*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askStarve_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askStarve(System.Byte)">
+  askStarve(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askStarve(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askSuffocate_" data-uid="SDG.Unturned.PlayerLife.askSuffocate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askSuffocate_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askSuffocate(System.Byte)">
+  askSuffocate(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askSuffocate(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askSuicide_" data-uid="SDG.Unturned.PlayerLife.askSuicide*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askSuicide_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerLife.askSuicide(Steamworks.CSteamID)">
+  askSuicide(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSuicide(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askTire_" data-uid="SDG.Unturned.PlayerLife.askTire*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askTire_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askTire(System.Byte)">
+  askTire(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askTire(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_askView_" data-uid="SDG.Unturned.PlayerLife.askView*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_askView_System_Byte_" data-uid="SDG.Unturned.PlayerLife.askView(System.Byte)">
+  askView(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askView(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_breakLegs_" data-uid="SDG.Unturned.PlayerLife.breakLegs*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_breakLegs" data-uid="SDG.Unturned.PlayerLife.breakLegs">
+  breakLegs()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void breakLegs()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_clientModifyHallucination_" data-uid="SDG.Unturned.PlayerLife.clientModifyHallucination*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_clientModifyHallucination_Steamworks_CSteamID_System_Int16_" data-uid="SDG.Unturned.PlayerLife.clientModifyHallucination(Steamworks.CSteamID,System.Int16)">
+  clientModifyHallucination(CSteamID, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void clientModifyHallucination(CSteamID senderId, short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_clientModifyStamina_" data-uid="SDG.Unturned.PlayerLife.clientModifyStamina*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_clientModifyStamina_Steamworks_CSteamID_System_Int16_" data-uid="SDG.Unturned.PlayerLife.clientModifyStamina(Steamworks.CSteamID,System.Int16)">
+  clientModifyStamina(CSteamID, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void clientModifyStamina(CSteamID senderId, short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_clientModifyWarmth_" data-uid="SDG.Unturned.PlayerLife.clientModifyWarmth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_clientModifyWarmth_Steamworks_CSteamID_System_Int16_" data-uid="SDG.Unturned.PlayerLife.clientModifyWarmth(Steamworks.CSteamID,System.Int16)">
+  clientModifyWarmth(CSteamID, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void clientModifyWarmth(CSteamID senderId, short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_load_" data-uid="SDG.Unturned.PlayerLife.load*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_load" data-uid="SDG.Unturned.PlayerLife.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_markAggressive_" data-uid="SDG.Unturned.PlayerLife.markAggressive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_markAggressive_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.markAggressive(System.Boolean,System.Boolean)">
+  markAggressive(bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tracks this player as an aggressor if they were recently an aggressor or if they haven't been attacked recently.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void markAggressive(bool force, bool spreadToGroup = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Ignores rules and just make aggressive.</p>
+</dd>
+    <dt><code>spreadToGroup</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to call markAggressive on group members.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_save_" data-uid="SDG.Unturned.PlayerLife.save*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_save" data-uid="SDG.Unturned.PlayerLife.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_sendHallucination_" data-uid="SDG.Unturned.PlayerLife.sendHallucination*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_sendHallucination_System_Byte_" data-uid="SDG.Unturned.PlayerLife.sendHallucination(System.Byte)">
+  sendHallucination(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use serverModifyHallucination instead.&quot;)]
+public void sendHallucination(byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_sendRespawn_" data-uid="SDG.Unturned.PlayerLife.sendRespawn*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_sendRespawn_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.sendRespawn(System.Boolean)">
+  sendRespawn(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendRespawn(bool atHome)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>atHome</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_sendRevive_" data-uid="SDG.Unturned.PlayerLife.sendRevive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_sendRevive" data-uid="SDG.Unturned.PlayerLife.sendRevive">
+  sendRevive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to refill all client stats like stamina</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendRevive()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_sendSuicide_" data-uid="SDG.Unturned.PlayerLife.sendSuicide*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_sendSuicide" data-uid="SDG.Unturned.PlayerLife.sendSuicide">
+  sendSuicide()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSuicide()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyFood_" data-uid="SDG.Unturned.PlayerLife.serverModifyFood*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyFood_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyFood(System.Single)">
+  serverModifyFood(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from food level.
+Replicates change to owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyFood(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyHallucination_" data-uid="SDG.Unturned.PlayerLife.serverModifyHallucination*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyHallucination_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyHallucination(System.Single)">
+  serverModifyHallucination(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from hallucination level on the client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyHallucination(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyHealth_" data-uid="SDG.Unturned.PlayerLife.serverModifyHealth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyHealth_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyHealth(System.Single)">
+  serverModifyHealth(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from health level.
+Replicates change to owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyHealth(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyStamina_" data-uid="SDG.Unturned.PlayerLife.serverModifyStamina*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyStamina_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyStamina(System.Single)">
+  serverModifyStamina(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from stamina level on the client and server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyStamina(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyVirus_" data-uid="SDG.Unturned.PlayerLife.serverModifyVirus*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyVirus_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyVirus(System.Single)">
+  serverModifyVirus(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from virus level.
+Replicates change to owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyVirus(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyWarmth_" data-uid="SDG.Unturned.PlayerLife.serverModifyWarmth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyWarmth_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyWarmth(System.Single)">
+  serverModifyWarmth(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from warmth level on the client and server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyWarmth(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverModifyWater_" data-uid="SDG.Unturned.PlayerLife.serverModifyWater*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverModifyWater_System_Single_" data-uid="SDG.Unturned.PlayerLife.serverModifyWater(System.Single)">
+  serverModifyWater(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from water level.
+Replicates change to owner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverModifyWater(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverSetBleeding_" data-uid="SDG.Unturned.PlayerLife.serverSetBleeding*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverSetBleeding_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.serverSetBleeding(System.Boolean)">
+  serverSetBleeding(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set bleeding state and replicate to owner if changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverSetBleeding(bool newBleeding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_serverSetLegsBroken_" data-uid="SDG.Unturned.PlayerLife.serverSetLegsBroken*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_serverSetLegsBroken_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.serverSetLegsBroken(System.Boolean)">
+  serverSetLegsBroken(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set legs broken state and replicate to owner if changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void serverSetLegsBroken(bool newLegsBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newLegsBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_simulate_" data-uid="SDG.Unturned.PlayerLife.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_simulate_System_UInt32_" data-uid="SDG.Unturned.PlayerLife.simulate(System.UInt32)">
+  simulate(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(uint simulation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_simulatedModifyOxygen_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyOxygen*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_simulatedModifyOxygen_System_SByte_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyOxygen(System.SByte)">
+  simulatedModifyOxygen(sbyte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from oxygen level.
+Does not replicate the change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulatedModifyOxygen(sbyte delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.sbyte">sbyte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_simulatedModifyOxygen_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyOxygen*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_simulatedModifyOxygen_System_Single_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyOxygen(System.Single)">
+  simulatedModifyOxygen(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulatedModifyOxygen(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_simulatedModifyStamina_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyStamina*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_simulatedModifyStamina_System_Int16_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyStamina(System.Int16)">
+  simulatedModifyStamina(short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from stamina level.
+Does not replicate the change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulatedModifyStamina(short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_simulatedModifyStamina_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyStamina*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_simulatedModifyStamina_System_Single_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyStamina(System.Single)">
+  simulatedModifyStamina(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from stamina level.
+Does not replicate the change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulatedModifyStamina(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_simulatedModifyWarmth_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyWarmth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_simulatedModifyWarmth_System_Int16_" data-uid="SDG.Unturned.PlayerLife.simulatedModifyWarmth(System.Int16)">
+  simulatedModifyWarmth(short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add to or subtract from warmth level.
+Does not replicate the change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulatedModifyWarmth(short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellBleeding_" data-uid="SDG.Unturned.PlayerLife.tellBleeding*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellBleeding_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.tellBleeding(Steamworks.CSteamID,System.Boolean)">
+  tellBleeding(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellBleeding(CSteamID steamID, bool newBleeding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellBroken_" data-uid="SDG.Unturned.PlayerLife.tellBroken*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellBroken_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.tellBroken(Steamworks.CSteamID,System.Boolean)">
+  tellBroken(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellBroken(CSteamID steamID, bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellDead_" data-uid="SDG.Unturned.PlayerLife.tellDead*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellDead_Steamworks_CSteamID_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellDead(Steamworks.CSteamID,UnityEngine.Vector3,System.Byte)">
+  tellDead(CSteamID, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellDead(CSteamID steamID, Vector3 newRagdoll, byte newRagdollEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellDeath_" data-uid="SDG.Unturned.PlayerLife.tellDeath*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellDeath_Steamworks_CSteamID_System_Byte_System_Byte_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerLife.tellDeath(Steamworks.CSteamID,System.Byte,System.Byte,Steamworks.CSteamID)">
+  tellDeath(CSteamID, byte, byte, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellDeath(CSteamID steamID, byte newCause, byte newLimb, CSteamID newKiller)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newCause</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellFood_" data-uid="SDG.Unturned.PlayerLife.tellFood*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellFood_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellFood(Steamworks.CSteamID,System.Byte)">
+  tellFood(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellFood(CSteamID steamID, byte newFood)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellHallucinate_" data-uid="SDG.Unturned.PlayerLife.tellHallucinate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellHallucinate_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellHallucinate(Steamworks.CSteamID,System.Byte)">
+  tellHallucinate(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use serverModifyHallucination instead.&quot;)]
+public void tellHallucinate(CSteamID senderId, byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellHealth_" data-uid="SDG.Unturned.PlayerLife.tellHealth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellHealth_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellHealth(Steamworks.CSteamID,System.Byte)">
+  tellHealth(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellHealth(CSteamID steamID, byte newHealth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellLife_" data-uid="SDG.Unturned.PlayerLife.tellLife*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellLife_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.tellLife(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte,System.Boolean,System.Boolean)">
+  tellLife(CSteamID, byte, byte, byte, byte, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Prior to saving/loading oxygen the client assumed it started at 100, but now needs the exact value.&quot;)]
+public void tellLife(CSteamID steamID, byte newHealth, byte newFood, byte newWater, byte newVirus, bool newBleeding, bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellLifeWithOxygen_" data-uid="SDG.Unturned.PlayerLife.tellLifeWithOxygen*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellLifeWithOxygen_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife.tellLifeWithOxygen(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Boolean,System.Boolean)">
+  tellLifeWithOxygen(CSteamID, byte, byte, byte, byte, byte, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLifeWithOxygen(CSteamID steamID, byte newHealth, byte newFood, byte newWater, byte newVirus, byte newOxygen, bool newBleeding, bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newOxygen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellRevive_" data-uid="SDG.Unturned.PlayerLife.tellRevive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellRevive_Steamworks_CSteamID_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellRevive(Steamworks.CSteamID,UnityEngine.Vector3,System.Byte)">
+  tellRevive(CSteamID, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellRevive(CSteamID steamID, Vector3 position, byte angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellVirus_" data-uid="SDG.Unturned.PlayerLife.tellVirus*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellVirus_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellVirus(Steamworks.CSteamID,System.Byte)">
+  tellVirus(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVirus(CSteamID steamID, byte newVirus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_tellWater_" data-uid="SDG.Unturned.PlayerLife.tellWater*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_tellWater_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerLife.tellWater(Steamworks.CSteamID,System.Byte)">
+  tellWater(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWater(CSteamID steamID, byte newWater)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnFallDamageRequested" data-uid="SDG.Unturned.PlayerLife.OnFallDamageRequested">
+  OnFallDamageRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PlayerLife.FallDamageRequestHandler OnFallDamageRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>.<a class="xref" href="SDG.Unturned.PlayerLife.FallDamageRequestHandler.html">FallDamageRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnPreDeath" data-uid="SDG.Unturned.PlayerLife.OnPreDeath">
+  OnPreDeath
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked prior to built-in death logic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerLife&gt; OnPreDeath</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_OnSelectingRespawnPoint" data-uid="SDG.Unturned.PlayerLife.OnSelectingRespawnPoint">
+  OnSelectingRespawnPoint
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event PlayerLife.RespawnPointSelector OnSelectingRespawnPoint</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>.<a class="xref" href="SDG.Unturned.PlayerLife.RespawnPointSelector.html">RespawnPointSelector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onHurt" data-uid="SDG.Unturned.PlayerLife.onHurt">
+  onHurt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Hurt onHurt</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Hurt.html">Hurt</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLife_onPlayerDied" data-uid="SDG.Unturned.PlayerLife.onPlayerDied">
+  onPlayerDied
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event for plugins when player dies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event PlayerLife.PlayerDiedCallback onPlayerDied</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerLife.html">PlayerLife</a>.<a class="xref" href="SDG.Unturned.PlayerLife.PlayerDiedCallback.html">PlayerDiedCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

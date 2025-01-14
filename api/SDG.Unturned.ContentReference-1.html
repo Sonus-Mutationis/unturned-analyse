@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct ContentReference&lt;T&gt; | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct ContentReference&lt;T&gt; | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ContentReference`1">
+
+
+
+  <h1 id="SDG_Unturned_ContentReference_1" data-uid="SDG.Unturned.ContentReference`1" class="text-break">
+Struct ContentReference&lt;T&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct ContentReference&lt;T&gt; : IContentReference, IFormattedFileReadable, IFormattedFileWritable, IDatParseable, IEquatable&lt;ContentReference&lt;T&gt;&gt; where T : Object</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IContentReference.html">IContentReference</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReadable.html">IFormattedFileReadable</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWritable.html">IFormattedFileWritable</a></div>
+      <div><span class="xref">IDatParseable</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ContentReference_1__ctor_" data-uid="SDG.Unturned.ContentReference`1.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1__ctor_SDG_Unturned_IContentReference_" data-uid="SDG.Unturned.ContentReference`1.#ctor(SDG.Unturned.IContentReference)">
+  ContentReference(IContentReference)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContentReference(IContentReference contentReference)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentReference</code> <a class="xref" href="SDG.Unturned.IContentReference.html">IContentReference</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1__ctor_" data-uid="SDG.Unturned.ContentReference`1.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1__ctor_System_String_System_String_" data-uid="SDG.Unturned.ContentReference`1.#ctor(System.String,System.String)">
+  ContentReference(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContentReference(string newName, string newPath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>newPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ContentReference_1_invalid" data-uid="SDG.Unturned.ContentReference`1.invalid">
+  invalid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContentReference&lt;T&gt; invalid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ContentReference_1_isValid_" data-uid="SDG.Unturned.ContentReference`1.isValid*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_isValid" data-uid="SDG.Unturned.ContentReference`1.isValid">
+  isValid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isValid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_name_" data-uid="SDG.Unturned.ContentReference`1.name*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_name" data-uid="SDG.Unturned.ContentReference`1.name">
+  name
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Name of the asset bundle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="SDG_Unturned_ContentReference_1_name_examples">Examples</h4>
+  <p>core.content</p>
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_path_" data-uid="SDG.Unturned.ContentReference`1.path*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_path" data-uid="SDG.Unturned.ContentReference`1.path">
+  path
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Path within the asset bundle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string path { readonly get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ContentReference_1_Equals_" data-uid="SDG.Unturned.ContentReference`1.Equals*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_Equals_SDG_Unturned_ContentReference__0__" data-uid="SDG.Unturned.ContentReference`1.Equals(SDG.Unturned.ContentReference{`0})">
+  Equals(ContentReference&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(ContentReference&lt;T&gt; other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_Equals_" data-uid="SDG.Unturned.ContentReference`1.Equals*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_Equals_System_Object_" data-uid="SDG.Unturned.ContentReference`1.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_GetHashCode_" data-uid="SDG.Unturned.ContentReference`1.GetHashCode*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_GetHashCode" data-uid="SDG.Unturned.ContentReference`1.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_ToString_" data-uid="SDG.Unturned.ContentReference`1.ToString*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_ToString" data-uid="SDG.Unturned.ContentReference`1.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_TryParse_" data-uid="SDG.Unturned.ContentReference`1.TryParse*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_TryParse_SDG_Unturned_IDatNode_" data-uid="SDG.Unturned.ContentReference`1.TryParse(SDG.Unturned.IDatNode)">
+  TryParse(IDatNode)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryParse(IDatNode node)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>node</code> <span class="xref">IDatNode</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_read_" data-uid="SDG.Unturned.ContentReference`1.read*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_read_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_" data-uid="SDG.Unturned.ContentReference`1.read(SDG.Framework.IO.FormattedFiles.IFormattedFileReader)">
+  read(IFormattedFileReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void read(IFormattedFileReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReader.html">IFormattedFileReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_write_" data-uid="SDG.Unturned.ContentReference`1.write*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_write_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_" data-uid="SDG.Unturned.ContentReference`1.write(SDG.Framework.IO.FormattedFiles.IFormattedFileWriter)">
+  write(IFormattedFileWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void write(IFormattedFileWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWriter.html">IFormattedFileWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="SDG_Unturned_ContentReference_1_op_Equality_" data-uid="SDG.Unturned.ContentReference`1.op_Equality*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_op_Equality_SDG_Unturned_ContentReference__0__SDG_Unturned_ContentReference__0__" data-uid="SDG.Unturned.ContentReference`1.op_Equality(SDG.Unturned.ContentReference{`0},SDG.Unturned.ContentReference{`0})">
+  operator ==(ContentReference&lt;T&gt;, ContentReference&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(ContentReference&lt;T&gt; a, ContentReference&lt;T&gt; b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ContentReference_1_op_Inequality_" data-uid="SDG.Unturned.ContentReference`1.op_Inequality*"></a>
+
+  <h3 id="SDG_Unturned_ContentReference_1_op_Inequality_SDG_Unturned_ContentReference__0__SDG_Unturned_ContentReference__0__" data-uid="SDG.Unturned.ContentReference`1.op_Inequality(SDG.Unturned.ContentReference{`0},SDG.Unturned.ContentReference{`0})">
+  operator !=(ContentReference&lt;T&gt;, ContentReference&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(ContentReference&lt;T&gt; a, ContentReference&lt;T&gt; b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="SDG.Unturned.ContentReference-1.html">ContentReference</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

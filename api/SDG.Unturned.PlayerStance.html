@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerStance | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerStance | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerStance">
+
+
+
+  <h1 id="SDG_Unturned_PlayerStance" data-uid="SDG.Unturned.PlayerStance" class="text-break">
+Class PlayerStance  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerStance : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerStance</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerStance__ctor_" data-uid="SDG.Unturned.PlayerStance.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance__ctor" data-uid="SDG.Unturned.PlayerStance.#ctor">
+  PlayerStance()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerStance()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_COOLDOWN" data-uid="SDG.Unturned.PlayerStance.COOLDOWN">
+  COOLDOWN
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float COOLDOWN</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_BACKWARD" data-uid="SDG.Unturned.PlayerStance.DETECT_BACKWARD">
+  DETECT_BACKWARD
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_BACKWARD</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_CROUCH" data-uid="SDG.Unturned.PlayerStance.DETECT_CROUCH">
+  DETECT_CROUCH
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_CROUCH</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_FORWARD" data-uid="SDG.Unturned.PlayerStance.DETECT_FORWARD">
+  DETECT_FORWARD
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_FORWARD</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_MOVE" data-uid="SDG.Unturned.PlayerStance.DETECT_MOVE">
+  DETECT_MOVE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_MOVE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_PRONE" data-uid="SDG.Unturned.PlayerStance.DETECT_PRONE">
+  DETECT_PRONE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_PRONE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_SPRINT" data-uid="SDG.Unturned.PlayerStance.DETECT_SPRINT">
+  DETECT_SPRINT
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_SPRINT</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_DETECT_STAND" data-uid="SDG.Unturned.PlayerStance.DETECT_STAND">
+  DETECT_STAND
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float DETECT_STAND</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_RADIUS" data-uid="SDG.Unturned.PlayerStance.RADIUS">
+  RADIUS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float RADIUS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_initialStance" data-uid="SDG.Unturned.PlayerStance.initialStance">
+  initialStance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stance to fit available space when loading in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerStance initialStance</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerStance.html">EPlayerStance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_onStanceUpdated" data-uid="SDG.Unturned.PlayerStance.onStanceUpdated">
+  onStanceUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StanceUpdated onStanceUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.StanceUpdated.html">StanceUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerStance_areEyesUnderwater_" data-uid="SDG.Unturned.PlayerStance.areEyesUnderwater*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_areEyesUnderwater" data-uid="SDG.Unturned.PlayerStance.areEyesUnderwater">
+  areEyesUnderwater
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Test whether viewpoint is currently inside a water volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool areEyesUnderwater { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_areFeetUnderwater_" data-uid="SDG.Unturned.PlayerStance.areFeetUnderwater*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_areFeetUnderwater" data-uid="SDG.Unturned.PlayerStance.areFeetUnderwater">
+  areFeetUnderwater
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Test whether bottom of controller is currently inside a water volume.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool areFeetUnderwater { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_crouch_" data-uid="SDG.Unturned.PlayerStance.crouch*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_crouch" data-uid="SDG.Unturned.PlayerStance.crouch">
+  crouch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool crouch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_isBodyUnderwater_" data-uid="SDG.Unturned.PlayerStance.isBodyUnderwater*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_isBodyUnderwater" data-uid="SDG.Unturned.PlayerStance.isBodyUnderwater">
+  isBodyUnderwater
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Test whether body is currently inside a water volume.
+Enters the swimming stance while true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBodyUnderwater { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_isSubmerged_" data-uid="SDG.Unturned.PlayerStance.isSubmerged*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_isSubmerged" data-uid="SDG.Unturned.PlayerStance.isSubmerged">
+  isSubmerged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Older, cached version of areEyesUnderwater.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSubmerged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_prone_" data-uid="SDG.Unturned.PlayerStance.prone*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_prone" data-uid="SDG.Unturned.PlayerStance.prone">
+  prone
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool prone { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_radius_" data-uid="SDG.Unturned.PlayerStance.radius*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_radius" data-uid="SDG.Unturned.PlayerStance.radius">
+  radius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to GetStealthDetectionRadius.&quot;)]
+public float radius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_sprint_" data-uid="SDG.Unturned.PlayerStance.sprint*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_sprint" data-uid="SDG.Unturned.PlayerStance.sprint">
+  sprint
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool sprint { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_stance_" data-uid="SDG.Unturned.PlayerStance.stance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_stance" data-uid="SDG.Unturned.PlayerStance.stance">
+  stance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerStance stance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerStance.html">EPlayerStance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerStance_GetStealthDetectionRadius_" data-uid="SDG.Unturned.PlayerStance.GetStealthDetectionRadius*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_GetStealthDetectionRadius" data-uid="SDG.Unturned.PlayerStance.GetStealthDetectionRadius">
+  GetStealthDetectionRadius()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetStealthDetectionRadius()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Distance zombies can detect this player within.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_ReceiveClimbRequest_" data-uid="SDG.Unturned.PlayerStance.ReceiveClimbRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_ReceiveClimbRequest_SDG_Unturned_ServerInvocationContext__UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerStance.ReceiveClimbRequest(SDG.Unturned.ServerInvocationContext@,UnityEngine.Vector3)">
+  ReceiveClimbRequest(in ServerInvocationContext, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2)]
+public void ReceiveClimbRequest(in ServerInvocationContext context, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_ReceiveStance_" data-uid="SDG.Unturned.PlayerStance.ReceiveStance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_ReceiveStance_SDG_Unturned_EPlayerStance_" data-uid="SDG.Unturned.PlayerStance.ReceiveStance(SDG.Unturned.EPlayerStance)">
+  ReceiveStance(EPlayerStance)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellStance&quot;)]
+public void ReceiveStance(EPlayerStance newStance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newStance</code> <a class="xref" href="SDG.Unturned.EPlayerStance.html">EPlayerStance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_adjustStanceOrTeleportIfStuck_" data-uid="SDG.Unturned.PlayerStance.adjustStanceOrTeleportIfStuck*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_adjustStanceOrTeleportIfStuck" data-uid="SDG.Unturned.PlayerStance.adjustStanceOrTeleportIfStuck">
+  adjustStanceOrTeleportIfStuck()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool adjustStanceOrTeleportIfStuck()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_askStance_" data-uid="SDG.Unturned.PlayerStance.askStance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_askStance_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerStance.askStance(Steamworks.CSteamID)">
+  askStance(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askStance(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_checkStance_" data-uid="SDG.Unturned.PlayerStance.checkStance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_checkStance_SDG_Unturned_EPlayerStance_" data-uid="SDG.Unturned.PlayerStance.checkStance(SDG.Unturned.EPlayerStance)">
+  checkStance(EPlayerStance)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void checkStance(EPlayerStance newStance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newStance</code> <a class="xref" href="SDG.Unturned.EPlayerStance.html">EPlayerStance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_checkStance_" data-uid="SDG.Unturned.PlayerStance.checkStance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_checkStance_SDG_Unturned_EPlayerStance_System_Boolean_" data-uid="SDG.Unturned.PlayerStance.checkStance(SDG.Unturned.EPlayerStance,System.Boolean)">
+  checkStance(EPlayerStance, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void checkStance(EPlayerStance newStance, bool all)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newStance</code> <a class="xref" href="SDG.Unturned.EPlayerStance.html">EPlayerStance</a></dt>
+    <dd></dd>
+    <dt><code>all</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_drawCapsule_" data-uid="SDG.Unturned.PlayerStance.drawCapsule*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_drawCapsule_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_" data-uid="SDG.Unturned.PlayerStance.drawCapsule(UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single)">
+  drawCapsule(Vector3, float, Color, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw debug capsule matching the player size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void drawCapsule(Vector3 position, float height, Color color, float lifespan = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_drawStandingCapsule_" data-uid="SDG.Unturned.PlayerStance.drawStandingCapsule*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_drawStandingCapsule_UnityEngine_Vector3_UnityEngine_Color_System_Single_" data-uid="SDG.Unturned.PlayerStance.drawStandingCapsule(UnityEngine.Vector3,UnityEngine.Color,System.Single)">
+  drawStandingCapsule(Vector3, Color, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw standing-height debug capsule matching the player size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void drawStandingCapsule(Vector3 position, Color color, float lifespan = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_getStanceForPosition_" data-uid="SDG.Unturned.PlayerStance.getStanceForPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_getStanceForPosition_UnityEngine_Vector3_SDG_Unturned_EPlayerStance__" data-uid="SDG.Unturned.PlayerStance.getStanceForPosition(UnityEngine.Vector3,SDG.Unturned.EPlayerStance@)">
+  getStanceForPosition(Vector3, ref EPlayerStance)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is there any compatible stance that can fit at position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool getStanceForPosition(Vector3 position, ref EPlayerStance stance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>stance</code> <a class="xref" href="SDG.Unturned.EPlayerStance.html">EPlayerStance</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_hasCrouchingHeightClearanceAtPosition_" data-uid="SDG.Unturned.PlayerStance.hasCrouchingHeightClearanceAtPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_hasCrouchingHeightClearanceAtPosition_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerStance.hasCrouchingHeightClearanceAtPosition(UnityEngine.Vector3)">
+  hasCrouchingHeightClearanceAtPosition(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Could a crouching player capsule fit at the given position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasCrouchingHeightClearanceAtPosition(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_hasHeightClearance_" data-uid="SDG.Unturned.PlayerStance.hasHeightClearance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_hasHeightClearance_System_Single_" data-uid="SDG.Unturned.PlayerStance.hasHeightClearance(System.Single)">
+  hasHeightClearance(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Does capsule have appropriate clearance for a pending height change?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasHeightClearance(float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_hasHeightClearanceAtPosition_" data-uid="SDG.Unturned.PlayerStance.hasHeightClearanceAtPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_hasHeightClearanceAtPosition_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.PlayerStance.hasHeightClearanceAtPosition(UnityEngine.Vector3,System.Single)">
+  hasHeightClearanceAtPosition(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is there enough height for our capsule at a position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasHeightClearanceAtPosition(Vector3 position, float height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_hasProneHeightClearanceAtPosition_" data-uid="SDG.Unturned.PlayerStance.hasProneHeightClearanceAtPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_hasProneHeightClearanceAtPosition_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerStance.hasProneHeightClearanceAtPosition(UnityEngine.Vector3)">
+  hasProneHeightClearanceAtPosition(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Could a prone player capsule fit at the given position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasProneHeightClearanceAtPosition(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_hasStandingHeightClearanceAtPosition_" data-uid="SDG.Unturned.PlayerStance.hasStandingHeightClearanceAtPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_hasStandingHeightClearanceAtPosition_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerStance.hasStandingHeightClearanceAtPosition(UnityEngine.Vector3)">
+  hasStandingHeightClearanceAtPosition(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Could a standing player capsule fit at the given position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasStandingHeightClearanceAtPosition(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_hasTeleportClearanceAtPosition_" data-uid="SDG.Unturned.PlayerStance.hasTeleportClearanceAtPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_hasTeleportClearanceAtPosition_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerStance.hasTeleportClearanceAtPosition(UnityEngine.Vector3)">
+  hasTeleportClearanceAtPosition(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Could a standing player capsule teleport to the given position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasTeleportClearanceAtPosition(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_simulate_" data-uid="SDG.Unturned.PlayerStance.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_simulate_System_UInt32_System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerStance.simulate(System.UInt32,System.Boolean,System.Boolean,System.Boolean)">
+  simulate(uint, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(uint simulation, bool inputCrouch, bool inputProne, bool inputSprint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>inputCrouch</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>inputProne</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>inputSprint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_tellStance_" data-uid="SDG.Unturned.PlayerStance.tellStance*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_tellStance_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerStance.tellStance(Steamworks.CSteamID,System.Byte)">
+  tellStance(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellStance(CSteamID steamID, byte newStance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newStance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerStance_wouldHaveHeightClearanceAtPosition_" data-uid="SDG.Unturned.PlayerStance.wouldHaveHeightClearanceAtPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerStance_wouldHaveHeightClearanceAtPosition_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.PlayerStance.wouldHaveHeightClearanceAtPosition(UnityEngine.Vector3,System.Single)">
+  wouldHaveHeightClearanceAtPosition(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Using our capsule's current height would there be enough space at a given position?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool wouldHaveHeightClearanceAtPosition(Vector3 position, float padding = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>padding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerStance_OnStanceChanged_Global" data-uid="SDG.Unturned.PlayerStance.OnStanceChanged_Global">
+  OnStanceChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's stance changes (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerStance&gt; OnStanceChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerStance.html">PlayerStance</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

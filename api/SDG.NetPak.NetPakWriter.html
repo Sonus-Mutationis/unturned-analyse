@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NetPakWriter | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NetPakWriter | Unturned Analyse Doc ">
+      
+      <meta name="description" content="Packs bits into a 32-bit buffer value, and from there into a byte array. GafferOnGames recommends this approach rather than &amp;quot;farting across a buffer at byte level like it&#39;s 1985&amp;quot;.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.NetPak.NetPakWriter">
+
+
+
+  <h1 id="SDG_NetPak_NetPakWriter" data-uid="SDG.NetPak.NetPakWriter" class="text-break">
+Class NetPakWriter  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.NetPak.html">NetPak</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SDG.NetPak.Runtime.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Packs bits into a 32-bit buffer value, and from there into a byte array. GafferOnGames recommends this approach
+rather than &quot;farting across a buffer at byte level like it's 1985&quot;.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NetPakWriter</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">NetPakWriter</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="SDG.NetPak.SteamworksNetPakWriterEx.html#SDG_NetPak_SteamworksNetPakWriterEx_WriteSteamID_SDG_NetPak_NetPakWriter_Steamworks_CSteamID_">SteamworksNetPakWriterEx.WriteSteamID(NetPakWriter, CSteamID)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SteamworksNetPakWriterEx.html#SDG_NetPak_SteamworksNetPakWriterEx_WriteSteamID_SDG_NetPak_NetPakWriter_Steamworks_PublishedFileId_t_">SteamworksNetPakWriterEx.WriteSteamID(NetPakWriter, PublishedFileId_t)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SteamworksNetPakWriterEx.html#SDG_NetPak_SteamworksNetPakWriterEx_WriteSteamItemDefID_SDG_NetPak_NetPakWriter_Steamworks_SteamItemDef_t_">SteamworksNetPakWriterEx.WriteSteamItemDefID(NetPakWriter, SteamItemDef_t)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SteamworksNetPakWriterEx.html#SDG_NetPak_SteamworksNetPakWriterEx_WriteSteamItemInstanceID_SDG_NetPak_NetPakWriter_Steamworks_SteamItemInstanceID_t_">SteamworksNetPakWriterEx.WriteSteamItemInstanceID(NetPakWriter, SteamItemInstanceID_t)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteClampedFloat_SDG_NetPak_NetPakWriter_System_Single_System_Int32_System_Int32_">SystemNetPakWriterEx.WriteClampedFloat(NetPakWriter, float, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteDateTime_SDG_NetPak_NetPakWriter_System_DateTime_">SystemNetPakWriterEx.WriteDateTime(NetPakWriter, DateTime)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteDegrees_SDG_NetPak_NetPakWriter_System_Single_System_Int32_">SystemNetPakWriterEx.WriteDegrees(NetPakWriter, float, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteFloat_SDG_NetPak_NetPakWriter_System_Single_">SystemNetPakWriterEx.WriteFloat(NetPakWriter, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteGuid_SDG_NetPak_NetPakWriter_System_Guid_">SystemNetPakWriterEx.WriteGuid(NetPakWriter, Guid)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteInt16_SDG_NetPak_NetPakWriter_System_Int16_">SystemNetPakWriterEx.WriteInt16(NetPakWriter, short)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteInt32_SDG_NetPak_NetPakWriter_System_Int32_">SystemNetPakWriterEx.WriteInt32(NetPakWriter, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteInt64_SDG_NetPak_NetPakWriter_System_Int64_">SystemNetPakWriterEx.WriteInt64(NetPakWriter, long)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteInt8_SDG_NetPak_NetPakWriter_System_SByte_">SystemNetPakWriterEx.WriteInt8(NetPakWriter, sbyte)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteList__1_SDG_NetPak_NetPakWriter_System_Collections_Generic_List___0__SDG_NetPak_SystemNetPakWriterEx_WriteListItemWithWriter___0__SDG_NetPak_NetLength_">SystemNetPakWriterEx.WriteList&lt;T&gt;(NetPakWriter, List&lt;T&gt;, SystemNetPakWriterEx.WriteListItemWithWriter&lt;T&gt;, NetLength)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteList__1_SDG_NetPak_NetPakWriter_System_Collections_Generic_List___0__SDG_NetPak_SystemNetPakWriterEx_WriteListItem___0__SDG_NetPak_NetLength_">SystemNetPakWriterEx.WriteList&lt;T&gt;(NetPakWriter, List&lt;T&gt;, SystemNetPakWriterEx.WriteListItem&lt;T&gt;, NetLength)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteRadians_SDG_NetPak_NetPakWriter_System_Single_System_Int32_">SystemNetPakWriterEx.WriteRadians(NetPakWriter, float, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteSignedInt_SDG_NetPak_NetPakWriter_System_Int32_System_Int32_">SystemNetPakWriterEx.WriteSignedInt(NetPakWriter, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteSignedNormalizedFloat_SDG_NetPak_NetPakWriter_System_Single_System_Int32_">SystemNetPakWriterEx.WriteSignedNormalizedFloat(NetPakWriter, float, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteStateArray_SDG_NetPak_NetPakWriter_System_Byte___">SystemNetPakWriterEx.WriteStateArray(NetPakWriter, byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteString_SDG_NetPak_NetPakWriter_System_String_System_Int32_">SystemNetPakWriterEx.WriteString(NetPakWriter, string, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteUInt16_SDG_NetPak_NetPakWriter_System_UInt16_">SystemNetPakWriterEx.WriteUInt16(NetPakWriter, ushort)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteUInt32_SDG_NetPak_NetPakWriter_System_UInt32_">SystemNetPakWriterEx.WriteUInt32(NetPakWriter, uint)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteUInt64_SDG_NetPak_NetPakWriter_System_UInt64_">SystemNetPakWriterEx.WriteUInt64(NetPakWriter, ulong)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteUInt8_SDG_NetPak_NetPakWriter_System_Byte_">SystemNetPakWriterEx.WriteUInt8(NetPakWriter, byte)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteUnsignedClampedFloat_SDG_NetPak_NetPakWriter_System_Single_System_Int32_System_Int32_">SystemNetPakWriterEx.WriteUnsignedClampedFloat(NetPakWriter, float, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.SystemNetPakWriterEx.html#SDG_NetPak_SystemNetPakWriterEx_WriteUnsignedNormalizedFloat_SDG_NetPak_NetPakWriter_System_Single_System_Int32_">SystemNetPakWriterEx.WriteUnsignedNormalizedFloat(NetPakWriter, float, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.UnityNetPakWriterEx.html#SDG_NetPak_UnityNetPakWriterEx_WriteClampedVector3_SDG_NetPak_NetPakWriter_UnityEngine_Vector3_System_Int32_System_Int32_">UnityNetPakWriterEx.WriteClampedVector3(NetPakWriter, Vector3, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.UnityNetPakWriterEx.html#SDG_NetPak_UnityNetPakWriterEx_WriteColor32RGB_SDG_NetPak_NetPakWriter_UnityEngine_Color32_">UnityNetPakWriterEx.WriteColor32RGB(NetPakWriter, Color32)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.UnityNetPakWriterEx.html#SDG_NetPak_UnityNetPakWriterEx_WriteColor32RGBA_SDG_NetPak_NetPakWriter_UnityEngine_Color32_">UnityNetPakWriterEx.WriteColor32RGBA(NetPakWriter, Color32)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.UnityNetPakWriterEx.html#SDG_NetPak_UnityNetPakWriterEx_WriteNormalVector3_SDG_NetPak_NetPakWriter_UnityEngine_Vector3_System_Int32_">UnityNetPakWriterEx.WriteNormalVector3(NetPakWriter, Vector3, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.UnityNetPakWriterEx.html#SDG_NetPak_UnityNetPakWriterEx_WriteQuaternion_SDG_NetPak_NetPakWriter_UnityEngine_Quaternion_System_Int32_">UnityNetPakWriterEx.WriteQuaternion(NetPakWriter, Quaternion, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="SDG.NetPak.UnityNetPakWriterEx.html#SDG_NetPak_UnityNetPakWriterEx_WriteSpecialYawOrQuaternion_SDG_NetPak_NetPakWriter_UnityEngine_Quaternion_System_Int32_System_Int32_">UnityNetPakWriterEx.WriteSpecialYawOrQuaternion(NetPakWriter, Quaternion, int, int)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_NetPak_NetPakWriter__ctor_" data-uid="SDG.NetPak.NetPakWriter.#ctor*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter__ctor" data-uid="SDG.NetPak.NetPakWriter.#ctor">
+  NetPakWriter()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetPakWriter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_NetPak_NetPakWriter_buffer" data-uid="SDG.NetPak.NetPakWriter.buffer">
+  buffer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] buffer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_NetPak_NetPakWriter_errors" data-uid="SDG.NetPak.NetPakWriter.errors">
+  errors
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetPakWriter.EErrorFlags errors</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a>.<a class="xref" href="SDG.NetPak.NetPakWriter.EErrorFlags.html">EErrorFlags</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_NetPak_NetPakWriter_scratchBitCount" data-uid="SDG.NetPak.NetPakWriter.scratchBitCount">
+  scratchBitCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int scratchBitCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_NetPak_NetPakWriter_writeByteIndex" data-uid="SDG.NetPak.NetPakWriter.writeByteIndex">
+  writeByteIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int writeByteIndex</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_NetPak_NetPakWriter_AlignToByte_" data-uid="SDG.NetPak.NetPakWriter.AlignToByte*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_AlignToByte" data-uid="SDG.NetPak.NetPakWriter.AlignToByte">
+  AlignToByte()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AlignToByte()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_Flush_" data-uid="SDG.NetPak.NetPakWriter.Flush*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_Flush" data-uid="SDG.NetPak.NetPakWriter.Flush">
+  Flush()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Flush()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_Reset_" data-uid="SDG.NetPak.NetPakWriter.Reset*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_Reset" data-uid="SDG.NetPak.NetPakWriter.Reset">
+  Reset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_WriteBit_" data-uid="SDG.NetPak.NetPakWriter.WriteBit*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_WriteBit_System_Boolean_" data-uid="SDG.NetPak.NetPakWriter.WriteBit(System.Boolean)">
+  WriteBit(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WriteBit(bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_WriteBits_" data-uid="SDG.NetPak.NetPakWriter.WriteBits*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_WriteBits_System_UInt32_System_Int32_" data-uid="SDG.NetPak.NetPakWriter.WriteBits(System.UInt32,System.Int32)">
+  WriteBits(uint, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WriteBits(uint value, int valueBitCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>valueBitCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_WriteBytes_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_WriteBytes_System_Byte___" data-uid="SDG.NetPak.NetPakWriter.WriteBytes(System.Byte[])">
+  WriteBytes(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WriteBytes(byte[] bytes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_WriteBytes_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_WriteBytes_System_Byte___System_Int32_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes(System.Byte[],System.Int32)">
+  WriteBytes(byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WriteBytes(byte[] bytes, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_WriteBytes_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_WriteBytes_System_Byte___System_Int32_System_Int32_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes(System.Byte[],System.Int32,System.Int32)">
+  WriteBytes(byte[], int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WriteBytes(byte[] bytes, int offset, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_NetPak_NetPakWriter_WriteBytes_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes*"></a>
+
+  <h3 id="SDG_NetPak_NetPakWriter_WriteBytes_System_IntPtr_System_Int32_" data-uid="SDG.NetPak.NetPakWriter.WriteBytes(System.IntPtr,System.Int32)">
+  WriteBytes(IntPtr, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WriteBytes(IntPtr bytesPtr, int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bytesPtr</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

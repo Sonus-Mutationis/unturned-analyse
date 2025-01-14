@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ChatManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ChatManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ChatManager">
+
+
+
+  <h1 id="SDG_Unturned_ChatManager" data-uid="SDG.Unturned.ChatManager" class="text-break">
+Class ChatManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ChatManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">ChatManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ChatManager__ctor_" data-uid="SDG.Unturned.ChatManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager__ctor" data-uid="SDG.Unturned.ChatManager.#ctor">
+  ChatManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChatManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_MAX_MESSAGE_LENGTH" data-uid="SDG.Unturned.ChatManager.MAX_MESSAGE_LENGTH">
+  MAX_MESSAGE_LENGTH
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly int MAX_MESSAGE_LENGTH</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_chatrate" data-uid="SDG.Unturned.ChatManager.chatrate">
+  chatrate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float chatrate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onChatMessageReceived" data-uid="SDG.Unturned.ChatManager.onChatMessageReceived">
+  onChatMessageReceived
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on the client after a new message is inserted to the front of the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ChatMessageReceivedHandler onChatMessageReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ChatMessageReceivedHandler.html">ChatMessageReceivedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onChatted" data-uid="SDG.Unturned.ChatManager.onChatted">
+  onChatted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Chatted onChatted</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Chatted.html">Chatted</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onCheckPermissions" data-uid="SDG.Unturned.ChatManager.onCheckPermissions">
+  onCheckPermissions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CheckPermissions onCheckPermissions</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.CheckPermissions.html">CheckPermissions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onServerFormattingMessage" data-uid="SDG.Unturned.ChatManager.onServerFormattingMessage">
+  onServerFormattingMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on the server when formatting a player's message before sending to anyone.
+Allows structuring the message and where the player's name is, for example: '[CustomPluginRoleThing] %SPEAKER% - OriginalMessageText'</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ServerFormattingChatMessageHandler onServerFormattingMessage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ServerFormattingChatMessageHandler.html">ServerFormattingChatMessageHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onServerSendingMessage" data-uid="SDG.Unturned.ChatManager.onServerSendingMessage">
+  onServerSendingMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on the server when preparing a message to be sent to a player.
+Allows controlling how %SPEAKER% is formatted for the receiving player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ServerSendingChatMessageHandler onServerSendingMessage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ServerSendingChatMessageHandler.html">ServerSendingChatMessageHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onVotingMessage" data-uid="SDG.Unturned.ChatManager.onVotingMessage">
+  onVotingMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VotingMessage onVotingMessage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VotingMessage.html">VotingMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onVotingStart" data-uid="SDG.Unturned.ChatManager.onVotingStart">
+  onVotingStart
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VotingStart onVotingStart</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VotingStart.html">VotingStart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onVotingStop" data-uid="SDG.Unturned.ChatManager.onVotingStop">
+  onVotingStop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VotingStop onVotingStop</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VotingStop.html">VotingStop</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onVotingUpdate" data-uid="SDG.Unturned.ChatManager.onVotingUpdate">
+  onVotingUpdate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VotingUpdate onVotingUpdate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VotingUpdate.html">VotingUpdate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_voteAllowed" data-uid="SDG.Unturned.ChatManager.voteAllowed">
+  voteAllowed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool voteAllowed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_voteDuration" data-uid="SDG.Unturned.ChatManager.voteDuration">
+  voteDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float voteDuration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_voteFailCooldown" data-uid="SDG.Unturned.ChatManager.voteFailCooldown">
+  voteFailCooldown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float voteFailCooldown</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_votePassCooldown" data-uid="SDG.Unturned.ChatManager.votePassCooldown">
+  votePassCooldown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float votePassCooldown</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_votePercentage" data-uid="SDG.Unturned.ChatManager.votePercentage">
+  votePercentage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float votePercentage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_votePlayers" data-uid="SDG.Unturned.ChatManager.votePlayers">
+  votePlayers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte votePlayers</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_welcomeColor" data-uid="SDG.Unturned.ChatManager.welcomeColor">
+  welcomeColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color welcomeColor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_welcomeText" data-uid="SDG.Unturned.ChatManager.welcomeText">
+  welcomeText
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string welcomeText</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ChatManager_instance_" data-uid="SDG.Unturned.ChatManager.instance*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_instance" data-uid="SDG.Unturned.ChatManager.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exposed for Rocket transition to modules backwards compatibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ChatManager instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ChatManager.html">ChatManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_receivedChatHistory_" data-uid="SDG.Unturned.ChatManager.receivedChatHistory*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_receivedChatHistory" data-uid="SDG.Unturned.ChatManager.receivedChatHistory">
+  receivedChatHistory
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;ReceivedChatMessage&gt; receivedChatHistory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.ReceivedChatMessage.html">ReceivedChatMessage</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveCallVoteRequest_" data-uid="SDG.Unturned.ChatManager.ReceiveCallVoteRequest*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveCallVoteRequest_SDG_Unturned_ServerInvocationContext__Steamworks_CSteamID_" data-uid="SDG.Unturned.ChatManager.ReceiveCallVoteRequest(SDG.Unturned.ServerInvocationContext@,Steamworks.CSteamID)">
+  ReceiveCallVoteRequest(in ServerInvocationContext, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askCallVote&quot;)]
+public static void ReceiveCallVoteRequest(in ServerInvocationContext context, CSteamID target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveChatEntry_" data-uid="SDG.Unturned.ChatManager.ReceiveChatEntry*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveChatEntry_Steamworks_CSteamID_System_String_SDG_Unturned_EChatMode_UnityEngine_Color_System_Boolean_System_String_" data-uid="SDG.Unturned.ChatManager.ReceiveChatEntry(Steamworks.CSteamID,System.String,SDG.Unturned.EChatMode,UnityEngine.Color,System.Boolean,System.String)">
+  ReceiveChatEntry(CSteamID, string, EChatMode, Color, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellChat&quot;)]
+public static void ReceiveChatEntry(CSteamID owner, string iconURL, EChatMode mode, Color color, bool rich, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>iconURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>rich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveChatRequest_" data-uid="SDG.Unturned.ChatManager.ReceiveChatRequest*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveChatRequest_SDG_Unturned_ServerInvocationContext__System_Byte_System_String_" data-uid="SDG.Unturned.ChatManager.ReceiveChatRequest(SDG.Unturned.ServerInvocationContext@,System.Byte,System.String)">
+  ReceiveChatRequest(in ServerInvocationContext, byte, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 15, legacyName = &quot;askChat&quot;)]
+public static void ReceiveChatRequest(in ServerInvocationContext context, byte flags, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveSubmitVoteRequest_" data-uid="SDG.Unturned.ChatManager.ReceiveSubmitVoteRequest*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveSubmitVoteRequest_SDG_Unturned_ServerInvocationContext__System_Boolean_" data-uid="SDG.Unturned.ChatManager.ReceiveSubmitVoteRequest(SDG.Unturned.ServerInvocationContext@,System.Boolean)">
+  ReceiveSubmitVoteRequest(in ServerInvocationContext, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askVote&quot;)]
+public static void ReceiveSubmitVoteRequest(in ServerInvocationContext context, bool vote)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>vote</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveVoteMessage_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteMessage*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveVoteMessage_SDG_Unturned_EVotingMessage_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteMessage(SDG.Unturned.EVotingMessage)">
+  ReceiveVoteMessage(EVotingMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVoteMessage&quot;)]
+public static void ReceiveVoteMessage(EVotingMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="SDG.Unturned.EVotingMessage.html">EVotingMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveVoteStart_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteStart*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveVoteStart_Steamworks_CSteamID_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteStart(Steamworks.CSteamID,Steamworks.CSteamID,System.Byte)">
+  ReceiveVoteStart(CSteamID, CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVoteStart&quot;)]
+public static void ReceiveVoteStart(CSteamID origin, CSteamID target, byte votesNeeded)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>votesNeeded</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveVoteStop_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteStop*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveVoteStop_SDG_Unturned_EVotingMessage_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteStop(SDG.Unturned.EVotingMessage)">
+  ReceiveVoteStop(EVotingMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVoteStop&quot;)]
+public static void ReceiveVoteStop(EVotingMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="SDG.Unturned.EVotingMessage.html">EVotingMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_ReceiveVoteUpdate_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteUpdate*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_ReceiveVoteUpdate_System_Byte_System_Byte_" data-uid="SDG.Unturned.ChatManager.ReceiveVoteUpdate(System.Byte,System.Byte)">
+  ReceiveVoteUpdate(byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVoteMessage&quot;)]
+public static void ReceiveVoteUpdate(byte voteYes, byte voteNo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>voteYes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>voteNo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_askCallVote_" data-uid="SDG.Unturned.ChatManager.askCallVote*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_askCallVote_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.ChatManager.askCallVote(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askCallVote(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askCallVote(CSteamID steamID, CSteamID target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_askChat_" data-uid="SDG.Unturned.ChatManager.askChat*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_askChat_Steamworks_CSteamID_System_Byte_System_String_" data-uid="SDG.Unturned.ChatManager.askChat(Steamworks.CSteamID,System.Byte,System.String)">
+  askChat(CSteamID, byte, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askChat(CSteamID steamID, byte flags, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_askVote_" data-uid="SDG.Unturned.ChatManager.askVote*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_askVote_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.ChatManager.askVote(Steamworks.CSteamID,System.Boolean)">
+  askVote(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVote(CSteamID steamID, bool vote)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>vote</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_clientSendMessage_UnityEvent_" data-uid="SDG.Unturned.ChatManager.clientSendMessage_UnityEvent*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_clientSendMessage_UnityEvent_SDG_Unturned_EChatMode_System_String_SDG_Unturned_ClientTextChatMessenger_" data-uid="SDG.Unturned.ChatManager.clientSendMessage_UnityEvent(SDG.Unturned.EChatMode,System.String,SDG.Unturned.ClientTextChatMessenger)">
+  clientSendMessage_UnityEvent(EChatMode, string, ClientTextChatMessenger)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows Unity events to send text chat messages from the client, for example to execute commands.
+Messenger context is logged to help track down abusive assets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void clientSendMessage_UnityEvent(EChatMode mode, string text, ClientTextChatMessenger messenger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>messenger</code> <a class="xref" href="SDG.Unturned.ClientTextChatMessenger.html">ClientTextChatMessenger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_getRecentlySentMessage_" data-uid="SDG.Unturned.ChatManager.getRecentlySentMessage*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_getRecentlySentMessage_System_Int32_" data-uid="SDG.Unturned.ChatManager.getRecentlySentMessage(System.Int32)">
+  getRecentlySentMessage(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getRecentlySentMessage(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_process_" data-uid="SDG.Unturned.ChatManager.process*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_process_SDG_Unturned_SteamPlayer_System_String_" data-uid="SDG.Unturned.ChatManager.process(SDG.Unturned.SteamPlayer,System.String)">
+  process(SteamPlayer, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool process(SteamPlayer player, string cmd)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+    <dt><code>cmd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_process_" data-uid="SDG.Unturned.ChatManager.process*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_process_SDG_Unturned_SteamPlayer_System_String_System_Boolean_" data-uid="SDG.Unturned.ChatManager.process(SDG.Unturned.SteamPlayer,System.String,System.Boolean)">
+  process(SteamPlayer, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool process(SteamPlayer player, string cmd, bool fromUnityEvent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+    <dt><code>cmd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fromUnityEvent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_receiveChatMessage_" data-uid="SDG.Unturned.ChatManager.receiveChatMessage*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_receiveChatMessage_Steamworks_CSteamID_System_String_SDG_Unturned_EChatMode_UnityEngine_Color_System_Boolean_System_String_" data-uid="SDG.Unturned.ChatManager.receiveChatMessage(Steamworks.CSteamID,System.String,SDG.Unturned.EChatMode,UnityEngine.Color,System.Boolean,System.String)">
+  receiveChatMessage(CSteamID, string, EChatMode, Color, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add a newly received chat message to the front of the list,
+and remove an old message if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void receiveChatMessage(CSteamID speakerSteamID, string iconURL, EChatMode mode, Color color, bool isRich, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>speakerSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>iconURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>isRich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_say_" data-uid="SDG.Unturned.ChatManager.say*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_say_Steamworks_CSteamID_System_String_UnityEngine_Color_SDG_Unturned_EChatMode_System_Boolean_" data-uid="SDG.Unturned.ChatManager.say(Steamworks.CSteamID,System.String,UnityEngine.Color,SDG.Unturned.EChatMode,System.Boolean)">
+  say(CSteamID, string, Color, EChatMode, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server send message to specific player.
+Used in vanilla by help command to tell player about command options.
+Should not be removed because plugins may depend on it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void say(CSteamID target, string text, Color color, EChatMode mode, bool isRich = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd></dd>
+    <dt><code>isRich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_say_" data-uid="SDG.Unturned.ChatManager.say*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_say_Steamworks_CSteamID_System_String_UnityEngine_Color_System_Boolean_" data-uid="SDG.Unturned.ChatManager.say(Steamworks.CSteamID,System.String,UnityEngine.Color,System.Boolean)">
+  say(CSteamID, string, Color, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server send message to specific player.
+Used in vanilla for the welcome message.
+Should not be removed because plugins may depend on it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void say(CSteamID target, string text, Color color, bool isRich = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>isRich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_say_" data-uid="SDG.Unturned.ChatManager.say*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_say_System_String_UnityEngine_Color_System_Boolean_" data-uid="SDG.Unturned.ChatManager.say(System.String,UnityEngine.Color,System.Boolean)">
+  say(string, Color, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server send message to all players.
+Used in vanilla by some alerts and broadcast command.
+Should not be removed because plugins may depend on it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void say(string text, Color color, bool isRich = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>isRich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_sendCallVote_" data-uid="SDG.Unturned.ChatManager.sendCallVote*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_sendCallVote_Steamworks_CSteamID_" data-uid="SDG.Unturned.ChatManager.sendCallVote(Steamworks.CSteamID)">
+  sendCallVote(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendCallVote(CSteamID target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_sendChat_" data-uid="SDG.Unturned.ChatManager.sendChat*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_sendChat_SDG_Unturned_EChatMode_System_String_" data-uid="SDG.Unturned.ChatManager.sendChat(SDG.Unturned.EChatMode,System.String)">
+  sendChat(EChatMode, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a request to chat from the client to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendChat(EChatMode mode, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_sendVote_" data-uid="SDG.Unturned.ChatManager.sendVote*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_sendVote_System_Boolean_" data-uid="SDG.Unturned.ChatManager.sendVote(System.Boolean)">
+  sendVote(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVote(bool vote)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vote</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_serverSendMessage_" data-uid="SDG.Unturned.ChatManager.serverSendMessage*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_serverSendMessage_System_String_UnityEngine_Color_SDG_Unturned_SteamPlayer_SDG_Unturned_SteamPlayer_SDG_Unturned_EChatMode_System_String_System_Boolean_" data-uid="SDG.Unturned.ChatManager.serverSendMessage(System.String,UnityEngine.Color,SDG.Unturned.SteamPlayer,SDG.Unturned.SteamPlayer,SDG.Unturned.EChatMode,System.String,System.Boolean)">
+  serverSendMessage(string, Color, SteamPlayer, SteamPlayer, EChatMode, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serverside send a chat message to all players, or a specific player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void serverSendMessage(string text, Color color, SteamPlayer fromPlayer = null, SteamPlayer toPlayer = null, EChatMode mode = EChatMode.SAY, string iconURL = null, bool useRichTextFormatting = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Contents to display.</p>
+</dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd><p>Default text color unless rich formatting overrides it.</p>
+</dd>
+    <dt><code>fromPlayer</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd><p>Player who sent the message (used for avatar), or null if send by a plugin.</p>
+</dd>
+    <dt><code>toPlayer</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd><p>Send message to only this player, or all players if null.</p>
+</dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd><p>Mostly deprecated, but global/local/group may be displayed.</p>
+</dd>
+    <dt><code>iconURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>URL to a 32x32 .png to show rather than a player avatar, or null/empty.</p>
+</dd>
+    <dt><code>useRichTextFormatting</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Enable rich tags e.g., bold, italics in the message contents.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_serverSendMessage_UnityEvent_" data-uid="SDG.Unturned.ChatManager.serverSendMessage_UnityEvent*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_serverSendMessage_UnityEvent_System_String_UnityEngine_Color_System_String_System_Boolean_SDG_Unturned_ServerTextChatMessenger_" data-uid="SDG.Unturned.ChatManager.serverSendMessage_UnityEvent(System.String,UnityEngine.Color,System.String,System.Boolean,SDG.Unturned.ServerTextChatMessenger)">
+  serverSendMessage_UnityEvent(string, Color, string, bool, ServerTextChatMessenger)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows Unity events to broadcast text chat messages from the server.
+Messenger context is logged to help track down abusive assets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void serverSendMessage_UnityEvent(string text, Color color, string iconURL, bool useRichTextFormatting, ServerTextChatMessenger messenger)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>iconURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>useRichTextFormatting</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>messenger</code> <a class="xref" href="SDG.Unturned.ServerTextChatMessenger.html">ServerTextChatMessenger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_tellChat_" data-uid="SDG.Unturned.ChatManager.tellChat*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_tellChat_Steamworks_CSteamID_Steamworks_CSteamID_System_String_System_Byte_UnityEngine_Color_System_Boolean_System_String_" data-uid="SDG.Unturned.ChatManager.tellChat(Steamworks.CSteamID,Steamworks.CSteamID,System.String,System.Byte,UnityEngine.Color,System.Boolean,System.String)">
+  tellChat(CSteamID, CSteamID, string, byte, Color, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellChat(CSteamID steamID, CSteamID owner, string iconURL, byte mode, Color color, bool rich, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>iconURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>rich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_tellVoteMessage_" data-uid="SDG.Unturned.ChatManager.tellVoteMessage*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_tellVoteMessage_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.ChatManager.tellVoteMessage(Steamworks.CSteamID,System.Byte)">
+  tellVoteMessage(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVoteMessage(CSteamID steamID, byte message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_tellVoteStart_" data-uid="SDG.Unturned.ChatManager.tellVoteStart*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_tellVoteStart_Steamworks_CSteamID_Steamworks_CSteamID_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.ChatManager.tellVoteStart(Steamworks.CSteamID,Steamworks.CSteamID,Steamworks.CSteamID,System.Byte)">
+  tellVoteStart(CSteamID, CSteamID, CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVoteStart(CSteamID steamID, CSteamID origin, CSteamID target, byte votesNeeded)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>votesNeeded</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_tellVoteStop_" data-uid="SDG.Unturned.ChatManager.tellVoteStop*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_tellVoteStop_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.ChatManager.tellVoteStop(Steamworks.CSteamID,System.Byte)">
+  tellVoteStop(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVoteStop(CSteamID steamID, byte message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_tellVoteUpdate_" data-uid="SDG.Unturned.ChatManager.tellVoteUpdate*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_tellVoteUpdate_Steamworks_CSteamID_System_Byte_System_Byte_" data-uid="SDG.Unturned.ChatManager.tellVoteUpdate(Steamworks.CSteamID,System.Byte,System.Byte)">
+  tellVoteUpdate(CSteamID, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVoteUpdate(CSteamID steamID, byte voteYes, byte voteNo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>voteYes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>voteNo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ChatManager_onCheckUnityEventPermissions" data-uid="SDG.Unturned.ChatManager.onCheckUnityEventPermissions">
+  onCheckUnityEventPermissions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event ChatManager.ClientUnityEventPermissionsHandler onCheckUnityEventPermissions</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ChatManager.html">ChatManager</a>.<a class="xref" href="SDG.Unturned.ChatManager.ClientUnityEventPermissionsHandler.html">ClientUnityEventPermissionsHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,3292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ObjectAsset | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ObjectAsset | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ObjectAsset">
+
+
+
+  <h1 id="SDG_Unturned_ObjectAsset" data-uid="SDG.Unturned.ObjectAsset" class="text-break">
+Class ObjectAsset  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ObjectAsset : Asset, IAssetErrorContext</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.Asset.html">Asset</a></div>
+      <div><span class="xref">ObjectAsset</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IAssetErrorContext.html">IAssetErrorContext</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.ObjectNPCAsset.html">ObjectNPCAsset</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_name">Asset.name</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_id">Asset.id</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GUID">Asset.GUID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_absoluteOriginFilePath">Asset.absoluteOriginFilePath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_requiredShaderUpgrade">Asset.requiredShaderUpgrade</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreNPOT">Asset.ignoreNPOT</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getFilePath">Asset.getFilePath()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getReferenceTo__1">Asset.getReferenceTo&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetOriginName">Asset.GetOriginName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_clearHash">Asset.clearHash()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_appendHash_System_Byte___">Asset.appendHash(byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetTypeNameWithoutSuffix">Asset.GetTypeNameWithoutSuffix()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetTypeFriendlyName">Asset.GetTypeFriendlyName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getTypeNameAndIdDisplayString">Asset.getTypeNameAndIdDisplayString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ToString">Asset.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_LoadRedirectableAsset__1_SDG_Unturned_Bundle_System_String_SDG_Unturned_DatDictionary_System_String_">Asset.LoadRedirectableAsset&lt;T&gt;(Bundle, string, DatDictionary, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_loadRequiredAsset__1_SDG_Unturned_Bundle_System_String_">Asset.loadRequiredAsset&lt;T&gt;(Bundle, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_validateAnimation_UnityEngine_Animation_System_String_">Asset.validateAnimation(Animation, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_assetOrigin">Asset.assetOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_originMasterBundle">Asset.originMasterBundle</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreTextureReadable">Asset.ignoreTextureReadable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_hash">Asset.hash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_AssetErrorPrefix">Asset.AssetErrorPrefix</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_OriginAllowsVanillaLegacyId">Asset.OriginAllowsVanillaLegacyId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ObjectAsset__ctor_" data-uid="SDG.Unturned.ObjectAsset.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset__ctor" data-uid="SDG.Unturned.ObjectAsset.#ctor">
+  ObjectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObjectAsset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset__objectName" data-uid="SDG.Unturned.ObjectAsset._objectName">
+  _objectName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _objectName</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_allowStructures" data-uid="SDG.Unturned.ObjectAsset.allowStructures">
+  allowStructures
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowStructures</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_causesFallDamage" data-uid="SDG.Unturned.ObjectAsset.causesFallDamage">
+  causesFallDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should landing on this object inflict fall damage?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool causesFallDamage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_chart" data-uid="SDG.Unturned.ObjectAsset.chart">
+  chart
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectChart chart</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectChart.html">EObjectChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_christmasRedirect" data-uid="SDG.Unturned.ObjectAsset.christmasRedirect">
+  christmasRedirect
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Object to use during the Christmas event instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetReference&lt;ObjectAsset&gt; christmasRedirect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.ObjectAsset.html">ObjectAsset</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_conditions" data-uid="SDG.Unturned.ObjectAsset.conditions">
+  conditions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INPCCondition[] conditions</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.INPCCondition.html">INPCCondition</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_cullingVolumeLocalPositionOffset" data-uid="SDG.Unturned.ObjectAsset.cullingVolumeLocalPositionOffset">
+  cullingVolumeLocalPositionOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 cullingVolumeLocalPositionOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_cullingVolumeSizeOffset" data-uid="SDG.Unturned.ObjectAsset.cullingVolumeSizeOffset">
+  cullingVolumeSizeOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 cullingVolumeSizeOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_foliage" data-uid="SDG.Unturned.ObjectAsset.foliage">
+  foliage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetReference&lt;FoliageInfoCollectionAsset&gt; foliage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Framework.Foliage.FoliageInfoCollectionAsset.html">FoliageInfoCollectionAsset</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_halloweenRedirect" data-uid="SDG.Unturned.ObjectAsset.halloweenRedirect">
+  halloweenRedirect
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Object to use during the Halloween event instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetReference&lt;ObjectAsset&gt; halloweenRedirect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.ObjectAsset.html">ObjectAsset</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactability" data-uid="SDG.Unturned.ObjectAsset.interactability">
+  interactability
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectInteractability interactability</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectInteractability.html">EObjectInteractability</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityConditions" data-uid="SDG.Unturned.ObjectAsset.interactabilityConditions">
+  interactabilityConditions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INPCCondition[] interactabilityConditions</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.INPCCondition.html">INPCCondition</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityDelay" data-uid="SDG.Unturned.ObjectAsset.interactabilityDelay">
+  interactabilityDelay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float interactabilityDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityDrops" data-uid="SDG.Unturned.ObjectAsset.interactabilityDrops">
+  interactabilityDrops
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort[] interactabilityDrops</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityEditor" data-uid="SDG.Unturned.ObjectAsset.interactabilityEditor">
+  interactabilityEditor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectInteractabilityEditor interactabilityEditor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectInteractabilityEditor.html">EObjectInteractabilityEditor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityEffect" data-uid="SDG.Unturned.ObjectAsset.interactabilityEffect">
+  interactabilityEffect
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ushort interactabilityEffect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityEffectGuid" data-uid="SDG.Unturned.ObjectAsset.interactabilityEffectGuid">
+  interactabilityEffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid interactabilityEffectGuid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityHint" data-uid="SDG.Unturned.ObjectAsset.interactabilityHint">
+  interactabilityHint
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectInteractabilityHint interactabilityHint</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectInteractabilityHint.html">EObjectInteractabilityHint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityNav" data-uid="SDG.Unturned.ObjectAsset.interactabilityNav">
+  interactabilityNav
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectInteractabilityNav interactabilityNav</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectInteractabilityNav.html">EObjectInteractabilityNav</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityPower" data-uid="SDG.Unturned.ObjectAsset.interactabilityPower">
+  interactabilityPower
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectInteractabilityPower interactabilityPower</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectInteractabilityPower.html">EObjectInteractabilityPower</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityRemote" data-uid="SDG.Unturned.ObjectAsset.interactabilityRemote">
+  interactabilityRemote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool interactabilityRemote</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityReset" data-uid="SDG.Unturned.ObjectAsset.interactabilityReset">
+  interactabilityReset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float interactabilityReset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityResource" data-uid="SDG.Unturned.ObjectAsset.interactabilityResource">
+  interactabilityResource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort interactabilityResource</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityRewardID" data-uid="SDG.Unturned.ObjectAsset.interactabilityRewardID">
+  interactabilityRewardID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort interactabilityRewardID</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityRewards" data-uid="SDG.Unturned.ObjectAsset.interactabilityRewards">
+  interactabilityRewards
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NPCRewardsList interactabilityRewards</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.NPCRewardsList.html">NPCRewardsList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_interactabilityText" data-uid="SDG.Unturned.ObjectAsset.interactabilityText">
+  interactabilityText
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string interactabilityText</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_isCollisionImportant" data-uid="SDG.Unturned.ObjectAsset.isCollisionImportant">
+  isCollisionImportant
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isCollisionImportant</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_isFuel" data-uid="SDG.Unturned.ObjectAsset.isFuel">
+  isFuel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isFuel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_isGore" data-uid="SDG.Unturned.ObjectAsset.isGore">
+  isGore
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should this object only be visible if gore is enabled?
+Allows pre-placed blood splatters to be hidden for younger players.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isGore</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_isRefill" data-uid="SDG.Unturned.ObjectAsset.isRefill">
+  isRefill
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isRefill</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_isSnowshoe" data-uid="SDG.Unturned.ObjectAsset.isSnowshoe">
+  isSnowshoe
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSnowshoe</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_isSoft" data-uid="SDG.Unturned.ObjectAsset.isSoft">
+  isSoft
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSoft</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_landmarkQuality" data-uid="SDG.Unturned.ObjectAsset.landmarkQuality">
+  landmarkQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EGraphicQuality landmarkQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EGraphicQuality.html">EGraphicQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_lod" data-uid="SDG.Unturned.ObjectAsset.lod">
+  lod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectLOD lod</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectLOD.html">EObjectLOD</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_lodBias" data-uid="SDG.Unturned.ObjectAsset.lodBias">
+  lodBias
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lodBias</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_materialPalette" data-uid="SDG.Unturned.ObjectAsset.materialPalette">
+  materialPalette
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetReference&lt;MaterialPaletteAsset&gt; materialPalette</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.MaterialPaletteAsset.html">MaterialPaletteAsset</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_navGameObject" data-uid="SDG.Unturned.ObjectAsset.navGameObject">
+  navGameObject
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDeferredAsset&lt;GameObject&gt; navGameObject</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IDeferredAsset-1.html">IDeferredAsset</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubble" data-uid="SDG.Unturned.ObjectAsset.rubble">
+  rubble
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectRubble rubble</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectRubble.html">EObjectRubble</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleBladeID" data-uid="SDG.Unturned.ObjectAsset.rubbleBladeID">
+  rubbleBladeID
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Weapon must have matching blade ID to damage object.
+Both weapons and objects default to zero so they can be damaged by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rubbleBladeID</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleEditor" data-uid="SDG.Unturned.ObjectAsset.rubbleEditor">
+  rubbleEditor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectRubbleEditor rubbleEditor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectRubbleEditor.html">EObjectRubbleEditor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleEffect" data-uid="SDG.Unturned.ObjectAsset.rubbleEffect">
+  rubbleEffect
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ushort rubbleEffect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleEffectGuid" data-uid="SDG.Unturned.ObjectAsset.rubbleEffectGuid">
+  rubbleEffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Effect played when single segment is destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid rubbleEffectGuid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleFinale" data-uid="SDG.Unturned.ObjectAsset.rubbleFinale">
+  rubbleFinale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ushort rubbleFinale</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleFinaleGuid" data-uid="SDG.Unturned.ObjectAsset.rubbleFinaleGuid">
+  rubbleFinaleGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Effect played when all segments are destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid rubbleFinaleGuid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleHealth" data-uid="SDG.Unturned.ObjectAsset.rubbleHealth">
+  rubbleHealth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort rubbleHealth</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleIsVulnerable" data-uid="SDG.Unturned.ObjectAsset.rubbleIsVulnerable">
+  rubbleIsVulnerable
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool rubbleIsVulnerable</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleProofExplosion" data-uid="SDG.Unturned.ObjectAsset.rubbleProofExplosion">
+  rubbleProofExplosion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool rubbleProofExplosion</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleReset" data-uid="SDG.Unturned.ObjectAsset.rubbleReset">
+  rubbleReset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rubbleReset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleRewardID" data-uid="SDG.Unturned.ObjectAsset.rubbleRewardID">
+  rubbleRewardID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort rubbleRewardID</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleRewardProbability" data-uid="SDG.Unturned.ObjectAsset.rubbleRewardProbability">
+  rubbleRewardProbability
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>[0, 1] probability of dropping any rewards.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rubbleRewardProbability</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleRewardXP" data-uid="SDG.Unturned.ObjectAsset.rubbleRewardXP">
+  rubbleRewardXP
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint rubbleRewardXP</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleRewardsMax" data-uid="SDG.Unturned.ObjectAsset.rubbleRewardsMax">
+  rubbleRewardsMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rubbleRewardsMax</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_rubbleRewardsMin" data-uid="SDG.Unturned.ObjectAsset.rubbleRewardsMin">
+  rubbleRewardsMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rubbleRewardsMin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_shouldAddKillTriggers" data-uid="SDG.Unturned.ObjectAsset.shouldAddKillTriggers">
+  shouldAddKillTriggers
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should colliders in the Triggers GameObject with &quot;Kill&quot; name kill players?
+If Triggers GameObject is not set, searches Object instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldAddKillTriggers</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_shouldAddNightLightScript" data-uid="SDG.Unturned.ObjectAsset.shouldAddNightLightScript">
+  shouldAddNightLightScript
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldAddNightLightScript</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_shouldExcludeFromCullingVolumes" data-uid="SDG.Unturned.ObjectAsset.shouldExcludeFromCullingVolumes">
+  shouldExcludeFromCullingVolumes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldExcludeFromCullingVolumes</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_shouldExcludeFromLevelBatching" data-uid="SDG.Unturned.ObjectAsset.shouldExcludeFromLevelBatching">
+  shouldExcludeFromLevelBatching
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldExcludeFromLevelBatching</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_skyboxGameObject" data-uid="SDG.Unturned.ObjectAsset.skyboxGameObject">
+  skyboxGameObject
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDeferredAsset&lt;GameObject&gt; skyboxGameObject</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IDeferredAsset-1.html">IDeferredAsset</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_slotsGameObject" data-uid="SDG.Unturned.ObjectAsset.slotsGameObject">
+  slotsGameObject
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDeferredAsset&lt;GameObject&gt; slotsGameObject</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IDeferredAsset-1.html">IDeferredAsset</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_triggersGameObject" data-uid="SDG.Unturned.ObjectAsset.triggersGameObject">
+  triggersGameObject
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDeferredAsset&lt;GameObject&gt; triggersGameObject</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IDeferredAsset-1.html">IDeferredAsset</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_type" data-uid="SDG.Unturned.ObjectAsset.type">
+  type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectType type</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectType.html">EObjectType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_useScale" data-uid="SDG.Unturned.ObjectAsset.useScale">
+  useScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useScale</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ObjectAsset_useWaterHeightTransparentSort" data-uid="SDG.Unturned.ObjectAsset.useWaterHeightTransparentSort">
+  useWaterHeightTransparentSort
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useWaterHeightTransparentSort</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ObjectAsset_FriendlyName_" data-uid="SDG.Unturned.ObjectAsset.FriendlyName*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_FriendlyName" data-uid="SDG.Unturned.ObjectAsset.FriendlyName">
+  FriendlyName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string FriendlyName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_RubbleCanZombiesDamage_" data-uid="SDG.Unturned.ObjectAsset.RubbleCanZombiesDamage*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_RubbleCanZombiesDamage" data-uid="SDG.Unturned.ObjectAsset.RubbleCanZombiesDamage">
+  RubbleCanZombiesDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, zombies can attack this object if it's blocking them. Defaults to false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RubbleCanZombiesDamage { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_RubbleNavMode_" data-uid="SDG.Unturned.ObjectAsset.RubbleNavMode*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_RubbleNavMode" data-uid="SDG.Unturned.ObjectAsset.RubbleNavMode">
+  RubbleNavMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Controls how rubble affects Nav game object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EObjectRubbleNavMode RubbleNavMode { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EObjectRubbleNavMode.html">EObjectRubbleNavMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_RubbleZombieDamageMultiplier_" data-uid="SDG.Unturned.ObjectAsset.RubbleZombieDamageMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_RubbleZombieDamageMultiplier" data-uid="SDG.Unturned.ObjectAsset.RubbleZombieDamageMultiplier">
+  RubbleZombieDamageMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplier for damage from zombies if RubbleCanZombiesDamage is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RubbleZombieDamageMultiplier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_ShouldExcludeFromSatelliteCapture_" data-uid="SDG.Unturned.ObjectAsset.ShouldExcludeFromSatelliteCapture*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_ShouldExcludeFromSatelliteCapture" data-uid="SDG.Unturned.ObjectAsset.ShouldExcludeFromSatelliteCapture">
+  ShouldExcludeFromSatelliteCapture
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, object will be hidden when rendering GPS/satellite view.
+Defaults to true if <a class="xref" href="SDG.Unturned.ObjectAsset.html#SDG_Unturned_ObjectAsset_holidayRestriction">holidayRestriction</a> is set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldExcludeFromSatelliteCapture { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_ShouldLoadNavInEditor_" data-uid="SDG.Unturned.ObjectAsset.ShouldLoadNavInEditor*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_ShouldLoadNavInEditor" data-uid="SDG.Unturned.ObjectAsset.ShouldLoadNavInEditor">
+  ShouldLoadNavInEditor
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, Nav game object will be instantiated in the level editor. Useful for objects which need collision
+with zombies during gameplay without affecting navmesh baking.
+Defaults to true for &quot;medium&quot; and &quot;large&quot; objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldLoadNavInEditor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_ShouldLoadNavOnServer_" data-uid="SDG.Unturned.ObjectAsset.ShouldLoadNavOnServer*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_ShouldLoadNavOnServer" data-uid="SDG.Unturned.ObjectAsset.ShouldLoadNavOnServer">
+  ShouldLoadNavOnServer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, Nav game object will be instantiated in singleplayer and on dedicated server. Useful for objects
+which need to affect navmesh baking without colliding with zombies during gameplay.
+Defaults to true for &quot;medium&quot; and &quot;large&quot; objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldLoadNavOnServer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_assetCategory_" data-uid="SDG.Unturned.ObjectAsset.assetCategory*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_assetCategory" data-uid="SDG.Unturned.ObjectAsset.assetCategory">
+  assetCategory
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override EAssetType assetCategory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EAssetType.html">EAssetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_holidayRestriction_" data-uid="SDG.Unturned.ObjectAsset.holidayRestriction*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_holidayRestriction" data-uid="SDG.Unturned.ObjectAsset.holidayRestriction">
+  holidayRestriction
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Only activated during this holiday.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ENPCHoliday holidayRestriction { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ENPCHoliday.html">ENPCHoliday</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_objectName_" data-uid="SDG.Unturned.ObjectAsset.objectName*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_objectName" data-uid="SDG.Unturned.ObjectAsset.objectName">
+  objectName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string objectName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ObjectAsset_ApplyInteractabilityConditions_" data-uid="SDG.Unturned.ObjectAsset.ApplyInteractabilityConditions*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_ApplyInteractabilityConditions_SDG_Unturned_Player_" data-uid="SDG.Unturned.ObjectAsset.ApplyInteractabilityConditions(SDG.Unturned.Player)">
+  ApplyInteractabilityConditions(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyInteractabilityConditions(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_FindInteractabilityDialogueAsset_" data-uid="SDG.Unturned.ObjectAsset.FindInteractabilityDialogueAsset*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_FindInteractabilityDialogueAsset" data-uid="SDG.Unturned.ObjectAsset.FindInteractabilityDialogueAsset">
+  FindInteractabilityDialogueAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Property is not exposed at the moment because interactability properties should really be moved into some
+sort of sub-asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DialogueAsset FindInteractabilityDialogueAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DialogueAsset.html">DialogueAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_FindInteractabilityEffectAsset_" data-uid="SDG.Unturned.ObjectAsset.FindInteractabilityEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_FindInteractabilityEffectAsset" data-uid="SDG.Unturned.ObjectAsset.FindInteractabilityEffectAsset">
+  FindInteractabilityEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindInteractabilityEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_FindRubbleEffectAsset_" data-uid="SDG.Unturned.ObjectAsset.FindRubbleEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_FindRubbleEffectAsset" data-uid="SDG.Unturned.ObjectAsset.FindRubbleEffectAsset">
+  FindRubbleEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindRubbleEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_FindRubbleFinaleEffectAsset_" data-uid="SDG.Unturned.ObjectAsset.FindRubbleFinaleEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_FindRubbleFinaleEffectAsset" data-uid="SDG.Unturned.ObjectAsset.FindRubbleFinaleEffectAsset">
+  FindRubbleFinaleEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindRubbleFinaleEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_GetOrLoadModel_" data-uid="SDG.Unturned.ObjectAsset.GetOrLoadModel*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_GetOrLoadModel" data-uid="SDG.Unturned.ObjectAsset.GetOrLoadModel">
+  GetOrLoadModel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject GetOrLoadModel()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_GrantInteractabilityRewards_" data-uid="SDG.Unturned.ObjectAsset.GrantInteractabilityRewards*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_GrantInteractabilityRewards_SDG_Unturned_Player_" data-uid="SDG.Unturned.ObjectAsset.GrantInteractabilityRewards(SDG.Unturned.Player)">
+  GrantInteractabilityRewards(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GrantInteractabilityRewards(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_IsRubbleFinaleEffectRefNull_" data-uid="SDG.Unturned.ObjectAsset.IsRubbleFinaleEffectRefNull*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_IsRubbleFinaleEffectRefNull" data-uid="SDG.Unturned.ObjectAsset.IsRubbleFinaleEffectRefNull">
+  IsRubbleFinaleEffectRefNull()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRubbleFinaleEffectRefNull()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_OnClientModelLoaded_" data-uid="SDG.Unturned.ObjectAsset.OnClientModelLoaded*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_OnClientModelLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.ObjectAsset.OnClientModelLoaded(UnityEngine.GameObject)">
+  OnClientModelLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Object.prefab</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnClientModelLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_OnServerModelLoaded_" data-uid="SDG.Unturned.ObjectAsset.OnServerModelLoaded*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_OnServerModelLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.ObjectAsset.OnServerModelLoaded(UnityEngine.GameObject)">
+  OnServerModelLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clip.prefab</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnServerModelLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_PopulateAsset_" data-uid="SDG.Unturned.ObjectAsset.PopulateAsset*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_PopulateAsset_SDG_Unturned_Bundle_SDG_Unturned_DatDictionary_SDG_Unturned_Local_" data-uid="SDG.Unturned.ObjectAsset.PopulateAsset(SDG.Unturned.Bundle,SDG.Unturned.DatDictionary,SDG.Unturned.Local)">
+  PopulateAsset(Bundle, DatDictionary, Local)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PopulateAsset(Bundle bundle, DatDictionary data, Local localization)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bundle</code> <a class="xref" href="SDG.Unturned.Bundle.html">Bundle</a></dt>
+    <dd></dd>
+    <dt><code>data</code> <span class="xref">DatDictionary</span></dt>
+    <dd></dd>
+    <dt><code>localization</code> <a class="xref" href="SDG.Unturned.Local.html">Local</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_applyInteractabilityConditions_" data-uid="SDG.Unturned.ObjectAsset.applyInteractabilityConditions*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_applyInteractabilityConditions_SDG_Unturned_Player_System_Boolean_" data-uid="SDG.Unturned.ObjectAsset.applyInteractabilityConditions(SDG.Unturned.Player,System.Boolean)">
+  applyInteractabilityConditions(Player, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Removed shouldSend parameter&quot;)]
+public void applyInteractabilityConditions(Player player, bool shouldSend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>shouldSend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_areConditionsMet_" data-uid="SDG.Unturned.ObjectAsset.areConditionsMet*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_areConditionsMet_SDG_Unturned_Player_" data-uid="SDG.Unturned.ObjectAsset.areConditionsMet(SDG.Unturned.Player)">
+  areConditionsMet(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool areConditionsMet(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_areInteractabilityConditionsMet_" data-uid="SDG.Unturned.ObjectAsset.areInteractabilityConditionsMet*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_areInteractabilityConditionsMet_SDG_Unturned_Player_" data-uid="SDG.Unturned.ObjectAsset.areInteractabilityConditionsMet(SDG.Unturned.Player)">
+  areInteractabilityConditionsMet(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool areInteractabilityConditionsMet(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_fixTagAndLayer_" data-uid="SDG.Unturned.ObjectAsset.fixTagAndLayer*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_fixTagAndLayer_UnityEngine_GameObject_System_String_System_Int32_" data-uid="SDG.Unturned.ObjectAsset.fixTagAndLayer(UnityEngine.GameObject,System.String,System.Int32)">
+  fixTagAndLayer(GameObject, string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void fixTagAndLayer(GameObject rootGameObject, string expectedTag, int expectedLayer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rootGameObject</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>expectedTag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>expectedLayer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_getHolidayRedirect_" data-uid="SDG.Unturned.ObjectAsset.getHolidayRedirect*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_getHolidayRedirect" data-uid="SDG.Unturned.ObjectAsset.getHolidayRedirect">
+  getHolidayRedirect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get asset ref to replace this one for holiday, or null if it should not be redirected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetReference&lt;ObjectAsset&gt; getHolidayRedirect()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.ObjectAsset.html">ObjectAsset</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_getState_" data-uid="SDG.Unturned.ObjectAsset.getState*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_getState" data-uid="SDG.Unturned.ObjectAsset.getState">
+  getState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual byte[] getState()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_grantInteractabilityRewards_" data-uid="SDG.Unturned.ObjectAsset.grantInteractabilityRewards*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_grantInteractabilityRewards_SDG_Unturned_Player_System_Boolean_" data-uid="SDG.Unturned.ObjectAsset.grantInteractabilityRewards(SDG.Unturned.Player,System.Boolean)">
+  grantInteractabilityRewards(Player, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Removed shouldSend parameter&quot;)]
+public void grantInteractabilityRewards(Player player, bool shouldSend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>shouldSend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_onNavGameObjectLoaded_" data-uid="SDG.Unturned.ObjectAsset.onNavGameObjectLoaded*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_onNavGameObjectLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.ObjectAsset.onNavGameObjectLoaded(UnityEngine.GameObject)">
+  onNavGameObjectLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void onNavGameObjectLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_onSlotsGameObjectLoaded_" data-uid="SDG.Unturned.ObjectAsset.onSlotsGameObjectLoaded*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_onSlotsGameObjectLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.ObjectAsset.onSlotsGameObjectLoaded(UnityEngine.GameObject)">
+  onSlotsGameObjectLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void onSlotsGameObjectLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_recursivelyFixLayer_" data-uid="SDG.Unturned.ObjectAsset.recursivelyFixLayer*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_recursivelyFixLayer_UnityEngine_GameObject_System_Int32_System_Int32_" data-uid="SDG.Unturned.ObjectAsset.recursivelyFixLayer(UnityEngine.GameObject,System.Int32,System.Int32)">
+  recursivelyFixLayer(GameObject, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recursively change all children including root from oldLayer to newLayer.
+Aborts if a child doesn't match the old layer because it might be something we shouldn't change the layer of.
+<return>True if layers were all successfully changed.</return></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool recursivelyFixLayer(GameObject parentGameObject, int oldLayer, int newLayer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentGameObject</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>oldLayer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newLayer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_recursivelyFixTag_" data-uid="SDG.Unturned.ObjectAsset.recursivelyFixTag*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_recursivelyFixTag_UnityEngine_GameObject_System_String_System_String_" data-uid="SDG.Unturned.ObjectAsset.recursivelyFixTag(UnityEngine.GameObject,System.String,System.String)">
+  recursivelyFixTag(GameObject, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recursively change all children including root from oldTag to newTag.
+Aborts if a child doesn't match the old tag because it might be something we shouldn't change the tag of.
+<return>True if tags were all successfully changed.</return></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool recursivelyFixTag(GameObject parentGameObject, string oldTag, string newTag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parentGameObject</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>oldTag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>newTag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ObjectAsset_validateModel_" data-uid="SDG.Unturned.ObjectAsset.validateModel*"></a>
+
+  <h3 id="SDG_Unturned_ObjectAsset_validateModel_UnityEngine_GameObject_" data-uid="SDG.Unturned.ObjectAsset.validateModel(UnityEngine.GameObject)">
+  validateModel(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void validateModel(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RuntimeGizmos | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RuntimeGizmos | Unturned Analyse Doc ">
+      
+      <meta name="description" content="In-game debug drawing utility similar to Unity&#39;s editor Gizmos.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.RuntimeGizmos">
+
+
+
+  <h1 id="SDG_Unturned_RuntimeGizmos" data-uid="SDG.Unturned.RuntimeGizmos" class="text-break">
+Class RuntimeGizmos  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>In-game debug drawing utility similar to Unity's editor Gizmos.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RuntimeGizmos : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RuntimeGizmos</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_HasQueuedElements_" data-uid="SDG.Unturned.RuntimeGizmos.HasQueuedElements*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_HasQueuedElements" data-uid="SDG.Unturned.RuntimeGizmos.HasQueuedElements">
+  HasQueuedElements
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasQueuedElements { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Arrow_" data-uid="SDG.Unturned.RuntimeGizmos.Arrow*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Arrow_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Arrow(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Arrow(Vector3, Vector3, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Arrow(Vector3 origin, Vector3 direction, float length, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_ArrowFromTo_" data-uid="SDG.Unturned.RuntimeGizmos.ArrowFromTo*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_ArrowFromTo_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.ArrowFromTo(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  ArrowFromTo(Vector3, Vector3, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArrowFromTo(Vector3 begin, Vector3 end, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>begin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>end</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Box_" data-uid="SDG.Unturned.RuntimeGizmos.Box*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Box_UnityEngine_Matrix4x4_UnityEngine_Vector3_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Box(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Box(Matrix4x4, Vector3, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Box(Matrix4x4 matrix, Vector3 size, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <span class="xref">Matrix4x4</span></dt>
+    <dd></dd>
+    <dt><code>size</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Box_" data-uid="SDG.Unturned.RuntimeGizmos.Box*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Box_UnityEngine_Matrix4x4_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Box(UnityEngine.Matrix4x4,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Box(Matrix4x4, Vector3, Vector3, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Box(Matrix4x4 matrix, Vector3 center, Vector3 size, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <span class="xref">Matrix4x4</span></dt>
+    <dd></dd>
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd><p>Local space relative to matrix.</p>
+</dd>
+    <dt><code>size</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Box_" data-uid="SDG.Unturned.RuntimeGizmos.Box*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Box_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Box(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Box(Vector3, Quaternion, Vector3, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Box(Vector3 center, Quaternion rotation, Vector3 size, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>size</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Box_" data-uid="SDG.Unturned.RuntimeGizmos.Box*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Box_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Box(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Box(Vector3, Vector3, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Box(Vector3 center, Vector3 size, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>size</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Capsule_" data-uid="SDG.Unturned.RuntimeGizmos.Capsule*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Capsule_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Capsule(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Capsule(Vector3, Vector3, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Capsule(Vector3 begin, Vector3 end, float radius, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>begin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>end</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Circle_" data-uid="SDG.Unturned.RuntimeGizmos.Circle*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Circle_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_System_Int32_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Circle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single,System.Int32,SDG.Unturned.EGizmoLayer)">
+  Circle(Vector3, Vector3, Vector3, float, Color, float, int, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Circle(Vector3 center, Vector3 axisU, Vector3 axisV, float radius, Color color, float lifespan = 0, int resolution = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>axisU</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>axisV</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>resolution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Cube_" data-uid="SDG.Unturned.RuntimeGizmos.Cube*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Cube_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Cube(UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Cube(Vector3, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cube(Vector3 center, float size, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Cube_" data-uid="SDG.Unturned.RuntimeGizmos.Cube*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Cube_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Cube(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Cube(Vector3, Quaternion, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cube(Vector3 center, Quaternion rotation, float size, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Get_" data-uid="SDG.Unturned.RuntimeGizmos.Get*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Get" data-uid="SDG.Unturned.RuntimeGizmos.Get">
+  Get()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RuntimeGizmos Get()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RuntimeGizmos.html">RuntimeGizmos</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_GridXZ_" data-uid="SDG.Unturned.RuntimeGizmos.GridXZ*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_GridXZ_UnityEngine_Vector3_System_Single_System_Int32_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.GridXZ(UnityEngine.Vector3,System.Single,System.Int32,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  GridXZ(Vector3, float, int, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Wireframe grid on the XZ plane.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GridXZ(Vector3 center, float size, int cells, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cells</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Label_" data-uid="SDG.Unturned.RuntimeGizmos.Label*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Label_UnityEngine_Vector3_System_String_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Label(UnityEngine.Vector3,System.String,System.Single,SDG.Unturned.EGizmoLayer)">
+  Label(Vector3, string, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Label(Vector3 position, string content, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Label_" data-uid="SDG.Unturned.RuntimeGizmos.Label*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Label_UnityEngine_Vector3_System_String_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Label(UnityEngine.Vector3,System.String,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Label(Vector3, string, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Label(Vector3 position, string content, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Line_" data-uid="SDG.Unturned.RuntimeGizmos.Line*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Line_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Line(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Line(Vector3, Vector3, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Line(Vector3 begin, Vector3 end, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>begin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>end</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_LineToward_" data-uid="SDG.Unturned.RuntimeGizmos.LineToward*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_LineToward_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.LineToward(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  LineToward(Vector3, Vector3, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LineToward(Vector3 begin, Vector3 end, float length, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>begin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>end</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Linecast_" data-uid="SDG.Unturned.RuntimeGizmos.Linecast*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Linecast_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_RaycastHit_UnityEngine_Color_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Linecast(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.RaycastHit,UnityEngine.Color,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Linecast(Vector3, Vector3, RaycastHit, Color, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Linecast(Vector3 start, Vector3 end, RaycastHit hit, Color rayColor, Color hitColor, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>start</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>end</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>hit</code> <span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+    <dt><code>rayColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>hitColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Raycast_" data-uid="SDG.Unturned.RuntimeGizmos.Raycast*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Raycast_UnityEngine_Ray_System_Single_UnityEngine_RaycastHit_UnityEngine_Color_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Raycast(UnityEngine.Ray,System.Single,UnityEngine.RaycastHit,UnityEngine.Color,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Raycast(Ray, float, RaycastHit, Color, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Raycast(Ray ray, float maxDistance, RaycastHit hit, Color rayColor, Color hitColor, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>maxDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>hit</code> <span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+    <dt><code>rayColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>hitColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Render_" data-uid="SDG.Unturned.RuntimeGizmos.Render*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Render" data-uid="SDG.Unturned.RuntimeGizmos.Render">
+  Render()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Render()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Sphere_" data-uid="SDG.Unturned.RuntimeGizmos.Sphere*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Sphere_UnityEngine_Matrix4x4_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Sphere(UnityEngine.Matrix4x4,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Sphere(Matrix4x4, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sphere(Matrix4x4 matrix, float radius, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>matrix</code> <span class="xref">Matrix4x4</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Sphere_" data-uid="SDG.Unturned.RuntimeGizmos.Sphere*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Sphere_UnityEngine_Vector3_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Sphere(UnityEngine.Vector3,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Sphere(Vector3, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sphere(Vector3 center, float radius, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Spherecast_" data-uid="SDG.Unturned.RuntimeGizmos.Spherecast*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Spherecast_UnityEngine_Ray_System_Single_System_Single_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Spherecast(UnityEngine.Ray,System.Single,System.Single,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Spherecast(Ray, float, float, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spherecast(Ray ray, float radius, float maxDistance, Color color, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>maxDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_RuntimeGizmos_Spherecast_" data-uid="SDG.Unturned.RuntimeGizmos.Spherecast*"></a>
+
+  <h3 id="SDG_Unturned_RuntimeGizmos_Spherecast_UnityEngine_Ray_System_Single_System_Single_UnityEngine_RaycastHit_UnityEngine_Color_UnityEngine_Color_System_Single_SDG_Unturned_EGizmoLayer_" data-uid="SDG.Unturned.RuntimeGizmos.Spherecast(UnityEngine.Ray,System.Single,System.Single,UnityEngine.RaycastHit,UnityEngine.Color,UnityEngine.Color,System.Single,SDG.Unturned.EGizmoLayer)">
+  Spherecast(Ray, float, float, RaycastHit, Color, Color, float, EGizmoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spherecast(Ray ray, float radius, float maxDistance, RaycastHit hit, Color rayColor, Color hitColor, float lifespan = 0, EGizmoLayer layer = EGizmoLayer.World)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>maxDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>hit</code> <span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+    <dt><code>rayColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>hitColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>lifespan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>layer</code> <a class="xref" href="SDG.Unturned.EGizmoLayer.html">EGizmoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,2586 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerMovement | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerMovement | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerMovement">
+
+
+
+  <h1 id="SDG_Unturned_PlayerMovement" data-uid="SDG.Unturned.PlayerMovement" class="text-break">
+Class PlayerMovement  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerMovement : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerMovement</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerMovement__ctor_" data-uid="SDG.Unturned.PlayerMovement.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement__ctor" data-uid="SDG.Unturned.PlayerMovement.#ctor">
+  PlayerMovement()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerMovement()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_HEIGHT_CROUCH" data-uid="SDG.Unturned.PlayerMovement.HEIGHT_CROUCH">
+  HEIGHT_CROUCH
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float HEIGHT_CROUCH</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_HEIGHT_PRONE" data-uid="SDG.Unturned.PlayerMovement.HEIGHT_PRONE">
+  HEIGHT_PRONE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float HEIGHT_PRONE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_HEIGHT_STAND" data-uid="SDG.Unturned.PlayerMovement.HEIGHT_STAND">
+  HEIGHT_STAND
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float HEIGHT_STAND</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement__multiplier" data-uid="SDG.Unturned.PlayerMovement._multiplier">
+  _multiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Was current value of interpolated aiming speed multiplier.&quot;)]
+public float _multiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_bypassUndergroundWhitelist" data-uid="SDG.Unturned.PlayerMovement.bypassUndergroundWhitelist">
+  bypassUndergroundWhitelist
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flag for plugins to allow maintenance access underneath the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool bypassUndergroundWhitelist</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_canAddSimulationResultsToUpdates" data-uid="SDG.Unturned.PlayerMovement.canAddSimulationResultsToUpdates">
+  canAddSimulationResultsToUpdates
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canAddSimulationResultsToUpdates</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_ground" data-uid="SDG.Unturned.PlayerMovement.ground">
+  ground
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RaycastHit ground</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_inRain" data-uid="SDG.Unturned.PlayerMovement.inRain">
+  inRain
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool inRain</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_inSnow" data-uid="SDG.Unturned.PlayerMovement.inSnow">
+  inSnow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool inSnow</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_isAllowed" data-uid="SDG.Unturned.PlayerMovement.isAllowed">
+  isAllowed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Was set to true during teleport, and restored to false during the next movement tick.</p>
+<p>Server pauses movement when this is set until next client update that matches,
+in order to prevent rubberbanding following a teleport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool isAllowed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_isSafeInfo" data-uid="SDG.Unturned.PlayerMovement.isSafeInfo">
+  isSafeInfo
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SafezoneNode isSafeInfo</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SafezoneNode.html">SafezoneNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_isUpdated" data-uid="SDG.Unturned.PlayerMovement.isUpdated">
+  isUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool isUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_itemGravityMultiplier" data-uid="SDG.Unturned.PlayerMovement.itemGravityMultiplier">
+  itemGravityMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float itemGravityMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_multiplier" data-uid="SDG.Unturned.PlayerMovement.multiplier">
+  multiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Was target value of interpolated aiming speed multiplier.&quot;)]
+public float multiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onBoundUpdated" data-uid="SDG.Unturned.PlayerMovement.onBoundUpdated">
+  onBoundUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerBoundUpdated onBoundUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerBoundUpdated.html">PlayerBoundUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onLanded" data-uid="SDG.Unturned.PlayerMovement.onLanded">
+  onLanded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Landed onLanded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Landed.html">Landed</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onPurchaseUpdated" data-uid="SDG.Unturned.PlayerMovement.onPurchaseUpdated">
+  onPurchaseUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PurchaseUpdated onPurchaseUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PurchaseUpdated.html">PurchaseUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onRadiationUpdated" data-uid="SDG.Unturned.PlayerMovement.onRadiationUpdated">
+  onRadiationUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RadiationUpdated onRadiationUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RadiationUpdated.html">RadiationUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onRegionUpdated" data-uid="SDG.Unturned.PlayerMovement.onRegionUpdated">
+  onRegionUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerRegionUpdated onRegionUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerRegionUpdated.html">PlayerRegionUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onSafetyUpdated" data-uid="SDG.Unturned.PlayerMovement.onSafetyUpdated">
+  onSafetyUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SafetyUpdated onSafetyUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SafetyUpdated.html">SafetyUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onSeated" data-uid="SDG.Unturned.PlayerMovement.onSeated">
+  onSeated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Seated onSeated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Seated.html">Seated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_onVehicleUpdated" data-uid="SDG.Unturned.PlayerMovement.onVehicleUpdated">
+  onVehicleUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VehicleUpdated onVehicleUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleUpdated.html">VehicleUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_pendingLaunchVelocity" data-uid="SDG.Unturned.PlayerMovement.pendingLaunchVelocity">
+  pendingLaunchVelocity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 pendingLaunchVelocity</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_pluginGravityMultiplier" data-uid="SDG.Unturned.PlayerMovement.pluginGravityMultiplier">
+  pluginGravityMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pluginGravityMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_pluginJumpMultiplier" data-uid="SDG.Unturned.PlayerMovement.pluginJumpMultiplier">
+  pluginJumpMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pluginJumpMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_pluginSpeedMultiplier" data-uid="SDG.Unturned.PlayerMovement.pluginSpeedMultiplier">
+  pluginSpeedMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pluginSpeedMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_snapshot" data-uid="SDG.Unturned.PlayerMovement.snapshot">
+  snapshot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PitchYawSnapshotInfo snapshot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PitchYawSnapshotInfo.html">PitchYawSnapshotInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_updates" data-uid="SDG.Unturned.PlayerMovement.updates">
+  updates
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PlayerStateUpdate&gt; updates</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.PlayerStateUpdate.html">PlayerStateUpdate</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerMovement_ActiveDeadzone_" data-uid="SDG.Unturned.PlayerMovement.ActiveDeadzone*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_ActiveDeadzone" data-uid="SDG.Unturned.PlayerMovement.ActiveDeadzone">
+  ActiveDeadzone
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Valid while isRadiated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDeadzoneNode ActiveDeadzone { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IDeadzoneNode.html">IDeadzoneNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_WeatherMask_" data-uid="SDG.Unturned.PlayerMovement.WeatherMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_WeatherMask" data-uid="SDG.Unturned.PlayerMovement.WeatherMask">
+  WeatherMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set according to volume or level global asset fallback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint WeatherMask { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_bound_" data-uid="SDG.Unturned.PlayerMovement.bound*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_bound" data-uid="SDG.Unturned.PlayerMovement.bound">
+  bound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte bound { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_controller_" data-uid="SDG.Unturned.PlayerMovement.controller*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_controller" data-uid="SDG.Unturned.PlayerMovement.controller">
+  controller
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Note: Only UpdateCharacterControllerEnabled should modify whether controller is enabled.
+(turning off and back on is fine though)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharacterController controller { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CharacterController</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_effectNode_" data-uid="SDG.Unturned.PlayerMovement.effectNode*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_effectNode" data-uid="SDG.Unturned.PlayerMovement.effectNode">
+  effectNode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAmbianceNode effectNode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IAmbianceNode.html">IAmbianceNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_fall_" data-uid="SDG.Unturned.PlayerMovement.fall*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_fall" data-uid="SDG.Unturned.PlayerMovement.fall">
+  fall
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float fall { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_forceTrustClient_" data-uid="SDG.Unturned.PlayerMovement.forceTrustClient*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_forceTrustClient" data-uid="SDG.Unturned.PlayerMovement.forceTrustClient">
+  forceTrustClient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool forceTrustClient { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_horizontal_" data-uid="SDG.Unturned.PlayerMovement.horizontal*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_horizontal" data-uid="SDG.Unturned.PlayerMovement.horizontal">
+  horizontal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte horizontal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_isGrounded_" data-uid="SDG.Unturned.PlayerMovement.isGrounded*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_isGrounded" data-uid="SDG.Unturned.PlayerMovement.isGrounded">
+  isGrounded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isGrounded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_isMoving_" data-uid="SDG.Unturned.PlayerMovement.isMoving*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_isMoving" data-uid="SDG.Unturned.PlayerMovement.isMoving">
+  isMoving
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMoving { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_isRadiated_" data-uid="SDG.Unturned.PlayerMovement.isRadiated*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_isRadiated" data-uid="SDG.Unturned.PlayerMovement.isRadiated">
+  isRadiated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isRadiated { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_isSafe_" data-uid="SDG.Unturned.PlayerMovement.isSafe*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_isSafe" data-uid="SDG.Unturned.PlayerMovement.isSafe">
+  isSafe
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSafe { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_jump_" data-uid="SDG.Unturned.PlayerMovement.jump*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_jump" data-uid="SDG.Unturned.PlayerMovement.jump">
+  jump
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool jump { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_landscapeHoleVolume_" data-uid="SDG.Unturned.PlayerMovement.landscapeHoleVolume*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_landscapeHoleVolume" data-uid="SDG.Unturned.PlayerMovement.landscapeHoleVolume">
+  landscapeHoleVolume
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public LandscapeHoleVolume landscapeHoleVolume { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Landscapes.LandscapeHoleVolume.html">LandscapeHoleVolume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_loadedBounds_" data-uid="SDG.Unturned.PlayerMovement.loadedBounds*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_loadedBounds" data-uid="SDG.Unturned.PlayerMovement.loadedBounds">
+  loadedBounds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LoadedBound[] loadedBounds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.LoadedBound.html">LoadedBound</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_loadedRegions_" data-uid="SDG.Unturned.PlayerMovement.loadedRegions*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_loadedRegions" data-uid="SDG.Unturned.PlayerMovement.loadedRegions">
+  loadedRegions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LoadedRegion[,] loadedRegions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.LoadedRegion.html">LoadedRegion</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_move_" data-uid="SDG.Unturned.PlayerMovement.move*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_move" data-uid="SDG.Unturned.PlayerMovement.move">
+  move
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 move { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_nav_" data-uid="SDG.Unturned.PlayerMovement.nav*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_nav" data-uid="SDG.Unturned.PlayerMovement.nav">
+  nav
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte nav { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_purchaseNode_" data-uid="SDG.Unturned.PlayerMovement.purchaseNode*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_purchaseNode" data-uid="SDG.Unturned.PlayerMovement.purchaseNode">
+  purchaseNode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HordePurchaseVolume purchaseNode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HordePurchaseVolume.html">HordePurchaseVolume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_real_" data-uid="SDG.Unturned.PlayerMovement.real*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_real" data-uid="SDG.Unturned.PlayerMovement.real">
+  real
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public Vector3 real { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_region_x_" data-uid="SDG.Unturned.PlayerMovement.region_x*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_region_x" data-uid="SDG.Unturned.PlayerMovement.region_x">
+  region_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte region_x { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_region_y_" data-uid="SDG.Unturned.PlayerMovement.region_y*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_region_y" data-uid="SDG.Unturned.PlayerMovement.region_y">
+  region_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte region_y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_speed_" data-uid="SDG.Unturned.PlayerMovement.speed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_speed" data-uid="SDG.Unturned.PlayerMovement.speed">
+  speed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float speed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_totalGravityMultiplier_" data-uid="SDG.Unturned.PlayerMovement.totalGravityMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_totalGravityMultiplier" data-uid="SDG.Unturned.PlayerMovement.totalGravityMultiplier">
+  totalGravityMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float totalGravityMultiplier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_totalSpeedMultiplier_" data-uid="SDG.Unturned.PlayerMovement.totalSpeedMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_totalSpeedMultiplier" data-uid="SDG.Unturned.PlayerMovement.totalSpeedMultiplier">
+  totalSpeedMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float totalSpeedMultiplier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_vertical_" data-uid="SDG.Unturned.PlayerMovement.vertical*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_vertical" data-uid="SDG.Unturned.PlayerMovement.vertical">
+  vertical
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte vertical { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerMovement_ReceivePluginGravityMultiplier_" data-uid="SDG.Unturned.PlayerMovement.ReceivePluginGravityMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_ReceivePluginGravityMultiplier_System_Single_" data-uid="SDG.Unturned.PlayerMovement.ReceivePluginGravityMultiplier(System.Single)">
+  ReceivePluginGravityMultiplier(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellPluginGravityMultiplier&quot;)]
+public void ReceivePluginGravityMultiplier(float newPluginGravityMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPluginGravityMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_ReceivePluginJumpMultiplier_" data-uid="SDG.Unturned.PlayerMovement.ReceivePluginJumpMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_ReceivePluginJumpMultiplier_System_Single_" data-uid="SDG.Unturned.PlayerMovement.ReceivePluginJumpMultiplier(System.Single)">
+  ReceivePluginJumpMultiplier(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellPluginJumpMultiplier&quot;)]
+public void ReceivePluginJumpMultiplier(float newPluginJumpMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPluginJumpMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_ReceivePluginSpeedMultiplier_" data-uid="SDG.Unturned.PlayerMovement.ReceivePluginSpeedMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_ReceivePluginSpeedMultiplier_System_Single_" data-uid="SDG.Unturned.PlayerMovement.ReceivePluginSpeedMultiplier(System.Single)">
+  ReceivePluginSpeedMultiplier(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellPluginSpeedMultiplier&quot;)]
+public void ReceivePluginSpeedMultiplier(float newPluginSpeedMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPluginSpeedMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_forceRemoveFromVehicle_" data-uid="SDG.Unturned.PlayerMovement.forceRemoveFromVehicle*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_forceRemoveFromVehicle" data-uid="SDG.Unturned.PlayerMovement.forceRemoveFromVehicle">
+  forceRemoveFromVehicle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serverside force player to exit vehicle regardless of safe exit points.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool forceRemoveFromVehicle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if player was seated in vehicle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_getSeat_" data-uid="SDG.Unturned.PlayerMovement.getSeat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_getSeat" data-uid="SDG.Unturned.PlayerMovement.getSeat">
+  getSeat()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte getSeat()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_getVehicle_" data-uid="SDG.Unturned.PlayerMovement.getVehicle*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_getVehicle" data-uid="SDG.Unturned.PlayerMovement.getVehicle">
+  getVehicle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractableVehicle getVehicle()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_getVehicleSeat_" data-uid="SDG.Unturned.PlayerMovement.getVehicleSeat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_getVehicleSeat" data-uid="SDG.Unturned.PlayerMovement.getVehicleSeat">
+  getVehicleSeat()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get seat (if any), otherwise null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Passenger getVehicleSeat()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Passenger.html">Passenger</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_sendPluginGravityMultiplier_" data-uid="SDG.Unturned.PlayerMovement.sendPluginGravityMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_sendPluginGravityMultiplier_System_Single_" data-uid="SDG.Unturned.PlayerMovement.sendPluginGravityMultiplier(System.Single)">
+  sendPluginGravityMultiplier(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendPluginGravityMultiplier(float newPluginGravityMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPluginGravityMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_sendPluginJumpMultiplier_" data-uid="SDG.Unturned.PlayerMovement.sendPluginJumpMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_sendPluginJumpMultiplier_System_Single_" data-uid="SDG.Unturned.PlayerMovement.sendPluginJumpMultiplier(System.Single)">
+  sendPluginJumpMultiplier(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendPluginJumpMultiplier(float newPluginJumpMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPluginJumpMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_sendPluginSpeedMultiplier_" data-uid="SDG.Unturned.PlayerMovement.sendPluginSpeedMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_sendPluginSpeedMultiplier_System_Single_" data-uid="SDG.Unturned.PlayerMovement.sendPluginSpeedMultiplier(System.Single)">
+  sendPluginSpeedMultiplier(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendPluginSpeedMultiplier(float newPluginSpeedMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPluginSpeedMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_setSize_" data-uid="SDG.Unturned.PlayerMovement.setSize*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_setSize_SDG_Unturned_EPlayerHeight_" data-uid="SDG.Unturned.PlayerMovement.setSize(SDG.Unturned.EPlayerHeight)">
+  setSize(EPlayerHeight)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setSize(EPlayerHeight newHeight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newHeight</code> <a class="xref" href="SDG.Unturned.EPlayerHeight.html">EPlayerHeight</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_setVehicle_" data-uid="SDG.Unturned.PlayerMovement.setVehicle*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_setVehicle_SDG_Unturned_InteractableVehicle_System_Byte_UnityEngine_Transform_UnityEngine_Vector3_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerMovement.setVehicle(SDG.Unturned.InteractableVehicle,System.Byte,UnityEngine.Transform,UnityEngine.Vector3,System.Byte,System.Boolean)">
+  setVehicle(InteractableVehicle, byte, Transform, Vector3, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setVehicle(InteractableVehicle newVehicle, byte newSeat, Transform newSeatingTransform, Vector3 newSeatingPosition, byte newSeatingAngle, bool forceUpdate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newVehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>newSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSeatingTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>newSeatingPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newSeatingAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>forceUpdate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_simulate_" data-uid="SDG.Unturned.PlayerMovement.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_simulate" data-uid="SDG.Unturned.PlayerMovement.simulate">
+  simulate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dedicated server simulate while input queue is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_simulate_" data-uid="SDG.Unturned.PlayerMovement.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_simulate_System_UInt32_System_Int32_System_Boolean_System_Boolean_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.PlayerMovement.simulate(System.UInt32,System.Int32,System.Boolean,System.Boolean,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  simulate(uint, int, bool, bool, Vector3, Quaternion, float, float, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dedicated server simulate driving input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(uint simulation, int recov, bool inputBrake, bool inputStamina, Vector3 point, Quaternion rotation, float newSpeed, float newForwardVelocity, float newSteeringInput, float newVelocityInput, float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>recov</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>inputBrake</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>inputStamina</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>newSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newForwardVelocity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newSteeringInput</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newVelocityInput</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_simulate_" data-uid="SDG.Unturned.PlayerMovement.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_simulate_System_UInt32_System_Int32_System_Int32_System_Int32_System_Single_System_Single_System_Boolean_System_Boolean_System_Single_" data-uid="SDG.Unturned.PlayerMovement.simulate(System.UInt32,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Boolean,System.Boolean,System.Single)">
+  simulate(uint, int, int, int, float, float, bool, bool, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Client and dedicated server simulate walking input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(uint simulation, int recov, int input_x, int input_y, float look_x, float look_y, bool inputJump, bool inputSprint, float deltaTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>recov</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>input_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>input_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>look_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>look_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>inputJump</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>inputSprint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_tellPluginGravityMultiplier_" data-uid="SDG.Unturned.PlayerMovement.tellPluginGravityMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_tellPluginGravityMultiplier_Steamworks_CSteamID_System_Single_" data-uid="SDG.Unturned.PlayerMovement.tellPluginGravityMultiplier(Steamworks.CSteamID,System.Single)">
+  tellPluginGravityMultiplier(CSteamID, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellPluginGravityMultiplier(CSteamID steamID, float newPluginGravityMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newPluginGravityMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_tellPluginJumpMultiplier_" data-uid="SDG.Unturned.PlayerMovement.tellPluginJumpMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_tellPluginJumpMultiplier_Steamworks_CSteamID_System_Single_" data-uid="SDG.Unturned.PlayerMovement.tellPluginJumpMultiplier(Steamworks.CSteamID,System.Single)">
+  tellPluginJumpMultiplier(CSteamID, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellPluginJumpMultiplier(CSteamID steamID, float newPluginJumpMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newPluginJumpMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_tellPluginSpeedMultiplier_" data-uid="SDG.Unturned.PlayerMovement.tellPluginSpeedMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_tellPluginSpeedMultiplier_Steamworks_CSteamID_System_Single_" data-uid="SDG.Unturned.PlayerMovement.tellPluginSpeedMultiplier(Steamworks.CSteamID,System.Single)">
+  tellPluginSpeedMultiplier(CSteamID, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellPluginSpeedMultiplier(CSteamID steamID, float newPluginSpeedMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newPluginSpeedMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_tellState_" data-uid="SDG.Unturned.PlayerMovement.tellState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_tellState_UnityEngine_Vector3_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerMovement.tellState(UnityEngine.Vector3,System.Byte,System.Byte)">
+  tellState(Vector3, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tellState(Vector3 newPosition, byte newPitch, byte newYaw)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newPitch</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newYaw</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerMovement_updateMovement_" data-uid="SDG.Unturned.PlayerMovement.updateMovement*"></a>
+
+  <h3 id="SDG_Unturned_PlayerMovement_updateMovement" data-uid="SDG.Unturned.PlayerMovement.updateMovement">
+  updateMovement()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateMovement()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerMovement_PlayerNavChanged" data-uid="SDG.Unturned.PlayerMovement.PlayerNavChanged">
+  PlayerNavChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PlayerNavChanged PlayerNavChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerNavChanged.html">PlayerNavChanged</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ItemConsumeableAsset | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ItemConsumeableAsset | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ItemConsumeableAsset">
+
+
+
+  <h1 id="SDG_Unturned_ItemConsumeableAsset" data-uid="SDG.Unturned.ItemConsumeableAsset" class="text-break">
+Class ItemConsumeableAsset  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemConsumeableAsset : ItemWeaponAsset, IAssetErrorContext, ISkinableAsset</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.Asset.html">Asset</a></div>
+      <div><a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></div>
+      <div><a class="xref" href="SDG.Unturned.ItemWeaponAsset.html">ItemWeaponAsset</a></div>
+      <div><span class="xref">ItemConsumeableAsset</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IAssetErrorContext.html">IAssetErrorContext</a></div>
+      <div><a class="xref" href="SDG.Unturned.ISkinableAsset.html">ISkinableAsset</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.ItemFoodAsset.html">ItemFoodAsset</a></div>
+      <div><a class="xref" href="SDG.Unturned.ItemMedicalAsset.html">ItemMedicalAsset</a></div>
+      <div><a class="xref" href="SDG.Unturned.ItemWaterAsset.html">ItemWaterAsset</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_range">ItemWeaponAsset.range</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageMultiplier">ItemWeaponAsset.playerDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_zombieDamageMultiplier">ItemWeaponAsset.zombieDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_animalDamageMultiplier">ItemWeaponAsset.animalDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_barricadeDamage">ItemWeaponAsset.barricadeDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_structureDamage">ItemWeaponAsset.structureDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_vehicleDamage">ItemWeaponAsset.vehicleDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_resourceDamage">ItemWeaponAsset.resourceDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_objectDamage">ItemWeaponAsset.objectDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_durability">ItemWeaponAsset.durability</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_wear">ItemWeaponAsset.wear</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_isInvulnerable">ItemWeaponAsset.isInvulnerable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_hasBladeID_System_Byte_">ItemWeaponAsset.hasBladeID(byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_initPlayerDamageParameters_SDG_Unturned_DamagePlayerParameters__">ItemWeaponAsset.initPlayerDamageParameters(ref DamagePlayerParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_BuildExplosiveDescription_SDG_Unturned_ItemDescriptionBuilder_SDG_Unturned_Item_">ItemWeaponAsset.BuildExplosiveDescription(ItemDescriptionBuilder, Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_BuildNonExplosiveDescription_SDG_Unturned_ItemDescriptionBuilder_SDG_Unturned_Item_">ItemWeaponAsset.BuildNonExplosiveDescription(ItemDescriptionBuilder, Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_bladeIDs">ItemWeaponAsset.bladeIDs</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageBleeding">ItemWeaponAsset.playerDamageBleeding</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageBones">ItemWeaponAsset.playerDamageBones</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageFood">ItemWeaponAsset.playerDamageFood</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageWater">ItemWeaponAsset.playerDamageWater</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageVirus">ItemWeaponAsset.playerDamageVirus</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageHallucination">ItemWeaponAsset.playerDamageHallucination</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_zombieStunOverride">ItemWeaponAsset.zombieStunOverride</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_animalOrPlayerDamageMultiplier">ItemWeaponAsset.animalOrPlayerDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_zombieOrPlayerDamageMultiplier">ItemWeaponAsset.zombieOrPlayerDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_allowFleshFx">ItemWeaponAsset.allowFleshFx</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_bypassAllowedToDamagePlayer">ItemWeaponAsset.bypassAllowedToDamagePlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldAlwaysLoadItemPrefab">ItemAsset.shouldAlwaysLoadItemPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__shouldVerifyHash">ItemAsset._shouldVerifyHash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__itemName">ItemAsset._itemName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__itemDescription">ItemAsset._itemDescription</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_type">ItemAsset.type</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_rarity">ItemAsset.rarity</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__proPath">ItemAsset._proPath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_econIconUseId">ItemAsset.econIconUseId</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isPro">ItemAsset.isPro</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_useable">ItemAsset.useable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_slot">ItemAsset.slot</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_size_x">ItemAsset.size_x</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_size_y">ItemAsset.size_y</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_iconCameraOrthographicSize">ItemAsset.iconCameraOrthographicSize</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_econIconCameraOrthographicSize">ItemAsset.econIconCameraOrthographicSize</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isEligibleForAutomaticIconMeasurements">ItemAsset.isEligibleForAutomaticIconMeasurements</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_amount">ItemAsset.amount</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_countMin">ItemAsset.countMin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_countMax">ItemAsset.countMax</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_qualityMin">ItemAsset.qualityMin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_qualityMax">ItemAsset.qualityMax</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isBackward">ItemAsset.isBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldProcedurallyAnimateInertia">ItemAsset.shouldProcedurallyAnimateInertia</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldLeftHandedCharactersMirrorEquippedItem">ItemAsset.shouldLeftHandedCharactersMirrorEquippedItem</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isEligibleForAutoStatDescriptions">ItemAsset.isEligibleForAutoStatDescriptions</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__item">ItemAsset._item</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_equipablePrefab">ItemAsset.equipablePrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_equipableMovementSpeedMultiplier">ItemAsset.equipableMovementSpeedMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__equip">ItemAsset._equip</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__animations">ItemAsset._animations</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_inspectAudio">ItemAsset.inspectAudio</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_inventoryAudio">ItemAsset.inventoryAudio</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__blueprints">ItemAsset._blueprints</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__actions">ItemAsset._actions</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__albedoBase">ItemAsset._albedoBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__metallicBase">ItemAsset._metallicBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__emissionBase">ItemAsset._emissionBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_RarityAndType">ItemAsset.DescSort_RarityAndType</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_LoreText">ItemAsset.DescSort_LoreText</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_QualityAndAmount">ItemAsset.DescSort_QualityAndAmount</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Important">ItemAsset.DescSort_Important</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ItemStat">ItemAsset.DescSort_ItemStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ClothingStat">ItemAsset.DescSort_ClothingStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ConsumeableStat">ItemAsset.DescSort_ConsumeableStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_GunStat">ItemAsset.DescSort_GunStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_GunAttachmentStat">ItemAsset.DescSort_GunAttachmentStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_MeleeStat">ItemAsset.DescSort_MeleeStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_RefillStat">ItemAsset.DescSort_RefillStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_Common">ItemAsset.DescSort_Weapon_NonExplosive_Common</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_TrapKeyword">ItemAsset.DescSort_TrapKeyword</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_TrapStat">ItemAsset.DescSort_TrapStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_FarmableText">ItemAsset.DescSort_FarmableText</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_BuildableCommon">ItemAsset.DescSort_BuildableCommon</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ExplosiveBulletDamage">ItemAsset.DescSort_ExplosiveBulletDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ExplosiveChargeDamage">ItemAsset.DescSort_ExplosiveChargeDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ExplosiveTrapDamage">ItemAsset.DescSort_ExplosiveTrapDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_Explosive_RangeAndDamage">ItemAsset.DescSort_Weapon_Explosive_RangeAndDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_PlayerDamage">ItemAsset.DescSort_Weapon_NonExplosive_PlayerDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_ZombieDamage">ItemAsset.DescSort_Weapon_NonExplosive_ZombieDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_AnimalDamage">ItemAsset.DescSort_Weapon_NonExplosive_AnimalDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_OtherDamage">ItemAsset.DescSort_Weapon_NonExplosive_OtherDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Beneficial">ItemAsset.DescSort_Beneficial</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Detrimental">ItemAsset.DescSort_Detrimental</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_getState">ItemAsset.getState()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_getState_System_Boolean_">ItemAsset.getState(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_getState_SDG_Unturned_EItemOrigin_">ItemAsset.getState(EItemOrigin)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_GetTypeFriendlyName">ItemAsset.GetTypeFriendlyName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_applySkinBaseTextures_UnityEngine_Material_">ItemAsset.applySkinBaseTextures(Material)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canBeUsedInSafezone_SDG_Unturned_SafezoneNode_">ItemAsset.canBeUsedInSafezone(SafezoneNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canBeUsedInSafezone_SDG_Unturned_SafezoneNode_System_Boolean_">ItemAsset.canBeUsedInSafezone(SafezoneNode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_GetDefaultInventoryAudio">ItemAsset.GetDefaultInventoryAudio()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_HigherIsBeneficial_System_Single_">ItemAsset.DescSort_HigherIsBeneficial(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_LowerIsBeneficial_System_Single_">ItemAsset.DescSort_LowerIsBeneficial(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldVerifyHash">ItemAsset.shouldVerifyHash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_FriendlyName">ItemAsset.FriendlyName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_itemName">ItemAsset.itemName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_itemDescription">ItemAsset.itemDescription</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_proPath">ItemAsset.proPath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_useableType">ItemAsset.useableType</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canPlayerEquip">ItemAsset.canPlayerEquip</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isUseable">ItemAsset.isUseable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canUseUnderwater">ItemAsset.canUseUnderwater</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_count">ItemAsset.count</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_quality">ItemAsset.quality</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_EquipableModelParent">ItemAsset.EquipableModelParent</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_ShouldAttachEquippedModelToLeftHand">ItemAsset.ShouldAttachEquippedModelToLeftHand</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_item">ItemAsset.item</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_instantiatedItemName">ItemAsset.instantiatedItemName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_equip">ItemAsset.equip</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_animations">ItemAsset.animations</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_blueprints">ItemAsset.blueprints</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_actions">ItemAsset.actions</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_overrideShowQuality">ItemAsset.overrideShowQuality</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldDropOnDeath">ItemAsset.shouldDropOnDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_allowManualDrop">ItemAsset.allowManualDrop</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_albedoBase">ItemAsset.albedoBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_metallicBase">ItemAsset.metallicBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_emissionBase">ItemAsset.emissionBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_sharedSkinLookupID">ItemAsset.sharedSkinLookupID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_SharedSkinShouldApplyVisuals">ItemAsset.SharedSkinShouldApplyVisuals</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isDangerous">ItemAsset.isDangerous</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldDeleteAtZeroQuality">ItemAsset.shouldDeleteAtZeroQuality</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldDestroyItemColliders">ItemAsset.shouldDestroyItemColliders</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_assetCategory">ItemAsset.assetCategory</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_name">Asset.name</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_id">Asset.id</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GUID">Asset.GUID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_absoluteOriginFilePath">Asset.absoluteOriginFilePath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_requiredShaderUpgrade">Asset.requiredShaderUpgrade</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreNPOT">Asset.ignoreNPOT</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getFilePath">Asset.getFilePath()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getReferenceTo__1">Asset.getReferenceTo&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetOriginName">Asset.GetOriginName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_clearHash">Asset.clearHash()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_appendHash_System_Byte___">Asset.appendHash(byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetTypeNameWithoutSuffix">Asset.GetTypeNameWithoutSuffix()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getTypeNameAndIdDisplayString">Asset.getTypeNameAndIdDisplayString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ToString">Asset.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_LoadRedirectableAsset__1_SDG_Unturned_Bundle_System_String_SDG_Unturned_DatDictionary_System_String_">Asset.LoadRedirectableAsset&lt;T&gt;(Bundle, string, DatDictionary, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_loadRequiredAsset__1_SDG_Unturned_Bundle_System_String_">Asset.loadRequiredAsset&lt;T&gt;(Bundle, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_validateAnimation_UnityEngine_Animation_System_String_">Asset.validateAnimation(Animation, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_assetOrigin">Asset.assetOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_originMasterBundle">Asset.originMasterBundle</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreTextureReadable">Asset.ignoreTextureReadable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_hash">Asset.hash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_AssetErrorPrefix">Asset.AssetErrorPrefix</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_OriginAllowsVanillaLegacyId">Asset.OriginAllowsVanillaLegacyId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset__ctor_" data-uid="SDG.Unturned.ItemConsumeableAsset.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset__ctor" data-uid="SDG.Unturned.ItemConsumeableAsset.#ctor">
+  ItemConsumeableAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemConsumeableAsset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset__explosion" data-uid="SDG.Unturned.ItemConsumeableAsset._explosion">
+  _explosion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _explosion</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset__use" data-uid="SDG.Unturned.ItemConsumeableAsset._use">
+  _use
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _use</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_experience" data-uid="SDG.Unturned.ItemConsumeableAsset.experience">
+  experience
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Experience to add or subtract when used. Defaults to zero.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int experience</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_questRewardsList" data-uid="SDG.Unturned.ItemConsumeableAsset.questRewardsList">
+  questRewardsList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NPCRewardsList questRewardsList</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.NPCRewardsList.html">NPCRewardsList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_ExplosionEffectGuid_" data-uid="SDG.Unturned.ItemConsumeableAsset.ExplosionEffectGuid*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_ExplosionEffectGuid" data-uid="SDG.Unturned.ItemConsumeableAsset.ExplosionEffectGuid">
+  ExplosionEffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid ExplosionEffectGuid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_IsExplosive_" data-uid="SDG.Unturned.ItemConsumeableAsset.IsExplosive*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_IsExplosive" data-uid="SDG.Unturned.ItemConsumeableAsset.IsExplosive">
+  IsExplosive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsExplosive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_bleedingModifier_" data-uid="SDG.Unturned.ItemConsumeableAsset.bleedingModifier*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_bleedingModifier" data-uid="SDG.Unturned.ItemConsumeableAsset.bleedingModifier">
+  bleedingModifier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemConsumeableAsset.Bleeding bleedingModifier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemConsumeableAsset.html">ItemConsumeableAsset</a>.<a class="xref" href="SDG.Unturned.ItemConsumeableAsset.Bleeding.html">Bleeding</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_bonesModifier_" data-uid="SDG.Unturned.ItemConsumeableAsset.bonesModifier*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_bonesModifier" data-uid="SDG.Unturned.ItemConsumeableAsset.bonesModifier">
+  bonesModifier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemConsumeableAsset.Bones bonesModifier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemConsumeableAsset.html">ItemConsumeableAsset</a>.<a class="xref" href="SDG.Unturned.ItemConsumeableAsset.Bones.html">Bones</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_disinfectant_" data-uid="SDG.Unturned.ItemConsumeableAsset.disinfectant*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_disinfectant" data-uid="SDG.Unturned.ItemConsumeableAsset.disinfectant">
+  disinfectant
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte disinfectant { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_doesItemTypeHaveSkins_" data-uid="SDG.Unturned.ItemConsumeableAsset.doesItemTypeHaveSkins*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_doesItemTypeHaveSkins" data-uid="SDG.Unturned.ItemConsumeableAsset.doesItemTypeHaveSkins">
+  doesItemTypeHaveSkins
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Canned beans have skins from April Fools.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool doesItemTypeHaveSkins { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_energy_" data-uid="SDG.Unturned.ItemConsumeableAsset.energy*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_energy" data-uid="SDG.Unturned.ItemConsumeableAsset.energy">
+  energy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte energy { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_explosion_" data-uid="SDG.Unturned.ItemConsumeableAsset.explosion*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_explosion" data-uid="SDG.Unturned.ItemConsumeableAsset.explosion">
+  explosion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort explosion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_food_" data-uid="SDG.Unturned.ItemConsumeableAsset.food*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_food" data-uid="SDG.Unturned.ItemConsumeableAsset.food">
+  food
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte food { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_foodConstrainsWater_" data-uid="SDG.Unturned.ItemConsumeableAsset.foodConstrainsWater*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_foodConstrainsWater" data-uid="SDG.Unturned.ItemConsumeableAsset.foodConstrainsWater">
+  foodConstrainsWater
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool foodConstrainsWater { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_hasAid_" data-uid="SDG.Unturned.ItemConsumeableAsset.hasAid*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_hasAid" data-uid="SDG.Unturned.ItemConsumeableAsset.hasAid">
+  hasAid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasAid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_health_" data-uid="SDG.Unturned.ItemConsumeableAsset.health*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_health" data-uid="SDG.Unturned.ItemConsumeableAsset.health">
+  health
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte health { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_itemRewards_" data-uid="SDG.Unturned.ItemConsumeableAsset.itemRewards*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_itemRewards" data-uid="SDG.Unturned.ItemConsumeableAsset.itemRewards">
+  itemRewards
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpawnTableReward itemRewards { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SpawnTableReward.html">SpawnTableReward</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_oxygen_" data-uid="SDG.Unturned.ItemConsumeableAsset.oxygen*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_oxygen" data-uid="SDG.Unturned.ItemConsumeableAsset.oxygen">
+  oxygen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sbyte oxygen { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.sbyte">sbyte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_questRewards_" data-uid="SDG.Unturned.ItemConsumeableAsset.questRewards*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_questRewards" data-uid="SDG.Unturned.ItemConsumeableAsset.questRewards">
+  questRewards
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INPCReward[] questRewards { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.INPCReward.html">INPCReward</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_shouldDeleteAfterUse_" data-uid="SDG.Unturned.ItemConsumeableAsset.shouldDeleteAfterUse*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_shouldDeleteAfterUse" data-uid="SDG.Unturned.ItemConsumeableAsset.shouldDeleteAfterUse">
+  shouldDeleteAfterUse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldDeleteAfterUse { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_shouldFriendlySentryTargetUser_" data-uid="SDG.Unturned.ItemConsumeableAsset.shouldFriendlySentryTargetUser*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_shouldFriendlySentryTargetUser" data-uid="SDG.Unturned.ItemConsumeableAsset.shouldFriendlySentryTargetUser">
+  shouldFriendlySentryTargetUser
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should friendly-mode sentry guns target a player who has this item equipped?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool shouldFriendlySentryTargetUser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_showQuality_" data-uid="SDG.Unturned.ItemConsumeableAsset.showQuality*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_showQuality" data-uid="SDG.Unturned.ItemConsumeableAsset.showQuality">
+  showQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool showQuality { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_use_" data-uid="SDG.Unturned.ItemConsumeableAsset.use*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_use" data-uid="SDG.Unturned.ItemConsumeableAsset.use">
+  use
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip use { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_virus_" data-uid="SDG.Unturned.ItemConsumeableAsset.virus*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_virus" data-uid="SDG.Unturned.ItemConsumeableAsset.virus">
+  virus
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte virus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_vision_" data-uid="SDG.Unturned.ItemConsumeableAsset.vision*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_vision" data-uid="SDG.Unturned.ItemConsumeableAsset.vision">
+  vision
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte vision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_warmth_" data-uid="SDG.Unturned.ItemConsumeableAsset.warmth*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_warmth" data-uid="SDG.Unturned.ItemConsumeableAsset.warmth">
+  warmth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint warmth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_water_" data-uid="SDG.Unturned.ItemConsumeableAsset.water*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_water" data-uid="SDG.Unturned.ItemConsumeableAsset.water">
+  water
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte water { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_BuildDescription_" data-uid="SDG.Unturned.ItemConsumeableAsset.BuildDescription*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_BuildDescription_SDG_Unturned_ItemDescriptionBuilder_SDG_Unturned_Item_" data-uid="SDG.Unturned.ItemConsumeableAsset.BuildDescription(SDG.Unturned.ItemDescriptionBuilder,SDG.Unturned.Item)">
+  BuildDescription(ItemDescriptionBuilder, Item)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BuildDescription(ItemDescriptionBuilder builder, Item itemInstance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="SDG.Unturned.ItemDescriptionBuilder.html">ItemDescriptionBuilder</a></dt>
+    <dd></dd>
+    <dt><code>itemInstance</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_FindExplosionEffectAsset_" data-uid="SDG.Unturned.ItemConsumeableAsset.FindExplosionEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_FindExplosionEffectAsset" data-uid="SDG.Unturned.ItemConsumeableAsset.FindExplosionEffectAsset">
+  FindExplosionEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindExplosionEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_GrantQuestRewards_" data-uid="SDG.Unturned.ItemConsumeableAsset.GrantQuestRewards*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_GrantQuestRewards_SDG_Unturned_Player_" data-uid="SDG.Unturned.ItemConsumeableAsset.GrantQuestRewards(SDG.Unturned.Player)">
+  GrantQuestRewards(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GrantQuestRewards(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_IsExplosionEffectRefNull_" data-uid="SDG.Unturned.ItemConsumeableAsset.IsExplosionEffectRefNull*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_IsExplosionEffectRefNull" data-uid="SDG.Unturned.ItemConsumeableAsset.IsExplosionEffectRefNull">
+  IsExplosionEffectRefNull()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsExplosionEffectRefNull()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_PopulateAsset_" data-uid="SDG.Unturned.ItemConsumeableAsset.PopulateAsset*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_PopulateAsset_SDG_Unturned_Bundle_SDG_Unturned_DatDictionary_SDG_Unturned_Local_" data-uid="SDG.Unturned.ItemConsumeableAsset.PopulateAsset(SDG.Unturned.Bundle,SDG.Unturned.DatDictionary,SDG.Unturned.Local)">
+  PopulateAsset(Bundle, DatDictionary, Local)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PopulateAsset(Bundle bundle, DatDictionary data, Local localization)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bundle</code> <a class="xref" href="SDG.Unturned.Bundle.html">Bundle</a></dt>
+    <dd></dd>
+    <dt><code>data</code> <span class="xref">DatDictionary</span></dt>
+    <dd></dd>
+    <dt><code>localization</code> <a class="xref" href="SDG.Unturned.Local.html">Local</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemConsumeableAsset_grantQuestRewards_" data-uid="SDG.Unturned.ItemConsumeableAsset.grantQuestRewards*"></a>
+
+  <h3 id="SDG_Unturned_ItemConsumeableAsset_grantQuestRewards_SDG_Unturned_Player_System_Boolean_" data-uid="SDG.Unturned.ItemConsumeableAsset.grantQuestRewards(SDG.Unturned.Player,System.Boolean)">
+  grantQuestRewards(Player, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Removed shouldSend parameter&quot;)]
+public void grantQuestRewards(Player player, bool shouldSend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>shouldSend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,4693 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VehicleManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VehicleManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.VehicleManager">
+
+
+
+  <h1 id="SDG_Unturned_VehicleManager" data-uid="SDG.Unturned.VehicleManager" class="text-break">
+Class VehicleManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class VehicleManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">VehicleManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_VehicleManager__ctor_" data-uid="SDG.Unturned.VehicleManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager__ctor" data-uid="SDG.Unturned.VehicleManager.#ctor">
+  VehicleManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VehicleManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_OnVehicleExploded" data-uid="SDG.Unturned.VehicleManager.OnVehicleExploded">
+  OnVehicleExploded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;InteractableVehicle&gt; OnVehicleExploded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_SAVEDATA_VERSION" data-uid="SDG.Unturned.VehicleManager.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_SAVEDATA_VERSION_ADDED_DECAY" data-uid="SDG.Unturned.VehicleManager.SAVEDATA_VERSION_ADDED_DECAY">
+  SAVEDATA_VERSION_ADDED_DECAY
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_ADDED_DECAY = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_SAVEDATA_VERSION_ADDED_NATURAL_SPAWNED" data-uid="SDG.Unturned.VehicleManager.SAVEDATA_VERSION_ADDED_NATURAL_SPAWNED">
+  SAVEDATA_VERSION_ADDED_NATURAL_SPAWNED
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_ADDED_NATURAL_SPAWNED = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_SAVEDATA_VERSION_ADDED_PAINT_COLOR" data-uid="SDG.Unturned.VehicleManager.SAVEDATA_VERSION_ADDED_PAINT_COLOR">
+  SAVEDATA_VERSION_ADDED_PAINT_COLOR
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_ADDED_PAINT_COLOR = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_SAVEDATA_VERSION_BATTERY_GUID" data-uid="SDG.Unturned.VehicleManager.SAVEDATA_VERSION_BATTERY_GUID">
+  SAVEDATA_VERSION_BATTERY_GUID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_BATTERY_GUID = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_SAVEDATA_VERSION_REPLACED_ID_WITH_GUID" data-uid="SDG.Unturned.VehicleManager.SAVEDATA_VERSION_REPLACED_ID_WITH_GUID">
+  SAVEDATA_VERSION_REPLACED_ID_WITH_GUID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const byte SAVEDATA_VERSION_REPLACED_ID_WITH_GUID = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onDamageTireRequested" data-uid="SDG.Unturned.VehicleManager.onDamageTireRequested">
+  onDamageTireRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DamageTireRequestHandler onDamageTireRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageTireRequestHandler.html">DamageTireRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onDamageVehicleRequested" data-uid="SDG.Unturned.VehicleManager.onDamageVehicleRequested">
+  onDamageVehicleRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DamageVehicleRequestHandler onDamageVehicleRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageVehicleRequestHandler.html">DamageVehicleRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onRepairVehicleRequested" data-uid="SDG.Unturned.VehicleManager.onRepairVehicleRequested">
+  onRepairVehicleRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RepairVehicleRequestHandler onRepairVehicleRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RepairVehicleRequestHandler.html">RepairVehicleRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onSiphonVehicleRequested" data-uid="SDG.Unturned.VehicleManager.onSiphonVehicleRequested">
+  onSiphonVehicleRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SiphonVehicleRequestHandler onSiphonVehicleRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SiphonVehicleRequestHandler.html">SiphonVehicleRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onVehicleCarjacked" data-uid="SDG.Unturned.VehicleManager.onVehicleCarjacked">
+  onVehicleCarjacked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VehicleCarjackedSignature onVehicleCarjacked</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleCarjackedSignature.html">VehicleCarjackedSignature</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onVehicleLockpicked" data-uid="SDG.Unturned.VehicleManager.onVehicleLockpicked">
+  onVehicleLockpicked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VehicleLockpickedSignature onVehicleLockpicked</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleLockpickedSignature.html">VehicleLockpickedSignature</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_VehicleManager_instance_" data-uid="SDG.Unturned.VehicleManager.instance*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_instance" data-uid="SDG.Unturned.VehicleManager.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exposed for Rocket transition to modules backwards compatibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VehicleManager instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleManager.html">VehicleManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_maxInstances_" data-uid="SDG.Unturned.VehicleManager.maxInstances*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_maxInstances" data-uid="SDG.Unturned.VehicleManager.maxInstances">
+  maxInstances
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint maxInstances { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_vehicles_" data-uid="SDG.Unturned.VehicleManager.vehicles*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_vehicles" data-uid="SDG.Unturned.VehicleManager.vehicles">
+  vehicles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;InteractableVehicle&gt; vehicles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveDestroyAllVehicles_" data-uid="SDG.Unturned.VehicleManager.ReceiveDestroyAllVehicles*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveDestroyAllVehicles" data-uid="SDG.Unturned.VehicleManager.ReceiveDestroyAllVehicles">
+  ReceiveDestroyAllVehicles()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleDestroyAll&quot;)]
+public static void ReceiveDestroyAllVehicles()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveDestroySingleVehicle_" data-uid="SDG.Unturned.VehicleManager.ReceiveDestroySingleVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveDestroySingleVehicle_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.ReceiveDestroySingleVehicle(System.UInt32)">
+  ReceiveDestroySingleVehicle(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleDestroy&quot;)]
+public static void ReceiveDestroySingleVehicle(uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveEnterVehicle_" data-uid="SDG.Unturned.VehicleManager.ReceiveEnterVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveEnterVehicle_System_UInt32_System_Byte_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.ReceiveEnterVehicle(System.UInt32,System.Byte,Steamworks.CSteamID)">
+  ReceiveEnterVehicle(uint, byte, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEnterVehicle&quot;)]
+public static void ReceiveEnterVehicle(uint instanceID, byte seat, CSteamID player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>seat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveEnterVehicleRequest_" data-uid="SDG.Unturned.VehicleManager.ReceiveEnterVehicleRequest*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveEnterVehicleRequest_SDG_Unturned_ServerInvocationContext__System_UInt32_System_Byte___System_Byte___System_Byte_" data-uid="SDG.Unturned.VehicleManager.ReceiveEnterVehicleRequest(SDG.Unturned.ServerInvocationContext@,System.UInt32,System.Byte[],System.Byte[],System.Byte)">
+  ReceiveEnterVehicleRequest(in ServerInvocationContext, uint, byte[], byte[], byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askEnterVehicle&quot;)]
+public static void ReceiveEnterVehicleRequest(in ServerInvocationContext context, uint instanceID, byte[] hash, byte[] physicsProfileHash, byte engine)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>physicsProfileHash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>engine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveExitVehicle_" data-uid="SDG.Unturned.VehicleManager.ReceiveExitVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveExitVehicle_System_UInt32_System_Byte_UnityEngine_Vector3_System_Byte_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ReceiveExitVehicle(System.UInt32,System.Byte,UnityEngine.Vector3,System.Byte,System.Boolean)">
+  ReceiveExitVehicle(uint, byte, Vector3, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellExitVehicle&quot;)]
+public static void ReceiveExitVehicle(uint instanceID, byte seat, Vector3 point, byte angle, bool forceUpdate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>seat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>forceUpdate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveExitVehicleRequest_" data-uid="SDG.Unturned.VehicleManager.ReceiveExitVehicleRequest*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveExitVehicleRequest_SDG_Unturned_ServerInvocationContext__UnityEngine_Vector3_" data-uid="SDG.Unturned.VehicleManager.ReceiveExitVehicleRequest(SDG.Unturned.ServerInvocationContext@,UnityEngine.Vector3)">
+  ReceiveExitVehicleRequest(in ServerInvocationContext, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askExitVehicle&quot;)]
+public static void ReceiveExitVehicleRequest(in ServerInvocationContext context, Vector3 velocity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>velocity</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveMultipleVehicles_" data-uid="SDG.Unturned.VehicleManager.ReceiveMultipleVehicles*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveMultipleVehicles_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveMultipleVehicles(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveMultipleVehicles(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveMultipleVehicles(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveSingleVehicle_" data-uid="SDG.Unturned.VehicleManager.ReceiveSingleVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveSingleVehicle_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveSingleVehicle(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveSingleVehicle(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveSingleVehicle(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveStealVehicleBattery_" data-uid="SDG.Unturned.VehicleManager.ReceiveStealVehicleBattery*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveStealVehicleBattery_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveStealVehicleBattery(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveStealVehicleBattery(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askVehicleStealBattery&quot;)]
+public static void ReceiveStealVehicleBattery(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveSwapVehicleRequest_" data-uid="SDG.Unturned.VehicleManager.ReceiveSwapVehicleRequest*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveSwapVehicleRequest_SDG_Unturned_ServerInvocationContext__System_Byte_" data-uid="SDG.Unturned.VehicleManager.ReceiveSwapVehicleRequest(SDG.Unturned.ServerInvocationContext@,System.Byte)">
+  ReceiveSwapVehicleRequest(in ServerInvocationContext, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askSwapVehicle&quot;)]
+public static void ReceiveSwapVehicleRequest(in ServerInvocationContext context, byte toSeat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>toSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveSwapVehicleSeats_" data-uid="SDG.Unturned.VehicleManager.ReceiveSwapVehicleSeats*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveSwapVehicleSeats_System_UInt32_System_Byte_System_Byte_" data-uid="SDG.Unturned.VehicleManager.ReceiveSwapVehicleSeats(System.UInt32,System.Byte,System.Byte)">
+  ReceiveSwapVehicleSeats(uint, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSwapVehicle&quot;)]
+public static void ReceiveSwapVehicleSeats(uint instanceID, byte fromSeat, byte toSeat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>fromSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>toSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveToggleVehicleHeadlights_" data-uid="SDG.Unturned.VehicleManager.ReceiveToggleVehicleHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveToggleVehicleHeadlights_SDG_Unturned_ServerInvocationContext__System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ReceiveToggleVehicleHeadlights(SDG.Unturned.ServerInvocationContext@,System.Boolean)">
+  ReceiveToggleVehicleHeadlights(in ServerInvocationContext, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 10, legacyName = &quot;askVehicleHeadlights&quot;)]
+public static void ReceiveToggleVehicleHeadlights(in ServerInvocationContext context, bool wantsHeadlightsOn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>wantsHeadlightsOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveUseVehicleBonus_" data-uid="SDG.Unturned.VehicleManager.ReceiveUseVehicleBonus*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveUseVehicleBonus_SDG_Unturned_ServerInvocationContext__System_Byte_" data-uid="SDG.Unturned.VehicleManager.ReceiveUseVehicleBonus(SDG.Unturned.ServerInvocationContext@,System.Byte)">
+  ReceiveUseVehicleBonus(in ServerInvocationContext, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 5, legacyName = &quot;askVehicleBonus&quot;)]
+public static void ReceiveUseVehicleBonus(in ServerInvocationContext context, byte bonusType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>bonusType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleBatteryCharge_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleBatteryCharge*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleBatteryCharge_System_UInt32_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleBatteryCharge(System.UInt32,System.UInt16)">
+  ReceiveVehicleBatteryCharge(uint, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleBatteryCharge&quot;)]
+public static void ReceiveVehicleBatteryCharge(uint instanceID, ushort newBatteryCharge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newBatteryCharge</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleBlimp_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleBlimp*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleBlimp_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleBlimp(System.UInt32,System.Boolean)">
+  ReceiveVehicleBlimp(uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleBlimp&quot;)]
+public static void ReceiveVehicleBlimp(uint instanceID, bool on)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>on</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleExploded_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleExploded*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleExploded_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleExploded(System.UInt32)">
+  ReceiveVehicleExploded(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleExploded&quot;)]
+public static void ReceiveVehicleExploded(uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleFuel_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleFuel*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleFuel_System_UInt32_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleFuel(System.UInt32,System.UInt16)">
+  ReceiveVehicleFuel(uint, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleFuel&quot;)]
+public static void ReceiveVehicleFuel(uint instanceID, ushort newFuel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newFuel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleHeadlights_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleHeadlights_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHeadlights(System.UInt32,System.Boolean)">
+  ReceiveVehicleHeadlights(uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleHeadlights&quot;)]
+public static void ReceiveVehicleHeadlights(uint instanceID, bool on)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>on</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleHealth_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHealth*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleHealth_System_UInt32_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHealth(System.UInt32,System.UInt16)">
+  ReceiveVehicleHealth(uint, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleHealth&quot;)]
+public static void ReceiveVehicleHealth(uint instanceID, ushort newHealth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleHorn_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHorn*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleHorn_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHorn(System.UInt32)">
+  ReceiveVehicleHorn(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleHorn&quot;)]
+public static void ReceiveVehicleHorn(uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleHornRequest_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHornRequest*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleHornRequest_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleHornRequest(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveVehicleHornRequest(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 10, legacyName = &quot;askVehicleHorn&quot;)]
+public static void ReceiveVehicleHornRequest(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleLockRequest_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleLockRequest*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleLockRequest_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleLockRequest(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveVehicleLockRequest(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 4, legacyName = &quot;askVehicleLock&quot;)]
+public static void ReceiveVehicleLockRequest(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleLockState_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleLockState*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleLockState_System_UInt32_Steamworks_CSteamID_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleLockState(System.UInt32,Steamworks.CSteamID,Steamworks.CSteamID,System.Boolean)">
+  ReceiveVehicleLockState(uint, CSteamID, CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleLock&quot;)]
+public static void ReceiveVehicleLockState(uint instanceID, CSteamID owner, CSteamID group, bool locked)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>group</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>locked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleRecov_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleRecov*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleRecov_System_UInt32_UnityEngine_Vector3_System_Int32_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleRecov(System.UInt32,UnityEngine.Vector3,System.Int32)">
+  ReceiveVehicleRecov(uint, Vector3, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleRecov&quot;)]
+public static void ReceiveVehicleRecov(uint instanceID, Vector3 newPosition, int newRecov)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRecov</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleSirens_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleSirens*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleSirens_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleSirens(System.UInt32,System.Boolean)">
+  ReceiveVehicleSirens(uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleSirens&quot;)]
+public static void ReceiveVehicleSirens(uint instanceID, bool on)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>on</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleSkin_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleSkin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleSkin_System_UInt32_System_UInt16_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleSkin(System.UInt32,System.UInt16,System.UInt16)">
+  ReceiveVehicleSkin(uint, ushort, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleSkin&quot;)]
+public static void ReceiveVehicleSkin(uint instanceID, ushort skinID, ushort mythicID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>skinID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>mythicID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleSkinRequest_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleSkinRequest*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleSkinRequest_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleSkinRequest(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveVehicleSkinRequest(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2, legacyName = &quot;askVehicleSkin&quot;)]
+public static void ReceiveVehicleSkinRequest(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleStates_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleStates*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleStates_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleStates(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveVehicleStates(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveVehicleStates(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ReceiveVehicleTireAliveMask_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleTireAliveMask*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ReceiveVehicleTireAliveMask_System_UInt32_System_Byte_" data-uid="SDG.Unturned.VehicleManager.ReceiveVehicleTireAliveMask(System.UInt32,System.Byte)">
+  ReceiveVehicleTireAliveMask(uint, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVehicleTireAliveMask&quot;)]
+public static void ReceiveVehicleTireAliveMask(uint instanceID, byte newTireAliveMask)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newTireAliveMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ServerForcePassengerIntoVehicle_" data-uid="SDG.Unturned.VehicleManager.ServerForcePassengerIntoVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ServerForcePassengerIntoVehicle_SDG_Unturned_Player_SDG_Unturned_InteractableVehicle_" data-uid="SDG.Unturned.VehicleManager.ServerForcePassengerIntoVehicle(SDG.Unturned.Player,SDG.Unturned.InteractableVehicle)">
+  ServerForcePassengerIntoVehicle(Player, InteractableVehicle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Does as few tests as possible while maintaining base game expectations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ServerForcePassengerIntoVehicle(Player player, InteractableVehicle vehicle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_ServerSetVehicleLock_" data-uid="SDG.Unturned.VehicleManager.ServerSetVehicleLock*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_ServerSetVehicleLock_SDG_Unturned_InteractableVehicle_Steamworks_CSteamID_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.ServerSetVehicleLock(SDG.Unturned.InteractableVehicle,Steamworks.CSteamID,Steamworks.CSteamID,System.Boolean)">
+  ServerSetVehicleLock(InteractableVehicle, CSteamID, CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ServerSetVehicleLock(InteractableVehicle vehicle, CSteamID ownerID, CSteamID groupID, bool isLocked)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>ownerID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>groupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>isLocked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_SpawnVehicleV3_" data-uid="SDG.Unturned.VehicleManager.SpawnVehicleV3*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_SpawnVehicleV3_SDG_Unturned_VehicleAsset_System_UInt16_System_UInt16_System_Single_UnityEngine_Vector3_UnityEngine_Quaternion_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_UInt16_System_UInt16_System_UInt16_Steamworks_CSteamID_Steamworks_CSteamID_System_Boolean_System_Byte_____System_Byte_" data-uid="SDG.Unturned.VehicleManager.SpawnVehicleV3(SDG.Unturned.VehicleAsset,System.UInt16,System.UInt16,System.Single,UnityEngine.Vector3,UnityEngine.Quaternion,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt16,System.UInt16,System.UInt16,Steamworks.CSteamID,Steamworks.CSteamID,System.Boolean,System.Byte[][],System.Byte)">
+  SpawnVehicleV3(VehicleAsset, ushort, ushort, float, Vector3, Quaternion, bool, bool, bool, bool, ushort, ushort, ushort, CSteamID, CSteamID, bool, byte[][], byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>For backwards compatibility. This older method spawns a vehicle with a random paint color. (set paintColor
+to zero for a random paint color)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle SpawnVehicleV3(VehicleAsset asset, ushort skinID, ushort mythicID, float roadPosition, Vector3 point, Quaternion angle, bool sirens, bool blimp, bool headlights, bool taillights, ushort fuel, ushort health, ushort batteryCharge, CSteamID owner, CSteamID group, bool locked, byte[][] turrets, byte tireAliveMask)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.VehicleAsset.html">VehicleAsset</a></dt>
+    <dd></dd>
+    <dt><code>skinID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>mythicID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>roadPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>sirens</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>blimp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>headlights</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>taillights</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>fuel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>health</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>batteryCharge</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>zero spawns without a battery, ushort.MaxValue indicates the battery should be randomly spawned according to asset configuration, other values force a battery to spawn.</p>
+</dd>
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>group</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>locked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>turrets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[][]</dt>
+    <dd></dd>
+    <dt><code>tireAliveMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_SpawnVehicleV3_" data-uid="SDG.Unturned.VehicleManager.SpawnVehicleV3*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_SpawnVehicleV3_SDG_Unturned_VehicleAsset_System_UInt16_System_UInt16_System_Single_UnityEngine_Vector3_UnityEngine_Quaternion_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_UInt16_System_UInt16_System_UInt16_Steamworks_CSteamID_Steamworks_CSteamID_System_Boolean_System_Byte_____System_Byte_UnityEngine_Color32_" data-uid="SDG.Unturned.VehicleManager.SpawnVehicleV3(SDG.Unturned.VehicleAsset,System.UInt16,System.UInt16,System.Single,UnityEngine.Vector3,UnityEngine.Quaternion,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.UInt16,System.UInt16,System.UInt16,Steamworks.CSteamID,Steamworks.CSteamID,System.Boolean,System.Byte[][],System.Byte,UnityEngine.Color32)">
+  SpawnVehicleV3(VehicleAsset, ushort, ushort, float, Vector3, Quaternion, bool, bool, bool, bool, ushort, ushort, ushort, CSteamID, CSteamID, bool, byte[][], byte, Color32)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Added so that garage plugins do not need to invoke RPC manually.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle SpawnVehicleV3(VehicleAsset asset, ushort skinID, ushort mythicID, float roadPosition, Vector3 point, Quaternion angle, bool sirens, bool blimp, bool headlights, bool taillights, ushort fuel, ushort health, ushort batteryCharge, CSteamID owner, CSteamID group, bool locked, byte[][] turrets, byte tireAliveMask, Color32 paintColor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.VehicleAsset.html">VehicleAsset</a></dt>
+    <dd></dd>
+    <dt><code>skinID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>mythicID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>roadPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>sirens</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>blimp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>headlights</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>taillights</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>fuel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>health</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>batteryCharge</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>zero spawns without a battery, ushort.MaxValue indicates the battery should be randomly spawned according to asset configuration, other values force a battery to spawn.</p>
+</dd>
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>group</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>locked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>turrets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[][]</dt>
+    <dd></dd>
+    <dt><code>tireAliveMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>paintColor</code> <span class="xref">Color32</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askEnterVehicle_" data-uid="SDG.Unturned.VehicleManager.askEnterVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askEnterVehicle_Steamworks_CSteamID_System_UInt32_System_Byte___System_Byte_" data-uid="SDG.Unturned.VehicleManager.askEnterVehicle(Steamworks.CSteamID,System.UInt32,System.Byte[],System.Byte)">
+  askEnterVehicle(CSteamID, uint, byte[], byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askEnterVehicle(CSteamID steamID, uint instanceID, byte[] hash, byte engine)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>engine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askExitVehicle_" data-uid="SDG.Unturned.VehicleManager.askExitVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askExitVehicle_Steamworks_CSteamID_UnityEngine_Vector3_" data-uid="SDG.Unturned.VehicleManager.askExitVehicle(Steamworks.CSteamID,UnityEngine.Vector3)">
+  askExitVehicle(CSteamID, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askExitVehicle(CSteamID steamID, Vector3 velocity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>velocity</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askSwapVehicle_" data-uid="SDG.Unturned.VehicleManager.askSwapVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askSwapVehicle_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.VehicleManager.askSwapVehicle(Steamworks.CSteamID,System.Byte)">
+  askSwapVehicle(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapVehicle(CSteamID steamID, byte toSeat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>toSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleBonus_" data-uid="SDG.Unturned.VehicleManager.askVehicleBonus*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleBonus_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.VehicleManager.askVehicleBonus(Steamworks.CSteamID,System.Byte)">
+  askVehicleBonus(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicleBonus(CSteamID steamID, byte bonusType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>bonusType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleDestroy_" data-uid="SDG.Unturned.VehicleManager.askVehicleDestroy*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleDestroy_SDG_Unturned_InteractableVehicle_" data-uid="SDG.Unturned.VehicleManager.askVehicleDestroy(SDG.Unturned.InteractableVehicle)">
+  askVehicleDestroy(InteractableVehicle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void askVehicleDestroy(InteractableVehicle vehicle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleDestroyAll_" data-uid="SDG.Unturned.VehicleManager.askVehicleDestroyAll*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleDestroyAll" data-uid="SDG.Unturned.VehicleManager.askVehicleDestroyAll">
+  askVehicleDestroyAll()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void askVehicleDestroyAll()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleHeadlights_" data-uid="SDG.Unturned.VehicleManager.askVehicleHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleHeadlights_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.askVehicleHeadlights(Steamworks.CSteamID,System.Boolean)">
+  askVehicleHeadlights(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicleHeadlights(CSteamID steamID, bool wantsHeadlightsOn)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>wantsHeadlightsOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleHorn_" data-uid="SDG.Unturned.VehicleManager.askVehicleHorn*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleHorn_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.askVehicleHorn(Steamworks.CSteamID)">
+  askVehicleHorn(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicleHorn(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleLock_" data-uid="SDG.Unturned.VehicleManager.askVehicleLock*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleLock_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.askVehicleLock(Steamworks.CSteamID)">
+  askVehicleLock(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicleLock(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleSkin_" data-uid="SDG.Unturned.VehicleManager.askVehicleSkin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleSkin_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.askVehicleSkin(Steamworks.CSteamID)">
+  askVehicleSkin(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicleSkin(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicleStealBattery_" data-uid="SDG.Unturned.VehicleManager.askVehicleStealBattery*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicleStealBattery_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.askVehicleStealBattery(Steamworks.CSteamID)">
+  askVehicleStealBattery(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicleStealBattery(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_askVehicles_" data-uid="SDG.Unturned.VehicleManager.askVehicles*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_askVehicles_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.askVehicles(Steamworks.CSteamID)">
+  askVehicles(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVehicles(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_carjackVehicle_" data-uid="SDG.Unturned.VehicleManager.carjackVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_carjackVehicle_SDG_Unturned_InteractableVehicle_SDG_Unturned_Player_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.VehicleManager.carjackVehicle(SDG.Unturned.InteractableVehicle,SDG.Unturned.Player,UnityEngine.Vector3,UnityEngine.Vector3)">
+  carjackVehicle(InteractableVehicle, Player, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void carjackVehicle(InteractableVehicle vehicle, Player instigatingPlayer, Vector3 force, Vector3 torque)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>instigatingPlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>torque</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_damage_" data-uid="SDG.Unturned.VehicleManager.damage*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_damage_SDG_Unturned_InteractableVehicle_System_Single_System_Single_System_Boolean_Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.VehicleManager.damage(SDG.Unturned.InteractableVehicle,System.Single,System.Single,System.Boolean,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damage(InteractableVehicle, float, float, bool, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(InteractableVehicle vehicle, float damage, float times, bool canRepair, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>canRepair</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_damageTire_" data-uid="SDG.Unturned.VehicleManager.damageTire*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_damageTire_SDG_Unturned_InteractableVehicle_System_Int32_Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.VehicleManager.damageTire(SDG.Unturned.InteractableVehicle,System.Int32,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damageTire(InteractableVehicle, int, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damageTire(InteractableVehicle vehicle, int tireIndex, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>tireIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_enterVehicle_" data-uid="SDG.Unturned.VehicleManager.enterVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_enterVehicle_SDG_Unturned_InteractableVehicle_" data-uid="SDG.Unturned.VehicleManager.enterVehicle(SDG.Unturned.InteractableVehicle)">
+  enterVehicle(InteractableVehicle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void enterVehicle(InteractableVehicle vehicle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_exitVehicle_" data-uid="SDG.Unturned.VehicleManager.exitVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_exitVehicle" data-uid="SDG.Unturned.VehicleManager.exitVehicle">
+  exitVehicle()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void exitVehicle()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_findVehicleByNetInstanceID_" data-uid="SDG.Unturned.VehicleManager.findVehicleByNetInstanceID*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_findVehicleByNetInstanceID_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.findVehicleByNetInstanceID(System.UInt32)">
+  findVehicleByNetInstanceID(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find vehicle with matching replicated instance ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle findVehicleByNetInstanceID(uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_forceRemovePlayer_" data-uid="SDG.Unturned.VehicleManager.forceRemovePlayer*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_forceRemovePlayer_SDG_Unturned_InteractableVehicle_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.forceRemovePlayer(SDG.Unturned.InteractableVehicle,Steamworks.CSteamID)">
+  forceRemovePlayer(InteractableVehicle, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void forceRemovePlayer(InteractableVehicle vehicle, CSteamID player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_forceRemovePlayer_" data-uid="SDG.Unturned.VehicleManager.forceRemovePlayer*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_forceRemovePlayer_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.forceRemovePlayer(Steamworks.CSteamID)">
+  forceRemovePlayer(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Force remove player from vehicle they were in, if any.
+Called when player disconnects to tidy up and run callbacks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool forceRemovePlayer(CSteamID player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if player was in a vehicle, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_getVehicle_" data-uid="SDG.Unturned.VehicleManager.getVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_getVehicle_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.getVehicle(System.UInt32)">
+  getVehicle(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle getVehicle(uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_getVehicleRandomTireAliveMask_" data-uid="SDG.Unturned.VehicleManager.getVehicleRandomTireAliveMask*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_getVehicleRandomTireAliveMask_SDG_Unturned_VehicleAsset_" data-uid="SDG.Unturned.VehicleManager.getVehicleRandomTireAliveMask(SDG.Unturned.VehicleAsset)">
+  getVehicleRandomTireAliveMask(VehicleAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte getVehicleRandomTireAliveMask(VehicleAsset asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.VehicleAsset.html">VehicleAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_getVehiclesInRadius_" data-uid="SDG.Unturned.VehicleManager.getVehiclesInRadius*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_getVehiclesInRadius_UnityEngine_Vector3_System_Single_System_Collections_Generic_List_SDG_Unturned_InteractableVehicle__" data-uid="SDG.Unturned.VehicleManager.getVehiclesInRadius(UnityEngine.Vector3,System.Single,System.Collections.Generic.List{SDG.Unturned.InteractableVehicle})">
+  getVehiclesInRadius(Vector3, float, List&lt;InteractableVehicle&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void getVehiclesInRadius(Vector3 center, float sqrRadius, List&lt;InteractableVehicle&gt; result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>sqrRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_load_" data-uid="SDG.Unturned.VehicleManager.load*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_load" data-uid="SDG.Unturned.VehicleManager.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_removePlayerTeleportUnsafe_" data-uid="SDG.Unturned.VehicleManager.removePlayerTeleportUnsafe*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_removePlayerTeleportUnsafe_SDG_Unturned_InteractableVehicle_SDG_Unturned_Player_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.VehicleManager.removePlayerTeleportUnsafe(SDG.Unturned.InteractableVehicle,SDG.Unturned.Player,UnityEngine.Vector3,System.Single)">
+  removePlayerTeleportUnsafe(InteractableVehicle, Player, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove player from vehicle and teleport them to an unchecked destination.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool removePlayerTeleportUnsafe(InteractableVehicle vehicle, Player player, Vector3 position, float yaw)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>yaw</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_repair_" data-uid="SDG.Unturned.VehicleManager.repair*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_repair_SDG_Unturned_InteractableVehicle_System_Single_System_Single_" data-uid="SDG.Unturned.VehicleManager.repair(SDG.Unturned.InteractableVehicle,System.Single,System.Single)">
+  repair(InteractableVehicle, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void repair(InteractableVehicle vehicle, float damage, float times)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_repair_" data-uid="SDG.Unturned.VehicleManager.repair*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_repair_SDG_Unturned_InteractableVehicle_System_Single_System_Single_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.repair(SDG.Unturned.InteractableVehicle,System.Single,System.Single,Steamworks.CSteamID)">
+  repair(InteractableVehicle, float, float, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void repair(InteractableVehicle vehicle, float damage, float times, CSteamID instigatorSteamID = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_save_" data-uid="SDG.Unturned.VehicleManager.save*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_save" data-uid="SDG.Unturned.VehicleManager.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendExitVehicle_" data-uid="SDG.Unturned.VehicleManager.sendExitVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendExitVehicle_SDG_Unturned_InteractableVehicle_System_Byte_UnityEngine_Vector3_System_Byte_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.sendExitVehicle(SDG.Unturned.InteractableVehicle,System.Byte,UnityEngine.Vector3,System.Byte,System.Boolean)">
+  sendExitVehicle(InteractableVehicle, byte, Vector3, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendExitVehicle(InteractableVehicle vehicle, byte seat, Vector3 point, byte angle, bool forceUpdate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>seat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>forceUpdate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicle_" data-uid="SDG.Unturned.VehicleManager.sendVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicle_SDG_Unturned_InteractableVehicle_" data-uid="SDG.Unturned.VehicleManager.sendVehicle(SDG.Unturned.InteractableVehicle)">
+  sendVehicle(InteractableVehicle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendVehicle(InteractableVehicle vehicle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleBatteryCharge_" data-uid="SDG.Unturned.VehicleManager.sendVehicleBatteryCharge*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleBatteryCharge_SDG_Unturned_InteractableVehicle_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.sendVehicleBatteryCharge(SDG.Unturned.InteractableVehicle,System.UInt16)">
+  sendVehicleBatteryCharge(InteractableVehicle, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleBatteryCharge(InteractableVehicle vehicle, ushort newBatteryCharge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>newBatteryCharge</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleBonus_" data-uid="SDG.Unturned.VehicleManager.sendVehicleBonus*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleBonus" data-uid="SDG.Unturned.VehicleManager.sendVehicleBonus">
+  sendVehicleBonus()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>As client request server to use bonus feature like towing hook or police sirens.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleBonus()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleExploded_" data-uid="SDG.Unturned.VehicleManager.sendVehicleExploded*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleExploded_SDG_Unturned_InteractableVehicle_" data-uid="SDG.Unturned.VehicleManager.sendVehicleExploded(SDG.Unturned.InteractableVehicle)">
+  sendVehicleExploded(InteractableVehicle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleExploded(InteractableVehicle vehicle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleFuel_" data-uid="SDG.Unturned.VehicleManager.sendVehicleFuel*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleFuel_SDG_Unturned_InteractableVehicle_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.sendVehicleFuel(SDG.Unturned.InteractableVehicle,System.UInt16)">
+  sendVehicleFuel(InteractableVehicle, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleFuel(InteractableVehicle vehicle, ushort newFuel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>newFuel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleHeadlights_" data-uid="SDG.Unturned.VehicleManager.sendVehicleHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleHeadlights" data-uid="SDG.Unturned.VehicleManager.sendVehicleHeadlights">
+  sendVehicleHeadlights()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Client-side request server to toggle headlights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleHeadlights()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleHealth_" data-uid="SDG.Unturned.VehicleManager.sendVehicleHealth*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleHealth_SDG_Unturned_InteractableVehicle_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.sendVehicleHealth(SDG.Unturned.InteractableVehicle,System.UInt16)">
+  sendVehicleHealth(InteractableVehicle, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleHealth(InteractableVehicle vehicle, ushort newHealth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleHorn_" data-uid="SDG.Unturned.VehicleManager.sendVehicleHorn*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleHorn" data-uid="SDG.Unturned.VehicleManager.sendVehicleHorn">
+  sendVehicleHorn()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleHorn()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleLock_" data-uid="SDG.Unturned.VehicleManager.sendVehicleLock*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleLock" data-uid="SDG.Unturned.VehicleManager.sendVehicleLock">
+  sendVehicleLock()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleLock()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleRecov_" data-uid="SDG.Unturned.VehicleManager.sendVehicleRecov*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleRecov_SDG_Unturned_InteractableVehicle_UnityEngine_Vector3_System_Int32_" data-uid="SDG.Unturned.VehicleManager.sendVehicleRecov(SDG.Unturned.InteractableVehicle,UnityEngine.Vector3,System.Int32)">
+  sendVehicleRecov(InteractableVehicle, Vector3, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleRecov(InteractableVehicle vehicle, Vector3 newPosition, int newRecov)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRecov</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleSkin_" data-uid="SDG.Unturned.VehicleManager.sendVehicleSkin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleSkin" data-uid="SDG.Unturned.VehicleManager.sendVehicleSkin">
+  sendVehicleSkin()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleSkin()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleStealBattery_" data-uid="SDG.Unturned.VehicleManager.sendVehicleStealBattery*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleStealBattery" data-uid="SDG.Unturned.VehicleManager.sendVehicleStealBattery">
+  sendVehicleStealBattery()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleStealBattery()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_sendVehicleTireAliveMask_" data-uid="SDG.Unturned.VehicleManager.sendVehicleTireAliveMask*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_sendVehicleTireAliveMask_SDG_Unturned_InteractableVehicle_System_Byte_" data-uid="SDG.Unturned.VehicleManager.sendVehicleTireAliveMask(SDG.Unturned.InteractableVehicle,System.Byte)">
+  sendVehicleTireAliveMask(InteractableVehicle, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendVehicleTireAliveMask(InteractableVehicle vehicle, byte newTireAliveMask)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>newTireAliveMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_siphonFromVehicle_" data-uid="SDG.Unturned.VehicleManager.siphonFromVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_siphonFromVehicle_SDG_Unturned_InteractableVehicle_SDG_Unturned_Player_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.siphonFromVehicle(SDG.Unturned.InteractableVehicle,SDG.Unturned.Player,System.UInt16)">
+  siphonFromVehicle(InteractableVehicle, Player, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort siphonFromVehicle(InteractableVehicle vehicle, Player instigatingPlayer, ushort desiredAmount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>instigatingPlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>desiredAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayer_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayer*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayer_System_UInt16_UnityEngine_Vector3_UnityEngine_Quaternion_SDG_Unturned_Player_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayer(System.UInt16,UnityEngine.Vector3,UnityEngine.Quaternion,SDG.Unturned.Player)">
+  spawnLockedVehicleForPlayer(ushort, Vector3, Quaternion, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;spawnLockedVehicleForPlayerV2 returns the spawned instance&quot;)]
+public static void spawnLockedVehicleForPlayer(ushort id, Vector3 point, Quaternion angle, Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_SDG_Unturned_Asset_UnityEngine_Vector3_UnityEngine_Quaternion_SDG_Unturned_Player_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2(SDG.Unturned.Asset,UnityEngine.Vector3,UnityEngine.Quaternion,SDG.Unturned.Player)">
+  spawnLockedVehicleForPlayerV2(Asset, Vector3, Quaternion, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If redirector's SpawnPaintColor is set, that color is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnLockedVehicleForPlayerV2(Asset asset, Vector3 point, Quaternion angle, Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.Asset.html">Asset</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_SDG_Unturned_Asset_UnityEngine_Vector3_UnityEngine_Quaternion_SDG_Unturned_Player_System_Nullable_UnityEngine_Color32__" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2(SDG.Unturned.Asset,UnityEngine.Vector3,UnityEngine.Quaternion,SDG.Unturned.Player,System.Nullable{UnityEngine.Color32})">
+  spawnLockedVehicleForPlayerV2(Asset, Vector3, Quaternion, Player, Color32?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If paintColor is set that takes priority, otherwise if
+redirector's SpawnPaintColor is set, that color is used,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnLockedVehicleForPlayerV2(Asset asset, Vector3 point, Quaternion angle, Player player, Color32? paintColor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.Asset.html">Asset</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>paintColor</code> <span class="xref">Color32</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_System_UInt16_UnityEngine_Vector3_UnityEngine_Quaternion_SDG_Unturned_Player_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2(System.UInt16,UnityEngine.Vector3,UnityEngine.Quaternion,SDG.Unturned.Player)">
+  spawnLockedVehicleForPlayerV2(ushort, Vector3, Quaternion, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If redirector's SpawnPaintColor is set, that color is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnLockedVehicleForPlayerV2(ushort id, Vector3 point, Quaternion angle, Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnLockedVehicleForPlayerV2_System_UInt16_UnityEngine_Vector3_UnityEngine_Quaternion_SDG_Unturned_Player_System_Nullable_UnityEngine_Color32__" data-uid="SDG.Unturned.VehicleManager.spawnLockedVehicleForPlayerV2(System.UInt16,UnityEngine.Vector3,UnityEngine.Quaternion,SDG.Unturned.Player,System.Nullable{UnityEngine.Color32})">
+  spawnLockedVehicleForPlayerV2(ushort, Vector3, Quaternion, Player, Color32?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If paintColor is set that takes priority, otherwise if
+redirector's SpawnPaintColor is set, that color is used,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnLockedVehicleForPlayerV2(ushort id, Vector3 point, Quaternion angle, Player player, Color32? paintColor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>paintColor</code> <span class="xref">Color32</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnVehicle_" data-uid="SDG.Unturned.VehicleManager.spawnVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnVehicle_System_UInt16_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="SDG.Unturned.VehicleManager.spawnVehicle(System.UInt16,UnityEngine.Vector3,UnityEngine.Quaternion)">
+  spawnVehicle(ushort, Vector3, Quaternion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;spawnVehicleV2 returns the spawned instance&quot;)]
+public static void spawnVehicle(ushort id, Vector3 point, Quaternion angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnVehicleV2_" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnVehicleV2_SDG_Unturned_Asset_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2(SDG.Unturned.Asset,UnityEngine.Vector3,UnityEngine.Quaternion)">
+  spawnVehicleV2(Asset, Vector3, Quaternion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If redirector's SpawnPaintColor is set, that color is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnVehicleV2(Asset asset, Vector3 point, Quaternion angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.Asset.html">Asset</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnVehicleV2_" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnVehicleV2_SDG_Unturned_Asset_UnityEngine_Vector3_UnityEngine_Quaternion_System_Nullable_UnityEngine_Color32__" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2(SDG.Unturned.Asset,UnityEngine.Vector3,UnityEngine.Quaternion,System.Nullable{UnityEngine.Color32})">
+  spawnVehicleV2(Asset, Vector3, Quaternion, Color32?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If paintColor is set that takes priority, otherwise if
+redirector's SpawnPaintColor is set, that color is used,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnVehicleV2(Asset asset, Vector3 point, Quaternion angle, Color32? paintColor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.Asset.html">Asset</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>paintColor</code> <span class="xref">Color32</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnVehicleV2_" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnVehicleV2_System_UInt16_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2(System.UInt16,UnityEngine.Vector3,UnityEngine.Quaternion)">
+  spawnVehicleV2(ushort, Vector3, Quaternion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If redirector's SpawnPaintColor is set, that color is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnVehicleV2(ushort id, Vector3 point, Quaternion angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_spawnVehicleV2_" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_spawnVehicleV2_System_UInt16_UnityEngine_Vector3_UnityEngine_Quaternion_System_Nullable_UnityEngine_Color32__" data-uid="SDG.Unturned.VehicleManager.spawnVehicleV2(System.UInt16,UnityEngine.Vector3,UnityEngine.Quaternion,System.Nullable{UnityEngine.Color32})">
+  spawnVehicleV2(ushort, Vector3, Quaternion, Color32?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset. If paintColor is set that takes priority, otherwise if
+redirector's SpawnPaintColor is set, that color is used,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle spawnVehicleV2(ushort id, Vector3 point, Quaternion angle, Color32? paintColor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>paintColor</code> <span class="xref">Color32</span>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_swapVehicle_" data-uid="SDG.Unturned.VehicleManager.swapVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_swapVehicle_System_Byte_" data-uid="SDG.Unturned.VehicleManager.swapVehicle(System.Byte)">
+  swapVehicle(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void swapVehicle(byte toSeat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellEnterVehicle_" data-uid="SDG.Unturned.VehicleManager.tellEnterVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellEnterVehicle_Steamworks_CSteamID_System_UInt32_System_Byte_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.tellEnterVehicle(Steamworks.CSteamID,System.UInt32,System.Byte,Steamworks.CSteamID)">
+  tellEnterVehicle(CSteamID, uint, byte, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEnterVehicle(CSteamID steamID, uint instanceID, byte seat, CSteamID player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>seat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellExitVehicle_" data-uid="SDG.Unturned.VehicleManager.tellExitVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellExitVehicle_Steamworks_CSteamID_System_UInt32_System_Byte_UnityEngine_Vector3_System_Byte_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.tellExitVehicle(Steamworks.CSteamID,System.UInt32,System.Byte,UnityEngine.Vector3,System.Byte,System.Boolean)">
+  tellExitVehicle(CSteamID, uint, byte, Vector3, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellExitVehicle(CSteamID steamID, uint instanceID, byte seat, Vector3 point, byte angle, bool forceUpdate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>seat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>forceUpdate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellSwapVehicle_" data-uid="SDG.Unturned.VehicleManager.tellSwapVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellSwapVehicle_Steamworks_CSteamID_System_UInt32_System_Byte_System_Byte_" data-uid="SDG.Unturned.VehicleManager.tellSwapVehicle(Steamworks.CSteamID,System.UInt32,System.Byte,System.Byte)">
+  tellSwapVehicle(CSteamID, uint, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSwapVehicle(CSteamID steamID, uint instanceID, byte fromSeat, byte toSeat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>fromSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>toSeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicle_" data-uid="SDG.Unturned.VehicleManager.tellVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicle_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.tellVehicle(Steamworks.CSteamID)">
+  tellVehicle(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicle(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleBatteryCharge_" data-uid="SDG.Unturned.VehicleManager.tellVehicleBatteryCharge*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleBatteryCharge_Steamworks_CSteamID_System_UInt32_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.tellVehicleBatteryCharge(Steamworks.CSteamID,System.UInt32,System.UInt16)">
+  tellVehicleBatteryCharge(CSteamID, uint, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleBatteryCharge(CSteamID steamID, uint instanceID, ushort newBatteryCharge)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newBatteryCharge</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleBlimp_" data-uid="SDG.Unturned.VehicleManager.tellVehicleBlimp*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleBlimp_Steamworks_CSteamID_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.tellVehicleBlimp(Steamworks.CSteamID,System.UInt32,System.Boolean)">
+  tellVehicleBlimp(CSteamID, uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleBlimp(CSteamID steamID, uint instanceID, bool on)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>on</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleDestroy_" data-uid="SDG.Unturned.VehicleManager.tellVehicleDestroy*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleDestroy_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.tellVehicleDestroy(Steamworks.CSteamID,System.UInt32)">
+  tellVehicleDestroy(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleDestroy(CSteamID steamID, uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleDestroyAll_" data-uid="SDG.Unturned.VehicleManager.tellVehicleDestroyAll*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleDestroyAll_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.tellVehicleDestroyAll(Steamworks.CSteamID)">
+  tellVehicleDestroyAll(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleDestroyAll(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleExploded_" data-uid="SDG.Unturned.VehicleManager.tellVehicleExploded*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleExploded_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.tellVehicleExploded(Steamworks.CSteamID,System.UInt32)">
+  tellVehicleExploded(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleExploded(CSteamID steamID, uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleFuel_" data-uid="SDG.Unturned.VehicleManager.tellVehicleFuel*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleFuel_Steamworks_CSteamID_System_UInt32_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.tellVehicleFuel(Steamworks.CSteamID,System.UInt32,System.UInt16)">
+  tellVehicleFuel(CSteamID, uint, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleFuel(CSteamID steamID, uint instanceID, ushort newFuel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newFuel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleHeadlights_" data-uid="SDG.Unturned.VehicleManager.tellVehicleHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleHeadlights_Steamworks_CSteamID_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.tellVehicleHeadlights(Steamworks.CSteamID,System.UInt32,System.Boolean)">
+  tellVehicleHeadlights(CSteamID, uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleHeadlights(CSteamID steamID, uint instanceID, bool on)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>on</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleHealth_" data-uid="SDG.Unturned.VehicleManager.tellVehicleHealth*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleHealth_Steamworks_CSteamID_System_UInt32_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.tellVehicleHealth(Steamworks.CSteamID,System.UInt32,System.UInt16)">
+  tellVehicleHealth(CSteamID, uint, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleHealth(CSteamID steamID, uint instanceID, ushort newHealth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleHorn_" data-uid="SDG.Unturned.VehicleManager.tellVehicleHorn*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleHorn_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.VehicleManager.tellVehicleHorn(Steamworks.CSteamID,System.UInt32)">
+  tellVehicleHorn(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleHorn(CSteamID steamID, uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleLock_" data-uid="SDG.Unturned.VehicleManager.tellVehicleLock*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleLock_Steamworks_CSteamID_System_UInt32_Steamworks_CSteamID_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.tellVehicleLock(Steamworks.CSteamID,System.UInt32,Steamworks.CSteamID,Steamworks.CSteamID,System.Boolean)">
+  tellVehicleLock(CSteamID, uint, CSteamID, CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleLock(CSteamID steamID, uint instanceID, CSteamID owner, CSteamID group, bool locked)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>group</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>locked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleRecov_" data-uid="SDG.Unturned.VehicleManager.tellVehicleRecov*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleRecov_Steamworks_CSteamID_System_UInt32_UnityEngine_Vector3_System_Int32_" data-uid="SDG.Unturned.VehicleManager.tellVehicleRecov(Steamworks.CSteamID,System.UInt32,UnityEngine.Vector3,System.Int32)">
+  tellVehicleRecov(CSteamID, uint, Vector3, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleRecov(CSteamID steamID, uint instanceID, Vector3 newPosition, int newRecov)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRecov</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleSirens_" data-uid="SDG.Unturned.VehicleManager.tellVehicleSirens*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleSirens_Steamworks_CSteamID_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.VehicleManager.tellVehicleSirens(Steamworks.CSteamID,System.UInt32,System.Boolean)">
+  tellVehicleSirens(CSteamID, uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleSirens(CSteamID steamID, uint instanceID, bool on)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>on</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleSkin_" data-uid="SDG.Unturned.VehicleManager.tellVehicleSkin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleSkin_Steamworks_CSteamID_System_UInt32_System_UInt16_System_UInt16_" data-uid="SDG.Unturned.VehicleManager.tellVehicleSkin(Steamworks.CSteamID,System.UInt32,System.UInt16,System.UInt16)">
+  tellVehicleSkin(CSteamID, uint, ushort, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleSkin(CSteamID steamID, uint instanceID, ushort skinID, ushort mythicID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>skinID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>mythicID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleStates_" data-uid="SDG.Unturned.VehicleManager.tellVehicleStates*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleStates_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.tellVehicleStates(Steamworks.CSteamID)">
+  tellVehicleStates(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleStates(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicleTireAliveMask_" data-uid="SDG.Unturned.VehicleManager.tellVehicleTireAliveMask*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicleTireAliveMask_Steamworks_CSteamID_System_UInt32_System_Byte_" data-uid="SDG.Unturned.VehicleManager.tellVehicleTireAliveMask(Steamworks.CSteamID,System.UInt32,System.Byte)">
+  tellVehicleTireAliveMask(CSteamID, uint, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicleTireAliveMask(CSteamID steamID, uint instanceID, byte newTireAliveMask)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>newTireAliveMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_tellVehicles_" data-uid="SDG.Unturned.VehicleManager.tellVehicles*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_tellVehicles_Steamworks_CSteamID_" data-uid="SDG.Unturned.VehicleManager.tellVehicles(Steamworks.CSteamID)">
+  tellVehicles(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVehicles(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleManager_unlockVehicle_" data-uid="SDG.Unturned.VehicleManager.unlockVehicle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleManager_unlockVehicle_SDG_Unturned_InteractableVehicle_SDG_Unturned_Player_" data-uid="SDG.Unturned.VehicleManager.unlockVehicle(SDG.Unturned.InteractableVehicle,SDG.Unturned.Player)">
+  unlockVehicle(InteractableVehicle, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void unlockVehicle(InteractableVehicle vehicle, Player instigatingPlayer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>instigatingPlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_OnPreDestroyVehicle" data-uid="SDG.Unturned.VehicleManager.OnPreDestroyVehicle">
+  OnPreDestroyVehicle
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked immediately before Destroy vehicle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;InteractableVehicle&gt; OnPreDestroyVehicle</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_OnToggleVehicleLockRequested" data-uid="SDG.Unturned.VehicleManager.OnToggleVehicleLockRequested">
+  OnToggleVehicleLockRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event VehicleManager.ToggleVehicleLockRequested OnToggleVehicleLockRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleManager.html">VehicleManager</a>.<a class="xref" href="SDG.Unturned.VehicleManager.ToggleVehicleLockRequested.html">ToggleVehicleLockRequested</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_OnToggledVehicleLock" data-uid="SDG.Unturned.VehicleManager.OnToggledVehicleLock">
+  OnToggledVehicleLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;InteractableVehicle&gt; OnToggledVehicleLock</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onEnterVehicleRequested" data-uid="SDG.Unturned.VehicleManager.onEnterVehicleRequested">
+  onEnterVehicleRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event VehicleManager.EnterVehicleRequestHandler onEnterVehicleRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleManager.html">VehicleManager</a>.<a class="xref" href="SDG.Unturned.VehicleManager.EnterVehicleRequestHandler.html">EnterVehicleRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onExitVehicleRequested" data-uid="SDG.Unturned.VehicleManager.onExitVehicleRequested">
+  onExitVehicleRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event VehicleManager.ExitVehicleRequestHandler onExitVehicleRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleManager.html">VehicleManager</a>.<a class="xref" href="SDG.Unturned.VehicleManager.ExitVehicleRequestHandler.html">ExitVehicleRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleManager_onSwapSeatRequested" data-uid="SDG.Unturned.VehicleManager.onSwapSeatRequested">
+  onSwapSeatRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event VehicleManager.SwapSeatRequestHandler onSwapSeatRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleManager.html">VehicleManager</a>.<a class="xref" href="SDG.Unturned.VehicleManager.SwapSeatRequestHandler.html">SwapSeatRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

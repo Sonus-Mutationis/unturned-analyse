@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LandscapeTile | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LandscapeTile | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Framework.Landscapes.LandscapeTile">
+
+
+
+  <h1 id="SDG_Framework_Landscapes_LandscapeTile" data-uid="SDG.Framework.Landscapes.LandscapeTile" class="text-break">
+Class LandscapeTile  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Framework.html">Framework</a>.<a class="xref" href="SDG.Framework.Landscapes.html">Landscapes</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LandscapeTile : IFormattedFileReadable, IFormattedFileWritable, IFoliageSurface</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">LandscapeTile</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReadable.html">IFormattedFileReadable</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWritable.html">IFormattedFileWritable</a></div>
+      <div><a class="xref" href="SDG.Framework.Foliage.IFoliageSurface.html">IFoliageSurface</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile__ctor_" data-uid="SDG.Framework.Landscapes.LandscapeTile.#ctor*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile__ctor_SDG_Framework_Landscapes_LandscapeCoord_" data-uid="SDG.Framework.Landscapes.LandscapeTile.#ctor(SDG.Framework.Landscapes.LandscapeCoord)">
+  LandscapeTile(LandscapeCoord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LandscapeTile(LandscapeCoord newCoord)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newCoord</code> <a class="xref" href="SDG.Framework.Landscapes.LandscapeCoord.html">LandscapeCoord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile__coord" data-uid="SDG.Framework.Landscapes.LandscapeTile._coord">
+  _coord
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LandscapeCoord _coord</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Landscapes.LandscapeCoord.html">LandscapeCoord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_dataWithoutHoles" data-uid="SDG.Framework.Landscapes.LandscapeTile.dataWithoutHoles">
+  dataWithoutHoles
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Heightmap-only data used in level editor. Refer to Landscape.DisableHoleColliders for explanation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TerrainData dataWithoutHoles</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TerrainData</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_hasAnyHolesData" data-uid="SDG.Framework.Landscapes.LandscapeTile.hasAnyHolesData">
+  hasAnyHolesData
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Marked true when level editor or legacy hole volumes modify hole data.
+Defaults to false in which case holes do not need to be saved.</p>
+<p>Initially this was not going to be marked by hole volumes because they can re-generate the holes, but saving
+hole volume cuts is helpful when upgrading to remove hole volumes from a map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasAnyHolesData</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_heightmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.heightmap">
+  heightmap
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[,] heightmap</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_holes" data-uid="SDG.Framework.Landscapes.LandscapeTile.holes">
+  holes
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>True is solid and false is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool[,] holes</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_splatmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.splatmap">
+  splatmap
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[,,] splatmap</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[,,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_IsValidFoliageSurface_" data-uid="SDG.Framework.Landscapes.LandscapeTile.IsValidFoliageSurface*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_IsValidFoliageSurface" data-uid="SDG.Framework.Landscapes.LandscapeTile.IsValidFoliageSurface">
+  IsValidFoliageSurface
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidFoliageSurface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if other IFoliageSurface methods can be called.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_collider_" data-uid="SDG.Framework.Landscapes.LandscapeTile.collider*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_collider" data-uid="SDG.Framework.Landscapes.LandscapeTile.collider">
+  collider
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TerrainCollider collider { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TerrainCollider</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_coord_" data-uid="SDG.Framework.Landscapes.LandscapeTile.coord*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_coord" data-uid="SDG.Framework.Landscapes.LandscapeTile.coord">
+  coord
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LandscapeCoord coord { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Landscapes.LandscapeCoord.html">LandscapeCoord</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_data_" data-uid="SDG.Framework.Landscapes.LandscapeTile.data*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_data" data-uid="SDG.Framework.Landscapes.LandscapeTile.data">
+  data
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TerrainData data { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TerrainData</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_gameObject_" data-uid="SDG.Framework.Landscapes.LandscapeTile.gameObject*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_gameObject" data-uid="SDG.Framework.Landscapes.LandscapeTile.gameObject">
+  gameObject
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject gameObject { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_localBounds_" data-uid="SDG.Framework.Landscapes.LandscapeTile.localBounds*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_localBounds" data-uid="SDG.Framework.Landscapes.LandscapeTile.localBounds">
+  localBounds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bounds localBounds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Bounds</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_materials_" data-uid="SDG.Framework.Landscapes.LandscapeTile.materials*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_materials" data-uid="SDG.Framework.Landscapes.LandscapeTile.materials">
+  materials
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InspectableList&lt;AssetReference&lt;LandscapeMaterialAsset&gt;&gt; materials { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Debug.InspectableList-1.html">InspectableList</a>&lt;<a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.LandscapeMaterialAsset.html">LandscapeMaterialAsset</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_terrain_" data-uid="SDG.Framework.Landscapes.LandscapeTile.terrain*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_terrain" data-uid="SDG.Framework.Landscapes.LandscapeTile.terrain">
+  terrain
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Terrain terrain { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Terrain</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_worldBounds_" data-uid="SDG.Framework.Landscapes.LandscapeTile.worldBounds*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_worldBounds" data-uid="SDG.Framework.Landscapes.LandscapeTile.worldBounds">
+  worldBounds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bounds worldBounds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Bounds</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_SetHeightsDelayLOD_" data-uid="SDG.Framework.Landscapes.LandscapeTile.SetHeightsDelayLOD*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_SetHeightsDelayLOD" data-uid="SDG.Framework.Landscapes.LandscapeTile.SetHeightsDelayLOD">
+  SetHeightsDelayLOD()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHeightsDelayLOD()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_SyncHeightmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.SyncHeightmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_SyncHeightmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.SyncHeightmap">
+  SyncHeightmap()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncHeightmap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_applyGraphicsSettings_" data-uid="SDG.Framework.Landscapes.LandscapeTile.applyGraphicsSettings*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_applyGraphicsSettings" data-uid="SDG.Framework.Landscapes.LandscapeTile.applyGraphicsSettings">
+  applyGraphicsSettings()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void applyGraphicsSettings()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_bakeFoliageSurface_" data-uid="SDG.Framework.Landscapes.LandscapeTile.bakeFoliageSurface*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_bakeFoliageSurface_SDG_Framework_Foliage_FoliageBakeSettings_SDG_Framework_Foliage_FoliageTile_" data-uid="SDG.Framework.Landscapes.LandscapeTile.bakeFoliageSurface(SDG.Framework.Foliage.FoliageBakeSettings,SDG.Framework.Foliage.FoliageTile)">
+  bakeFoliageSurface(FoliageBakeSettings, FoliageTile)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void bakeFoliageSurface(FoliageBakeSettings bakeSettings, FoliageTile foliageTile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bakeSettings</code> <a class="xref" href="SDG.Framework.Foliage.FoliageBakeSettings.html">FoliageBakeSettings</a></dt>
+    <dd></dd>
+    <dt><code>foliageTile</code> <a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_convertLegacyHeightmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.convertLegacyHeightmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_convertLegacyHeightmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.convertLegacyHeightmap">
+  convertLegacyHeightmap()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void convertLegacyHeightmap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_convertLegacySplatmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.convertLegacySplatmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_convertLegacySplatmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.convertLegacySplatmap">
+  convertLegacySplatmap()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void convertLegacySplatmap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_disable_" data-uid="SDG.Framework.Landscapes.LandscapeTile.disable*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_disable" data-uid="SDG.Framework.Landscapes.LandscapeTile.disable">
+  disable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void disable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_enable_" data-uid="SDG.Framework.Landscapes.LandscapeTile.enable*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_enable" data-uid="SDG.Framework.Landscapes.LandscapeTile.enable">
+  enable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void enable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_getFoliageSurfaceBounds_" data-uid="SDG.Framework.Landscapes.LandscapeTile.getFoliageSurfaceBounds*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_getFoliageSurfaceBounds" data-uid="SDG.Framework.Landscapes.LandscapeTile.getFoliageSurfaceBounds">
+  getFoliageSurfaceBounds()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FoliageBounds getFoliageSurfaceBounds()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageBounds.html">FoliageBounds</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_getFoliageSurfaceInfo_" data-uid="SDG.Framework.Landscapes.LandscapeTile.getFoliageSurfaceInfo*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_getFoliageSurfaceInfo_UnityEngine_Vector3_UnityEngine_Vector3__UnityEngine_Vector3__" data-uid="SDG.Framework.Landscapes.LandscapeTile.getFoliageSurfaceInfo(UnityEngine.Vector3,UnityEngine.Vector3@,UnityEngine.Vector3@)">
+  getFoliageSurfaceInfo(Vector3, out Vector3, out Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getFoliageSurfaceInfo(Vector3 position, out Vector3 surfacePosition, out Vector3 surfaceNormal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>surfacePosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>surfaceNormal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_handleMaterialsInspectorChanged_" data-uid="SDG.Framework.Landscapes.LandscapeTile.handleMaterialsInspectorChanged*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_handleMaterialsInspectorChanged_SDG_Framework_Debug_IInspectableList_" data-uid="SDG.Framework.Landscapes.LandscapeTile.handleMaterialsInspectorChanged(SDG.Framework.Debug.IInspectableList)">
+  handleMaterialsInspectorChanged(IInspectableList)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void handleMaterialsInspectorChanged(IInspectableList list)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="SDG.Framework.Debug.IInspectableList.html">IInspectableList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_normalizeSplatmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.normalizeSplatmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_normalizeSplatmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.normalizeSplatmap">
+  normalizeSplatmap()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void normalizeSplatmap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_read_" data-uid="SDG.Framework.Landscapes.LandscapeTile.read*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_read_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_" data-uid="SDG.Framework.Landscapes.LandscapeTile.read(SDG.Framework.IO.FormattedFiles.IFormattedFileReader)">
+  read(IFormattedFileReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void read(IFormattedFileReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReader.html">IFormattedFileReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_readHeightmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.readHeightmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_readHeightmap_System_String_System_Single_0__0___" data-uid="SDG.Framework.Landscapes.LandscapeTile.readHeightmap(System.String,System.Single[0:,0:])">
+  readHeightmap(string, float[,])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void readHeightmap(string suffix, float[,] heightmap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>suffix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>heightmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_readHeightmaps_" data-uid="SDG.Framework.Landscapes.LandscapeTile.readHeightmaps*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_readHeightmaps" data-uid="SDG.Framework.Landscapes.LandscapeTile.readHeightmaps">
+  readHeightmaps()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void readHeightmaps()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_readSplatmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.readSplatmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_readSplatmap_System_String_System_Single_0__0__0___" data-uid="SDG.Framework.Landscapes.LandscapeTile.readSplatmap(System.String,System.Single[0:,0:,0:])">
+  readSplatmap(string, float[,,])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void readSplatmap(string suffix, float[,,] splatmap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>suffix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>splatmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[,,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_readSplatmaps_" data-uid="SDG.Framework.Landscapes.LandscapeTile.readSplatmaps*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_readSplatmaps" data-uid="SDG.Framework.Landscapes.LandscapeTile.readSplatmaps">
+  readSplatmaps()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void readSplatmaps()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_resetHeightmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.resetHeightmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_resetHeightmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.resetHeightmap">
+  resetHeightmap()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void resetHeightmap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_resetSplatmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.resetSplatmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_resetSplatmap" data-uid="SDG.Framework.Landscapes.LandscapeTile.resetSplatmap">
+  resetSplatmap()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void resetSplatmap()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_updatePrototypes_" data-uid="SDG.Framework.Landscapes.LandscapeTile.updatePrototypes*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_updatePrototypes" data-uid="SDG.Framework.Landscapes.LandscapeTile.updatePrototypes">
+  updatePrototypes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call this when done changing material references to grab their textures and pass them to the terrain renderer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updatePrototypes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_updateTransform_" data-uid="SDG.Framework.Landscapes.LandscapeTile.updateTransform*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_updateTransform" data-uid="SDG.Framework.Landscapes.LandscapeTile.updateTransform">
+  updateTransform()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void updateTransform()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_write_" data-uid="SDG.Framework.Landscapes.LandscapeTile.write*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_write_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_" data-uid="SDG.Framework.Landscapes.LandscapeTile.write(SDG.Framework.IO.FormattedFiles.IFormattedFileWriter)">
+  write(IFormattedFileWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void write(IFormattedFileWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWriter.html">IFormattedFileWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_writeHeightmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeHeightmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_writeHeightmap_System_String_System_Single_0__0___" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeHeightmap(System.String,System.Single[0:,0:])">
+  writeHeightmap(string, float[,])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void writeHeightmap(string suffix, float[,] heightmap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>suffix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>heightmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_writeHeightmaps_" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeHeightmaps*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_writeHeightmaps" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeHeightmaps">
+  writeHeightmaps()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void writeHeightmaps()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_writeSplatmap_" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeSplatmap*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_writeSplatmap_System_String_System_Single_0__0__0___" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeSplatmap(System.String,System.Single[0:,0:,0:])">
+  writeSplatmap(string, float[,,])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void writeSplatmap(string suffix, float[,,] splatmap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>suffix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>splatmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[,,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Landscapes_LandscapeTile_writeSplatmaps_" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeSplatmaps*"></a>
+
+  <h3 id="SDG_Framework_Landscapes_LandscapeTile_writeSplatmaps" data-uid="SDG.Framework.Landscapes.LandscapeTile.writeSplatmaps">
+  writeSplatmaps()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void writeSplatmaps()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

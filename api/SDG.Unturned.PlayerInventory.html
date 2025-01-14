@@ -1,0 +1,3943 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerInventory | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerInventory | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerInventory">
+
+
+
+  <h1 id="SDG_Unturned_PlayerInventory" data-uid="SDG.Unturned.PlayerInventory" class="text-break">
+Class PlayerInventory  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerInventory : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerInventory</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerInventory__ctor_" data-uid="SDG.Unturned.PlayerInventory.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory__ctor" data-uid="SDG.Unturned.PlayerInventory.#ctor">
+  PlayerInventory()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerInventory()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_AREA" data-uid="SDG.Unturned.PlayerInventory.AREA">
+  AREA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte AREA</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_BACKPACK" data-uid="SDG.Unturned.PlayerInventory.BACKPACK">
+  BACKPACK
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte BACKPACK</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_HORDE" data-uid="SDG.Unturned.PlayerInventory.HORDE">
+  HORDE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ushort[] HORDE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_LOADOUT" data-uid="SDG.Unturned.PlayerInventory.LOADOUT">
+  LOADOUT
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ushort[] LOADOUT</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_PAGES" data-uid="SDG.Unturned.PlayerInventory.PAGES">
+  PAGES
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte PAGES</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_PANTS" data-uid="SDG.Unturned.PlayerInventory.PANTS">
+  PANTS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte PANTS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_SAVEDATA_VERSION" data-uid="SDG.Unturned.PlayerInventory.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_SHIRT" data-uid="SDG.Unturned.PlayerInventory.SHIRT">
+  SHIRT
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SHIRT</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_SKILLSETS_CLIENT" data-uid="SDG.Unturned.PlayerInventory.SKILLSETS_CLIENT">
+  SKILLSETS_CLIENT
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ushort[][] SKILLSETS_CLIENT</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[][]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_SKILLSETS_HERO" data-uid="SDG.Unturned.PlayerInventory.SKILLSETS_HERO">
+  SKILLSETS_HERO
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ushort[][] SKILLSETS_HERO</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[][]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_SKILLSETS_SERVER" data-uid="SDG.Unturned.PlayerInventory.SKILLSETS_SERVER">
+  SKILLSETS_SERVER
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ushort[][] SKILLSETS_SERVER</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[][]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_SLOTS" data-uid="SDG.Unturned.PlayerInventory.SLOTS">
+  SLOTS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SLOTS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_STORAGE" data-uid="SDG.Unturned.PlayerInventory.STORAGE">
+  STORAGE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte STORAGE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_VEST" data-uid="SDG.Unturned.PlayerInventory.VEST">
+  VEST
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte VEST</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_isStorageTrunk" data-uid="SDG.Unturned.PlayerInventory.isStorageTrunk">
+  isStorageTrunk
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isStorageTrunk</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_isStoring" data-uid="SDG.Unturned.PlayerInventory.isStoring">
+  isStoring
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isStoring</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_loadout" data-uid="SDG.Unturned.PlayerInventory.loadout">
+  loadout
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort[] loadout</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onDropItemRequested" data-uid="SDG.Unturned.PlayerInventory.onDropItemRequested">
+  onDropItemRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropItemRequestHandler onDropItemRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DropItemRequestHandler.html">DropItemRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onInventoryAdded" data-uid="SDG.Unturned.PlayerInventory.onInventoryAdded">
+  onInventoryAdded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryAdded onInventoryAdded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventoryAdded.html">InventoryAdded</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onInventoryRemoved" data-uid="SDG.Unturned.PlayerInventory.onInventoryRemoved">
+  onInventoryRemoved
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryRemoved onInventoryRemoved</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventoryRemoved.html">InventoryRemoved</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onInventoryResized" data-uid="SDG.Unturned.PlayerInventory.onInventoryResized">
+  onInventoryResized
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryResized onInventoryResized</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventoryResized.html">InventoryResized</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onInventoryStateUpdated" data-uid="SDG.Unturned.PlayerInventory.onInventoryStateUpdated">
+  onInventoryStateUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryStateUpdated onInventoryStateUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventoryStateUpdated.html">InventoryStateUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onInventoryStored" data-uid="SDG.Unturned.PlayerInventory.onInventoryStored">
+  onInventoryStored
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryStored onInventoryStored</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventoryStored.html">InventoryStored</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_onInventoryUpdated" data-uid="SDG.Unturned.PlayerInventory.onInventoryUpdated">
+  onInventoryUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryUpdated onInventoryUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventoryUpdated.html">InventoryUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_receivedUpdateIndex" data-uid="SDG.Unturned.PlayerInventory.receivedUpdateIndex">
+  receivedUpdateIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Every time the inventory changes this number is incremented.
+While a little messy, the idea is to prevent inventory checks from happening every frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int receivedUpdateIndex</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_skillsets" data-uid="SDG.Unturned.PlayerInventory.skillsets">
+  skillsets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort[][] skillsets</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[][]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerInventory_storage" data-uid="SDG.Unturned.PlayerInventory.storage">
+  storage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractableStorage storage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableStorage.html">InteractableStorage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerInventory_items_" data-uid="SDG.Unturned.PlayerInventory.items*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_items" data-uid="SDG.Unturned.PlayerInventory.items">
+  items
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Items[] items { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Items.html">Items</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_shouldInteractCloseStorage_" data-uid="SDG.Unturned.PlayerInventory.shouldInteractCloseStorage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_shouldInteractCloseStorage" data-uid="SDG.Unturned.PlayerInventory.shouldInteractCloseStorage">
+  shouldInteractCloseStorage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldInteractCloseStorage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_shouldInventoryStopGestureCloseStorage_" data-uid="SDG.Unturned.PlayerInventory.shouldInventoryStopGestureCloseStorage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_shouldInventoryStopGestureCloseStorage" data-uid="SDG.Unturned.PlayerInventory.shouldInventoryStopGestureCloseStorage">
+  shouldInventoryStopGestureCloseStorage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldInventoryStopGestureCloseStorage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_shouldStorageOpenDashboard_" data-uid="SDG.Unturned.PlayerInventory.shouldStorageOpenDashboard*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_shouldStorageOpenDashboard" data-uid="SDG.Unturned.PlayerInventory.shouldStorageOpenDashboard">
+  shouldStorageOpenDashboard
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldStorageOpenDashboard { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveDragItem_" data-uid="SDG.Unturned.PlayerInventory.ReceiveDragItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveDragItem_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveDragItem(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  ReceiveDragItem(byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10, legacyName = &quot;askDragItem&quot;)]
+public void ReceiveDragItem(byte page_0, byte x_0, byte y_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveDropItem_" data-uid="SDG.Unturned.PlayerInventory.ReceiveDropItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveDropItem_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveDropItem(System.Byte,System.Byte,System.Byte)">
+  ReceiveDropItem(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10, legacyName = &quot;askDropItem&quot;)]
+public void ReceiveDropItem(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveInventory_" data-uid="SDG.Unturned.PlayerInventory.ReceiveInventory*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveInventory_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory.ReceiveInventory(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveInventory(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveInventory(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveItemAdd_" data-uid="SDG.Unturned.PlayerInventory.ReceiveItemAdd*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveItemAdd_System_Byte_System_Byte_System_Byte_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory.ReceiveItemAdd(System.Byte,System.Byte,System.Byte,System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte[])">
+  ReceiveItemAdd(byte, byte, byte, byte, ushort, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellItemAdd&quot;)]
+public void ReceiveItemAdd(byte page, byte x, byte y, byte rot, ushort id, byte amount, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveItemRemove_" data-uid="SDG.Unturned.PlayerInventory.ReceiveItemRemove*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveItemRemove_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveItemRemove(System.Byte,System.Byte,System.Byte)">
+  ReceiveItemRemove(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellItemRemove&quot;)]
+public void ReceiveItemRemove(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveSize_" data-uid="SDG.Unturned.PlayerInventory.ReceiveSize*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveSize_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveSize(System.Byte,System.Byte,System.Byte)">
+  ReceiveSize(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSize&quot;)]
+public void ReceiveSize(byte page, byte newWidth, byte newHeight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveStoraging_" data-uid="SDG.Unturned.PlayerInventory.ReceiveStoraging*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveStoraging_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerInventory.ReceiveStoraging(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveStoraging(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveStoraging(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveSwapItem_" data-uid="SDG.Unturned.PlayerInventory.ReceiveSwapItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveSwapItem_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveSwapItem(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapItem(byte, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Swap coordinates of two existing items.
+Rotation is provided to handle differently shaped items e.g. a 1x2 item with a 2x1 item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10, legacyName = &quot;askSwapItem&quot;)]
+public void ReceiveSwapItem(byte page_0, byte x_0, byte y_0, byte rot_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveUpdateAmount_" data-uid="SDG.Unturned.PlayerInventory.ReceiveUpdateAmount*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveUpdateAmount_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveUpdateAmount(System.Byte,System.Byte,System.Byte)">
+  ReceiveUpdateAmount(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateAmount&quot;)]
+public void ReceiveUpdateAmount(byte page, byte index, byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveUpdateInvState_" data-uid="SDG.Unturned.PlayerInventory.ReceiveUpdateInvState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveUpdateInvState_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory.ReceiveUpdateInvState(System.Byte,System.Byte,System.Byte[])">
+  ReceiveUpdateInvState(byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateInvState&quot;)]
+public void ReceiveUpdateInvState(byte page, byte index, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_ReceiveUpdateQuality_" data-uid="SDG.Unturned.PlayerInventory.ReceiveUpdateQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_ReceiveUpdateQuality_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.ReceiveUpdateQuality(System.Byte,System.Byte,System.Byte)">
+  ReceiveUpdateQuality(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateQuality&quot;)]
+public void ReceiveUpdateQuality(byte page, byte index, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_askDragItem_" data-uid="SDG.Unturned.PlayerInventory.askDragItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_askDragItem_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.askDragItem(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  askDragItem(CSteamID, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askDragItem(CSteamID steamID, byte page_0, byte x_0, byte y_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_askDropItem_" data-uid="SDG.Unturned.PlayerInventory.askDropItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_askDropItem_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.askDropItem(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askDropItem(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askDropItem(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_askInventory_" data-uid="SDG.Unturned.PlayerInventory.askInventory*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_askInventory_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerInventory.askInventory(Steamworks.CSteamID)">
+  askInventory(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askInventory(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_askSwapItem_" data-uid="SDG.Unturned.PlayerInventory.askSwapItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_askSwapItem_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.askSwapItem(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  askSwapItem(CSteamID, byte, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapItem(CSteamID steamID, byte page_0, byte x_0, byte y_0, byte rot_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_checkSpaceDrag_" data-uid="SDG.Unturned.PlayerInventory.checkSpaceDrag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_checkSpaceDrag_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.checkSpaceDrag(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Boolean)">
+  checkSpaceDrag(byte, byte, byte, byte, byte, byte, byte, byte, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkSpaceDrag(byte page, byte old_x, byte old_y, byte oldRot, byte new_x, byte new_y, byte newRot, byte size_x, byte size_y, bool checkSame)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>old_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>old_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>oldRot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>new_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>new_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newRot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>checkSame</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_checkSpaceEmpty_" data-uid="SDG.Unturned.PlayerInventory.checkSpaceEmpty*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_checkSpaceEmpty_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.checkSpaceEmpty(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  checkSpaceEmpty(byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkSpaceEmpty(byte page, byte x, byte y, byte size_x, byte size_y, byte rot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_checkSpaceSwap_" data-uid="SDG.Unturned.PlayerInventory.checkSpaceSwap*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_checkSpaceSwap_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.checkSpaceSwap(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  checkSpaceSwap(byte, byte, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Given an item coordinate (page, x, y) could a new item take the place of an old (existing) item without
+overlapping other item(s) space? Always true for equipment slots (page less than SLOTS).
+For example if oldSize is (1, 2) rot 0, and newSize is (2, 1) rot 1, then they can swap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkSpaceSwap(byte page, byte x, byte y, byte oldSize_X, byte oldSize_Y, byte oldRot, byte newSize_X, byte newSize_Y, byte newRot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>oldSize_X</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>oldSize_Y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>oldRot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSize_X</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSize_Y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newRot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_closeDistantStorage_" data-uid="SDG.Unturned.PlayerInventory.closeDistantStorage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_closeDistantStorage" data-uid="SDG.Unturned.PlayerInventory.closeDistantStorage">
+  closeDistantStorage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from player movement to close storage that has moved away.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void closeDistantStorage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_closeStorage_" data-uid="SDG.Unturned.PlayerInventory.closeStorage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_closeStorage" data-uid="SDG.Unturned.PlayerInventory.closeStorage">
+  closeStorage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on both client and server, as well as by storage itself when destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void closeStorage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_closeStorageAndNotifyClient_" data-uid="SDG.Unturned.PlayerInventory.closeStorageAndNotifyClient*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_closeStorageAndNotifyClient" data-uid="SDG.Unturned.PlayerInventory.closeStorageAndNotifyClient">
+  closeStorageAndNotifyClient()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void closeStorageAndNotifyClient()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_closeTrunk_" data-uid="SDG.Unturned.PlayerInventory.closeTrunk*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_closeTrunk" data-uid="SDG.Unturned.PlayerInventory.closeTrunk">
+  closeTrunk()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serverside revoke trunk access and notify client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void closeTrunk()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_doesSearchNeedRefresh_" data-uid="SDG.Unturned.PlayerInventory.doesSearchNeedRefresh*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_doesSearchNeedRefresh_System_Int32__" data-uid="SDG.Unturned.PlayerInventory.doesSearchNeedRefresh(System.Int32@)">
+  doesSearchNeedRefresh(ref int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Helper to prevent checking the inventory every frame for systems that don't use events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool doesSearchNeedRefresh(ref int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_findIndex_" data-uid="SDG.Unturned.PlayerInventory.findIndex*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_findIndex_System_Byte_System_Byte_System_Byte_System_Byte__System_Byte__" data-uid="SDG.Unturned.PlayerInventory.findIndex(System.Byte,System.Byte,System.Byte,System.Byte@,System.Byte@)">
+  findIndex(byte, byte, byte, out byte, out byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte findIndex(byte page, byte x, byte y, out byte find_x, out byte find_y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>find_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>find_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_forceAddItem_" data-uid="SDG.Unturned.PlayerInventory.forceAddItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_forceAddItem_SDG_Unturned_Item_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.forceAddItem(SDG.Unturned.Item,System.Boolean)">
+  forceAddItem(Item, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void forceAddItem(Item item, bool auto)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>auto</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_forceAddItem_" data-uid="SDG.Unturned.PlayerInventory.forceAddItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_forceAddItem_SDG_Unturned_Item_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.forceAddItem(SDG.Unturned.Item,System.Boolean,System.Boolean)">
+  forceAddItem(Item, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void forceAddItem(Item item, bool auto, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>auto</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_forceAddItemAuto_" data-uid="SDG.Unturned.PlayerInventory.forceAddItemAuto*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_forceAddItemAuto_SDG_Unturned_Item_System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.forceAddItemAuto(SDG.Unturned.Item,System.Boolean,System.Boolean,System.Boolean)">
+  forceAddItemAuto(Item, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void forceAddItemAuto(Item item, bool autoEquipWeapon, bool autoEquipUseable, bool autoEquipClothing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipWeapon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipUseable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipClothing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_forceAddItemAuto_" data-uid="SDG.Unturned.PlayerInventory.forceAddItemAuto*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_forceAddItemAuto_SDG_Unturned_Item_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.forceAddItemAuto(SDG.Unturned.Item,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+  forceAddItemAuto(Item, bool, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void forceAddItemAuto(Item item, bool autoEquipWeapon, bool autoEquipUseable, bool autoEquipClothing, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipWeapon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipUseable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipClothing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_getHeight_" data-uid="SDG.Unturned.PlayerInventory.getHeight*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_getHeight_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.getHeight(System.Byte)">
+  getHeight(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte getHeight(byte page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_getIndex_" data-uid="SDG.Unturned.PlayerInventory.getIndex*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_getIndex_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.getIndex(System.Byte,System.Byte,System.Byte)">
+  getIndex(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte getIndex(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_getItem_" data-uid="SDG.Unturned.PlayerInventory.getItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_getItem_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.getItem(System.Byte,System.Byte)">
+  getItem(byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemJar getItem(byte page, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemJar.html">ItemJar</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_getItemCount_" data-uid="SDG.Unturned.PlayerInventory.getItemCount*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_getItemCount_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.getItemCount(System.Byte)">
+  getItemCount(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte getItemCount(byte page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_getWidth_" data-uid="SDG.Unturned.PlayerInventory.getWidth*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_getWidth_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.getWidth(System.Byte)">
+  getWidth(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte getWidth(byte page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_has_" data-uid="SDG.Unturned.PlayerInventory.has*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_has_System_UInt16_" data-uid="SDG.Unturned.PlayerInventory.has(System.UInt16)">
+  has(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventorySearch has(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_incrementUpdateIndex_" data-uid="SDG.Unturned.PlayerInventory.incrementUpdateIndex*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_incrementUpdateIndex" data-uid="SDG.Unturned.PlayerInventory.incrementUpdateIndex">
+  incrementUpdateIndex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should be called every time something changes in the inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void incrementUpdateIndex()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_load_" data-uid="SDG.Unturned.PlayerInventory.load*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_load" data-uid="SDG.Unturned.PlayerInventory.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_openStorage_" data-uid="SDG.Unturned.PlayerInventory.openStorage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_openStorage_SDG_Unturned_InteractableStorage_" data-uid="SDG.Unturned.PlayerInventory.openStorage(SDG.Unturned.InteractableStorage)">
+  openStorage(InteractableStorage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serverside open a storage crate and notify client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void openStorage(InteractableStorage newStorage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newStorage</code> <a class="xref" href="SDG.Unturned.InteractableStorage.html">InteractableStorage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_openTrunk_" data-uid="SDG.Unturned.PlayerInventory.openTrunk*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_openTrunk_SDG_Unturned_Items_" data-uid="SDG.Unturned.PlayerInventory.openTrunk(SDG.Unturned.Items)">
+  openTrunk(Items)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serverside grant access to car trunk storage and notify client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void openTrunk(Items trunkItems)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>trunkItems</code> <a class="xref" href="SDG.Unturned.Items.html">Items</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_removeItem_" data-uid="SDG.Unturned.PlayerInventory.removeItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_removeItem_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.removeItem(System.Byte,System.Byte)">
+  removeItem(byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void removeItem(byte page, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_replaceItems_" data-uid="SDG.Unturned.PlayerInventory.replaceItems*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_replaceItems_System_Byte_SDG_Unturned_Items_" data-uid="SDG.Unturned.PlayerInventory.replaceItems(System.Byte,SDG.Unturned.Items)">
+  replaceItems(byte, Items)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void replaceItems(byte page, Items replacement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>replacement</code> <a class="xref" href="SDG.Unturned.Items.html">Items</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_save_" data-uid="SDG.Unturned.PlayerInventory.save*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_save" data-uid="SDG.Unturned.PlayerInventory.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_SDG_Unturned_EItemType_" data-uid="SDG.Unturned.PlayerInventory.search(SDG.Unturned.EItemType)">
+  search(EItemType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;InventorySearch&gt; search(EItemType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EItemType.html">EItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_SDG_Unturned_EItemType_System_UInt16___" data-uid="SDG.Unturned.PlayerInventory.search(SDG.Unturned.EItemType,System.UInt16[])">
+  search(EItemType, ushort[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public List&lt;InventorySearch&gt; search(EItemType type, ushort[] calibers)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EItemType.html">EItemType</a></dt>
+    <dd></dd>
+    <dt><code>calibers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_SDG_Unturned_EItemType_System_UInt16___System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.search(SDG.Unturned.EItemType,System.UInt16[],System.Boolean)">
+  search(EItemType, ushort[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;InventorySearch&gt; search(EItemType type, ushort[] calibers, bool allowZeroCaliber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EItemType.html">EItemType</a></dt>
+    <dd></dd>
+    <dt><code>calibers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+    <dt><code>allowZeroCaliber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_System_Collections_Generic_List_SDG_Unturned_InventorySearch__" data-uid="SDG.Unturned.PlayerInventory.search(System.Collections.Generic.List{SDG.Unturned.InventorySearch})">
+  search(List&lt;InventorySearch&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;InventorySearch&gt; search(List&lt;InventorySearch&gt; search)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_System_Collections_Generic_List_SDG_Unturned_InventorySearch__SDG_Unturned_EItemType_" data-uid="SDG.Unturned.PlayerInventory.search(System.Collections.Generic.List{SDG.Unturned.InventorySearch},SDG.Unturned.EItemType)">
+  search(List&lt;InventorySearch&gt;, EItemType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void search(List&lt;InventorySearch&gt; search, EItemType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EItemType.html">EItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_System_Collections_Generic_List_SDG_Unturned_InventorySearch__SDG_Unturned_EItemType_System_UInt16_" data-uid="SDG.Unturned.PlayerInventory.search(System.Collections.Generic.List{SDG.Unturned.InventorySearch},SDG.Unturned.EItemType,System.UInt16)">
+  search(List&lt;InventorySearch&gt;, EItemType, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void search(List&lt;InventorySearch&gt; search, EItemType type, ushort caliber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EItemType.html">EItemType</a></dt>
+    <dd></dd>
+    <dt><code>caliber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_System_Collections_Generic_List_SDG_Unturned_InventorySearch__SDG_Unturned_EItemType_System_UInt16_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.search(System.Collections.Generic.List{SDG.Unturned.InventorySearch},SDG.Unturned.EItemType,System.UInt16,System.Boolean)">
+  search(List&lt;InventorySearch&gt;, EItemType, ushort, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void search(List&lt;InventorySearch&gt; search, EItemType type, ushort caliber, bool allowZeroCaliber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EItemType.html">EItemType</a></dt>
+    <dd></dd>
+    <dt><code>caliber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>allowZeroCaliber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_System_Collections_Generic_List_SDG_Unturned_InventorySearch__System_UInt16_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.search(System.Collections.Generic.List{SDG.Unturned.InventorySearch},System.UInt16,System.Boolean,System.Boolean)">
+  search(List&lt;InventorySearch&gt;, ushort, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void search(List&lt;InventorySearch&gt; search, ushort id, bool findEmpty, bool findHealthy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>findEmpty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>findHealthy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_search_" data-uid="SDG.Unturned.PlayerInventory.search*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_search_System_UInt16_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.search(System.UInt16,System.Boolean,System.Boolean)">
+  search(ushort, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;InventorySearch&gt; search(ushort id, bool findEmpty, bool findHealthy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>findEmpty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>findHealthy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InventorySearch.html">InventorySearch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendDragItem_" data-uid="SDG.Unturned.PlayerInventory.sendDragItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendDragItem_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.sendDragItem(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  sendDragItem(byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendDragItem(byte page_0, byte x_0, byte y_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendDropItem_" data-uid="SDG.Unturned.PlayerInventory.sendDropItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendDropItem_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.sendDropItem(System.Byte,System.Byte,System.Byte)">
+  sendDropItem(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendDropItem(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendStorage_" data-uid="SDG.Unturned.PlayerInventory.sendStorage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendStorage" data-uid="SDG.Unturned.PlayerInventory.sendStorage">
+  sendStorage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendStorage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendSwapItem_" data-uid="SDG.Unturned.PlayerInventory.sendSwapItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendSwapItem_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.sendSwapItem(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
+  sendSwapItem(byte, byte, byte, byte, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Swap coordinates of two existing items.
+Rotation is provided to handle differently shaped items e.g. a 1x2 item with a 2x1 item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapItem(byte page_0, byte x_0, byte y_0, byte rot_0, byte page_1, byte x_1, byte y_1, byte rot_1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendUpdateAmount_" data-uid="SDG.Unturned.PlayerInventory.sendUpdateAmount*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendUpdateAmount_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.sendUpdateAmount(System.Byte,System.Byte,System.Byte,System.Byte)">
+  sendUpdateAmount(byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateAmount(byte page, byte x, byte y, byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendUpdateInvState_" data-uid="SDG.Unturned.PlayerInventory.sendUpdateInvState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendUpdateInvState_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory.sendUpdateInvState(System.Byte,System.Byte,System.Byte,System.Byte[])">
+  sendUpdateInvState(byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateInvState(byte page, byte x, byte y, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_sendUpdateQuality_" data-uid="SDG.Unturned.PlayerInventory.sendUpdateQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_sendUpdateQuality_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.sendUpdateQuality(System.Byte,System.Byte,System.Byte,System.Byte)">
+  sendUpdateQuality(byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateQuality(byte page, byte x, byte y, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellInventory_" data-uid="SDG.Unturned.PlayerInventory.tellInventory*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellInventory_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerInventory.tellInventory(Steamworks.CSteamID)">
+  tellInventory(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellInventory(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellItemAdd_" data-uid="SDG.Unturned.PlayerInventory.tellItemAdd*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellItemAdd_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory.tellItemAdd(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte[])">
+  tellItemAdd(CSteamID, byte, byte, byte, byte, ushort, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellItemAdd(CSteamID steamID, byte page, byte x, byte y, byte rot, ushort id, byte amount, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellItemRemove_" data-uid="SDG.Unturned.PlayerInventory.tellItemRemove*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellItemRemove_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.tellItemRemove(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  tellItemRemove(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellItemRemove(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellSize_" data-uid="SDG.Unturned.PlayerInventory.tellSize*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellSize_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.tellSize(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  tellSize(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSize(CSteamID steamID, byte page, byte newWidth, byte newHeight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHeight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellStoraging_" data-uid="SDG.Unturned.PlayerInventory.tellStoraging*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellStoraging_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerInventory.tellStoraging(Steamworks.CSteamID)">
+  tellStoraging(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellStoraging(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellUpdateAmount_" data-uid="SDG.Unturned.PlayerInventory.tellUpdateAmount*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellUpdateAmount_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.tellUpdateAmount(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  tellUpdateAmount(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateAmount(CSteamID steamID, byte page, byte index, byte amount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellUpdateInvState_" data-uid="SDG.Unturned.PlayerInventory.tellUpdateInvState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellUpdateInvState_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory.tellUpdateInvState(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte[])">
+  tellUpdateInvState(CSteamID, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateInvState(CSteamID steamID, byte page, byte index, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tellUpdateQuality_" data-uid="SDG.Unturned.PlayerInventory.tellUpdateQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tellUpdateQuality_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.tellUpdateQuality(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  tellUpdateQuality(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateQuality(CSteamID steamID, byte page, byte index, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tryAddItem_" data-uid="SDG.Unturned.PlayerInventory.tryAddItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tryAddItem_SDG_Unturned_Item_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.tryAddItem(SDG.Unturned.Item,System.Boolean)">
+  tryAddItem(Item, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryAddItem(Item item, bool auto)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>auto</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tryAddItem_" data-uid="SDG.Unturned.PlayerInventory.tryAddItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tryAddItem_SDG_Unturned_Item_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.tryAddItem(SDG.Unturned.Item,System.Boolean,System.Boolean)">
+  tryAddItem(Item, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryAddItem(Item item, bool auto, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>auto</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tryAddItem_" data-uid="SDG.Unturned.PlayerInventory.tryAddItem*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tryAddItem_SDG_Unturned_Item_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.tryAddItem(SDG.Unturned.Item,System.Byte,System.Byte,System.Byte,System.Byte)">
+  tryAddItem(Item, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryAddItem(Item item, byte x, byte y, byte page, byte rot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tryAddItemAuto_" data-uid="SDG.Unturned.PlayerInventory.tryAddItemAuto*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tryAddItemAuto_SDG_Unturned_Item_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerInventory.tryAddItemAuto(SDG.Unturned.Item,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+  tryAddItemAuto(Item, bool, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryAddItemAuto(Item item, bool autoEquipWeapon, bool autoEquipUseable, bool autoEquipClothing, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipWeapon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipUseable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>autoEquipClothing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tryFindSpace_" data-uid="SDG.Unturned.PlayerInventory.tryFindSpace*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tryFindSpace_System_Byte_System_Byte_System_Byte_System_Byte__System_Byte__System_Byte__" data-uid="SDG.Unturned.PlayerInventory.tryFindSpace(System.Byte,System.Byte,System.Byte,System.Byte@,System.Byte@,System.Byte@)">
+  tryFindSpace(byte, byte, byte, out byte, out byte, out byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryFindSpace(byte page, byte size_x, byte size_y, out byte x, out byte y, out byte rot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_tryFindSpace_" data-uid="SDG.Unturned.PlayerInventory.tryFindSpace*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_tryFindSpace_System_Byte_System_Byte_System_Byte__System_Byte__System_Byte__System_Byte__" data-uid="SDG.Unturned.PlayerInventory.tryFindSpace(System.Byte,System.Byte,System.Byte@,System.Byte@,System.Byte@,System.Byte@)">
+  tryFindSpace(byte, byte, out byte, out byte, out byte, out byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool tryFindSpace(byte size_x, byte size_y, out byte page, out byte x, out byte y, out byte rot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_updateAmount_" data-uid="SDG.Unturned.PlayerInventory.updateAmount*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_updateAmount_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.updateAmount(System.Byte,System.Byte,System.Byte)">
+  updateAmount(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateAmount(byte page, byte index, byte newAmount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_updateItems_" data-uid="SDG.Unturned.PlayerInventory.updateItems*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_updateItems_System_Byte_SDG_Unturned_Items_" data-uid="SDG.Unturned.PlayerInventory.updateItems(System.Byte,SDG.Unturned.Items)">
+  updateItems(byte, Items)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateItems(byte page, Items newItems)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newItems</code> <a class="xref" href="SDG.Unturned.Items.html">Items</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_updateQuality_" data-uid="SDG.Unturned.PlayerInventory.updateQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_updateQuality_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerInventory.updateQuality(System.Byte,System.Byte,System.Byte)">
+  updateQuality(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateQuality(byte page, byte index, byte newQuality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerInventory_updateState_" data-uid="SDG.Unturned.PlayerInventory.updateState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerInventory_updateState_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerInventory.updateState(System.Byte,System.Byte,System.Byte[])">
+  updateState(byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateState(byte page, byte index, byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

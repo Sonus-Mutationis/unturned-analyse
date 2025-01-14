@@ -1,0 +1,5266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerClothing | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerClothing | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerClothing">
+
+
+
+  <h1 id="SDG_Unturned_PlayerClothing" data-uid="SDG.Unturned.PlayerClothing" class="text-break">
+Class PlayerClothing  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerClothing : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerClothing</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerClothing__ctor_" data-uid="SDG.Unturned.PlayerClothing.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing__ctor" data-uid="SDG.Unturned.PlayerClothing.#ctor">
+  PlayerClothing()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerClothing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_SAVEDATA_VERSION" data-uid="SDG.Unturned.PlayerClothing.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_backpackQuality" data-uid="SDG.Unturned.PlayerClothing.backpackQuality">
+  backpackQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte backpackQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_backpackState" data-uid="SDG.Unturned.PlayerClothing.backpackState">
+  backpackState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] backpackState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_glassesQuality" data-uid="SDG.Unturned.PlayerClothing.glassesQuality">
+  glassesQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte glassesQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_glassesState" data-uid="SDG.Unturned.PlayerClothing.glassesState">
+  glassesState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] glassesState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_hatQuality" data-uid="SDG.Unturned.PlayerClothing.hatQuality">
+  hatQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte hatQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_hatState" data-uid="SDG.Unturned.PlayerClothing.hatState">
+  hatState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] hatState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_maskQuality" data-uid="SDG.Unturned.PlayerClothing.maskQuality">
+  maskQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte maskQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_maskState" data-uid="SDG.Unturned.PlayerClothing.maskState">
+  maskState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] maskState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onBackpackUpdated" data-uid="SDG.Unturned.PlayerClothing.onBackpackUpdated">
+  onBackpackUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BackpackUpdated onBackpackUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.BackpackUpdated.html">BackpackUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onGlassesUpdated" data-uid="SDG.Unturned.PlayerClothing.onGlassesUpdated">
+  onGlassesUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlassesUpdated onGlassesUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.GlassesUpdated.html">GlassesUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onHatUpdated" data-uid="SDG.Unturned.PlayerClothing.onHatUpdated">
+  onHatUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HatUpdated onHatUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HatUpdated.html">HatUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onMaskUpdated" data-uid="SDG.Unturned.PlayerClothing.onMaskUpdated">
+  onMaskUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaskUpdated onMaskUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.MaskUpdated.html">MaskUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onPantsUpdated" data-uid="SDG.Unturned.PlayerClothing.onPantsUpdated">
+  onPantsUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PantsUpdated onPantsUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PantsUpdated.html">PantsUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onShirtUpdated" data-uid="SDG.Unturned.PlayerClothing.onShirtUpdated">
+  onShirtUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShirtUpdated onShirtUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ShirtUpdated.html">ShirtUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_onVestUpdated" data-uid="SDG.Unturned.PlayerClothing.onVestUpdated">
+  onVestUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VestUpdated onVestUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VestUpdated.html">VestUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_pantsQuality" data-uid="SDG.Unturned.PlayerClothing.pantsQuality">
+  pantsQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte pantsQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_pantsState" data-uid="SDG.Unturned.PlayerClothing.pantsState">
+  pantsState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] pantsState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_shirtQuality" data-uid="SDG.Unturned.PlayerClothing.shirtQuality">
+  shirtQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte shirtQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_shirtState" data-uid="SDG.Unturned.PlayerClothing.shirtState">
+  shirtState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] shirtState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_vestQuality" data-uid="SDG.Unturned.PlayerClothing.vestQuality">
+  vestQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte vestQuality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_vestState" data-uid="SDG.Unturned.PlayerClothing.vestState">
+  vestState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] vestState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerClothing_backpack_" data-uid="SDG.Unturned.PlayerClothing.backpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_backpack" data-uid="SDG.Unturned.PlayerClothing.backpack">
+  backpack
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort backpack { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_backpackAsset_" data-uid="SDG.Unturned.PlayerClothing.backpackAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_backpackAsset" data-uid="SDG.Unturned.PlayerClothing.backpackAsset">
+  backpackAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemBackpackAsset backpackAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemBackpackAsset.html">ItemBackpackAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_beard_" data-uid="SDG.Unturned.PlayerClothing.beard*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_beard" data-uid="SDG.Unturned.PlayerClothing.beard">
+  beard
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte beard { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_characterClothes_" data-uid="SDG.Unturned.PlayerClothing.characterClothes*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_characterClothes" data-uid="SDG.Unturned.PlayerClothing.characterClothes">
+  characterClothes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HumanClothes characterClothes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HumanClothes.html">HumanClothes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_color_" data-uid="SDG.Unturned.PlayerClothing.color*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_color" data-uid="SDG.Unturned.PlayerClothing.color">
+  color
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color color { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_face_" data-uid="SDG.Unturned.PlayerClothing.face*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_face" data-uid="SDG.Unturned.PlayerClothing.face">
+  face
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte face { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_firstClothes_" data-uid="SDG.Unturned.PlayerClothing.firstClothes*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_firstClothes" data-uid="SDG.Unturned.PlayerClothing.firstClothes">
+  firstClothes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HumanClothes firstClothes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HumanClothes.html">HumanClothes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_glasses_" data-uid="SDG.Unturned.PlayerClothing.glasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_glasses" data-uid="SDG.Unturned.PlayerClothing.glasses">
+  glasses
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort glasses { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_glassesAsset_" data-uid="SDG.Unturned.PlayerClothing.glassesAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_glassesAsset" data-uid="SDG.Unturned.PlayerClothing.glassesAsset">
+  glassesAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemGlassesAsset glassesAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemGlassesAsset.html">ItemGlassesAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_hair_" data-uid="SDG.Unturned.PlayerClothing.hair*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_hair" data-uid="SDG.Unturned.PlayerClothing.hair">
+  hair
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte hair { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_hat_" data-uid="SDG.Unturned.PlayerClothing.hat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_hat" data-uid="SDG.Unturned.PlayerClothing.hat">
+  hat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort hat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_hatAsset_" data-uid="SDG.Unturned.PlayerClothing.hatAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_hatAsset" data-uid="SDG.Unturned.PlayerClothing.hatAsset">
+  hatAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemHatAsset hatAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemHatAsset.html">ItemHatAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_isMythic_" data-uid="SDG.Unturned.PlayerClothing.isMythic*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_isMythic" data-uid="SDG.Unturned.PlayerClothing.isMythic">
+  isMythic
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMythic { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_isSkinned_" data-uid="SDG.Unturned.PlayerClothing.isSkinned*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_isSkinned" data-uid="SDG.Unturned.PlayerClothing.isSkinned">
+  isSkinned
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSkinned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_isVisual_" data-uid="SDG.Unturned.PlayerClothing.isVisual*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_isVisual" data-uid="SDG.Unturned.PlayerClothing.isVisual">
+  isVisual
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isVisual { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_mask_" data-uid="SDG.Unturned.PlayerClothing.mask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_mask" data-uid="SDG.Unturned.PlayerClothing.mask">
+  mask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort mask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_maskAsset_" data-uid="SDG.Unturned.PlayerClothing.maskAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_maskAsset" data-uid="SDG.Unturned.PlayerClothing.maskAsset">
+  maskAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemMaskAsset maskAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemMaskAsset.html">ItemMaskAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_pants_" data-uid="SDG.Unturned.PlayerClothing.pants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_pants" data-uid="SDG.Unturned.PlayerClothing.pants">
+  pants
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort pants { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_pantsAsset_" data-uid="SDG.Unturned.PlayerClothing.pantsAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_pantsAsset" data-uid="SDG.Unturned.PlayerClothing.pantsAsset">
+  pantsAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemPantsAsset pantsAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemPantsAsset.html">ItemPantsAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_shirt_" data-uid="SDG.Unturned.PlayerClothing.shirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_shirt" data-uid="SDG.Unturned.PlayerClothing.shirt">
+  shirt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort shirt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_shirtAsset_" data-uid="SDG.Unturned.PlayerClothing.shirtAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_shirtAsset" data-uid="SDG.Unturned.PlayerClothing.shirtAsset">
+  shirtAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemShirtAsset shirtAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemShirtAsset.html">ItemShirtAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_skin_" data-uid="SDG.Unturned.PlayerClothing.skin*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_skin" data-uid="SDG.Unturned.PlayerClothing.skin">
+  skin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color skin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_thirdClothes_" data-uid="SDG.Unturned.PlayerClothing.thirdClothes*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_thirdClothes" data-uid="SDG.Unturned.PlayerClothing.thirdClothes">
+  thirdClothes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HumanClothes thirdClothes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HumanClothes.html">HumanClothes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_vest_" data-uid="SDG.Unturned.PlayerClothing.vest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_vest" data-uid="SDG.Unturned.PlayerClothing.vest">
+  vest
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort vest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_vestAsset_" data-uid="SDG.Unturned.PlayerClothing.vestAsset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_vestAsset" data-uid="SDG.Unturned.PlayerClothing.vestAsset">
+  vestAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemVestAsset vestAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemVestAsset.html">ItemVestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualBackpack_" data-uid="SDG.Unturned.PlayerClothing.visualBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualBackpack" data-uid="SDG.Unturned.PlayerClothing.visualBackpack">
+  visualBackpack
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualBackpack { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualGlasses_" data-uid="SDG.Unturned.PlayerClothing.visualGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualGlasses" data-uid="SDG.Unturned.PlayerClothing.visualGlasses">
+  visualGlasses
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualGlasses { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualHat_" data-uid="SDG.Unturned.PlayerClothing.visualHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualHat" data-uid="SDG.Unturned.PlayerClothing.visualHat">
+  visualHat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualHat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualMask_" data-uid="SDG.Unturned.PlayerClothing.visualMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualMask" data-uid="SDG.Unturned.PlayerClothing.visualMask">
+  visualMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualMask { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualPants_" data-uid="SDG.Unturned.PlayerClothing.visualPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualPants" data-uid="SDG.Unturned.PlayerClothing.visualPants">
+  visualPants
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualPants { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualShirt_" data-uid="SDG.Unturned.PlayerClothing.visualShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualShirt" data-uid="SDG.Unturned.PlayerClothing.visualShirt">
+  visualShirt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualShirt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_visualVest_" data-uid="SDG.Unturned.PlayerClothing.visualVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_visualVest" data-uid="SDG.Unturned.PlayerClothing.visualVest">
+  visualVest
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int visualVest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveBackpackQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceiveBackpackQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveBackpackQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveBackpackQuality(System.Byte)">
+  ReceiveBackpackQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateBackpackQuality&quot;)]
+public void ReceiveBackpackQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveClothingState_" data-uid="SDG.Unturned.PlayerClothing.ReceiveClothingState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveClothingState_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerClothing.ReceiveClothingState(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveClothingState(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveClothingState(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveFaceState_" data-uid="SDG.Unturned.PlayerClothing.ReceiveFaceState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveFaceState_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveFaceState(System.Byte)">
+  ReceiveFaceState(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSwapFace&quot;)]
+public void ReceiveFaceState(byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveGlassesQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceiveGlassesQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveGlassesQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveGlassesQuality(System.Byte)">
+  ReceiveGlassesQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateGlassesQuality&quot;)]
+public void ReceiveGlassesQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveHatQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceiveHatQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveHatQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveHatQuality(System.Byte)">
+  ReceiveHatQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateHatQuality&quot;)]
+public void ReceiveHatQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveMaskQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceiveMaskQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveMaskQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveMaskQuality(System.Byte)">
+  ReceiveMaskQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateMaskQuality&quot;)]
+public void ReceiveMaskQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceivePantsQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceivePantsQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceivePantsQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceivePantsQuality(System.Byte)">
+  ReceivePantsQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdatePantsQuality&quot;)]
+public void ReceivePantsQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveShirtQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceiveShirtQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveShirtQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveShirtQuality(System.Byte)">
+  ReceiveShirtQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateShirtQuality&quot;)]
+public void ReceiveShirtQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapBackpackRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapBackpackRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapBackpackRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapBackpackRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapBackpackRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapBackpack&quot;)]
+public void ReceiveSwapBackpackRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapFaceRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapFaceRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapFaceRequest_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapFaceRequest(System.Byte)">
+  ReceiveSwapFaceRequest(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapFace&quot;)]
+public void ReceiveSwapFaceRequest(byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapGlassesRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapGlassesRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapGlassesRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapGlassesRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapGlassesRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapGlasses&quot;)]
+public void ReceiveSwapGlassesRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapHatRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapHatRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapHatRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapHatRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapHatRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapHat&quot;)]
+public void ReceiveSwapHatRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapMaskRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapMaskRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapMaskRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapMaskRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapMaskRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapMask&quot;)]
+public void ReceiveSwapMaskRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapPantsRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapPantsRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapPantsRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapPantsRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapPantsRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapPants&quot;)]
+public void ReceiveSwapPantsRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapShirtRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapShirtRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapShirtRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapShirtRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapShirtRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapShirt&quot;)]
+public void ReceiveSwapShirtRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveSwapVestRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapVestRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveSwapVestRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveSwapVestRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveSwapVestRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askSwapVest&quot;)]
+public void ReceiveSwapVestRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveVestQuality_" data-uid="SDG.Unturned.PlayerClothing.ReceiveVestQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveVestQuality_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ReceiveVestQuality(System.Byte)">
+  ReceiveVestQuality(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateVestQuality&quot;)]
+public void ReceiveVestQuality(byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveVisualToggleRequest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveVisualToggleRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveVisualToggleRequest_SDG_Unturned_EVisualToggleType_" data-uid="SDG.Unturned.PlayerClothing.ReceiveVisualToggleRequest(SDG.Unturned.EVisualToggleType)">
+  ReceiveVisualToggleRequest(EVisualToggleType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askVisualToggle&quot;)]
+public void ReceiveVisualToggleRequest(EVisualToggleType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EVisualToggleType.html">EVisualToggleType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveVisualToggleState_" data-uid="SDG.Unturned.PlayerClothing.ReceiveVisualToggleState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveVisualToggleState_SDG_Unturned_EVisualToggleType_System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveVisualToggleState(SDG.Unturned.EVisualToggleType,System.Boolean)">
+  ReceiveVisualToggleState(EVisualToggleType, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellVisualToggle&quot;)]
+public void ReceiveVisualToggleState(EVisualToggleType type, bool toggle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EVisualToggleType.html">EVisualToggleType</a></dt>
+    <dd></dd>
+    <dt><code>toggle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearBackpack_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearBackpack_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearBackpack(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearBackpack(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearBackpack&quot;)]
+public void ReceiveWearBackpack(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearGlasses_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearGlasses_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearGlasses(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearGlasses(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearGlasses&quot;)]
+public void ReceiveWearGlasses(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearHat_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearHat_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearHat(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearHat(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearHat&quot;)]
+public void ReceiveWearHat(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearMask_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearMask_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearMask(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearMask(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearMask&quot;)]
+public void ReceiveWearMask(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearPants_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearPants_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearPants(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearPants(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearPants&quot;)]
+public void ReceiveWearPants(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearShirt_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearShirt_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearShirt(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearShirt(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearShirt&quot;)]
+public void ReceiveWearShirt(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ReceiveWearVest_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ReceiveWearVest_System_Guid_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ReceiveWearVest(System.Guid,System.Byte,System.Byte[],System.Boolean)">
+  ReceiveWearVest(Guid, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWearVest&quot;)]
+public void ReceiveWearVest(Guid id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ServerSetFace_" data-uid="SDG.Unturned.PlayerClothing.ServerSetFace*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ServerSetFace_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.ServerSetFace(System.Byte)">
+  ServerSetFace(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ServerSetFace(byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_ServerSetVisualToggleState_" data-uid="SDG.Unturned.PlayerClothing.ServerSetVisualToggleState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_ServerSetVisualToggleState_SDG_Unturned_EVisualToggleType_System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.ServerSetVisualToggleState(SDG.Unturned.EVisualToggleType,System.Boolean)">
+  ServerSetVisualToggleState(EVisualToggleType, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerSetVisualToggleState(EVisualToggleType type, bool isVisible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EVisualToggleType.html">EVisualToggleType</a></dt>
+    <dd></dd>
+    <dt><code>isVisible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askClothing_" data-uid="SDG.Unturned.PlayerClothing.askClothing*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askClothing_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerClothing.askClothing(Steamworks.CSteamID)">
+  askClothing(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askClothing(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapBackpack_" data-uid="SDG.Unturned.PlayerClothing.askSwapBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapBackpack_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapBackpack(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapBackpack(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapBackpack(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapFace_" data-uid="SDG.Unturned.PlayerClothing.askSwapFace*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapFace_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapFace(Steamworks.CSteamID,System.Byte)">
+  askSwapFace(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapFace(CSteamID steamID, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapGlasses_" data-uid="SDG.Unturned.PlayerClothing.askSwapGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapGlasses_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapGlasses(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapGlasses(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapGlasses(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapHat_" data-uid="SDG.Unturned.PlayerClothing.askSwapHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapHat_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapHat(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapHat(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapHat(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapMask_" data-uid="SDG.Unturned.PlayerClothing.askSwapMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapMask_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapMask(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapMask(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapMask(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapPants_" data-uid="SDG.Unturned.PlayerClothing.askSwapPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapPants_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapPants(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapPants(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapPants(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapShirt_" data-uid="SDG.Unturned.PlayerClothing.askSwapShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapShirt_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapShirt(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapShirt(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapShirt(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askSwapVest_" data-uid="SDG.Unturned.PlayerClothing.askSwapVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askSwapVest_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askSwapVest(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte)">
+  askSwapVest(CSteamID, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSwapVest(CSteamID steamID, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askVisualToggle_" data-uid="SDG.Unturned.PlayerClothing.askVisualToggle*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askVisualToggle_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.askVisualToggle(Steamworks.CSteamID,System.Byte)">
+  askVisualToggle(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVisualToggle(CSteamID steamID, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearBackpack_" data-uid="SDG.Unturned.PlayerClothing.askWearBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearBackpack_SDG_Unturned_ItemBackpackAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearBackpack(SDG.Unturned.ItemBackpackAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearBackpack(ItemBackpackAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearBackpack(ItemBackpackAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemBackpackAsset.html">ItemBackpackAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearBackpack_" data-uid="SDG.Unturned.PlayerClothing.askWearBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearBackpack_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearBackpack(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearBackpack(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearBackpack(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearGlasses_" data-uid="SDG.Unturned.PlayerClothing.askWearGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearGlasses_SDG_Unturned_ItemGlassesAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearGlasses(SDG.Unturned.ItemGlassesAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearGlasses(ItemGlassesAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearGlasses(ItemGlassesAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemGlassesAsset.html">ItemGlassesAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearGlasses_" data-uid="SDG.Unturned.PlayerClothing.askWearGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearGlasses_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearGlasses(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearGlasses(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearGlasses(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearHat_" data-uid="SDG.Unturned.PlayerClothing.askWearHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearHat_SDG_Unturned_ItemHatAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearHat(SDG.Unturned.ItemHatAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearHat(ItemHatAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearHat(ItemHatAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemHatAsset.html">ItemHatAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearHat_" data-uid="SDG.Unturned.PlayerClothing.askWearHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearHat_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearHat(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearHat(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearHat(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearMask_" data-uid="SDG.Unturned.PlayerClothing.askWearMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearMask_SDG_Unturned_ItemMaskAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearMask(SDG.Unturned.ItemMaskAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearMask(ItemMaskAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearMask(ItemMaskAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemMaskAsset.html">ItemMaskAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearMask_" data-uid="SDG.Unturned.PlayerClothing.askWearMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearMask_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearMask(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearMask(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearMask(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearPants_" data-uid="SDG.Unturned.PlayerClothing.askWearPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearPants_SDG_Unturned_ItemPantsAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearPants(SDG.Unturned.ItemPantsAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearPants(ItemPantsAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearPants(ItemPantsAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemPantsAsset.html">ItemPantsAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearPants_" data-uid="SDG.Unturned.PlayerClothing.askWearPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearPants_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearPants(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearPants(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearPants(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearShirt_" data-uid="SDG.Unturned.PlayerClothing.askWearShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearShirt_SDG_Unturned_ItemShirtAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearShirt(SDG.Unturned.ItemShirtAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearShirt(ItemShirtAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearShirt(ItemShirtAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemShirtAsset.html">ItemShirtAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearShirt_" data-uid="SDG.Unturned.PlayerClothing.askWearShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearShirt_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearShirt(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearShirt(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearShirt(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearVest_" data-uid="SDG.Unturned.PlayerClothing.askWearVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearVest_SDG_Unturned_ItemVestAsset_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearVest(SDG.Unturned.ItemVestAsset,System.Byte,System.Byte[],System.Boolean)">
+  askWearVest(ItemVestAsset, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearVest(ItemVestAsset asset, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.ItemVestAsset.html">ItemVestAsset</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_askWearVest_" data-uid="SDG.Unturned.PlayerClothing.askWearVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_askWearVest_System_UInt16_System_Byte_System_Byte___System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.askWearVest(System.UInt16,System.Byte,System.Byte[],System.Boolean)">
+  askWearVest(ushort, byte, byte[], bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askWearVest(ushort id, byte quality, byte[] state, bool playEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_load_" data-uid="SDG.Unturned.PlayerClothing.load*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_load" data-uid="SDG.Unturned.PlayerClothing.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_save_" data-uid="SDG.Unturned.PlayerClothing.save*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_save" data-uid="SDG.Unturned.PlayerClothing.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapBackpack_" data-uid="SDG.Unturned.PlayerClothing.sendSwapBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapBackpack_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapBackpack(System.Byte,System.Byte,System.Byte)">
+  sendSwapBackpack(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapBackpack(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapFace_" data-uid="SDG.Unturned.PlayerClothing.sendSwapFace*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapFace_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapFace(System.Byte)">
+  sendSwapFace(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapFace(byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapGlasses_" data-uid="SDG.Unturned.PlayerClothing.sendSwapGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapGlasses_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapGlasses(System.Byte,System.Byte,System.Byte)">
+  sendSwapGlasses(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapGlasses(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapHat_" data-uid="SDG.Unturned.PlayerClothing.sendSwapHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapHat_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapHat(System.Byte,System.Byte,System.Byte)">
+  sendSwapHat(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapHat(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapMask_" data-uid="SDG.Unturned.PlayerClothing.sendSwapMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapMask_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapMask(System.Byte,System.Byte,System.Byte)">
+  sendSwapMask(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapMask(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapPants_" data-uid="SDG.Unturned.PlayerClothing.sendSwapPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapPants_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapPants(System.Byte,System.Byte,System.Byte)">
+  sendSwapPants(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapPants(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapShirt_" data-uid="SDG.Unturned.PlayerClothing.sendSwapShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapShirt_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapShirt(System.Byte,System.Byte,System.Byte)">
+  sendSwapShirt(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapShirt(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendSwapVest_" data-uid="SDG.Unturned.PlayerClothing.sendSwapVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendSwapVest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.sendSwapVest(System.Byte,System.Byte,System.Byte)">
+  sendSwapVest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSwapVest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdateBackpackQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdateBackpackQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdateBackpackQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdateBackpackQuality">
+  sendUpdateBackpackQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateBackpackQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdateGlassesQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdateGlassesQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdateGlassesQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdateGlassesQuality">
+  sendUpdateGlassesQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateGlassesQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdateHatQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdateHatQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdateHatQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdateHatQuality">
+  sendUpdateHatQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateHatQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdateMaskQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdateMaskQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdateMaskQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdateMaskQuality">
+  sendUpdateMaskQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateMaskQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdatePantsQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdatePantsQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdatePantsQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdatePantsQuality">
+  sendUpdatePantsQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdatePantsQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdateShirtQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdateShirtQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdateShirtQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdateShirtQuality">
+  sendUpdateShirtQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateShirtQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendUpdateVestQuality_" data-uid="SDG.Unturned.PlayerClothing.sendUpdateVestQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendUpdateVestQuality" data-uid="SDG.Unturned.PlayerClothing.sendUpdateVestQuality">
+  sendUpdateVestQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateVestQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_sendVisualToggle_" data-uid="SDG.Unturned.PlayerClothing.sendVisualToggle*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_sendVisualToggle_SDG_Unturned_EVisualToggleType_" data-uid="SDG.Unturned.PlayerClothing.sendVisualToggle(SDG.Unturned.EVisualToggleType)">
+  sendVisualToggle(EVisualToggleType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendVisualToggle(EVisualToggleType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.EVisualToggleType.html">EVisualToggleType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellClothing_" data-uid="SDG.Unturned.PlayerClothing.tellClothing*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellClothing_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.tellClothing(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.Boolean,System.Boolean,System.Boolean)">
+  tellClothing(CSteamID, ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellClothing(CSteamID steamID, ushort newShirt, byte newShirtQuality, byte[] newShirtState, ushort newPants, byte newPantsQuality, byte[] newPantsState, ushort newHat, byte newHatQuality, byte[] newHatState, ushort newBackpack, byte newBackpackQuality, byte[] newBackpackState, ushort newVest, byte newVestQuality, byte[] newVestState, ushort newMask, byte newMaskQuality, byte[] newMaskState, ushort newGlasses, byte newGlassesQuality, byte[] newGlassesState, bool newVisual, bool newSkinned, bool newMythic)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newShirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newShirtQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newShirtState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newPants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newPantsQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPantsState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newHat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newHatQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHatState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newBackpack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newBackpackQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBackpackState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newVest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newVestQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newVestState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newMaskQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newMaskState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newGlasses</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newGlassesQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newGlassesState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newVisual</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newSkinned</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMythic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellSwapFace_" data-uid="SDG.Unturned.PlayerClothing.tellSwapFace*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellSwapFace_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellSwapFace(Steamworks.CSteamID,System.Byte)">
+  tellSwapFace(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSwapFace(CSteamID steamID, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdateBackpackQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateBackpackQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdateBackpackQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateBackpackQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdateBackpackQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateBackpackQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdateGlassesQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateGlassesQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdateGlassesQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateGlassesQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdateGlassesQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateGlassesQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdateHatQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateHatQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdateHatQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateHatQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdateHatQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateHatQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdateMaskQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateMaskQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdateMaskQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateMaskQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdateMaskQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateMaskQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdatePantsQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdatePantsQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdatePantsQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdatePantsQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdatePantsQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdatePantsQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdateShirtQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateShirtQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdateShirtQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateShirtQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdateShirtQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateShirtQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellUpdateVestQuality_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateVestQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellUpdateVestQuality_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerClothing.tellUpdateVestQuality(Steamworks.CSteamID,System.Byte)">
+  tellUpdateVestQuality(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateVestQuality(CSteamID steamID, byte quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellVisualToggle_" data-uid="SDG.Unturned.PlayerClothing.tellVisualToggle*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellVisualToggle_Steamworks_CSteamID_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerClothing.tellVisualToggle(Steamworks.CSteamID,System.Byte,System.Boolean)">
+  tellVisualToggle(CSteamID, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellVisualToggle(CSteamID steamID, byte index, bool toggle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>toggle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearBackpack_" data-uid="SDG.Unturned.PlayerClothing.tellWearBackpack*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearBackpack_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearBackpack(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearBackpack(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearBackpack(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearGlasses_" data-uid="SDG.Unturned.PlayerClothing.tellWearGlasses*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearGlasses_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearGlasses(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearGlasses(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearGlasses(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearHat_" data-uid="SDG.Unturned.PlayerClothing.tellWearHat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearHat_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearHat(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearHat(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearHat(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearMask_" data-uid="SDG.Unturned.PlayerClothing.tellWearMask*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearMask_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearMask(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearMask(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearMask(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearPants_" data-uid="SDG.Unturned.PlayerClothing.tellWearPants*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearPants_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearPants(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearPants(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearPants(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearShirt_" data-uid="SDG.Unturned.PlayerClothing.tellWearShirt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearShirt_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearShirt(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearShirt(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearShirt(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_tellWearVest_" data-uid="SDG.Unturned.PlayerClothing.tellWearVest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_tellWearVest_Steamworks_CSteamID_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.tellWearVest(Steamworks.CSteamID,System.UInt16,System.Byte,System.Byte[])">
+  tellWearVest(CSteamID, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWearVest(CSteamID steamID, ushort id, byte quality, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_updateClothes_" data-uid="SDG.Unturned.PlayerClothing.updateClothes*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_updateClothes_System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerClothing.updateClothes(System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[],System.UInt16,System.Byte,System.Byte[])">
+  updateClothes(ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[], ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateClothes(ushort newShirt, byte newShirtQuality, byte[] newShirtState, ushort newPants, byte newPantsQuality, byte[] newPantsState, ushort newHat, byte newHatQuality, byte[] newHatState, ushort newBackpack, byte newBackpackQuality, byte[] newBackpackState, ushort newVest, byte newVestQuality, byte[] newVestState, ushort newMask, byte newMaskQuality, byte[] newMaskState, ushort newGlasses, byte newGlassesQuality, byte[] newGlassesState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newShirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newShirtQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newShirtState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newPants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newPantsQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPantsState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newHat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newHatQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHatState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newBackpack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newBackpackQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBackpackState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newVest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newVestQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newVestState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newMaskQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newMaskState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>newGlasses</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newGlassesQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newGlassesState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerClothing_updateMaskQuality_" data-uid="SDG.Unturned.PlayerClothing.updateMaskQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerClothing_updateMaskQuality" data-uid="SDG.Unturned.PlayerClothing.updateMaskQuality">
+  updateMaskQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateMaskQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnBackpackChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnBackpackChanged_Global">
+  OnBackpackChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's backpack values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnBackpackChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnGlassesChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnGlassesChanged_Global">
+  OnGlassesChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's glasses values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnGlassesChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnHatChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnHatChanged_Global">
+  OnHatChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's hat values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnHatChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnMaskChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnMaskChanged_Global">
+  OnMaskChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's backpack values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnMaskChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnPantsChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnPantsChanged_Global">
+  OnPantsChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's shirt values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnPantsChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnShirtChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnShirtChanged_Global">
+  OnShirtChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's shirt values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnShirtChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_OnVestChanged_Global" data-uid="SDG.Unturned.PlayerClothing.OnVestChanged_Global">
+  OnVestChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after any player's backpack values change (not including loading).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerClothing&gt; OnVestChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerClothing.html">PlayerClothing</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerClothing_VisualToggleChanged" data-uid="SDG.Unturned.PlayerClothing.VisualToggleChanged">
+  VisualToggleChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the player clicks the cosmetic, visual or skin toggle buttons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event VisualToggleChanged VisualToggleChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VisualToggleChanged.html">VisualToggleChanged</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

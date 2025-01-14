@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IProvider | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IProvider | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Provider.IProvider">
+
+
+
+  <h1 id="SDG_Provider_IProvider" data-uid="SDG.Provider.IProvider" class="text-break">
+Interface IProvider  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Provider.html">Provider</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IProvider</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Provider_IProvider_achievementsService_" data-uid="SDG.Provider.IProvider.achievementsService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_achievementsService" data-uid="SDG.Provider.IProvider.achievementsService">
+  achievementsService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current achievements implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAchievementsService achievementsService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Achievements.IAchievementsService.html">IAchievementsService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_browserService_" data-uid="SDG.Provider.IProvider.browserService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_browserService" data-uid="SDG.Provider.IProvider.browserService">
+  browserService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current browser implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBrowserService browserService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Browser.IBrowserService.html">IBrowserService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_cloudService_" data-uid="SDG.Provider.IProvider.cloudService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_cloudService" data-uid="SDG.Provider.IProvider.cloudService">
+  cloudService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current cloud implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICloudService cloudService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Cloud.ICloudService.html">ICloudService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_communityService_" data-uid="SDG.Provider.IProvider.communityService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_communityService" data-uid="SDG.Provider.IProvider.communityService">
+  communityService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current community implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommunityService communityService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Community.ICommunityService.html">ICommunityService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_economyService_" data-uid="SDG.Provider.IProvider.economyService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_economyService" data-uid="SDG.Provider.IProvider.economyService">
+  economyService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current economy implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TempSteamworksEconomy economyService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.TempSteamworksEconomy.html">TempSteamworksEconomy</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_matchmakingService_" data-uid="SDG.Provider.IProvider.matchmakingService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_matchmakingService" data-uid="SDG.Provider.IProvider.matchmakingService">
+  matchmakingService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current matchmaking implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TempSteamworksMatchmaking matchmakingService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.TempSteamworksMatchmaking.html">TempSteamworksMatchmaking</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_multiplayerService_" data-uid="SDG.Provider.IProvider.multiplayerService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_multiplayerService" data-uid="SDG.Provider.IProvider.multiplayerService">
+  multiplayerService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current multiplayer implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMultiplayerService multiplayerService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Multiplayer.IMultiplayerService.html">IMultiplayerService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_statisticsService_" data-uid="SDG.Provider.IProvider.statisticsService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_statisticsService" data-uid="SDG.Provider.IProvider.statisticsService">
+  statisticsService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current statistics implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStatisticsService statisticsService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Statistics.IStatisticsService.html">IStatisticsService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_storeService_" data-uid="SDG.Provider.IProvider.storeService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_storeService" data-uid="SDG.Provider.IProvider.storeService">
+  storeService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current store implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStoreService storeService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Store.IStoreService.html">IStoreService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_translationService_" data-uid="SDG.Provider.IProvider.translationService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_translationService" data-uid="SDG.Provider.IProvider.translationService">
+  translationService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current translation implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITranslationService translationService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.Services.Translation.ITranslationService.html">ITranslationService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_workshopService_" data-uid="SDG.Provider.IProvider.workshopService*"></a>
+
+  <h3 id="SDG_Provider_IProvider_workshopService" data-uid="SDG.Provider.IProvider.workshopService">
+  workshopService
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current workshop implementation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TempSteamworksWorkshop workshopService { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Provider.TempSteamworksWorkshop.html">TempSteamworksWorkshop</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Provider_IProvider_intialize_" data-uid="SDG.Provider.IProvider.intialize*"></a>
+
+  <h3 id="SDG_Provider_IProvider_intialize" data-uid="SDG.Provider.IProvider.intialize">
+  intialize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialize this provider's external API. Should be called before using provider features.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void intialize()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>Thrown if initializing fails.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="SDG_Provider_IProvider_shutdown_" data-uid="SDG.Provider.IProvider.shutdown*"></a>
+
+  <h3 id="SDG_Provider_IProvider_shutdown" data-uid="SDG.Provider.IProvider.shutdown">
+  shutdown()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shutdown this provider's external API. Should be called before closing the program if using provider features.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void shutdown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Provider_IProvider_update_" data-uid="SDG.Provider.IProvider.update*"></a>
+
+  <h3 id="SDG_Provider_IProvider_update" data-uid="SDG.Provider.IProvider.update">
+  update()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update this provider's external API. Should be called every frame if using provider features.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

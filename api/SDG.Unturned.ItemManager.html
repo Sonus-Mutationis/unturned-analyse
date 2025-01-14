@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ItemManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ItemManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ItemManager">
+
+
+
+  <h1 id="SDG_Unturned_ItemManager" data-uid="SDG.Unturned.ItemManager" class="text-break">
+Class ItemManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">ItemManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ItemManager__ctor_" data-uid="SDG.Unturned.ItemManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager__ctor" data-uid="SDG.Unturned.ItemManager.#ctor">
+  ItemManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ItemManager_ITEM_REGIONS" data-uid="SDG.Unturned.ItemManager.ITEM_REGIONS">
+  ITEM_REGIONS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte ITEM_REGIONS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemManager_clampedItems" data-uid="SDG.Unturned.ItemManager.clampedItems">
+  clampedItems
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>List of all interactable items. Originally only used to clamp their distance from the drop point to ensure
+clients can always pick them up, but now used to find items within a radius for nearby menu as well.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;InteractableItem&gt; clampedItems</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InteractableItem.html">InteractableItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemManager_onItemDropAdded" data-uid="SDG.Unturned.ItemManager.onItemDropAdded">
+  onItemDropAdded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemDropAdded onItemDropAdded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemDropAdded.html">ItemDropAdded</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemManager_onItemDropRemoved" data-uid="SDG.Unturned.ItemManager.onItemDropRemoved">
+  onItemDropRemoved
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemDropRemoved onItemDropRemoved</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemDropRemoved.html">ItemDropRemoved</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemManager_onServerSpawningItemDrop" data-uid="SDG.Unturned.ItemManager.onServerSpawningItemDrop">
+  onServerSpawningItemDrop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ServerSpawningItemDropHandler onServerSpawningItemDrop</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ServerSpawningItemDropHandler.html">ServerSpawningItemDropHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemManager_onTakeItemRequested" data-uid="SDG.Unturned.ItemManager.onTakeItemRequested">
+  onTakeItemRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TakeItemRequestHandler onTakeItemRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TakeItemRequestHandler.html">TakeItemRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ItemManager_instance_" data-uid="SDG.Unturned.ItemManager.instance*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_instance" data-uid="SDG.Unturned.ItemManager.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exposed for Rocket transition to modules backwards compatibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemManager instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemManager.html">ItemManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_regions_" data-uid="SDG.Unturned.ItemManager.regions*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_regions" data-uid="SDG.Unturned.ItemManager.regions">
+  regions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemRegion[,] regions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemRegion.html">ItemRegion</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ItemManager_ReceiveClearRegionItems_" data-uid="SDG.Unturned.ItemManager.ReceiveClearRegionItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_ReceiveClearRegionItems_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.ReceiveClearRegionItems(System.Byte,System.Byte)">
+  ReceiveClearRegionItems(byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellClearRegionItems&quot;)]
+public static void ReceiveClearRegionItems(byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_ReceiveDestroyItem_" data-uid="SDG.Unturned.ItemManager.ReceiveDestroyItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_ReceiveDestroyItem_System_Byte_System_Byte_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.ItemManager.ReceiveDestroyItem(System.Byte,System.Byte,System.UInt32,System.Boolean)">
+  ReceiveDestroyItem(byte, byte, uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveDestroyItem(byte x, byte y, uint instanceID, bool shouldPlayEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>shouldPlayEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_ReceiveItem_" data-uid="SDG.Unturned.ItemManager.ReceiveItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_ReceiveItem_System_Byte_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte___UnityEngine_Vector3_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.ItemManager.ReceiveItem(System.Byte,System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte[],UnityEngine.Vector3,System.UInt32,System.Boolean)">
+  ReceiveItem(byte, byte, ushort, byte, byte, byte[], Vector3, uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveItem(byte x, byte y, ushort id, byte amount, byte quality, byte[] state, Vector3 point, uint instanceID, bool shouldPlayEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>shouldPlayEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_ReceiveItems_" data-uid="SDG.Unturned.ItemManager.ReceiveItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_ReceiveItems_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ItemManager.ReceiveItems(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveItems(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveItems(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_ReceiveTakeItemRequest_" data-uid="SDG.Unturned.ItemManager.ReceiveTakeItemRequest*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_ReceiveTakeItemRequest_SDG_Unturned_ServerInvocationContext__System_Byte_System_Byte_System_UInt32_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.ReceiveTakeItemRequest(SDG.Unturned.ServerInvocationContext@,System.Byte,System.Byte,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte)">
+  ReceiveTakeItemRequest(in ServerInvocationContext, byte, byte, uint, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 10, legacyName = &quot;askTakeItem&quot;)]
+public static void ReceiveTakeItemRequest(in ServerInvocationContext context, byte x, byte y, uint instanceID, byte to_x, byte to_y, byte to_rot, byte to_page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>to_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_ServerClearItemsInSphere_" data-uid="SDG.Unturned.ItemManager.ServerClearItemsInSphere*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_ServerClearItemsInSphere_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.ItemManager.ServerClearItemsInSphere(UnityEngine.Vector3,System.Single)">
+  ServerClearItemsInSphere(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ServerClearItemsInSphere(Vector3 center, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_askClearAllItems_" data-uid="SDG.Unturned.ItemManager.askClearAllItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_askClearAllItems" data-uid="SDG.Unturned.ItemManager.askClearAllItems">
+  askClearAllItems()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void askClearAllItems()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_askClearRegionItems_" data-uid="SDG.Unturned.ItemManager.askClearRegionItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_askClearRegionItems_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.askClearRegionItems(System.Byte,System.Byte)">
+  askClearRegionItems(byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void askClearRegionItems(byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_askItems_" data-uid="SDG.Unturned.ItemManager.askItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_askItems_Steamworks_CSteamID_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.askItems(Steamworks.CSteamID,System.Byte,System.Byte)">
+  askItems(CSteamID, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askItems(CSteamID steamID, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_askTakeItem_" data-uid="SDG.Unturned.ItemManager.askTakeItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_askTakeItem_Steamworks_CSteamID_System_Byte_System_Byte_System_UInt32_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.askTakeItem(Steamworks.CSteamID,System.Byte,System.Byte,System.UInt32,System.Byte,System.Byte,System.Byte,System.Byte)">
+  askTakeItem(CSteamID, byte, byte, uint, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askTakeItem(CSteamID steamID, byte x, byte y, uint instanceID, byte to_x, byte to_y, byte to_rot, byte to_page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>to_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_dropItem_" data-uid="SDG.Unturned.ItemManager.dropItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_dropItem_SDG_Unturned_Item_UnityEngine_Vector3_System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.ItemManager.dropItem(SDG.Unturned.Item,UnityEngine.Vector3,System.Boolean,System.Boolean,System.Boolean)">
+  dropItem(Item, Vector3, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void dropItem(Item item, Vector3 point, bool playEffect, bool isDropped, bool wideSpread)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>playEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isDropped</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>wideSpread</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_findSimulatedItemsInRadius_" data-uid="SDG.Unturned.ItemManager.findSimulatedItemsInRadius*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_findSimulatedItemsInRadius_UnityEngine_Vector3_System_Single_System_Collections_Generic_List_SDG_Unturned_InteractableItem__" data-uid="SDG.Unturned.ItemManager.findSimulatedItemsInRadius(UnityEngine.Vector3,System.Single,System.Collections.Generic.List{SDG.Unturned.InteractableItem})">
+  findSimulatedItemsInRadius(Vector3, float, List&lt;InteractableItem&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find physically simulated items within radius.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void findSimulatedItemsInRadius(Vector3 center, float sqrRadius, List&lt;InteractableItem&gt; result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>sqrRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InteractableItem.html">InteractableItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_getItemsInRadius_" data-uid="SDG.Unturned.ItemManager.getItemsInRadius*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_getItemsInRadius_UnityEngine_Vector3_System_Single_System_Collections_Generic_List_SDG_Unturned_RegionCoordinate__System_Collections_Generic_List_SDG_Unturned_InteractableItem__" data-uid="SDG.Unturned.ItemManager.getItemsInRadius(UnityEngine.Vector3,System.Single,System.Collections.Generic.List{SDG.Unturned.RegionCoordinate},System.Collections.Generic.List{SDG.Unturned.InteractableItem})">
+  getItemsInRadius(Vector3, float, List&lt;RegionCoordinate&gt;, List&lt;InteractableItem&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Kept for plugin backwards compatibility.
+This one is problematic because on the client physics can move items between regions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void getItemsInRadius(Vector3 center, float sqrRadius, List&lt;RegionCoordinate&gt; search, List&lt;InteractableItem&gt; result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>sqrRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.RegionCoordinate.html">RegionCoordinate</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.InteractableItem.html">InteractableItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_takeItem_" data-uid="SDG.Unturned.ItemManager.takeItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_takeItem_UnityEngine_Transform_System_Byte_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.takeItem(UnityEngine.Transform,System.Byte,System.Byte,System.Byte,System.Byte)">
+  takeItem(Transform, byte, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void takeItem(Transform item, byte to_x, byte to_y, byte to_rot, byte to_page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>to_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_rot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>to_page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_tellClearRegionItems_" data-uid="SDG.Unturned.ItemManager.tellClearRegionItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_tellClearRegionItems_Steamworks_CSteamID_System_Byte_System_Byte_" data-uid="SDG.Unturned.ItemManager.tellClearRegionItems(Steamworks.CSteamID,System.Byte,System.Byte)">
+  tellClearRegionItems(CSteamID, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellClearRegionItems(CSteamID steamID, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_tellItem_" data-uid="SDG.Unturned.ItemManager.tellItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_tellItem_Steamworks_CSteamID_System_Byte_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte___UnityEngine_Vector3_System_UInt32_" data-uid="SDG.Unturned.ItemManager.tellItem(Steamworks.CSteamID,System.Byte,System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte[],UnityEngine.Vector3,System.UInt32)">
+  tellItem(CSteamID, byte, byte, ushort, byte, byte, byte[], Vector3, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellItem(CSteamID steamID, byte x, byte y, ushort id, byte amount, byte quality, byte[] state, Vector3 point, uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_tellItems_" data-uid="SDG.Unturned.ItemManager.tellItems*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_tellItems_Steamworks_CSteamID_" data-uid="SDG.Unturned.ItemManager.tellItems(Steamworks.CSteamID)">
+  tellItems(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellItems(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemManager_tellTakeItem_" data-uid="SDG.Unturned.ItemManager.tellTakeItem*"></a>
+
+  <h3 id="SDG_Unturned_ItemManager_tellTakeItem_Steamworks_CSteamID_System_Byte_System_Byte_System_UInt32_" data-uid="SDG.Unturned.ItemManager.tellTakeItem(Steamworks.CSteamID,System.Byte,System.Byte,System.UInt32)">
+  tellTakeItem(CSteamID, byte, byte, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellTakeItem(CSteamID steamID, byte x, byte y, uint instanceID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>instanceID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

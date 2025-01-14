@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LevelManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LevelManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.LevelManager">
+
+
+
+  <h1 id="SDG_Unturned_LevelManager" data-uid="SDG.Unturned.LevelManager" class="text-break">
+Class LevelManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LevelManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">LevelManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_LevelManager__ctor_" data-uid="SDG.Unturned.LevelManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager__ctor" data-uid="SDG.Unturned.LevelManager.#ctor">
+  LevelManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_SAVEDATA_VERSION" data-uid="SDG.Unturned.LevelManager.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_airdropFrequency" data-uid="SDG.Unturned.LevelManager.airdropFrequency">
+  airdropFrequency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint airdropFrequency</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_arenaGroups" data-uid="SDG.Unturned.LevelManager.arenaGroups">
+  arenaGroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;CSteamID&gt; arenaGroups</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CSteamID</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_arenaMessage" data-uid="SDG.Unturned.LevelManager.arenaMessage">
+  arenaMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EArenaMessage arenaMessage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EArenaMessage.html">EArenaMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_arenaPlayers" data-uid="SDG.Unturned.LevelManager.arenaPlayers">
+  arenaPlayers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;ArenaPlayer&gt; arenaPlayers</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.ArenaPlayer.html">ArenaPlayer</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_arenaState" data-uid="SDG.Unturned.LevelManager.arenaState">
+  arenaState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EArenaState arenaState</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EArenaState.html">EArenaState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_onArenaMessageUpdated" data-uid="SDG.Unturned.LevelManager.onArenaMessageUpdated">
+  onArenaMessageUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArenaMessageUpdated onArenaMessageUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ArenaMessageUpdated.html">ArenaMessageUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_onArenaPlayerUpdated" data-uid="SDG.Unturned.LevelManager.onArenaPlayerUpdated">
+  onArenaPlayerUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArenaPlayerUpdated onArenaPlayerUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ArenaPlayerUpdated.html">ArenaPlayerUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_LevelManager_onLevelNumberUpdated" data-uid="SDG.Unturned.LevelManager.onLevelNumberUpdated">
+  onLevelNumberUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LevelNumberUpdated onLevelNumberUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.LevelNumberUpdated.html">LevelNumberUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_LevelManager_arenaCompactorSpeed_" data-uid="SDG.Unturned.LevelManager.arenaCompactorSpeed*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaCompactorSpeed" data-uid="SDG.Unturned.LevelManager.arenaCompactorSpeed">
+  arenaCompactorSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float arenaCompactorSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_arenaCurrentCenter_" data-uid="SDG.Unturned.LevelManager.arenaCurrentCenter*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaCurrentCenter" data-uid="SDG.Unturned.LevelManager.arenaCurrentCenter">
+  arenaCurrentCenter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 arenaCurrentCenter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_arenaCurrentRadius_" data-uid="SDG.Unturned.LevelManager.arenaCurrentRadius*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaCurrentRadius" data-uid="SDG.Unturned.LevelManager.arenaCurrentRadius">
+  arenaCurrentRadius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float arenaCurrentRadius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_arenaOriginCenter_" data-uid="SDG.Unturned.LevelManager.arenaOriginCenter*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaOriginCenter" data-uid="SDG.Unturned.LevelManager.arenaOriginCenter">
+  arenaOriginCenter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 arenaOriginCenter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_arenaOriginRadius_" data-uid="SDG.Unturned.LevelManager.arenaOriginRadius*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaOriginRadius" data-uid="SDG.Unturned.LevelManager.arenaOriginRadius">
+  arenaOriginRadius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float arenaOriginRadius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_arenaTargetCenter_" data-uid="SDG.Unturned.LevelManager.arenaTargetCenter*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaTargetCenter" data-uid="SDG.Unturned.LevelManager.arenaTargetCenter">
+  arenaTargetCenter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 arenaTargetCenter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_arenaTargetRadius_" data-uid="SDG.Unturned.LevelManager.arenaTargetRadius*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_arenaTargetRadius" data-uid="SDG.Unturned.LevelManager.arenaTargetRadius">
+  arenaTargetRadius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float arenaTargetRadius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_compactorSpeed_" data-uid="SDG.Unturned.LevelManager.compactorSpeed*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_compactorSpeed" data-uid="SDG.Unturned.LevelManager.compactorSpeed">
+  compactorSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float compactorSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_hasAirdrop_" data-uid="SDG.Unturned.LevelManager.hasAirdrop*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_hasAirdrop" data-uid="SDG.Unturned.LevelManager.hasAirdrop">
+  hasAirdrop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool hasAirdrop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_instance_" data-uid="SDG.Unturned.LevelManager.instance*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_instance" data-uid="SDG.Unturned.LevelManager.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exposed for Rocket transition to modules backwards compatibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LevelManager instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.LevelManager.html">LevelManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_isArenaMode_" data-uid="SDG.Unturned.LevelManager.isArenaMode*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_isArenaMode" data-uid="SDG.Unturned.LevelManager.isArenaMode">
+  isArenaMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is the active level an Arena mode map?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isArenaMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_levelType_" data-uid="SDG.Unturned.LevelManager.levelType*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_levelType" data-uid="SDG.Unturned.LevelManager.levelType">
+  levelType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ELevelType levelType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ELevelType.html">ELevelType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_LevelManager_ReceiveAirdropState_" data-uid="SDG.Unturned.LevelManager.ReceiveAirdropState*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_ReceiveAirdropState_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.LevelManager.ReceiveAirdropState(System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single)">
+  ReceiveAirdropState(ushort, Vector3, Vector3, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellAirdropState&quot;)]
+public static void ReceiveAirdropState(ushort id, Vector3 state, Vector3 direction, float speed, float force, float delay)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_ReceiveArenaMessage_" data-uid="SDG.Unturned.LevelManager.ReceiveArenaMessage*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_ReceiveArenaMessage_SDG_Unturned_EArenaMessage_" data-uid="SDG.Unturned.LevelManager.ReceiveArenaMessage(SDG.Unturned.EArenaMessage)">
+  ReceiveArenaMessage(EArenaMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellArenaMessage&quot;)]
+public static void ReceiveArenaMessage(EArenaMessage newArenaMessage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newArenaMessage</code> <a class="xref" href="SDG.Unturned.EArenaMessage.html">EArenaMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_ReceiveArenaOrigin_" data-uid="SDG.Unturned.LevelManager.ReceiveArenaOrigin*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_ReceiveArenaOrigin_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_System_Single_System_Byte_" data-uid="SDG.Unturned.LevelManager.ReceiveArenaOrigin(UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Single,System.Byte)">
+  ReceiveArenaOrigin(Vector3, float, Vector3, float, Vector3, float, float, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellArenaOrigin&quot;)]
+public static void ReceiveArenaOrigin(Vector3 newArenaCurrentCenter, float newArenaCurrentRadius, Vector3 newArenaOriginCenter, float newArenaOriginRadius, Vector3 newArenaTargetCenter, float newArenaTargetRadius, float newArenaCompactorSpeed, byte delay)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newArenaCurrentCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newArenaCurrentRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newArenaOriginCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newArenaOriginRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newArenaTargetCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newArenaTargetRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newArenaCompactorSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_ReceiveArenaPlayer_" data-uid="SDG.Unturned.LevelManager.ReceiveArenaPlayer*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_ReceiveArenaPlayer_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.LevelManager.ReceiveArenaPlayer(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveArenaPlayer(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveArenaPlayer(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_ReceiveLevelNumber_" data-uid="SDG.Unturned.LevelManager.ReceiveLevelNumber*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_ReceiveLevelNumber_System_Byte_" data-uid="SDG.Unturned.LevelManager.ReceiveLevelNumber(System.Byte)">
+  ReceiveLevelNumber(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLevelNumber&quot;)]
+public static void ReceiveLevelNumber(byte newLevelNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newLevelNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_ReceiveLevelTimer_" data-uid="SDG.Unturned.LevelManager.ReceiveLevelTimer*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_ReceiveLevelTimer_System_Byte_" data-uid="SDG.Unturned.LevelManager.ReceiveLevelTimer(System.Byte)">
+  ReceiveLevelTimer(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLevelTimer&quot;)]
+public static void ReceiveLevelTimer(byte newTimerCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newTimerCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_airdrop_" data-uid="SDG.Unturned.LevelManager.airdrop*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_airdrop_UnityEngine_Vector3_System_UInt16_System_Single_" data-uid="SDG.Unturned.LevelManager.airdrop(UnityEngine.Vector3,System.UInt16,System.Single)">
+  airdrop(Vector3, ushort, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void airdrop(Vector3 point, ushort id, float speed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_askAirdropState_" data-uid="SDG.Unturned.LevelManager.askAirdropState*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_askAirdropState_Steamworks_CSteamID_" data-uid="SDG.Unturned.LevelManager.askAirdropState(Steamworks.CSteamID)">
+  askAirdropState(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAirdropState(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_askArenaState_" data-uid="SDG.Unturned.LevelManager.askArenaState*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_askArenaState_Steamworks_CSteamID_" data-uid="SDG.Unturned.LevelManager.askArenaState(Steamworks.CSteamID)">
+  askArenaState(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askArenaState(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_isPlayerInArena_" data-uid="SDG.Unturned.LevelManager.isPlayerInArena*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_isPlayerInArena_SDG_Unturned_Player_" data-uid="SDG.Unturned.LevelManager.isPlayerInArena(SDG.Unturned.Player)">
+  isPlayerInArena(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isPlayerInArena(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_load_" data-uid="SDG.Unturned.LevelManager.load*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_load" data-uid="SDG.Unturned.LevelManager.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_save_" data-uid="SDG.Unturned.LevelManager.save*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_save" data-uid="SDG.Unturned.LevelManager.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_tellAirdropState_" data-uid="SDG.Unturned.LevelManager.tellAirdropState*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_tellAirdropState_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.LevelManager.tellAirdropState(Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single)">
+  tellAirdropState(CSteamID, Vector3, Vector3, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellAirdropState(CSteamID steamID, Vector3 state, Vector3 direction, float speed, float force, float delay)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>state</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_tellArenaMessage_" data-uid="SDG.Unturned.LevelManager.tellArenaMessage*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_tellArenaMessage_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.LevelManager.tellArenaMessage(Steamworks.CSteamID,System.Byte)">
+  tellArenaMessage(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellArenaMessage(CSteamID steamID, byte newArenaMessage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newArenaMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_tellArenaOrigin_" data-uid="SDG.Unturned.LevelManager.tellArenaOrigin*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_tellArenaOrigin_Steamworks_CSteamID_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_UnityEngine_Vector3_System_Single_System_Single_System_Byte_" data-uid="SDG.Unturned.LevelManager.tellArenaOrigin(Steamworks.CSteamID,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Single,System.Byte)">
+  tellArenaOrigin(CSteamID, Vector3, float, Vector3, float, Vector3, float, float, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellArenaOrigin(CSteamID steamID, Vector3 newArenaCurrentCenter, float newArenaCurrentRadius, Vector3 newArenaOriginCenter, float newArenaOriginRadius, Vector3 newArenaTargetCenter, float newArenaTargetRadius, float newArenaCompactorSpeed, byte delay)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newArenaCurrentCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newArenaCurrentRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newArenaOriginCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newArenaOriginRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newArenaTargetCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newArenaTargetRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newArenaCompactorSpeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_tellArenaPlayer_" data-uid="SDG.Unturned.LevelManager.tellArenaPlayer*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_tellArenaPlayer_Steamworks_CSteamID_System_UInt64___System_Byte_" data-uid="SDG.Unturned.LevelManager.tellArenaPlayer(Steamworks.CSteamID,System.UInt64[],System.Byte)">
+  tellArenaPlayer(CSteamID, ulong[], byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellArenaPlayer(CSteamID steamID, ulong[] newPlayerIDs, byte newArenaMessage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newPlayerIDs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>[]</dt>
+    <dd></dd>
+    <dt><code>newArenaMessage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_tellLevelNumber_" data-uid="SDG.Unturned.LevelManager.tellLevelNumber*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_tellLevelNumber_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.LevelManager.tellLevelNumber(Steamworks.CSteamID,System.Byte)">
+  tellLevelNumber(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLevelNumber(CSteamID steamID, byte newLevelNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newLevelNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_LevelManager_tellLevelTimer_" data-uid="SDG.Unturned.LevelManager.tellLevelTimer*"></a>
+
+  <h3 id="SDG_Unturned_LevelManager_tellLevelTimer_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.LevelManager.tellLevelTimer(Steamworks.CSteamID,System.Byte)">
+  tellLevelTimer(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLevelTimer(CSteamID steamID, byte newTimerCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newTimerCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

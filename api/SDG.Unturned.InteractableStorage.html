@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class InteractableStorage | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class InteractableStorage | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.InteractableStorage">
+
+
+
+  <h1 id="SDG_Unturned_InteractableStorage" data-uid="SDG.Unturned.InteractableStorage" class="text-break">
+Class InteractableStorage  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InteractableStorage : Interactable, IManualOnDestroy</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.Interactable.html">Interactable</a></div>
+      <div><span class="xref">InteractableStorage</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IManualOnDestroy.html">IManualOnDestroy</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.InteractableSentry.html">InteractableSentry</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.Interactable.html#SDG_Unturned_Interactable_checkInteractable">Interactable.checkInteractable()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Interactable.html#SDG_Unturned_Interactable_checkHighlight_UnityEngine_Color__">Interactable.checkHighlight(out Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Interactable.html#SDG_Unturned_Interactable_GetNetId">Interactable.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Interactable.html#SDG_Unturned_Interactable_IsChildOfVehicle">Interactable.IsChildOfVehicle</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Interactable.html#SDG_Unturned_Interactable_isPlant">Interactable.isPlant</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_InteractableStorage__ctor_" data-uid="SDG.Unturned.InteractableStorage.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage__ctor" data-uid="SDG.Unturned.InteractableStorage.#ctor">
+  InteractableStorage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractableStorage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_despawnWhenDestroyed" data-uid="SDG.Unturned.InteractableStorage.despawnWhenDestroyed">
+  despawnWhenDestroyed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool despawnWhenDestroyed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displayAsset" data-uid="SDG.Unturned.InteractableStorage.displayAsset">
+  displayAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ItemAsset displayAsset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displayDynamicProps" data-uid="SDG.Unturned.InteractableStorage.displayDynamicProps">
+  displayDynamicProps
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string displayDynamicProps</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displayItem" data-uid="SDG.Unturned.InteractableStorage.displayItem">
+  displayItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Item displayItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displayModel" data-uid="SDG.Unturned.InteractableStorage.displayModel">
+  displayModel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform displayModel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displayMythic" data-uid="SDG.Unturned.InteractableStorage.displayMythic">
+  displayMythic
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort displayMythic</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displaySkin" data-uid="SDG.Unturned.InteractableStorage.displaySkin">
+  displaySkin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort displaySkin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_displayTags" data-uid="SDG.Unturned.InteractableStorage.displayTags">
+  displayTags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string displayTags</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_isOpen" data-uid="SDG.Unturned.InteractableStorage.isOpen">
+  isOpen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isOpen</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_onStateRebuilt" data-uid="SDG.Unturned.InteractableStorage.onStateRebuilt">
+  onStateRebuilt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractableStorage.RebuiltStateHandler onStateRebuilt</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableStorage.html">InteractableStorage</a>.<a class="xref" href="SDG.Unturned.InteractableStorage.RebuiltStateHandler.html">RebuiltStateHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_opener" data-uid="SDG.Unturned.InteractableStorage.opener">
+  opener
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player opener</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_rot_comp" data-uid="SDG.Unturned.InteractableStorage.rot_comp">
+  rot_comp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rot_comp</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_rot_x" data-uid="SDG.Unturned.InteractableStorage.rot_x">
+  rot_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rot_x</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_rot_y" data-uid="SDG.Unturned.InteractableStorage.rot_y">
+  rot_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rot_y</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_rot_z" data-uid="SDG.Unturned.InteractableStorage.rot_z">
+  rot_z
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rot_z</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_InteractableStorage_shouldCloseWhenOutsideRange" data-uid="SDG.Unturned.InteractableStorage.shouldCloseWhenOutsideRange">
+  shouldCloseWhenOutsideRange
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If player gets too far away from this storage while using it, should we close out?
+False by default for trunk storage because player is inside vehicle.
+Plugins needed to be able to set this to false for &quot;virtual storage&quot; plugins,
+so we default to false and set to true if asset enables it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldCloseWhenOutsideRange</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_InteractableStorage_group_" data-uid="SDG.Unturned.InteractableStorage.group*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_group" data-uid="SDG.Unturned.InteractableStorage.group">
+  group
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSteamID group { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_isDisplay_" data-uid="SDG.Unturned.InteractableStorage.isDisplay*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_isDisplay" data-uid="SDG.Unturned.InteractableStorage.isDisplay">
+  isDisplay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isDisplay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_items_" data-uid="SDG.Unturned.InteractableStorage.items*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_items" data-uid="SDG.Unturned.InteractableStorage.items">
+  items
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Items items { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Items.html">Items</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_owner_" data-uid="SDG.Unturned.InteractableStorage.owner*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_owner" data-uid="SDG.Unturned.InteractableStorage.owner">
+  owner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSteamID owner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_InteractableStorage_ClientInteract_" data-uid="SDG.Unturned.InteractableStorage.ClientInteract*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ClientInteract_System_Boolean_" data-uid="SDG.Unturned.InteractableStorage.ClientInteract(System.Boolean)">
+  ClientInteract(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClientInteract(bool quickGrab)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quickGrab</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_ClientSetDisplayRotation_" data-uid="SDG.Unturned.InteractableStorage.ClientSetDisplayRotation*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ClientSetDisplayRotation_System_Byte_" data-uid="SDG.Unturned.InteractableStorage.ClientSetDisplayRotation(System.Byte)">
+  ClientSetDisplayRotation(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClientSetDisplayRotation(byte rotComp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rotComp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_ManualOnDestroy_" data-uid="SDG.Unturned.InteractableStorage.ManualOnDestroy*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ManualOnDestroy" data-uid="SDG.Unturned.InteractableStorage.ManualOnDestroy">
+  ManualOnDestroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ManualOnDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_ReceiveDisplay_" data-uid="SDG.Unturned.InteractableStorage.ReceiveDisplay*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ReceiveDisplay_System_UInt16_System_Byte_System_Byte___System_UInt16_System_UInt16_System_String_System_String_" data-uid="SDG.Unturned.InteractableStorage.ReceiveDisplay(System.UInt16,System.Byte,System.Byte[],System.UInt16,System.UInt16,System.String,System.String)">
+  ReceiveDisplay(ushort, byte, byte[], ushort, ushort, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, deferMode = ENetInvocationDeferMode.Queue)]
+public void ReceiveDisplay(ushort id, byte quality, byte[] state, ushort skin, ushort mythic, string tags, string dynamicProps)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>skin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>mythic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>tags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>dynamicProps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_ReceiveInteractRequest_" data-uid="SDG.Unturned.InteractableStorage.ReceiveInteractRequest*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ReceiveInteractRequest_SDG_Unturned_ServerInvocationContext__System_Boolean_" data-uid="SDG.Unturned.InteractableStorage.ReceiveInteractRequest(SDG.Unturned.ServerInvocationContext@,System.Boolean)">
+  ReceiveInteractRequest(in ServerInvocationContext, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 4)]
+public void ReceiveInteractRequest(in ServerInvocationContext context, bool quickGrab)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>quickGrab</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_ReceiveRotDisplay_" data-uid="SDG.Unturned.InteractableStorage.ReceiveRotDisplay*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ReceiveRotDisplay_System_Byte_" data-uid="SDG.Unturned.InteractableStorage.ReceiveRotDisplay(System.Byte)">
+  ReceiveRotDisplay(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, deferMode = ENetInvocationDeferMode.Queue)]
+public void ReceiveRotDisplay(byte rotComp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rotComp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_ReceiveRotDisplayRequest_" data-uid="SDG.Unturned.InteractableStorage.ReceiveRotDisplayRequest*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_ReceiveRotDisplayRequest_SDG_Unturned_ServerInvocationContext__System_Byte_" data-uid="SDG.Unturned.InteractableStorage.ReceiveRotDisplayRequest(SDG.Unturned.ServerInvocationContext@,System.Byte)">
+  ReceiveRotDisplayRequest(in ServerInvocationContext, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 2)]
+public void ReceiveRotDisplayRequest(in ServerInvocationContext context, byte rotComp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>rotComp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_applyRotation_" data-uid="SDG.Unturned.InteractableStorage.applyRotation*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_applyRotation_System_Byte_" data-uid="SDG.Unturned.InteractableStorage.applyRotation(System.Byte)">
+  applyRotation(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void applyRotation(byte rotComp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rotComp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_checkHint_" data-uid="SDG.Unturned.InteractableStorage.checkHint*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_checkHint_SDG_Unturned_EPlayerMessage__System_String__UnityEngine_Color__" data-uid="SDG.Unturned.InteractableStorage.checkHint(SDG.Unturned.EPlayerMessage@,System.String@,UnityEngine.Color@)">
+  checkHint(out EPlayerMessage, out string, out Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool checkHint(out EPlayerMessage message, out string text, out Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="SDG.Unturned.EPlayerMessage.html">EPlayerMessage</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_checkRot_" data-uid="SDG.Unturned.InteractableStorage.checkRot*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_checkRot_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.InteractableStorage.checkRot(Steamworks.CSteamID,Steamworks.CSteamID)">
+  checkRot(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkRot(CSteamID enemyPlayer, CSteamID enemyGroup)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enemyPlayer</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>enemyGroup</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_checkStore_" data-uid="SDG.Unturned.InteractableStorage.checkStore*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_checkStore_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.InteractableStorage.checkStore(Steamworks.CSteamID,Steamworks.CSteamID)">
+  checkStore(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkStore(CSteamID enemyPlayer, CSteamID enemyGroup)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enemyPlayer</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>enemyGroup</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_checkUseable_" data-uid="SDG.Unturned.InteractableStorage.checkUseable*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_checkUseable" data-uid="SDG.Unturned.InteractableStorage.checkUseable">
+  checkUseable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool checkUseable()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_getDisplayStatTrackerValue_" data-uid="SDG.Unturned.InteractableStorage.getDisplayStatTrackerValue*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_getDisplayStatTrackerValue_SDG_Provider_EStatTrackerType__System_Int32__" data-uid="SDG.Unturned.InteractableStorage.getDisplayStatTrackerValue(SDG.Provider.EStatTrackerType@,System.Int32@)">
+  getDisplayStatTrackerValue(out EStatTrackerType, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool getDisplayStatTrackerValue(out EStatTrackerType type, out int kills)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Provider.EStatTrackerType.html">EStatTrackerType</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_getRotation_" data-uid="SDG.Unturned.InteractableStorage.getRotation*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_getRotation_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.InteractableStorage.getRotation(System.Byte,System.Byte,System.Byte)">
+  getRotation(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte getRotation(byte rot_x, byte rot_y, byte rot_z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rot_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>rot_z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_rebuildState_" data-uid="SDG.Unturned.InteractableStorage.rebuildState*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_rebuildState" data-uid="SDG.Unturned.InteractableStorage.rebuildState">
+  rebuildState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void rebuildState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_refreshDisplay_" data-uid="SDG.Unturned.InteractableStorage.refreshDisplay*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_refreshDisplay" data-uid="SDG.Unturned.InteractableStorage.refreshDisplay">
+  refreshDisplay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void refreshDisplay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_setDisplay_" data-uid="SDG.Unturned.InteractableStorage.setDisplay*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_setDisplay_System_UInt16_System_Byte_System_Byte___System_UInt16_System_UInt16_System_String_System_String_" data-uid="SDG.Unturned.InteractableStorage.setDisplay(System.UInt16,System.Byte,System.Byte[],System.UInt16,System.UInt16,System.String,System.String)">
+  setDisplay(ushort, byte, byte[], ushort, ushort, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setDisplay(ushort id, byte quality, byte[] state, ushort skin, ushort mythic, string tags, string dynamicProps)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>skin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>mythic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>tags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>dynamicProps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_setRotation_" data-uid="SDG.Unturned.InteractableStorage.setRotation*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_setRotation_System_Byte_" data-uid="SDG.Unturned.InteractableStorage.setRotation(System.Byte)">
+  setRotation(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setRotation(byte rotComp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rotComp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_updateState_" data-uid="SDG.Unturned.InteractableStorage.updateState*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_updateState_SDG_Unturned_Asset_System_Byte___" data-uid="SDG.Unturned.InteractableStorage.updateState(SDG.Unturned.Asset,System.Byte[])">
+  updateState(Asset, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void updateState(Asset asset, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.Asset.html">Asset</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_InteractableStorage_use_" data-uid="SDG.Unturned.InteractableStorage.use*"></a>
+
+  <h3 id="SDG_Unturned_InteractableStorage_use" data-uid="SDG.Unturned.InteractableStorage.use">
+  use()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void use()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,3550 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerEquipment | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerEquipment | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerEquipment">
+
+
+
+  <h1 id="SDG_Unturned_PlayerEquipment" data-uid="SDG.Unturned.PlayerEquipment" class="text-break">
+Class PlayerEquipment  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerEquipment : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerEquipment</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerEquipment__ctor_" data-uid="SDG.Unturned.PlayerEquipment.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment__ctor" data-uid="SDG.Unturned.PlayerEquipment.#ctor">
+  PlayerEquipment()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerEquipment()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_OnPunch_Global" data-uid="SDG.Unturned.PlayerEquipment.OnPunch_Global">
+  OnPunch_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked before dealing damage regardless of whether the punch impacted anything.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;PlayerEquipment, EPlayerPunch&gt; OnPunch_Global</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerEquipment.html">PlayerEquipment</a>, <a class="xref" href="SDG.Unturned.EPlayerPunch.html">EPlayerPunch</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_SAVEDATA_VERSION" data-uid="SDG.Unturned.PlayerEquipment.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_canEquip" data-uid="SDG.Unturned.PlayerEquipment.canEquip">
+  canEquip
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canEquip</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ignoreDequip_A" data-uid="SDG.Unturned.PlayerEquipment.ignoreDequip_A">
+  ignoreDequip_A
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool ignoreDequip_A</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isBusy" data-uid="SDG.Unturned.PlayerEquipment.isBusy">
+  isBusy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBusy</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_onDequipRequested" data-uid="SDG.Unturned.PlayerEquipment.onDequipRequested">
+  onDequipRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerDequipRequestHandler onDequipRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerDequipRequestHandler.html">PlayerDequipRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_onEquipRequested" data-uid="SDG.Unturned.PlayerEquipment.onEquipRequested">
+  onEquipRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerEquipRequestHandler onEquipRequested</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerEquipRequestHandler.html">PlayerEquipRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_onHotkeysUpdated" data-uid="SDG.Unturned.PlayerEquipment.onHotkeysUpdated">
+  onHotkeysUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HotkeysUpdated onHotkeysUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HotkeysUpdated.html">HotkeysUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_page_A" data-uid="SDG.Unturned.PlayerEquipment.page_A">
+  page_A
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected byte page_A</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_rot_A" data-uid="SDG.Unturned.PlayerEquipment.rot_A">
+  rot_A
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected byte rot_A</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_wasTryingToSelect" data-uid="SDG.Unturned.PlayerEquipment.wasTryingToSelect">
+  wasTryingToSelect
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool wasTryingToSelect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_x_A" data-uid="SDG.Unturned.PlayerEquipment.x_A">
+  x_A
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected byte x_A</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_y_A" data-uid="SDG.Unturned.PlayerEquipment.y_A">
+  y_A
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected byte y_A</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerEquipment_HasValidUseable_" data-uid="SDG.Unturned.PlayerEquipment.HasValidUseable*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_HasValidUseable" data-uid="SDG.Unturned.PlayerEquipment.HasValidUseable">
+  HasValidUseable
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasValidUseable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_IsEquipAnimationFinished_" data-uid="SDG.Unturned.PlayerEquipment.IsEquipAnimationFinished*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_IsEquipAnimationFinished" data-uid="SDG.Unturned.PlayerEquipment.IsEquipAnimationFinished">
+  IsEquipAnimationFinished
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEquipAnimationFinished { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_asset_" data-uid="SDG.Unturned.PlayerEquipment.asset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_asset" data-uid="SDG.Unturned.PlayerEquipment.asset">
+  asset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemAsset asset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_canInspect_" data-uid="SDG.Unturned.PlayerEquipment.canInspect*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_canInspect" data-uid="SDG.Unturned.PlayerEquipment.canInspect">
+  canInspect
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canInspect { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterLeftHook_" data-uid="SDG.Unturned.PlayerEquipment.characterLeftHook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterLeftHook" data-uid="SDG.Unturned.PlayerEquipment.characterLeftHook">
+  characterLeftHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterLeftHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterModel_" data-uid="SDG.Unturned.PlayerEquipment.characterModel*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterModel" data-uid="SDG.Unturned.PlayerEquipment.characterModel">
+  characterModel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterModel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterPrimaryLargeGunSlot_" data-uid="SDG.Unturned.PlayerEquipment.characterPrimaryLargeGunSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterPrimaryLargeGunSlot" data-uid="SDG.Unturned.PlayerEquipment.characterPrimaryLargeGunSlot">
+  characterPrimaryLargeGunSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterPrimaryLargeGunSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterPrimaryMeleeSlot_" data-uid="SDG.Unturned.PlayerEquipment.characterPrimaryMeleeSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterPrimaryMeleeSlot" data-uid="SDG.Unturned.PlayerEquipment.characterPrimaryMeleeSlot">
+  characterPrimaryMeleeSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterPrimaryMeleeSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterPrimarySmallGunSlot_" data-uid="SDG.Unturned.PlayerEquipment.characterPrimarySmallGunSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterPrimarySmallGunSlot" data-uid="SDG.Unturned.PlayerEquipment.characterPrimarySmallGunSlot">
+  characterPrimarySmallGunSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterPrimarySmallGunSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterRightHook_" data-uid="SDG.Unturned.PlayerEquipment.characterRightHook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterRightHook" data-uid="SDG.Unturned.PlayerEquipment.characterRightHook">
+  characterRightHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterRightHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterSecondaryGunSlot_" data-uid="SDG.Unturned.PlayerEquipment.characterSecondaryGunSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterSecondaryGunSlot" data-uid="SDG.Unturned.PlayerEquipment.characterSecondaryGunSlot">
+  characterSecondaryGunSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterSecondaryGunSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_characterSecondaryMeleeSlot_" data-uid="SDG.Unturned.PlayerEquipment.characterSecondaryMeleeSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_characterSecondaryMeleeSlot" data-uid="SDG.Unturned.PlayerEquipment.characterSecondaryMeleeSlot">
+  characterSecondaryMeleeSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform characterSecondaryMeleeSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_equippedPage_" data-uid="SDG.Unturned.PlayerEquipment.equippedPage*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_equippedPage" data-uid="SDG.Unturned.PlayerEquipment.equippedPage">
+  equippedPage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte equippedPage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_equipped_x_" data-uid="SDG.Unturned.PlayerEquipment.equipped_x*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_equipped_x" data-uid="SDG.Unturned.PlayerEquipment.equipped_x">
+  equipped_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte equipped_x { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_equipped_y_" data-uid="SDG.Unturned.PlayerEquipment.equipped_y*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_equipped_y" data-uid="SDG.Unturned.PlayerEquipment.equipped_y">
+  equipped_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte equipped_y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_firstLeftHook_" data-uid="SDG.Unturned.PlayerEquipment.firstLeftHook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_firstLeftHook" data-uid="SDG.Unturned.PlayerEquipment.firstLeftHook">
+  firstLeftHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform firstLeftHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_firstModel_" data-uid="SDG.Unturned.PlayerEquipment.firstModel*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_firstModel" data-uid="SDG.Unturned.PlayerEquipment.firstModel">
+  firstModel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform firstModel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_firstRightHook_" data-uid="SDG.Unturned.PlayerEquipment.firstRightHook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_firstRightHook" data-uid="SDG.Unturned.PlayerEquipment.firstRightHook">
+  firstRightHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform firstRightHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_hotkeys_" data-uid="SDG.Unturned.PlayerEquipment.hotkeys*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_hotkeys" data-uid="SDG.Unturned.PlayerEquipment.hotkeys">
+  hotkeys
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HotkeyInfo[] hotkeys { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.HotkeyInfo.html">HotkeyInfo</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_isEquipped_" data-uid="SDG.Unturned.PlayerEquipment.isEquipped*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isEquipped" data-uid="SDG.Unturned.PlayerEquipment.isEquipped">
+  isEquipped
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to IsEquipAnimationFinished&quot;)]
+public bool isEquipped { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_isInspecting_" data-uid="SDG.Unturned.PlayerEquipment.isInspecting*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isInspecting" data-uid="SDG.Unturned.PlayerEquipment.isInspecting">
+  isInspecting
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isInspecting { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_isSelected_" data-uid="SDG.Unturned.PlayerEquipment.isSelected*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isSelected" data-uid="SDG.Unturned.PlayerEquipment.isSelected">
+  isSelected
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to HasValidUseable&quot;)]
+public bool isSelected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_isTurret_" data-uid="SDG.Unturned.PlayerEquipment.isTurret*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isTurret" data-uid="SDG.Unturned.PlayerEquipment.isTurret">
+  isTurret
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTurret { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_isUseableShowingMenu_" data-uid="SDG.Unturned.PlayerEquipment.isUseableShowingMenu*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isUseableShowingMenu" data-uid="SDG.Unturned.PlayerEquipment.isUseableShowingMenu">
+  isUseableShowingMenu
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Does equipped useable have a menu open?
+If so pause menu, dashboard, and other menus cannot be opened.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isUseableShowingMenu { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_itemID_" data-uid="SDG.Unturned.PlayerEquipment.itemID*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_itemID" data-uid="SDG.Unturned.PlayerEquipment.itemID">
+  itemID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort itemID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_lastPunching_" data-uid="SDG.Unturned.PlayerEquipment.lastPunching*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_lastPunching" data-uid="SDG.Unturned.PlayerEquipment.lastPunching">
+  lastPunching
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lastPunching { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_primary_" data-uid="SDG.Unturned.PlayerEquipment.primary*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_primary" data-uid="SDG.Unturned.PlayerEquipment.primary">
+  primary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool primary { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_quality_" data-uid="SDG.Unturned.PlayerEquipment.quality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_quality" data-uid="SDG.Unturned.PlayerEquipment.quality">
+  quality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte quality { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_secondary_" data-uid="SDG.Unturned.PlayerEquipment.secondary*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_secondary" data-uid="SDG.Unturned.PlayerEquipment.secondary">
+  secondary
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool secondary { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_state_" data-uid="SDG.Unturned.PlayerEquipment.state*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_state" data-uid="SDG.Unturned.PlayerEquipment.state">
+  state
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] state { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdLeftHook_" data-uid="SDG.Unturned.PlayerEquipment.thirdLeftHook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdLeftHook" data-uid="SDG.Unturned.PlayerEquipment.thirdLeftHook">
+  thirdLeftHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdLeftHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdModel_" data-uid="SDG.Unturned.PlayerEquipment.thirdModel*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdModel" data-uid="SDG.Unturned.PlayerEquipment.thirdModel">
+  thirdModel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdModel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdPrimaryLargeGunSlot_" data-uid="SDG.Unturned.PlayerEquipment.thirdPrimaryLargeGunSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdPrimaryLargeGunSlot" data-uid="SDG.Unturned.PlayerEquipment.thirdPrimaryLargeGunSlot">
+  thirdPrimaryLargeGunSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdPrimaryLargeGunSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdPrimaryMeleeSlot_" data-uid="SDG.Unturned.PlayerEquipment.thirdPrimaryMeleeSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdPrimaryMeleeSlot" data-uid="SDG.Unturned.PlayerEquipment.thirdPrimaryMeleeSlot">
+  thirdPrimaryMeleeSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdPrimaryMeleeSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdPrimarySmallGunSlot_" data-uid="SDG.Unturned.PlayerEquipment.thirdPrimarySmallGunSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdPrimarySmallGunSlot" data-uid="SDG.Unturned.PlayerEquipment.thirdPrimarySmallGunSlot">
+  thirdPrimarySmallGunSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdPrimarySmallGunSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdRightHook_" data-uid="SDG.Unturned.PlayerEquipment.thirdRightHook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdRightHook" data-uid="SDG.Unturned.PlayerEquipment.thirdRightHook">
+  thirdRightHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdRightHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdSecondaryGunSlot_" data-uid="SDG.Unturned.PlayerEquipment.thirdSecondaryGunSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdSecondaryGunSlot" data-uid="SDG.Unturned.PlayerEquipment.thirdSecondaryGunSlot">
+  thirdSecondaryGunSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdSecondaryGunSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_thirdSecondaryMeleeSlot_" data-uid="SDG.Unturned.PlayerEquipment.thirdSecondaryMeleeSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_thirdSecondaryMeleeSlot" data-uid="SDG.Unturned.PlayerEquipment.thirdSecondaryMeleeSlot">
+  thirdSecondaryMeleeSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdSecondaryMeleeSlot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_useable_" data-uid="SDG.Unturned.PlayerEquipment.useable*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_useable" data-uid="SDG.Unturned.PlayerEquipment.useable">
+  useable
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Useable useable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Useable.html">Useable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveEquip_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveEquip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveEquip_System_Byte_System_Byte_System_Byte_System_Guid_System_Byte_System_Byte___SDG_Unturned_NetId_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveEquip(System.Byte,System.Byte,System.Byte,System.Guid,System.Byte,System.Byte[],SDG.Unturned.NetId)">
+  ReceiveEquip(byte, byte, byte, Guid, byte, byte[], NetId)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEquip&quot;)]
+public void ReceiveEquip(byte page, byte x, byte y, Guid newAssetGuid, byte newQuality, byte[] newState, NetId useableNetId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newAssetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>newQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>useableNetId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveEquipRequest_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveEquipRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveEquipRequest_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveEquipRequest(System.Byte,System.Byte,System.Byte)">
+  ReceiveEquipRequest(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 5, legacyName = &quot;askEquip&quot;)]
+public void ReceiveEquipRequest(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveItemHotkeySuggeston_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveItemHotkeySuggeston*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveItemHotkeySuggeston_SDG_Unturned_ClientInvocationContext__System_Byte_System_Guid_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveItemHotkeySuggeston(SDG.Unturned.ClientInvocationContext@,System.Byte,System.Guid,System.Byte,System.Byte,System.Byte)">
+  ReceiveItemHotkeySuggeston(in ClientInvocationContext, byte, Guid, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveItemHotkeySuggeston(in ClientInvocationContext context, byte hotkeyIndex, Guid expectedAssetGuid, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>hotkeyIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>expectedAssetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveSlot_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveSlot_System_Byte_System_UInt16_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.ReceiveSlot(System.Byte,System.UInt16,System.Byte[])">
+  ReceiveSlot(byte, ushort, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSlot&quot;)]
+public void ReceiveSlot(byte slot, ushort id, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveToggleVision_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveToggleVision*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveToggleVision" data-uid="SDG.Unturned.PlayerEquipment.ReceiveToggleVision">
+  ReceiveToggleVision()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellToggleVision&quot;)]
+public void ReceiveToggleVision()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveToggleVisionRequest_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveToggleVisionRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveToggleVisionRequest" data-uid="SDG.Unturned.PlayerEquipment.ReceiveToggleVisionRequest">
+  ReceiveToggleVisionRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askToggleVision&quot;)]
+public void ReceiveToggleVisionRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveUpdateState_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveUpdateState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveUpdateState_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.ReceiveUpdateState(System.Byte,System.Byte,System.Byte[])">
+  ReceiveUpdateState(byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateState&quot;)]
+public void ReceiveUpdateState(byte page, byte index, byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ReceiveUpdateStateTemp_" data-uid="SDG.Unturned.PlayerEquipment.ReceiveUpdateStateTemp*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ReceiveUpdateStateTemp_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.ReceiveUpdateStateTemp(System.Byte[])">
+  ReceiveUpdateStateTemp(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUpdateStateTemp&quot;)]
+public void ReceiveUpdateStateTemp(byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ServerBindItemHotkey_" data-uid="SDG.Unturned.PlayerEquipment.ServerBindItemHotkey*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ServerBindItemHotkey_System_Byte_SDG_Unturned_ItemAsset_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.ServerBindItemHotkey(System.Byte,SDG.Unturned.ItemAsset,System.Byte,System.Byte,System.Byte)">
+  ServerBindItemHotkey(byte, ItemAsset, byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>It should be safe to call this immediately because hotkeys are loaded in InitializePlayer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerBindItemHotkey(byte hotkeyIndex, ItemAsset expectedItem, byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hotkeyIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>expectedItem</code> <a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ServerClearItemHotkey_" data-uid="SDG.Unturned.PlayerEquipment.ServerClearItemHotkey*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ServerClearItemHotkey_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.ServerClearItemHotkey(System.Byte)">
+  ServerClearItemHotkey(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerClearItemHotkey(byte hotkeyIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hotkeyIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_ServerEquip_" data-uid="SDG.Unturned.PlayerEquipment.ServerEquip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_ServerEquip_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.ServerEquip(System.Byte,System.Byte,System.Byte)">
+  ServerEquip(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerEquip(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_applyMythicVisual_" data-uid="SDG.Unturned.PlayerEquipment.applyMythicVisual*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_applyMythicVisual" data-uid="SDG.Unturned.PlayerEquipment.applyMythicVisual">
+  applyMythicVisual()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void applyMythicVisual()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_applySkinVisual_" data-uid="SDG.Unturned.PlayerEquipment.applySkinVisual*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_applySkinVisual" data-uid="SDG.Unturned.PlayerEquipment.applySkinVisual">
+  applySkinVisual()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void applySkinVisual()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_askEquip_" data-uid="SDG.Unturned.PlayerEquipment.askEquip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_askEquip_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.askEquip(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  askEquip(CSteamID, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askEquip(CSteamID steamID, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_askEquipment_" data-uid="SDG.Unturned.PlayerEquipment.askEquipment*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_askEquipment_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerEquipment.askEquipment(Steamworks.CSteamID)">
+  askEquipment(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askEquipment(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_askToggleVision_" data-uid="SDG.Unturned.PlayerEquipment.askToggleVision*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_askToggleVision_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerEquipment.askToggleVision(Steamworks.CSteamID)">
+  askToggleVision(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askToggleVision(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_checkSelection_" data-uid="SDG.Unturned.PlayerEquipment.checkSelection*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_checkSelection_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.checkSelection(System.Byte)">
+  checkSelection(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkSelection(byte page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_checkSelection_" data-uid="SDG.Unturned.PlayerEquipment.checkSelection*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_checkSelection_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.checkSelection(System.Byte,System.Byte,System.Byte)">
+  checkSelection(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkSelection(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_dequip_" data-uid="SDG.Unturned.PlayerEquipment.dequip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_dequip" data-uid="SDG.Unturned.PlayerEquipment.dequip">
+  dequip()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void dequip()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_equip_" data-uid="SDG.Unturned.PlayerEquipment.equip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_equip_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.equip(System.Byte,System.Byte,System.Byte)">
+  equip(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called clientside to ask server to equip an item in the inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void equip(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_fixStatTrackerHookScale_" data-uid="SDG.Unturned.PlayerEquipment.fixStatTrackerHookScale*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_fixStatTrackerHookScale_UnityEngine_Transform_" data-uid="SDG.Unturned.PlayerEquipment.fixStatTrackerHookScale(UnityEngine.Transform)">
+  fixStatTrackerHookScale(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left-handed characters need the stat tracker to be flipped on the X axis so that the text reads properly.
+ItemTool doesn't know about left/right handedness, so for the moment that's handled here because only players need this fixed up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void fixStatTrackerHookScale(Transform itemModelTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemModelTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_getSlot0StatTrackerValue_" data-uid="SDG.Unturned.PlayerEquipment.getSlot0StatTrackerValue*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_getSlot0StatTrackerValue_SDG_Provider_EStatTrackerType__System_Int32__" data-uid="SDG.Unturned.PlayerEquipment.getSlot0StatTrackerValue(SDG.Provider.EStatTrackerType@,System.Int32@)">
+  getSlot0StatTrackerValue(out EStatTrackerType, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool getSlot0StatTrackerValue(out EStatTrackerType type, out int kills)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Provider.EStatTrackerType.html">EStatTrackerType</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_getSlot1StatTrackerValue_" data-uid="SDG.Unturned.PlayerEquipment.getSlot1StatTrackerValue*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_getSlot1StatTrackerValue_SDG_Provider_EStatTrackerType__System_Int32__" data-uid="SDG.Unturned.PlayerEquipment.getSlot1StatTrackerValue(SDG.Provider.EStatTrackerType@,System.Int32@)">
+  getSlot1StatTrackerValue(out EStatTrackerType, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool getSlot1StatTrackerValue(out EStatTrackerType type, out int kills)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Provider.EStatTrackerType.html">EStatTrackerType</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_getUseableRagdollEffect_" data-uid="SDG.Unturned.PlayerEquipment.getUseableRagdollEffect*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_getUseableRagdollEffect" data-uid="SDG.Unturned.PlayerEquipment.getUseableRagdollEffect">
+  getUseableRagdollEffect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get ragdoll effect to use when the current weapon deals damage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ERagdollEffect getUseableRagdollEffect()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_getUseableStatTrackerValue_" data-uid="SDG.Unturned.PlayerEquipment.getUseableStatTrackerValue*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_getUseableStatTrackerValue_SDG_Provider_EStatTrackerType__System_Int32__" data-uid="SDG.Unturned.PlayerEquipment.getUseableStatTrackerValue(SDG.Provider.EStatTrackerType@,System.Int32@)">
+  getUseableStatTrackerValue(out EStatTrackerType, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getUseableStatTrackerValue(out EStatTrackerType type, out int kills)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Provider.EStatTrackerType.html">EStatTrackerType</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_inspect_" data-uid="SDG.Unturned.PlayerEquipment.inspect*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_inspect" data-uid="SDG.Unturned.PlayerEquipment.inspect">
+  inspect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void inspect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_isItemHotkeyed_" data-uid="SDG.Unturned.PlayerEquipment.isItemHotkeyed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_isItemHotkeyed_System_Byte_System_Byte_SDG_Unturned_ItemJar_System_Byte__" data-uid="SDG.Unturned.PlayerEquipment.isItemHotkeyed(System.Byte,System.Byte,SDG.Unturned.ItemJar,System.Byte@)">
+  isItemHotkeyed(byte, byte, ItemJar, out byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isItemHotkeyed(byte page, byte index, ItemJar jar, out byte button)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>jar</code> <a class="xref" href="SDG.Unturned.ItemJar.html">ItemJar</a></dt>
+    <dd></dd>
+    <dt><code>button</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_sendSlot_" data-uid="SDG.Unturned.PlayerEquipment.sendSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_sendSlot_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.sendSlot(System.Byte)">
+  sendSlot(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSlot(byte slot)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_sendUpdateQuality_" data-uid="SDG.Unturned.PlayerEquipment.sendUpdateQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_sendUpdateQuality" data-uid="SDG.Unturned.PlayerEquipment.sendUpdateQuality">
+  sendUpdateQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_sendUpdateState_" data-uid="SDG.Unturned.PlayerEquipment.sendUpdateState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_sendUpdateState" data-uid="SDG.Unturned.PlayerEquipment.sendUpdateState">
+  sendUpdateState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendUpdateState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_simulate_" data-uid="SDG.Unturned.PlayerEquipment.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_simulate_System_UInt32_SDG_Unturned_EAttackInputFlags_SDG_Unturned_EAttackInputFlags_System_Boolean_" data-uid="SDG.Unturned.PlayerEquipment.simulate(System.UInt32,SDG.Unturned.EAttackInputFlags,SDG.Unturned.EAttackInputFlags,System.Boolean)">
+  simulate(uint, EAttackInputFlags, EAttackInputFlags, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(uint simulation, EAttackInputFlags inputPrimary, EAttackInputFlags inputSecondary, bool inputSteady)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>inputPrimary</code> <a class="xref" href="SDG.Unturned.EAttackInputFlags.html">EAttackInputFlags</a></dt>
+    <dd></dd>
+    <dt><code>inputSecondary</code> <a class="xref" href="SDG.Unturned.EAttackInputFlags.html">EAttackInputFlags</a></dt>
+    <dd></dd>
+    <dt><code>inputSteady</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_syncAllStatTrackerVisibility_" data-uid="SDG.Unturned.PlayerEquipment.syncAllStatTrackerVisibility*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_syncAllStatTrackerVisibility" data-uid="SDG.Unturned.PlayerEquipment.syncAllStatTrackerVisibility">
+  syncAllStatTrackerVisibility()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Match all stat tracker visibilities to whether skins are visible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void syncAllStatTrackerVisibility()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_syncStatTrackTrackerVisibility_" data-uid="SDG.Unturned.PlayerEquipment.syncStatTrackTrackerVisibility*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_syncStatTrackTrackerVisibility_UnityEngine_Transform_" data-uid="SDG.Unturned.PlayerEquipment.syncStatTrackTrackerVisibility(UnityEngine.Transform)">
+  syncStatTrackTrackerVisibility(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Match stat tracker gameobject's isActive to whether skins are visible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void syncStatTrackTrackerVisibility(Transform itemModelTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemModelTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tellEquip_" data-uid="SDG.Unturned.PlayerEquipment.tellEquip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tellEquip_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_UInt16_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.tellEquip(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.UInt16,System.Byte,System.Byte[])">
+  tellEquip(CSteamID, byte, byte, byte, ushort, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEquip(CSteamID steamID, byte page, byte x, byte y, ushort id, byte newQuality, byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newQuality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tellSlot_" data-uid="SDG.Unturned.PlayerEquipment.tellSlot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tellSlot_Steamworks_CSteamID_System_Byte_System_UInt16_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.tellSlot(Steamworks.CSteamID,System.Byte,System.UInt16,System.Byte[])">
+  tellSlot(CSteamID, byte, ushort, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSlot(CSteamID steamID, byte slot, ushort id, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>slot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tellToggleVision_" data-uid="SDG.Unturned.PlayerEquipment.tellToggleVision*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tellToggleVision_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerEquipment.tellToggleVision(Steamworks.CSteamID)">
+  tellToggleVision(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellToggleVision(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tellUpdateState_" data-uid="SDG.Unturned.PlayerEquipment.tellUpdateState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tellUpdateState_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.tellUpdateState(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte[])">
+  tellUpdateState(CSteamID, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateState(CSteamID steamID, byte page, byte index, byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tellUpdateStateTemp_" data-uid="SDG.Unturned.PlayerEquipment.tellUpdateStateTemp*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tellUpdateStateTemp_Steamworks_CSteamID_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.tellUpdateStateTemp(Steamworks.CSteamID,System.Byte[])">
+  tellUpdateStateTemp(CSteamID, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUpdateStateTemp(CSteamID steamID, byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tock_" data-uid="SDG.Unturned.PlayerEquipment.tock*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tock_System_UInt32_" data-uid="SDG.Unturned.PlayerEquipment.tock(System.UInt32)">
+  tock(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tock(uint clock)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>clock</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tryEquip_" data-uid="SDG.Unturned.PlayerEquipment.tryEquip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tryEquip_System_Byte_System_Byte_System_Byte_" data-uid="SDG.Unturned.PlayerEquipment.tryEquip(System.Byte,System.Byte,System.Byte)">
+  tryEquip(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to ServerEquip&quot;)]
+public void tryEquip(byte page, byte x, byte y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_tryEquip_" data-uid="SDG.Unturned.PlayerEquipment.tryEquip*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_tryEquip_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.tryEquip(System.Byte,System.Byte,System.Byte,System.Byte[])">
+  tryEquip(byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;No longer necessary after hash check was converted to newer system&quot;)]
+public void tryEquip(byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_turretDequipClient_" data-uid="SDG.Unturned.PlayerEquipment.turretDequipClient*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_turretDequipClient" data-uid="SDG.Unturned.PlayerEquipment.turretDequipClient">
+  turretDequipClient()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void turretDequipClient()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_turretDequipServer_" data-uid="SDG.Unturned.PlayerEquipment.turretDequipServer*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_turretDequipServer" data-uid="SDG.Unturned.PlayerEquipment.turretDequipServer">
+  turretDequipServer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void turretDequipServer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_turretEquipClient_" data-uid="SDG.Unturned.PlayerEquipment.turretEquipClient*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_turretEquipClient" data-uid="SDG.Unturned.PlayerEquipment.turretEquipClient">
+  turretEquipClient()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void turretEquipClient()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_turretEquipServer_" data-uid="SDG.Unturned.PlayerEquipment.turretEquipServer*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_turretEquipServer_System_UInt16_System_Byte___" data-uid="SDG.Unturned.PlayerEquipment.turretEquipServer(System.UInt16,System.Byte[])">
+  turretEquipServer(ushort, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void turretEquipServer(ushort id, byte[] state)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>state</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_uninspect_" data-uid="SDG.Unturned.PlayerEquipment.uninspect*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_uninspect" data-uid="SDG.Unturned.PlayerEquipment.uninspect">
+  uninspect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void uninspect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_updateQuality_" data-uid="SDG.Unturned.PlayerEquipment.updateQuality*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_updateQuality" data-uid="SDG.Unturned.PlayerEquipment.updateQuality">
+  updateQuality()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateQuality()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_updateState_" data-uid="SDG.Unturned.PlayerEquipment.updateState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_updateState" data-uid="SDG.Unturned.PlayerEquipment.updateState">
+  updateState()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_use_" data-uid="SDG.Unturned.PlayerEquipment.use*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_use" data-uid="SDG.Unturned.PlayerEquipment.use">
+  use()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void use()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_useStepA_" data-uid="SDG.Unturned.PlayerEquipment.useStepA*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_useStepA" data-uid="SDG.Unturned.PlayerEquipment.useStepA">
+  useStepA()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove the item from inventory so that if we die before <a class="xref" href="SDG.Unturned.PlayerEquipment.html#SDG_Unturned_PlayerEquipment_useStepB">useStepB()</a> the item isn't dropped</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void useStepA()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerEquipment_useStepB_" data-uid="SDG.Unturned.PlayerEquipment.useStepB*"></a>
+
+  <h3 id="SDG_Unturned_PlayerEquipment_useStepB" data-uid="SDG.Unturned.PlayerEquipment.useStepB">
+  useStepB()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Finish dequipping from <a class="xref" href="SDG.Unturned.PlayerEquipment.html#SDG_Unturned_PlayerEquipment_useStepA">useStepA()</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void useStepB()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_OnInspectingUseable_Global" data-uid="SDG.Unturned.PlayerEquipment.OnInspectingUseable_Global">
+  OnInspectingUseable_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerEquipment&gt; OnInspectingUseable_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerEquipment.html">PlayerEquipment</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerEquipment_OnUseableChanged_Global" data-uid="SDG.Unturned.PlayerEquipment.OnUseableChanged_Global">
+  OnUseableChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked from tellEquip after change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerEquipment&gt; OnUseableChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerEquipment.html">PlayerEquipment</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

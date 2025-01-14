@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ConsoleInputOutput | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ConsoleInputOutput | Unturned Analyse Doc ">
+      
+      <meta name="description" content="Read commands from standard input, and write logs to standard output.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ConsoleInputOutput">
+
+
+
+  <h1 id="SDG_Unturned_ConsoleInputOutput" data-uid="SDG.Unturned.ConsoleInputOutput" class="text-break">
+Class ConsoleInputOutput  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Read commands from standard input, and write logs to standard output.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConsoleInputOutput : ConsoleInputOutputBase, ICommandInputOutput</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html">ConsoleInputOutputBase</a></div>
+      <div><span class="xref">ConsoleInputOutput</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.ICommandInputOutput.html">ICommandInputOutput</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.WindowsConsoleInputOutput.html">WindowsConsoleInputOutput</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_defaultShouldRedirectInput">ConsoleInputOutputBase.defaultShouldRedirectInput</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_defaultShouldRedirectOutput">ConsoleInputOutputBase.defaultShouldRedirectOutput</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_defaultShouldProxyRedirectedOutput">ConsoleInputOutputBase.defaultShouldProxyRedirectedOutput</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_shouldRedirectInput">ConsoleInputOutputBase.shouldRedirectInput</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_shouldRedirectOutput">ConsoleInputOutputBase.shouldRedirectOutput</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_shouldProxyRedirectedOutput">ConsoleInputOutputBase.shouldProxyRedirectedOutput</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_wantsToTerminate">ConsoleInputOutputBase.wantsToTerminate</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_isTerminating">ConsoleInputOutputBase.isTerminating</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_desiredTitle">ConsoleInputOutputBase.desiredTitle</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_initialize_SDG_Unturned_CommandWindow_">ConsoleInputOutputBase.initialize(CommandWindow)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_shutdown_SDG_Unturned_CommandWindow_">ConsoleInputOutputBase.shutdown(CommandWindow)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_outputInformation_System_String_">ConsoleInputOutputBase.outputInformation(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_outputWarning_System_String_">ConsoleInputOutputBase.outputWarning(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_outputError_System_String_">ConsoleInputOutputBase.outputError(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_notifyInputCommitted_System_String_">ConsoleInputOutputBase.notifyInputCommitted(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_synchronizeTitle_System_String_">ConsoleInputOutputBase.synchronizeTitle(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_onTitleChanged_System_String_">ConsoleInputOutputBase.onTitleChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_handleCancelEvent_System_Object_System_ConsoleCancelEventArgs_">ConsoleInputOutputBase.handleCancelEvent(object, ConsoleCancelEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_handleTermination">ConsoleInputOutputBase.handleTermination()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ConsoleInputOutputBase.html#SDG_Unturned_ConsoleInputOutputBase_inputCommitted">ConsoleInputOutputBase.inputCommitted</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput__ctor_" data-uid="SDG.Unturned.ConsoleInputOutput.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput__ctor" data-uid="SDG.Unturned.ConsoleInputOutput.#ctor">
+  ConsoleInputOutput()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleInputOutput()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_pendingInput" data-uid="SDG.Unturned.ConsoleInputOutput.pendingInput">
+  pendingInput
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string pendingInput</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_clearLine_" data-uid="SDG.Unturned.ConsoleInputOutput.clearLine*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_clearLine" data-uid="SDG.Unturned.ConsoleInputOutput.clearLine">
+  clearLine()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void clearLine()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_inputFromConsole_" data-uid="SDG.Unturned.ConsoleInputOutput.inputFromConsole*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_inputFromConsole" data-uid="SDG.Unturned.ConsoleInputOutput.inputFromConsole">
+  inputFromConsole()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Each Update we consume a key press from the console buffer if available.
+Unfortunately ReadLine is not an option without blocking output, so we maintain our own pending input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void inputFromConsole()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_onConsoleInputBackspace_" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputBackspace*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_onConsoleInputBackspace" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputBackspace">
+  onConsoleInputBackspace()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void onConsoleInputBackspace()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_onConsoleInputEnter_" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputEnter*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_onConsoleInputEnter" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputEnter">
+  onConsoleInputEnter()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void onConsoleInputEnter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_onConsoleInputEscape_" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputEscape*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_onConsoleInputEscape" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputEscape">
+  onConsoleInputEscape()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void onConsoleInputEscape()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_onConsoleInputKey_" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputKey*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_onConsoleInputKey_System_ConsoleKeyInfo_" data-uid="SDG.Unturned.ConsoleInputOutput.onConsoleInputKey(System.ConsoleKeyInfo)">
+  onConsoleInputKey(ConsoleKeyInfo)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void onConsoleInputKey(ConsoleKeyInfo keyInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolekeyinfo">ConsoleKeyInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_outputToConsole_" data-uid="SDG.Unturned.ConsoleInputOutput.outputToConsole*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_outputToConsole_System_String_System_ConsoleColor_" data-uid="SDG.Unturned.ConsoleInputOutput.outputToConsole(System.String,System.ConsoleColor)">
+  outputToConsole(string, ConsoleColor)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void outputToConsole(string value, ConsoleColor color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_redrawInputLine_" data-uid="SDG.Unturned.ConsoleInputOutput.redrawInputLine*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_redrawInputLine" data-uid="SDG.Unturned.ConsoleInputOutput.redrawInputLine">
+  redrawInputLine()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void redrawInputLine()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ConsoleInputOutput_update_" data-uid="SDG.Unturned.ConsoleInputOutput.update*"></a>
+
+  <h3 id="SDG_Unturned_ConsoleInputOutput_update" data-uid="SDG.Unturned.ConsoleInputOutput.update">
+  update()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called each Unity update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

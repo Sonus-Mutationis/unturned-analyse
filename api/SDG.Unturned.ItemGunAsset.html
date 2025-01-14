@@ -1,0 +1,4185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ItemGunAsset | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ItemGunAsset | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ItemGunAsset">
+
+
+
+  <h1 id="SDG_Unturned_ItemGunAsset" data-uid="SDG.Unturned.ItemGunAsset" class="text-break">
+Class ItemGunAsset  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemGunAsset : ItemWeaponAsset, IAssetErrorContext, ISkinableAsset</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.Asset.html">Asset</a></div>
+      <div><a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></div>
+      <div><a class="xref" href="SDG.Unturned.ItemWeaponAsset.html">ItemWeaponAsset</a></div>
+      <div><span class="xref">ItemGunAsset</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IAssetErrorContext.html">IAssetErrorContext</a></div>
+      <div><a class="xref" href="SDG.Unturned.ISkinableAsset.html">ISkinableAsset</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_range">ItemWeaponAsset.range</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageMultiplier">ItemWeaponAsset.playerDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_zombieDamageMultiplier">ItemWeaponAsset.zombieDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_animalDamageMultiplier">ItemWeaponAsset.animalDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_barricadeDamage">ItemWeaponAsset.barricadeDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_structureDamage">ItemWeaponAsset.structureDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_vehicleDamage">ItemWeaponAsset.vehicleDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_resourceDamage">ItemWeaponAsset.resourceDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_objectDamage">ItemWeaponAsset.objectDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_durability">ItemWeaponAsset.durability</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_wear">ItemWeaponAsset.wear</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_isInvulnerable">ItemWeaponAsset.isInvulnerable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_hasBladeID_System_Byte_">ItemWeaponAsset.hasBladeID(byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_initPlayerDamageParameters_SDG_Unturned_DamagePlayerParameters__">ItemWeaponAsset.initPlayerDamageParameters(ref DamagePlayerParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_BuildExplosiveDescription_SDG_Unturned_ItemDescriptionBuilder_SDG_Unturned_Item_">ItemWeaponAsset.BuildExplosiveDescription(ItemDescriptionBuilder, Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_BuildNonExplosiveDescription_SDG_Unturned_ItemDescriptionBuilder_SDG_Unturned_Item_">ItemWeaponAsset.BuildNonExplosiveDescription(ItemDescriptionBuilder, Item)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_bladeIDs">ItemWeaponAsset.bladeIDs</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageBleeding">ItemWeaponAsset.playerDamageBleeding</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageBones">ItemWeaponAsset.playerDamageBones</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageFood">ItemWeaponAsset.playerDamageFood</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageWater">ItemWeaponAsset.playerDamageWater</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageVirus">ItemWeaponAsset.playerDamageVirus</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_playerDamageHallucination">ItemWeaponAsset.playerDamageHallucination</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_zombieStunOverride">ItemWeaponAsset.zombieStunOverride</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_animalOrPlayerDamageMultiplier">ItemWeaponAsset.animalOrPlayerDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_zombieOrPlayerDamageMultiplier">ItemWeaponAsset.zombieOrPlayerDamageMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_allowFleshFx">ItemWeaponAsset.allowFleshFx</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemWeaponAsset.html#SDG_Unturned_ItemWeaponAsset_bypassAllowedToDamagePlayer">ItemWeaponAsset.bypassAllowedToDamagePlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldAlwaysLoadItemPrefab">ItemAsset.shouldAlwaysLoadItemPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__shouldVerifyHash">ItemAsset._shouldVerifyHash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__itemName">ItemAsset._itemName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__itemDescription">ItemAsset._itemDescription</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_type">ItemAsset.type</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_rarity">ItemAsset.rarity</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__proPath">ItemAsset._proPath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_econIconUseId">ItemAsset.econIconUseId</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isPro">ItemAsset.isPro</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_useable">ItemAsset.useable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_slot">ItemAsset.slot</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_size_x">ItemAsset.size_x</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_size_y">ItemAsset.size_y</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_iconCameraOrthographicSize">ItemAsset.iconCameraOrthographicSize</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_econIconCameraOrthographicSize">ItemAsset.econIconCameraOrthographicSize</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isEligibleForAutomaticIconMeasurements">ItemAsset.isEligibleForAutomaticIconMeasurements</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_amount">ItemAsset.amount</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_countMin">ItemAsset.countMin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_countMax">ItemAsset.countMax</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_qualityMin">ItemAsset.qualityMin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_qualityMax">ItemAsset.qualityMax</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isBackward">ItemAsset.isBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldProcedurallyAnimateInertia">ItemAsset.shouldProcedurallyAnimateInertia</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldLeftHandedCharactersMirrorEquippedItem">ItemAsset.shouldLeftHandedCharactersMirrorEquippedItem</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isEligibleForAutoStatDescriptions">ItemAsset.isEligibleForAutoStatDescriptions</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__item">ItemAsset._item</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_equipablePrefab">ItemAsset.equipablePrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_equipableMovementSpeedMultiplier">ItemAsset.equipableMovementSpeedMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__equip">ItemAsset._equip</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__animations">ItemAsset._animations</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_inspectAudio">ItemAsset.inspectAudio</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_inventoryAudio">ItemAsset.inventoryAudio</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__blueprints">ItemAsset._blueprints</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__actions">ItemAsset._actions</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__albedoBase">ItemAsset._albedoBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__metallicBase">ItemAsset._metallicBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset__emissionBase">ItemAsset._emissionBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_RarityAndType">ItemAsset.DescSort_RarityAndType</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_LoreText">ItemAsset.DescSort_LoreText</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_QualityAndAmount">ItemAsset.DescSort_QualityAndAmount</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Important">ItemAsset.DescSort_Important</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ItemStat">ItemAsset.DescSort_ItemStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ClothingStat">ItemAsset.DescSort_ClothingStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ConsumeableStat">ItemAsset.DescSort_ConsumeableStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_GunStat">ItemAsset.DescSort_GunStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_GunAttachmentStat">ItemAsset.DescSort_GunAttachmentStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_MeleeStat">ItemAsset.DescSort_MeleeStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_RefillStat">ItemAsset.DescSort_RefillStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_Common">ItemAsset.DescSort_Weapon_NonExplosive_Common</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_TrapKeyword">ItemAsset.DescSort_TrapKeyword</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_TrapStat">ItemAsset.DescSort_TrapStat</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_FarmableText">ItemAsset.DescSort_FarmableText</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_BuildableCommon">ItemAsset.DescSort_BuildableCommon</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ExplosiveBulletDamage">ItemAsset.DescSort_ExplosiveBulletDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ExplosiveChargeDamage">ItemAsset.DescSort_ExplosiveChargeDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_ExplosiveTrapDamage">ItemAsset.DescSort_ExplosiveTrapDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_Explosive_RangeAndDamage">ItemAsset.DescSort_Weapon_Explosive_RangeAndDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_PlayerDamage">ItemAsset.DescSort_Weapon_NonExplosive_PlayerDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_ZombieDamage">ItemAsset.DescSort_Weapon_NonExplosive_ZombieDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_AnimalDamage">ItemAsset.DescSort_Weapon_NonExplosive_AnimalDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Weapon_NonExplosive_OtherDamage">ItemAsset.DescSort_Weapon_NonExplosive_OtherDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Beneficial">ItemAsset.DescSort_Beneficial</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_Detrimental">ItemAsset.DescSort_Detrimental</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_getState">ItemAsset.getState()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_getState_System_Boolean_">ItemAsset.getState(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_GetTypeFriendlyName">ItemAsset.GetTypeFriendlyName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_applySkinBaseTextures_UnityEngine_Material_">ItemAsset.applySkinBaseTextures(Material)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canBeUsedInSafezone_SDG_Unturned_SafezoneNode_">ItemAsset.canBeUsedInSafezone(SafezoneNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canBeUsedInSafezone_SDG_Unturned_SafezoneNode_System_Boolean_">ItemAsset.canBeUsedInSafezone(SafezoneNode, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_HigherIsBeneficial_System_Single_">ItemAsset.DescSort_HigherIsBeneficial(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_DescSort_LowerIsBeneficial_System_Single_">ItemAsset.DescSort_LowerIsBeneficial(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldVerifyHash">ItemAsset.shouldVerifyHash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_FriendlyName">ItemAsset.FriendlyName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_itemName">ItemAsset.itemName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_itemDescription">ItemAsset.itemDescription</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_proPath">ItemAsset.proPath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_useableType">ItemAsset.useableType</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canPlayerEquip">ItemAsset.canPlayerEquip</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isUseable">ItemAsset.isUseable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_canUseUnderwater">ItemAsset.canUseUnderwater</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_count">ItemAsset.count</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_quality">ItemAsset.quality</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_EquipableModelParent">ItemAsset.EquipableModelParent</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_ShouldAttachEquippedModelToLeftHand">ItemAsset.ShouldAttachEquippedModelToLeftHand</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_item">ItemAsset.item</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_instantiatedItemName">ItemAsset.instantiatedItemName</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_equip">ItemAsset.equip</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_animations">ItemAsset.animations</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_blueprints">ItemAsset.blueprints</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_actions">ItemAsset.actions</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_overrideShowQuality">ItemAsset.overrideShowQuality</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldDropOnDeath">ItemAsset.shouldDropOnDeath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_allowManualDrop">ItemAsset.allowManualDrop</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_albedoBase">ItemAsset.albedoBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_metallicBase">ItemAsset.metallicBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_emissionBase">ItemAsset.emissionBase</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_sharedSkinLookupID">ItemAsset.sharedSkinLookupID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_SharedSkinShouldApplyVisuals">ItemAsset.SharedSkinShouldApplyVisuals</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_isDangerous">ItemAsset.isDangerous</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldDeleteAtZeroQuality">ItemAsset.shouldDeleteAtZeroQuality</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_shouldDestroyItemColliders">ItemAsset.shouldDestroyItemColliders</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.ItemAsset.html#SDG_Unturned_ItemAsset_assetCategory">ItemAsset.assetCategory</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_name">Asset.name</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_id">Asset.id</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GUID">Asset.GUID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_absoluteOriginFilePath">Asset.absoluteOriginFilePath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_requiredShaderUpgrade">Asset.requiredShaderUpgrade</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreNPOT">Asset.ignoreNPOT</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getFilePath">Asset.getFilePath()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getReferenceTo__1">Asset.getReferenceTo&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetOriginName">Asset.GetOriginName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_clearHash">Asset.clearHash()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_appendHash_System_Byte___">Asset.appendHash(byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetTypeNameWithoutSuffix">Asset.GetTypeNameWithoutSuffix()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getTypeNameAndIdDisplayString">Asset.getTypeNameAndIdDisplayString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ToString">Asset.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_LoadRedirectableAsset__1_SDG_Unturned_Bundle_System_String_SDG_Unturned_DatDictionary_System_String_">Asset.LoadRedirectableAsset&lt;T&gt;(Bundle, string, DatDictionary, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_loadRequiredAsset__1_SDG_Unturned_Bundle_System_String_">Asset.loadRequiredAsset&lt;T&gt;(Bundle, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_validateAnimation_UnityEngine_Animation_System_String_">Asset.validateAnimation(Animation, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_assetOrigin">Asset.assetOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_originMasterBundle">Asset.originMasterBundle</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreTextureReadable">Asset.ignoreTextureReadable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_hash">Asset.hash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_AssetErrorPrefix">Asset.AssetErrorPrefix</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_OriginAllowsVanillaLegacyId">Asset.OriginAllowsVanillaLegacyId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ItemGunAsset__ctor_" data-uid="SDG.Unturned.ItemGunAsset.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset__ctor" data-uid="SDG.Unturned.ItemGunAsset.#ctor">
+  ItemGunAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemGunAsset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__aim" data-uid="SDG.Unturned.ItemGunAsset._aim">
+  _aim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _aim</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__chamberJammedSound" data-uid="SDG.Unturned.ItemGunAsset._chamberJammedSound">
+  _chamberJammedSound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _chamberJammedSound</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__hammer" data-uid="SDG.Unturned.ItemGunAsset._hammer">
+  _hammer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _hammer</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__minigun" data-uid="SDG.Unturned.ItemGunAsset._minigun">
+  _minigun
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _minigun</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__projectile" data-uid="SDG.Unturned.ItemGunAsset._projectile">
+  _projectile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject _projectile</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__reload" data-uid="SDG.Unturned.ItemGunAsset._reload">
+  _reload
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _reload</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset__shoot" data-uid="SDG.Unturned.ItemGunAsset._shoot">
+  _shoot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _shoot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_action" data-uid="SDG.Unturned.ItemGunAsset.action">
+  action
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EAction action</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EAction.html">EAction</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_aimingMovementSpeedMultiplier" data-uid="SDG.Unturned.ItemGunAsset.aimingMovementSpeedMultiplier">
+  aimingMovementSpeedMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Movement speed multiplier while the gun is aiming down sights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float aimingMovementSpeedMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_aimingRecoilMultiplier" data-uid="SDG.Unturned.ItemGunAsset.aimingRecoilMultiplier">
+  aimingRecoilMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recoil magnitude multiplier while the gun is aiming down sights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float aimingRecoilMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_alertRadius" data-uid="SDG.Unturned.ItemGunAsset.alertRadius">
+  alertRadius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float alertRadius</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_ammoMax" data-uid="SDG.Unturned.ItemGunAsset.ammoMax">
+  ammoMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte ammoMax</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_ammoMin" data-uid="SDG.Unturned.ItemGunAsset.ammoMin">
+  ammoMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte ammoMin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_ballisticForce" data-uid="SDG.Unturned.ItemGunAsset.ballisticForce">
+  ballisticForce
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ballisticForce</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_ballisticSteps" data-uid="SDG.Unturned.ItemGunAsset.ballisticSteps">
+  ballisticSteps
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte ballisticSteps</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_ballisticTravel" data-uid="SDG.Unturned.ItemGunAsset.ballisticTravel">
+  ballisticTravel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ballisticTravel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_bursts" data-uid="SDG.Unturned.ItemGunAsset.bursts">
+  bursts
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int bursts</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_damageFalloffMaxRange" data-uid="SDG.Unturned.ItemGunAsset.damageFalloffMaxRange">
+  damageFalloffMaxRange
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>[0, 1] percentage of maximum range where damage finishes decreasing toward falloff multiplier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float damageFalloffMaxRange</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_damageFalloffMultiplier" data-uid="SDG.Unturned.ItemGunAsset.damageFalloffMultiplier">
+  damageFalloffMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>[0, 1] percentage of damage to apply at damageFalloffMaxRange.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float damageFalloffMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_damageFalloffRange" data-uid="SDG.Unturned.ItemGunAsset.damageFalloffRange">
+  damageFalloffRange
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>[0, 1] percentage of maximum range where damage begins decreasing toward falloff multiplier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float damageFalloffRange</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_explosion" data-uid="SDG.Unturned.ItemGunAsset.explosion">
+  explosion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort explosion</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_firerate" data-uid="SDG.Unturned.ItemGunAsset.firerate">
+  firerate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte firerate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hammerTime" data-uid="SDG.Unturned.ItemGunAsset.hammerTime">
+  hammerTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float hammerTime</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasAuto" data-uid="SDG.Unturned.ItemGunAsset.hasAuto">
+  hasAuto
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasAuto</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasBarrel" data-uid="SDG.Unturned.ItemGunAsset.hasBarrel">
+  hasBarrel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasBarrel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasBurst" data-uid="SDG.Unturned.ItemGunAsset.hasBurst">
+  hasBurst
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasBurst</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasGrip" data-uid="SDG.Unturned.ItemGunAsset.hasGrip">
+  hasGrip
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasGrip</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasSafety" data-uid="SDG.Unturned.ItemGunAsset.hasSafety">
+  hasSafety
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSafety</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasSemi" data-uid="SDG.Unturned.ItemGunAsset.hasSemi">
+  hasSemi
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSemi</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasSight" data-uid="SDG.Unturned.ItemGunAsset.hasSight">
+  hasSight
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSight</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hasTactical" data-uid="SDG.Unturned.ItemGunAsset.hasTactical">
+  hasTactical
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasTactical</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_isTurret" data-uid="SDG.Unturned.ItemGunAsset.isTurret">
+  isTurret
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTurret</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_muzzle" data-uid="SDG.Unturned.ItemGunAsset.muzzle">
+  muzzle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ushort muzzle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_muzzleGuid" data-uid="SDG.Unturned.ItemGunAsset.muzzleGuid">
+  muzzleGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid muzzleGuid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_projectileExplosionEffectGuid" data-uid="SDG.Unturned.ItemGunAsset.projectileExplosionEffectGuid">
+  projectileExplosionEffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid projectileExplosionEffectGuid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_projectileExplosionLaunchSpeed" data-uid="SDG.Unturned.ItemGunAsset.projectileExplosionLaunchSpeed">
+  projectileExplosionLaunchSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float projectileExplosionLaunchSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_projectileLifespan" data-uid="SDG.Unturned.ItemGunAsset.projectileLifespan">
+  projectileLifespan
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Seconds before physics projectile is destroyed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float projectileLifespan</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_projectilePenetrateBuildables" data-uid="SDG.Unturned.ItemGunAsset.projectilePenetrateBuildables">
+  projectilePenetrateBuildables
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool projectilePenetrateBuildables</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilCrouch" data-uid="SDG.Unturned.ItemGunAsset.recoilCrouch">
+  recoilCrouch
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recoil magnitude while crouched.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilCrouch</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilMax_x" data-uid="SDG.Unturned.ItemGunAsset.recoilMax_x">
+  recoilMax_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilMax_x</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilMax_y" data-uid="SDG.Unturned.ItemGunAsset.recoilMax_y">
+  recoilMax_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilMax_y</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilMidair" data-uid="SDG.Unturned.ItemGunAsset.recoilMidair">
+  recoilMidair
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recoil magnitude while not grounded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilMidair</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilMin_x" data-uid="SDG.Unturned.ItemGunAsset.recoilMin_x">
+  recoilMin_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilMin_x</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilMin_y" data-uid="SDG.Unturned.ItemGunAsset.recoilMin_y">
+  recoilMin_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilMin_y</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilProne" data-uid="SDG.Unturned.ItemGunAsset.recoilProne">
+  recoilProne
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recoil magnitude while prone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilProne</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilSprint" data-uid="SDG.Unturned.ItemGunAsset.recoilSprint">
+  recoilSprint
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recoil magnitude while sprinting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilSprint</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recoilSwimming" data-uid="SDG.Unturned.ItemGunAsset.recoilSwimming">
+  recoilSwimming
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recoil magnitude while swimming.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilSwimming</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recover_x" data-uid="SDG.Unturned.ItemGunAsset.recover_x">
+  recover_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recover_x</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_recover_y" data-uid="SDG.Unturned.ItemGunAsset.recover_y">
+  recover_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recover_y</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_reloadTime" data-uid="SDG.Unturned.ItemGunAsset.reloadTime">
+  reloadTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float reloadTime</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_replace" data-uid="SDG.Unturned.ItemGunAsset.replace">
+  replace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float replace</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_requiresNonZeroAttachmentCaliber" data-uid="SDG.Unturned.ItemGunAsset.requiresNonZeroAttachmentCaliber">
+  requiresNonZeroAttachmentCaliber
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defaults to false. If true, attachments must specify at least one non-zero caliber.
+Requested by Great Hero J to block vanilla attachments in VGR.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool requiresNonZeroAttachmentCaliber</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shakeMax_x" data-uid="SDG.Unturned.ItemGunAsset.shakeMax_x">
+  shakeMax_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shakeMax_x</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shakeMax_y" data-uid="SDG.Unturned.ItemGunAsset.shakeMax_y">
+  shakeMax_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shakeMax_y</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shakeMax_z" data-uid="SDG.Unturned.ItemGunAsset.shakeMax_z">
+  shakeMax_z
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shakeMax_z</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shakeMin_x" data-uid="SDG.Unturned.ItemGunAsset.shakeMin_x">
+  shakeMin_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shakeMin_x</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shakeMin_y" data-uid="SDG.Unturned.ItemGunAsset.shakeMin_y">
+  shakeMin_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shakeMin_y</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shakeMin_z" data-uid="SDG.Unturned.ItemGunAsset.shakeMin_z">
+  shakeMin_z
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shakeMin_z</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shell" data-uid="SDG.Unturned.ItemGunAsset.shell">
+  shell
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ushort shell</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shellGuid" data-uid="SDG.Unturned.ItemGunAsset.shellGuid">
+  shellGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid shellGuid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shootQuestRewards" data-uid="SDG.Unturned.ItemGunAsset.shootQuestRewards">
+  shootQuestRewards
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NPCRewardsList shootQuestRewards</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.NPCRewardsList.html">NPCRewardsList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shouldDeleteEmptyMagazines" data-uid="SDG.Unturned.ItemGunAsset.shouldDeleteEmptyMagazines">
+  shouldDeleteEmptyMagazines
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldDeleteEmptyMagazines</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadAim" data-uid="SDG.Unturned.ItemGunAsset.spreadAim">
+  spreadAim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadAim</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadCrouch" data-uid="SDG.Unturned.ItemGunAsset.spreadCrouch">
+  spreadCrouch
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spread multiplier while crouched.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadCrouch</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadHip" data-uid="SDG.Unturned.ItemGunAsset.spreadHip">
+  spreadHip
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by baseSpreadAngleRadians&quot;)]
+public float spreadHip</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadMidair" data-uid="SDG.Unturned.ItemGunAsset.spreadMidair">
+  spreadMidair
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spread multiplier while not grounded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadMidair</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadProne" data-uid="SDG.Unturned.ItemGunAsset.spreadProne">
+  spreadProne
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spread multiplier while prone.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadProne</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadSprint" data-uid="SDG.Unturned.ItemGunAsset.spreadSprint">
+  spreadSprint
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spread multiplier while sprinting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadSprint</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_spreadSwimming" data-uid="SDG.Unturned.ItemGunAsset.spreadSwimming">
+  spreadSwimming
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spread multiplier while swimming.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadSwimming</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ItemGunAsset_unplace" data-uid="SDG.Unturned.ItemGunAsset.unplace">
+  unplace
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float unplace</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ItemGunAsset_aim_" data-uid="SDG.Unturned.ItemGunAsset.aim*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_aim" data-uid="SDG.Unturned.ItemGunAsset.aim">
+  aim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip aim { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_aimInDuration_" data-uid="SDG.Unturned.ItemGunAsset.aimInDuration*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_aimInDuration" data-uid="SDG.Unturned.ItemGunAsset.aimInDuration">
+  aimInDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Seconds from pressing &quot;aim&quot; to fully aiming down sights.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float aimInDuration { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_allowMagazineChange_" data-uid="SDG.Unturned.ItemGunAsset.allowMagazineChange*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_allowMagazineChange" data-uid="SDG.Unturned.ItemGunAsset.allowMagazineChange">
+  allowMagazineChange
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can magazine be changed by player?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowMagazineChange { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_ammoPerShot_" data-uid="SDG.Unturned.ItemGunAsset.ammoPerShot*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_ammoPerShot" data-uid="SDG.Unturned.ItemGunAsset.ammoPerShot">
+  ammoPerShot
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ammo quantity to consume per shot fired.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte ammoPerShot { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_attachmentCalibers_" data-uid="SDG.Unturned.ItemGunAsset.attachmentCalibers*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_attachmentCalibers" data-uid="SDG.Unturned.ItemGunAsset.attachmentCalibers">
+  attachmentCalibers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort[] attachmentCalibers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_barrelID_" data-uid="SDG.Unturned.ItemGunAsset.barrelID*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_barrelID" data-uid="SDG.Unturned.ItemGunAsset.barrelID">
+  barrelID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort barrelID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_baseSpreadAngleRadians_" data-uid="SDG.Unturned.ItemGunAsset.baseSpreadAngleRadians*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_baseSpreadAngleRadians" data-uid="SDG.Unturned.ItemGunAsset.baseSpreadAngleRadians">
+  baseSpreadAngleRadians
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float baseSpreadAngleRadians { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_bulletGravityMultiplier_" data-uid="SDG.Unturned.ItemGunAsset.bulletGravityMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_bulletGravityMultiplier" data-uid="SDG.Unturned.ItemGunAsset.bulletGravityMultiplier">
+  bulletGravityMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float bulletGravityMultiplier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_canAimDuringSprint_" data-uid="SDG.Unturned.ItemGunAsset.canAimDuringSprint*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_canAimDuringSprint" data-uid="SDG.Unturned.ItemGunAsset.canAimDuringSprint">
+  canAimDuringSprint
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can player ADS while sprinting and vice versa?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canAimDuringSprint { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_canEverJam_" data-uid="SDG.Unturned.ItemGunAsset.canEverJam*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_canEverJam" data-uid="SDG.Unturned.ItemGunAsset.canEverJam">
+  canEverJam
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is this gun setup to have a change of jamming?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canEverJam { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_chamberJammedSound_" data-uid="SDG.Unturned.ItemGunAsset.chamberJammedSound*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_chamberJammedSound" data-uid="SDG.Unturned.ItemGunAsset.chamberJammedSound">
+  chamberJammedSound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip chamberJammedSound { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_doesItemTypeHaveSkins_" data-uid="SDG.Unturned.ItemGunAsset.doesItemTypeHaveSkins*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_doesItemTypeHaveSkins" data-uid="SDG.Unturned.ItemGunAsset.doesItemTypeHaveSkins">
+  doesItemTypeHaveSkins
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Are there any official skins for this item type?
+Skips checking for base textures if item cannot have skins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool doesItemTypeHaveSkins { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_fireDelay_" data-uid="SDG.Unturned.ItemGunAsset.fireDelay*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_fireDelay" data-uid="SDG.Unturned.ItemGunAsset.fireDelay">
+  fireDelay
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Simulation steps to wait after input before firing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int fireDelay { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_fireDelaySound_" data-uid="SDG.Unturned.ItemGunAsset.fireDelaySound*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_fireDelaySound" data-uid="SDG.Unturned.ItemGunAsset.fireDelaySound">
+  fireDelaySound
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sound to play when input is pressed but weapon has a fire delay.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip fireDelaySound { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_gripID_" data-uid="SDG.Unturned.ItemGunAsset.gripID*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_gripID" data-uid="SDG.Unturned.ItemGunAsset.gripID">
+  gripID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort gripID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_gunshotRolloffDistance_" data-uid="SDG.Unturned.ItemGunAsset.gunshotRolloffDistance*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_gunshotRolloffDistance" data-uid="SDG.Unturned.ItemGunAsset.gunshotRolloffDistance">
+  gunshotRolloffDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum distance the gunshot can be heard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float gunshotRolloffDistance { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_hammer_" data-uid="SDG.Unturned.ItemGunAsset.hammer*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_hammer" data-uid="SDG.Unturned.ItemGunAsset.hammer">
+  hammer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip hammer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_infiniteAmmo_" data-uid="SDG.Unturned.ItemGunAsset.infiniteAmmo*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_infiniteAmmo" data-uid="SDG.Unturned.ItemGunAsset.infiniteAmmo">
+  infiniteAmmo
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can this weapon be fired without consuming ammo?
+Some mods use this for turrets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool infiniteAmmo { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_instakillHeadshots_" data-uid="SDG.Unturned.ItemGunAsset.instakillHeadshots*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_instakillHeadshots" data-uid="SDG.Unturned.ItemGunAsset.instakillHeadshots">
+  instakillHeadshots
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can this weapon instantly kill players by headshots?
+Only valid when game config also enables this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool instakillHeadshots { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_jamMaxChance_" data-uid="SDG.Unturned.ItemGunAsset.jamMaxChance*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_jamMaxChance" data-uid="SDG.Unturned.ItemGunAsset.jamMaxChance">
+  jamMaxChance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>[0, 1] percentage of the time that shots will jam the gun when at 0% quality.
+Chance of jamming is blended between 0% at jamQualityThreshold and jamMaxChance% at 0% quality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float jamMaxChance { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_jamQualityThreshold_" data-uid="SDG.Unturned.ItemGunAsset.jamQualityThreshold*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_jamQualityThreshold" data-uid="SDG.Unturned.ItemGunAsset.jamQualityThreshold">
+  jamQualityThreshold
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>[0, 1] quality percentage that jamming will start happening.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float jamQualityThreshold { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_magazineCalibers_" data-uid="SDG.Unturned.ItemGunAsset.magazineCalibers*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_magazineCalibers" data-uid="SDG.Unturned.ItemGunAsset.magazineCalibers">
+  magazineCalibers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort[] magazineCalibers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_minigun_" data-uid="SDG.Unturned.ItemGunAsset.minigun*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_minigun" data-uid="SDG.Unturned.ItemGunAsset.minigun">
+  minigun
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip minigun { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_muzzleVelocity_" data-uid="SDG.Unturned.ItemGunAsset.muzzleVelocity*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_muzzleVelocity" data-uid="SDG.Unturned.ItemGunAsset.muzzleVelocity">
+  muzzleVelocity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float muzzleVelocity { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_projectile_" data-uid="SDG.Unturned.ItemGunAsset.projectile*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_projectile" data-uid="SDG.Unturned.ItemGunAsset.projectile">
+  projectile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject projectile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_rangeRangefinder_" data-uid="SDG.Unturned.ItemGunAsset.rangeRangefinder*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_rangeRangefinder" data-uid="SDG.Unturned.ItemGunAsset.rangeRangefinder">
+  rangeRangefinder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override Rangefinder attachment's maximum range.
+Defaults to range value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rangeRangefinder { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_reload_" data-uid="SDG.Unturned.ItemGunAsset.reload*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_reload" data-uid="SDG.Unturned.ItemGunAsset.reload">
+  reload
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip reload { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_shoot_" data-uid="SDG.Unturned.ItemGunAsset.shoot*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shoot" data-uid="SDG.Unturned.ItemGunAsset.shoot">
+  shoot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip shoot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_shouldFriendlySentryTargetUser_" data-uid="SDG.Unturned.ItemGunAsset.shouldFriendlySentryTargetUser*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shouldFriendlySentryTargetUser" data-uid="SDG.Unturned.ItemGunAsset.shouldFriendlySentryTargetUser">
+  shouldFriendlySentryTargetUser
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should friendly-mode sentry guns target a player who has this item equipped?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool shouldFriendlySentryTargetUser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_shouldScaleAimAnimations_" data-uid="SDG.Unturned.ItemGunAsset.shouldScaleAimAnimations*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_shouldScaleAimAnimations" data-uid="SDG.Unturned.ItemGunAsset.shouldScaleAimAnimations">
+  shouldScaleAimAnimations
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, Aim_Start and Aim_Stop animations are scaled according to actual aim duration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldScaleAimAnimations { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_showQuality_" data-uid="SDG.Unturned.ItemGunAsset.showQuality*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_showQuality" data-uid="SDG.Unturned.ItemGunAsset.showQuality">
+  showQuality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool showQuality { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_sightID_" data-uid="SDG.Unturned.ItemGunAsset.sightID*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_sightID" data-uid="SDG.Unturned.ItemGunAsset.sightID">
+  sightID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort sightID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_tacticalID_" data-uid="SDG.Unturned.ItemGunAsset.tacticalID*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_tacticalID" data-uid="SDG.Unturned.ItemGunAsset.tacticalID">
+  tacticalID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort tacticalID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_unjamChamberAnimName_" data-uid="SDG.Unturned.ItemGunAsset.unjamChamberAnimName*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_unjamChamberAnimName" data-uid="SDG.Unturned.ItemGunAsset.unjamChamberAnimName">
+  unjamChamberAnimName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Name of the animation to play when unjamming chamber.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string unjamChamberAnimName { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ItemGunAsset_BuildDescription_" data-uid="SDG.Unturned.ItemGunAsset.BuildDescription*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_BuildDescription_SDG_Unturned_ItemDescriptionBuilder_SDG_Unturned_Item_" data-uid="SDG.Unturned.ItemGunAsset.BuildDescription(SDG.Unturned.ItemDescriptionBuilder,SDG.Unturned.Item)">
+  BuildDescription(ItemDescriptionBuilder, Item)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BuildDescription(ItemDescriptionBuilder builder, Item itemInstance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="SDG.Unturned.ItemDescriptionBuilder.html">ItemDescriptionBuilder</a></dt>
+    <dd></dd>
+    <dt><code>itemInstance</code> <a class="xref" href="SDG.Unturned.Item.html">Item</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_FindMuzzleEffectAsset_" data-uid="SDG.Unturned.ItemGunAsset.FindMuzzleEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_FindMuzzleEffectAsset" data-uid="SDG.Unturned.ItemGunAsset.FindMuzzleEffectAsset">
+  FindMuzzleEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindMuzzleEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_FindShellEffectAsset_" data-uid="SDG.Unturned.ItemGunAsset.FindShellEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_FindShellEffectAsset" data-uid="SDG.Unturned.ItemGunAsset.FindShellEffectAsset">
+  FindShellEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindShellEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_GetDefaultInventoryAudio_" data-uid="SDG.Unturned.ItemGunAsset.GetDefaultInventoryAudio*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_GetDefaultInventoryAudio" data-uid="SDG.Unturned.ItemGunAsset.GetDefaultInventoryAudio">
+  GetDefaultInventoryAudio()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override AudioReference GetDefaultInventoryAudio()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AudioReference.html">AudioReference</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_GrantShootQuestRewards_" data-uid="SDG.Unturned.ItemGunAsset.GrantShootQuestRewards*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_GrantShootQuestRewards_SDG_Unturned_Player_" data-uid="SDG.Unturned.ItemGunAsset.GrantShootQuestRewards(SDG.Unturned.Player)">
+  GrantShootQuestRewards(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GrantShootQuestRewards(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_PopulateAsset_" data-uid="SDG.Unturned.ItemGunAsset.PopulateAsset*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_PopulateAsset_SDG_Unturned_Bundle_SDG_Unturned_DatDictionary_SDG_Unturned_Local_" data-uid="SDG.Unturned.ItemGunAsset.PopulateAsset(SDG.Unturned.Bundle,SDG.Unturned.DatDictionary,SDG.Unturned.Local)">
+  PopulateAsset(Bundle, DatDictionary, Local)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PopulateAsset(Bundle bundle, DatDictionary data, Local localization)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bundle</code> <a class="xref" href="SDG.Unturned.Bundle.html">Bundle</a></dt>
+    <dd></dd>
+    <dt><code>data</code> <span class="xref">DatDictionary</span></dt>
+    <dd></dd>
+    <dt><code>localization</code> <a class="xref" href="SDG.Unturned.Local.html">Local</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_getMagazineID_" data-uid="SDG.Unturned.ItemGunAsset.getMagazineID*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_getMagazineID" data-uid="SDG.Unturned.ItemGunAsset.getMagazineID">
+  getMagazineID()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort getMagazineID()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_getState_" data-uid="SDG.Unturned.ItemGunAsset.getState*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_getState_SDG_Unturned_EItemOrigin_" data-uid="SDG.Unturned.ItemGunAsset.getState(SDG.Unturned.EItemOrigin)">
+  getState(EItemOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte[] getState(EItemOrigin origin)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <a class="xref" href="SDG.Unturned.EItemOrigin.html">EItemOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ItemGunAsset_getState_" data-uid="SDG.Unturned.ItemGunAsset.getState*"></a>
+
+  <h3 id="SDG_Unturned_ItemGunAsset_getState_System_UInt16_System_UInt16_System_UInt16_System_UInt16_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ItemGunAsset.getState(System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.Byte)">
+  getState(ushort, ushort, ushort, ushort, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] getState(ushort sight, ushort tactical, ushort grip, ushort barrel, ushort magazine, byte ammo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>tactical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>grip</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>barrel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>magazine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>ammo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

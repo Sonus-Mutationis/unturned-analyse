@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ModuleHook | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ModuleHook | Unturned Analyse Doc ">
+      
+      <meta name="description" content="Runs before everything else to find and load modules.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Framework.Modules.ModuleHook">
+
+
+
+  <h1 id="SDG_Framework_Modules_ModuleHook" data-uid="SDG.Framework.Modules.ModuleHook" class="text-break">
+Class ModuleHook  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Framework.html">Framework</a>.<a class="xref" href="SDG.Framework.Modules.html">Modules</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Runs before everything else to find and load modules.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModuleHook : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ModuleHook</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Framework_Modules_ModuleHook__ctor_" data-uid="SDG.Framework.Modules.ModuleHook.#ctor*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook__ctor" data-uid="SDG.Framework.Modules.ModuleHook.#ctor">
+  ModuleHook()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleHook()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_discoveredNameToPath" data-uid="SDG.Framework.Modules.ModuleHook.discoveredNameToPath">
+  discoveredNameToPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>These are *.dll files discovered in the modules folder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Dictionary&lt;AssemblyName, string&gt; discoveredNameToPath</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assemblyname">AssemblyName</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_nameToAssembly" data-uid="SDG.Framework.Modules.ModuleHook.nameToAssembly">
+  nameToAssembly
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Dictionary&lt;string, Assembly&gt; nameToAssembly</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_nameToPath" data-uid="SDG.Framework.Modules.ModuleHook.nameToPath">
+  nameToPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Dictionary&lt;string, ModuleHook.AssemblyFileSettings&gt; nameToPath</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="SDG.Framework.Modules.ModuleHook.html">ModuleHook</a>.<a class="xref" href="SDG.Framework.Modules.ModuleHook.AssemblyFileSettings.html">AssemblyFileSettings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_coreAssembly_" data-uid="SDG.Framework.Modules.ModuleHook.coreAssembly*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_coreAssembly" data-uid="SDG.Framework.Modules.ModuleHook.coreAssembly">
+  coreAssembly
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily contains Unturned's code untils it's moved into modules.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Assembly coreAssembly { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_coreTypes_" data-uid="SDG.Framework.Modules.ModuleHook.coreTypes*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_coreTypes" data-uid="SDG.Framework.Modules.ModuleHook.coreTypes">
+  coreTypes
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Temporarily contains <a class="xref" href="SDG.Framework.Modules.ModuleHook.html#SDG_Framework_Modules_ModuleHook_coreAssembly">coreAssembly</a> types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type[] coreTypes { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_modules_" data-uid="SDG.Framework.Modules.ModuleHook.modules*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_modules" data-uid="SDG.Framework.Modules.ModuleHook.modules">
+  modules
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Module&gt; modules { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Framework.Modules.Module.html">Module</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_OnTypeResolve_" data-uid="SDG.Framework.Modules.ModuleHook.OnTypeResolve*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_OnTypeResolve_System_Object_System_ResolveEventArgs_" data-uid="SDG.Framework.Modules.ModuleHook.OnTypeResolve(System.Object,System.ResolveEventArgs)">
+  OnTypeResolve(object, ResolveEventArgs)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Assembly OnTypeResolve(object sender, ResolveEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.resolveeventargs">ResolveEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_awake_" data-uid="SDG.Framework.Modules.ModuleHook.awake*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_awake" data-uid="SDG.Framework.Modules.ModuleHook.awake">
+  awake()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_getModuleByName_" data-uid="SDG.Framework.Modules.ModuleHook.getModuleByName*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_getModuleByName_System_String_" data-uid="SDG.Framework.Modules.ModuleHook.getModuleByName(System.String)">
+  getModuleByName(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find module using dependency name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Module getModuleByName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Modules.Module.html">Module</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_getRequiredModules_" data-uid="SDG.Framework.Modules.ModuleHook.getRequiredModules*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_getRequiredModules_System_Collections_Generic_List_SDG_Framework_Modules_Module__" data-uid="SDG.Framework.Modules.ModuleHook.getRequiredModules(System.Collections.Generic.List{SDG.Framework.Modules.Module})">
+  getRequiredModules(List&lt;Module&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find modules containing an assembly with the Both_Required role.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void getRequiredModules(List&lt;Module&gt; result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Framework.Modules.Module.html">Module</a>&gt;</dt>
+    <dd><p>Modules to append to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_handleAssemblyResolve_" data-uid="SDG.Framework.Modules.ModuleHook.handleAssemblyResolve*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_handleAssemblyResolve_System_Object_System_ResolveEventArgs_" data-uid="SDG.Framework.Modules.ModuleHook.handleAssemblyResolve(System.Object,System.ResolveEventArgs)">
+  handleAssemblyResolve(object, ResolveEventArgs)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Assembly handleAssemblyResolve(object sender, ResolveEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.resolveeventargs">ResolveEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_registerAssemblyPath_" data-uid="SDG.Framework.Modules.ModuleHook.registerAssemblyPath*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_registerAssemblyPath_System_String_" data-uid="SDG.Framework.Modules.ModuleHook.registerAssemblyPath(System.String)">
+  registerAssemblyPath(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void registerAssemblyPath(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_registerAssemblyPath_" data-uid="SDG.Framework.Modules.ModuleHook.registerAssemblyPath*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_registerAssemblyPath_System_String_System_Boolean_" data-uid="SDG.Framework.Modules.ModuleHook.registerAssemblyPath(System.String,System.Boolean)">
+  registerAssemblyPath(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void registerAssemblyPath(string path, bool loadAsByteArray)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>loadAsByteArray</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_resolveAssemblyName_" data-uid="SDG.Framework.Modules.ModuleHook.resolveAssemblyName*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_resolveAssemblyName_System_String_" data-uid="SDG.Framework.Modules.ModuleHook.resolveAssemblyName(System.String)">
+  resolveAssemblyName(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Assembly resolveAssemblyName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_resolveAssemblyPath_" data-uid="SDG.Framework.Modules.ModuleHook.resolveAssemblyPath*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_resolveAssemblyPath_System_String_" data-uid="SDG.Framework.Modules.ModuleHook.resolveAssemblyPath(System.String)">
+  resolveAssemblyPath(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Assembly resolveAssemblyPath(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_start_" data-uid="SDG.Framework.Modules.ModuleHook.start*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_start" data-uid="SDG.Framework.Modules.ModuleHook.start">
+  start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Modules_ModuleHook_toggleModuleEnabled_" data-uid="SDG.Framework.Modules.ModuleHook.toggleModuleEnabled*"></a>
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_toggleModuleEnabled_System_Int32_" data-uid="SDG.Framework.Modules.ModuleHook.toggleModuleEnabled(System.Int32)">
+  toggleModuleEnabled(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void toggleModuleEnabled(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_PostVanillaAssemblyResolve" data-uid="SDG.Framework.Modules.ModuleHook.PostVanillaAssemblyResolve">
+  PostVanillaAssemblyResolve
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event ResolveEventHandler PostVanillaAssemblyResolve</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.resolveeventhandler">ResolveEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_PreVanillaAssemblyResolve" data-uid="SDG.Framework.Modules.ModuleHook.PreVanillaAssemblyResolve">
+  PreVanillaAssemblyResolve
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event for plugin frameworks (e.g., Rocket) to override AssemblyResolve handling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event ResolveEventHandler PreVanillaAssemblyResolve</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.resolveeventhandler">ResolveEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_PreVanillaAssemblyResolvePostRedirects" data-uid="SDG.Framework.Modules.ModuleHook.PreVanillaAssemblyResolvePostRedirects">
+  PreVanillaAssemblyResolvePostRedirects
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event ResolveEventHandler PreVanillaAssemblyResolvePostRedirects</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.resolveeventhandler">ResolveEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_onModulesInitialized" data-uid="SDG.Framework.Modules.ModuleHook.onModulesInitialized">
+  onModulesInitialized
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called once after all startup enabled modules are loaded. Not called when modules are initialized due to enabling/disabling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event ModulesInitializedHandler onModulesInitialized</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Modules.ModulesInitializedHandler.html">ModulesInitializedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Modules_ModuleHook_onModulesShutdown" data-uid="SDG.Framework.Modules.ModuleHook.onModulesShutdown">
+  onModulesShutdown
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called once after all modules are shutdown. Not called when modules are shutdown due to enabling/disabling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event ModulesShutdownHandler onModulesShutdown</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Modules.ModulesShutdownHandler.html">ModulesShutdownHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

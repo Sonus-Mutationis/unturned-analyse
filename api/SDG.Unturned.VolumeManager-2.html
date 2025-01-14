@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VolumeManager&lt;TVolume, TManager&gt; | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VolumeManager&lt;TVolume, TManager&gt; | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.VolumeManager`2">
+
+
+
+  <h1 id="SDG_Unturned_VolumeManager_2" data-uid="SDG.Unturned.VolumeManager`2" class="text-break">
+Class VolumeManager&lt;TVolume, TManager&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class VolumeManager&lt;TVolume, TManager&gt; : VolumeManagerBase where TVolume : LevelVolume&lt;TVolume, TManager&gt; where TManager : VolumeManager&lt;TVolume, TManager&gt;</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TVolume</code></dt>
+    <dd></dd>
+    <dt><code>TManager</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.VolumeManagerBase.html">VolumeManagerBase</a></div>
+      <div><span class="xref">VolumeManager&lt;TVolume, TManager&gt;</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.Devkit.AmbianceVolumeManager.html">AmbianceVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.DeadzoneVolumeManager.html">DeadzoneVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.EffectVolumeManager.html">EffectVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.KillVolumeManager.html">KillVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.NPCRewardVolumeManager.html">NPCRewardVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.NavClipVolumeManager.html">NavClipVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.PlayerClipVolumeManager.html">PlayerClipVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.TeleporterEntranceVolumeManager.html">TeleporterEntranceVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.TeleporterExitVolumeManager.html">TeleporterExitVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.UndergroundWhitelistVolumeManager.html">UndergroundWhitelistVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Foliage.FoliageVolumeManager.html">FoliageVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Landscapes.LandscapeHoleVolumeManager.html">LandscapeHoleVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Framework.Water.WaterVolumeManager.html">WaterVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Unturned.ArenaCompactorVolumeManager.html">ArenaCompactorVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Unturned.CartographyVolumeManager.html">CartographyVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Unturned.CullingVolumeManager.html">CullingVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Unturned.HordePurchaseVolumeManager.html">HordePurchaseVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Unturned.OxygenVolumeManager.html">OxygenVolumeManager</a></div>
+      <div><a class="xref" href="SDG.Unturned.SafezoneVolumeManager.html">SafezoneVolumeManager</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.VolumeManagerBase.html#SDG_Unturned_VolumeManagerBase_FriendlyName">VolumeManagerBase.FriendlyName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_VolumeManager_2__ctor_" data-uid="SDG.Unturned.VolumeManager`2.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2__ctor" data-uid="SDG.Unturned.VolumeManager`2.#ctor">
+  VolumeManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VolumeManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_VolumeManager_2_allVolumes" data-uid="SDG.Unturned.VolumeManager`2.allVolumes">
+  allVolumes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;TVolume&gt; allVolumes</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;TVolume&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VolumeManager_2_allowInstantiation" data-uid="SDG.Unturned.VolumeManager`2.allowInstantiation">
+  allowInstantiation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should calling InstantiateVolume create a new volume?
+False for deprecated (landscape hole volume) types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool allowInstantiation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VolumeManager_2_supportsFalloff" data-uid="SDG.Unturned.VolumeManager`2.supportsFalloff">
+  supportsFalloff
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool supportsFalloff</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_VolumeManager_2_DefaultVisibility_" data-uid="SDG.Unturned.VolumeManager`2.DefaultVisibility*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_DefaultVisibility" data-uid="SDG.Unturned.VolumeManager`2.DefaultVisibility">
+  DefaultVisibility
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual ELevelVolumeVisibility DefaultVisibility { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ELevelVolumeVisibility.html">ELevelVolumeVisibility</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_Visibility_" data-uid="SDG.Unturned.VolumeManager`2.Visibility*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_Visibility" data-uid="SDG.Unturned.VolumeManager`2.Visibility">
+  Visibility
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ELevelVolumeVisibility Visibility { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ELevelVolumeVisibility.html">ELevelVolumeVisibility</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_VolumeManager_2_AddVolume_" data-uid="SDG.Unturned.VolumeManager`2.AddVolume*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_AddVolume__0_" data-uid="SDG.Unturned.VolumeManager`2.AddVolume(`0)">
+  AddVolume(TVolume)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void AddVolume(TVolume volume)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>volume</code> <span class="xref">TVolume</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_EnumerateAllVolumes_" data-uid="SDG.Unturned.VolumeManager`2.EnumerateAllVolumes*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_EnumerateAllVolumes" data-uid="SDG.Unturned.VolumeManager`2.EnumerateAllVolumes">
+  EnumerateAllVolumes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;VolumeBase&gt; EnumerateAllVolumes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="SDG.Unturned.VolumeBase.html">VolumeBase</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_ForceUpdateEditorVisibility_" data-uid="SDG.Unturned.VolumeManager`2.ForceUpdateEditorVisibility*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_ForceUpdateEditorVisibility" data-uid="SDG.Unturned.VolumeManager`2.ForceUpdateEditorVisibility">
+  ForceUpdateEditorVisibility()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceUpdateEditorVisibility()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_Get_" data-uid="SDG.Unturned.VolumeManager`2.Get*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_Get" data-uid="SDG.Unturned.VolumeManager`2.Get">
+  Get()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TManager Get()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TManager</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_GetAllVolumes_" data-uid="SDG.Unturned.VolumeManager`2.GetAllVolumes*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_GetAllVolumes" data-uid="SDG.Unturned.VolumeManager`2.GetAllVolumes">
+  GetAllVolumes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;TVolume&gt; GetAllVolumes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;TVolume&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_GetFirstOverlappingVolume_" data-uid="SDG.Unturned.VolumeManager`2.GetFirstOverlappingVolume*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_GetFirstOverlappingVolume_UnityEngine_Vector3_" data-uid="SDG.Unturned.VolumeManager`2.GetFirstOverlappingVolume(UnityEngine.Vector3)">
+  GetFirstOverlappingVolume(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TVolume GetFirstOverlappingVolume(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TVolume</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_GetRandomVolumeOrNull_" data-uid="SDG.Unturned.VolumeManager`2.GetRandomVolumeOrNull*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_GetRandomVolumeOrNull" data-uid="SDG.Unturned.VolumeManager`2.GetRandomVolumeOrNull">
+  GetRandomVolumeOrNull()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TVolume GetRandomVolumeOrNull()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TVolume</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_InstantiateVolume_" data-uid="SDG.Unturned.VolumeManager`2.InstantiateVolume*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_InstantiateVolume_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_" data-uid="SDG.Unturned.VolumeManager`2.InstantiateVolume(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)">
+  InstantiateVolume(Vector3, Quaternion, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void InstantiateVolume(Vector3 position, Quaternion rotation, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_IsPositionInsideAnyVolume_" data-uid="SDG.Unturned.VolumeManager`2.IsPositionInsideAnyVolume*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_IsPositionInsideAnyVolume_UnityEngine_Vector3_" data-uid="SDG.Unturned.VolumeManager`2.IsPositionInsideAnyVolume(UnityEngine.Vector3)">
+  IsPositionInsideAnyVolume(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPositionInsideAnyVolume(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_OnUpdateGizmos_" data-uid="SDG.Unturned.VolumeManager`2.OnUpdateGizmos*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_OnUpdateGizmos_SDG_Unturned_RuntimeGizmos_" data-uid="SDG.Unturned.VolumeManager`2.OnUpdateGizmos(SDG.Unturned.RuntimeGizmos)">
+  OnUpdateGizmos(RuntimeGizmos)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnUpdateGizmos(RuntimeGizmos runtimeGizmos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>runtimeGizmos</code> <a class="xref" href="SDG.Unturned.RuntimeGizmos.html">RuntimeGizmos</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_Raycast_" data-uid="SDG.Unturned.VolumeManager`2.Raycast*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_Raycast_UnityEngine_Ray_UnityEngine_RaycastHit__System_Single_" data-uid="SDG.Unturned.VolumeManager`2.Raycast(UnityEngine.Ray,UnityEngine.RaycastHit@,System.Single)">
+  Raycast(Ray, out RaycastHit, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>hitInfo</code> <span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+    <dt><code>maxDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_Raycast_" data-uid="SDG.Unturned.VolumeManager`2.Raycast*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_Raycast_UnityEngine_Ray_UnityEngine_RaycastHit___0__System_Single_" data-uid="SDG.Unturned.VolumeManager`2.Raycast(UnityEngine.Ray,UnityEngine.RaycastHit@,`0@,System.Single)">
+  Raycast(Ray, out RaycastHit, out TVolume, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Raycast(Ray ray, out RaycastHit hitInfo, out TVolume hitVolume, float maxDistance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>hitInfo</code> <span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+    <dt><code>hitVolume</code> <span class="xref">TVolume</span></dt>
+    <dd></dd>
+    <dt><code>maxDistance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_RemoveVolume_" data-uid="SDG.Unturned.VolumeManager`2.RemoveVolume*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_RemoveVolume__0_" data-uid="SDG.Unturned.VolumeManager`2.RemoveVolume(`0)">
+  RemoveVolume(TVolume)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RemoveVolume(TVolume volume)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>volume</code> <span class="xref">TVolume</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumeManager_2_SetDebugColor_" data-uid="SDG.Unturned.VolumeManager`2.SetDebugColor*"></a>
+
+  <h3 id="SDG_Unturned_VolumeManager_2_SetDebugColor_UnityEngine_Color_" data-uid="SDG.Unturned.VolumeManager`2.SetDebugColor(UnityEngine.Color)">
+  SetDebugColor(Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetDebugColor(Color debugColor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>debugColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

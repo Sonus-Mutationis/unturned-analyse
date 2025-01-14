@@ -1,0 +1,4784 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EffectManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EffectManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.EffectManager">
+
+
+
+  <h1 id="SDG_Unturned_EffectManager" data-uid="SDG.Unturned.EffectManager" class="text-break">
+Class EffectManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EffectManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">EffectManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_EffectManager__ctor_" data-uid="SDG.Unturned.EffectManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager__ctor" data-uid="SDG.Unturned.EffectManager.#ctor">
+  EffectManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_EffectManager_INSANE" data-uid="SDG.Unturned.EffectManager.INSANE">
+  INSANE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float INSANE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_EffectManager_LARGE" data-uid="SDG.Unturned.EffectManager.LARGE">
+  LARGE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float LARGE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_EffectManager_MEDIUM" data-uid="SDG.Unturned.EffectManager.MEDIUM">
+  MEDIUM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float MEDIUM</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_EffectManager_SMALL" data-uid="SDG.Unturned.EffectManager.SMALL">
+  SMALL
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float SMALL</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_EffectManager_onEffectButtonClicked" data-uid="SDG.Unturned.EffectManager.onEffectButtonClicked">
+  onEffectButtonClicked
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EffectManager.EffectButtonClickedHandler onEffectButtonClicked</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectManager.html">EffectManager</a>.<a class="xref" href="SDG.Unturned.EffectManager.EffectButtonClickedHandler.html">EffectButtonClickedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_EffectManager_onEffectTextCommitted" data-uid="SDG.Unturned.EffectManager.onEffectTextCommitted">
+  onEffectTextCommitted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EffectManager.EffectTextCommittedHandler onEffectTextCommitted</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectManager.html">EffectManager</a>.<a class="xref" href="SDG.Unturned.EffectManager.EffectTextCommittedHandler.html">EffectTextCommittedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_EffectManager_instance_" data-uid="SDG.Unturned.EffectManager.instance*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_instance" data-uid="SDG.Unturned.EffectManager.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exposed for Rocket transition to modules backwards compatibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EffectManager instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectManager.html">EffectManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_EffectManager_ClearEffectByGuid_" data-uid="SDG.Unturned.EffectManager.ClearEffectByGuid*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ClearEffectByGuid_System_Guid_SDG_NetTransport_ITransportConnection_" data-uid="SDG.Unturned.EffectManager.ClearEffectByGuid(System.Guid,SDG.NetTransport.ITransportConnection)">
+  ClearEffectByGuid(Guid, ITransportConnection)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearEffectByGuid(Guid assetGuid, ITransportConnection transportConnection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ClearEffectByGuid_AllPlayers_" data-uid="SDG.Unturned.EffectManager.ClearEffectByGuid_AllPlayers*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ClearEffectByGuid_AllPlayers_System_Guid_" data-uid="SDG.Unturned.EffectManager.ClearEffectByGuid_AllPlayers(System.Guid)">
+  ClearEffectByGuid_AllPlayers(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearEffectByGuid_AllPlayers(Guid assetGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ClearEffectByID_AllPlayers_" data-uid="SDG.Unturned.EffectManager.ClearEffectByID_AllPlayers*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ClearEffectByID_AllPlayers_System_UInt16_" data-uid="SDG.Unturned.EffectManager.ClearEffectByID_AllPlayers(System.UInt16)">
+  ClearEffectByID_AllPlayers(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearEffectByID_AllPlayers(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_Destroy_" data-uid="SDG.Unturned.EffectManager.Destroy*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_Destroy_UnityEngine_GameObject_" data-uid="SDG.Unturned.EffectManager.Destroy(UnityEngine.GameObject)">
+  Destroy(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to DestroyIntoPool to fix name conflict with Object.Destroy&quot;)]
+public static void Destroy(GameObject element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_Destroy_" data-uid="SDG.Unturned.EffectManager.Destroy*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_Destroy_UnityEngine_GameObject_System_Single_" data-uid="SDG.Unturned.EffectManager.Destroy(UnityEngine.GameObject,System.Single)">
+  Destroy(GameObject, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to DestroyIntoPool to fix name conflict with Object.Destroy&quot;)]
+public static void Destroy(GameObject element, float t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_DestroyIntoPool_" data-uid="SDG.Unturned.EffectManager.DestroyIntoPool*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_DestroyIntoPool_UnityEngine_GameObject_" data-uid="SDG.Unturned.EffectManager.DestroyIntoPool(UnityEngine.GameObject)">
+  DestroyIntoPool(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyIntoPool(GameObject element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_DestroyIntoPool_" data-uid="SDG.Unturned.EffectManager.DestroyIntoPool*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_DestroyIntoPool_UnityEngine_GameObject_System_Single_" data-uid="SDG.Unturned.EffectManager.DestroyIntoPool(UnityEngine.GameObject,System.Single)">
+  DestroyIntoPool(GameObject, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyIntoPool(GameObject element, float t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_Instantiate_" data-uid="SDG.Unturned.EffectManager.Instantiate*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_Instantiate_UnityEngine_GameObject_" data-uid="SDG.Unturned.EffectManager.Instantiate(UnityEngine.GameObject)">
+  Instantiate(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to InstantiateFromPool to fix name conflict with Object.Instantiate&quot;)]
+public static GameObject Instantiate(GameObject element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_InstantiateFromPool_" data-uid="SDG.Unturned.EffectManager.InstantiateFromPool*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_InstantiateFromPool_SDG_Unturned_EffectAsset_" data-uid="SDG.Unturned.EffectManager.InstantiateFromPool(SDG.Unturned.EffectAsset)">
+  InstantiateFromPool(EffectAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject InstantiateFromPool(EffectAsset asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_InstantiateFromPool_" data-uid="SDG.Unturned.EffectManager.InstantiateFromPool*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_InstantiateFromPool_UnityEngine_GameObject_" data-uid="SDG.Unturned.EffectManager.InstantiateFromPool(UnityEngine.GameObject)">
+  InstantiateFromPool(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced with overload that takes an EffectAsset.&quot;)]
+public static GameObject InstantiateFromPool(GameObject element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectClearAll_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClearAll*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectClearAll" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClearAll">
+  ReceiveEffectClearAll()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEffectClearAll&quot;)]
+public static void ReceiveEffectClearAll()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectClearByGuid_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClearByGuid*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectClearByGuid_System_Guid_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClearByGuid(System.Guid)">
+  ReceiveEffectClearByGuid(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectClearByGuid(Guid assetGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectClearById_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClearById*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectClearById_System_UInt16_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClearById(System.UInt16)">
+  ReceiveEffectClearById(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEffectClearByID&quot;)]
+public static void ReceiveEffectClearById(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectClicked_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClicked*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectClicked_SDG_Unturned_ServerInvocationContext__System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectClicked(SDG.Unturned.ServerInvocationContext@,System.String)">
+  ReceiveEffectClicked(in ServerInvocationContext, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 20, legacyName = &quot;tellEffectClicked&quot;)]
+public static void ReceiveEffectClicked(in ServerInvocationContext context, string buttonName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>buttonName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPoint_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPoint*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPoint_System_Guid_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPoint(System.Guid,UnityEngine.Vector3)">
+  ReceiveEffectPoint(Guid, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEffectPoint&quot;)]
+public static void ReceiveEffectPoint(Guid assetGuid, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPointNormal_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPointNormal*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPointNormal_System_Guid_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPointNormal(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3)">
+  ReceiveEffectPointNormal(Guid, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectPointNormal(Guid assetGuid, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPointNormal_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPointNormal_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPointNormal_NonUniformScale_System_Guid_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPointNormal_NonUniformScale(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  ReceiveEffectPointNormal_NonUniformScale(Guid, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectPointNormal_NonUniformScale(Guid assetGuid, Vector3 point, Vector3 normal, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPointNormal_UniformScale_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPointNormal_UniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPointNormal_UniformScale_System_Guid_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPointNormal_UniformScale(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+  ReceiveEffectPointNormal_UniformScale(Guid, Vector3, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectPointNormal_UniformScale(Guid assetGuid, Vector3 point, Vector3 normal, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPoint_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPoint_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPoint_NonUniformScale_System_Guid_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPoint_NonUniformScale(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3)">
+  ReceiveEffectPoint_NonUniformScale(Guid, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEffectPoint_NonUniformScale&quot;)]
+public static void ReceiveEffectPoint_NonUniformScale(Guid assetGuid, Vector3 point, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPoint_UniformScale_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPoint_UniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPoint_UniformScale_System_Guid_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPoint_UniformScale(System.Guid,UnityEngine.Vector3,System.Single)">
+  ReceiveEffectPoint_UniformScale(Guid, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellEffectPoint_UniformScale&quot;)]
+public static void ReceiveEffectPoint_UniformScale(Guid assetGuid, Vector3 point, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPositionRotation_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPositionRotation*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPositionRotation_System_Guid_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPositionRotation(System.Guid,UnityEngine.Vector3,UnityEngine.Quaternion)">
+  ReceiveEffectPositionRotation(Guid, Vector3, Quaternion)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectPositionRotation(Guid assetGuid, Vector3 position, Quaternion rotation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPositionRotation_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPositionRotation_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPositionRotation_NonUniformScale_System_Guid_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPositionRotation_NonUniformScale(System.Guid,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)">
+  ReceiveEffectPositionRotation_NonUniformScale(Guid, Vector3, Quaternion, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectPositionRotation_NonUniformScale(Guid assetGuid, Vector3 position, Quaternion rotation, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectPositionRotation_UniformScale_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPositionRotation_UniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectPositionRotation_UniformScale_System_Guid_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectPositionRotation_UniformScale(System.Guid,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single)">
+  ReceiveEffectPositionRotation_UniformScale(Guid, Vector3, Quaternion, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveEffectPositionRotation_UniformScale(Guid assetGuid, Vector3 position, Quaternion rotation, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveEffectTextCommitted_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectTextCommitted*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveEffectTextCommitted_SDG_Unturned_ServerInvocationContext__System_String_System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveEffectTextCommitted(SDG.Unturned.ServerInvocationContext@,System.String,System.String)">
+  ReceiveEffectTextCommitted(in ServerInvocationContext, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE, ratelimitHz = 20, legacyName = &quot;tellEffectTextCommitted&quot;)]
+public static void ReceiveEffectTextCommitted(in ServerInvocationContext context, string inputFieldName, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>inputFieldName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffect_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffect_System_UInt16_System_Int16_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect(System.UInt16,System.Int16)">
+  ReceiveUIEffect(ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffect&quot;)]
+public static void ReceiveUIEffect(ushort id, short key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffect1Arg_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect1Arg*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffect1Arg_System_UInt16_System_Int16_System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect1Arg(System.UInt16,System.Int16,System.String)">
+  ReceiveUIEffect1Arg(ushort, short, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffect1Arg&quot;)]
+public static void ReceiveUIEffect1Arg(ushort id, short key, string arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffect2Args_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect2Args*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffect2Args_System_UInt16_System_Int16_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect2Args(System.UInt16,System.Int16,System.String,System.String)">
+  ReceiveUIEffect2Args(ushort, short, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffect2Args&quot;)]
+public static void ReceiveUIEffect2Args(ushort id, short key, string arg0, string arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffect3Args_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect3Args*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffect3Args_System_UInt16_System_Int16_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect3Args(System.UInt16,System.Int16,System.String,System.String,System.String)">
+  ReceiveUIEffect3Args(ushort, short, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffect3Args&quot;)]
+public static void ReceiveUIEffect3Args(ushort id, short key, string arg0, string arg1, string arg2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffect4Args_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect4Args*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffect4Args_System_UInt16_System_Int16_System_String_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffect4Args(System.UInt16,System.Int16,System.String,System.String,System.String,System.String)">
+  ReceiveUIEffect4Args(ushort, short, string, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffect4Args&quot;)]
+public static void ReceiveUIEffect4Args(ushort id, short key, string arg0, string arg1, string arg2, string arg3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffectImageURL_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffectImageURL*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffectImageURL_System_Int16_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffectImageURL(System.Int16,System.String,System.String,System.Boolean,System.Boolean)">
+  ReceiveUIEffectImageURL(short, string, string, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffectImageURL&quot;)]
+public static void ReceiveUIEffectImageURL(short key, string childNameOrPath, string url, bool shouldCache, bool forceRefresh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>shouldCache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>forceRefresh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffectText_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffectText*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffectText_System_Int16_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffectText(System.Int16,System.String,System.String)">
+  ReceiveUIEffectText(short, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffectText&quot;)]
+public static void ReceiveUIEffectText(short key, string childNameOrPath, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_ReceiveUIEffectVisibility_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffectVisibility*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_ReceiveUIEffectVisibility_System_Int16_System_String_System_Boolean_" data-uid="SDG.Unturned.EffectManager.ReceiveUIEffectVisibility(System.Int16,System.String,System.Boolean)">
+  ReceiveUIEffectVisibility(short, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellUIEffectVisibility&quot;)]
+public static void ReceiveUIEffectVisibility(short key, string childNameOrPath, bool visible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>visible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_RegisterDebris_" data-uid="SDG.Unturned.EffectManager.RegisterDebris*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_RegisterDebris_UnityEngine_GameObject_" data-uid="SDG.Unturned.EffectManager.RegisterDebris(UnityEngine.GameObject)">
+  RegisterDebris(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterDebris(GameObject item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_askEffectClearAll_" data-uid="SDG.Unturned.EffectManager.askEffectClearAll*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_askEffectClearAll" data-uid="SDG.Unturned.EffectManager.askEffectClearAll">
+  askEffectClearAll()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void askEffectClearAll()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_askEffectClearByID_" data-uid="SDG.Unturned.EffectManager.askEffectClearByID*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_askEffectClearByID_System_UInt16_SDG_NetTransport_ITransportConnection_" data-uid="SDG.Unturned.EffectManager.askEffectClearByID(System.UInt16,SDG.NetTransport.ITransportConnection)">
+  askEffectClearByID(ushort, ITransportConnection)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void askEffectClearByID(ushort id, ITransportConnection transportConnection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_askEffectClearByID_" data-uid="SDG.Unturned.EffectManager.askEffectClearByID*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_askEffectClearByID_System_UInt16_Steamworks_CSteamID_" data-uid="SDG.Unturned.EffectManager.askEffectClearByID(System.UInt16,Steamworks.CSteamID)">
+  askEffectClearByID(ushort, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void askEffectClearByID(ushort id, CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_createAndFormatUIEffect_" data-uid="SDG.Unturned.EffectManager.createAndFormatUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_createAndFormatUIEffect_System_UInt16_System_Int16_System_Object___" data-uid="SDG.Unturned.EffectManager.createAndFormatUIEffect(System.UInt16,System.Int16,System.Object[])">
+  createAndFormatUIEffect(ushort, short, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform createAndFormatUIEffect(ushort id, short key, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_createUIEffect_" data-uid="SDG.Unturned.EffectManager.createUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_createUIEffect_System_UInt16_System_Int16_" data-uid="SDG.Unturned.EffectManager.createUIEffect(System.UInt16,System.Int16)">
+  createUIEffect(ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform createUIEffect(ushort id, short key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_SDG_Unturned_AssetReference_SDG_Unturned_EffectAsset__UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(SDG.Unturned.AssetReference{SDG.Unturned.EffectAsset},UnityEngine.Vector3)">
+  effect(AssetReference&lt;EffectAsset&gt;, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(AssetReference&lt;EffectAsset&gt; assetRef, Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetRef</code> <a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_SDG_Unturned_EffectAsset_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(SDG.Unturned.EffectAsset,UnityEngine.Vector3,UnityEngine.Vector3)">
+  effect(EffectAsset, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(EffectAsset asset, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_SDG_Unturned_EffectAsset_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(SDG.Unturned.EffectAsset,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  effect(EffectAsset, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(EffectAsset asset, Vector3 point, Vector3 normal, Vector3 scaleMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scaleMultiplier</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_System_Guid_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3)">
+  effect(Guid, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(Guid assetGuid, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_System_Guid_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(System.Guid,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  effect(Guid, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(Guid assetGuid, Vector3 point, Vector3 normal, Vector3 scaleMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scaleMultiplier</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  effect(ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(ushort id, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_effect_" data-uid="SDG.Unturned.EffectManager.effect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_effect_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.effect(System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  effect(ushort, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform effect(ushort id, Vector3 point, Vector3 normal, Vector3 scaleMultiplier)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scaleMultiplier</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_formatPluginHotkeysIntoUIEffect_" data-uid="SDG.Unturned.EffectManager.formatPluginHotkeysIntoUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_formatPluginHotkeysIntoUIEffect_UnityEngine_Transform_" data-uid="SDG.Unturned.EffectManager.formatPluginHotkeysIntoUIEffect(UnityEngine.Transform)">
+  formatPluginHotkeysIntoUIEffect(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void formatPluginHotkeysIntoUIEffect(Transform effect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>effect</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_formatTextIntoUIEffect_" data-uid="SDG.Unturned.EffectManager.formatTextIntoUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_formatTextIntoUIEffect_UnityEngine_Transform_System_Object___" data-uid="SDG.Unturned.EffectManager.formatTextIntoUIEffect(UnityEngine.Transform,System.Object[])">
+  formatTextIntoUIEffect(Transform, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void formatTextIntoUIEffect(Transform effect, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>effect</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_gatherFormattingForUIEffect_" data-uid="SDG.Unturned.EffectManager.gatherFormattingForUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_gatherFormattingForUIEffect_UnityEngine_Transform_" data-uid="SDG.Unturned.EffectManager.gatherFormattingForUIEffect(UnityEngine.Transform)">
+  gatherFormattingForUIEffect(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void gatherFormattingForUIEffect(Transform effect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>effect</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_hookButtonsInUIEffect_" data-uid="SDG.Unturned.EffectManager.hookButtonsInUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_hookButtonsInUIEffect_UnityEngine_Transform_" data-uid="SDG.Unturned.EffectManager.hookButtonsInUIEffect(UnityEngine.Transform)">
+  hookButtonsInUIEffect(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void hookButtonsInUIEffect(Transform effect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>effect</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_hookInputFieldsInUIEffect_" data-uid="SDG.Unturned.EffectManager.hookInputFieldsInUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_hookInputFieldsInUIEffect_UnityEngine_Transform_" data-uid="SDG.Unturned.EffectManager.hookInputFieldsInUIEffect(UnityEngine.Transform)">
+  hookInputFieldsInUIEffect(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void hookInputFieldsInUIEffect(Transform effect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>effect</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3)">
+  sendEffect(ushort, ITransportConnection, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, ITransportConnection transportConnection, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffect(ushort, ITransportConnection, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, ITransportConnection transportConnection, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3)">
+  sendEffect(ushort, CSteamID, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, CSteamID steamID, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffect(ushort, CSteamID, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, CSteamID steamID, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3)">
+  sendEffect(ushort, byte, byte, byte, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, byte x, byte y, byte area, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffect(ushort, byte, byte, byte, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, byte x, byte y, byte area, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_System_Single_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,System.Single,UnityEngine.Vector3)">
+  sendEffect(ushort, float, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, float radius, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffect_" data-uid="SDG.Unturned.EffectManager.sendEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffect_System_UInt16_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffect(System.UInt16,System.Single,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffect(ushort, float, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffect(ushort id, float radius, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectClicked_" data-uid="SDG.Unturned.EffectManager.sendEffectClicked*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectClicked_System_String_" data-uid="SDG.Unturned.EffectManager.sendEffectClicked(System.String)">
+  sendEffectClicked(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Notify server that a button was clicked in a clientside effect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendEffectClicked(string buttonName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buttonName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, ITransportConnection, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, ITransportConnection transportConnection, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3,System.Single)">
+  sendEffectReliable(ushort, ITransportConnection, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, ITransportConnection transportConnection, Vector3 point, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, ITransportConnection, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, ITransportConnection transportConnection, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+  sendEffectReliable(ushort, ITransportConnection, Vector3, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, ITransportConnection transportConnection, Vector3 point, Vector3 normal, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, CSteamID, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, CSteamID steamID, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3,System.Single)">
+  sendEffectReliable(ushort, CSteamID, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, CSteamID steamID, Vector3 point, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, CSteamID, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, CSteamID steamID, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+  sendEffectReliable(ushort, CSteamID, Vector3, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, CSteamID steamID, Vector3 point, Vector3 normal, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, byte, byte, byte, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, byte x, byte y, byte area, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, byte, byte, byte, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, byte x, byte y, byte area, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_System_Single_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,System.Single,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, float, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, float radius, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_System_UInt16_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable(System.UInt16,System.Single,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable(ushort, float, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable(ushort id, float radius, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable_NonUniformScale(ushort, ITransportConnection, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable_NonUniformScale(ushort id, ITransportConnection transportConnection, Vector3 point, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_System_UInt16_SDG_NetTransport_ITransportConnection_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale(System.UInt16,SDG.NetTransport.ITransportConnection,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable_NonUniformScale(ushort, ITransportConnection, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable_NonUniformScale(ushort id, ITransportConnection transportConnection, Vector3 point, Vector3 normal, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable_NonUniformScale(ushort, CSteamID, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable_NonUniformScale(ushort id, CSteamID steamID, Vector3 point, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectReliable_NonUniformScale_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.sendEffectReliable_NonUniformScale(System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendEffectReliable_NonUniformScale(ushort, CSteamID, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Please use TriggerEffectParameters with guid instead&quot;)]
+public static void sendEffectReliable_NonUniformScale(ushort id, CSteamID steamID, Vector3 point, Vector3 normal, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendEffectTextCommitted_" data-uid="SDG.Unturned.EffectManager.sendEffectTextCommitted*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendEffectTextCommitted_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendEffectTextCommitted(System.String,System.String)">
+  sendEffectTextCommitted(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Notify server that an input field text was committed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendEffectTextCommitted(string inputFieldName, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputFieldName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean)">
+  sendUIEffect(ushort, short, ITransportConnection, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, ITransportConnection transportConnection, bool reliable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String)">
+  sendUIEffect(ushort, short, ITransportConnection, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, ITransportConnection transportConnection, bool reliable, string arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String,System.String)">
+  sendUIEffect(ushort, short, ITransportConnection, bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, ITransportConnection transportConnection, bool reliable, string arg0, string arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String,System.String,System.String)">
+  sendUIEffect(ushort, short, ITransportConnection, bool, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, ITransportConnection transportConnection, bool reliable, string arg0, string arg1, string arg2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String,System.String,System.String,System.String)">
+  sendUIEffect(ushort, short, ITransportConnection, bool, string, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, ITransportConnection transportConnection, bool reliable, string arg0, string arg1, string arg2, string arg3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,Steamworks.CSteamID,System.Boolean)">
+  sendUIEffect(ushort, short, CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffect(ushort id, short key, CSteamID steamID, bool reliable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,Steamworks.CSteamID,System.Boolean,System.String)">
+  sendUIEffect(ushort, short, CSteamID, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffect(ushort id, short key, CSteamID steamID, bool reliable, string arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.String)">
+  sendUIEffect(ushort, short, CSteamID, bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffect(ushort id, short key, CSteamID steamID, bool reliable, string arg0, string arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.String,System.String)">
+  sendUIEffect(ushort, short, CSteamID, bool, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffect(ushort id, short key, CSteamID steamID, bool reliable, string arg0, string arg1, string arg2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.String,System.String,System.String)">
+  sendUIEffect(ushort, short, CSteamID, bool, string, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffect(ushort id, short key, CSteamID steamID, bool reliable, string arg0, string arg1, string arg2, string arg3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,System.Boolean)">
+  sendUIEffect(ushort, short, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, bool reliable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_System_Boolean_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,System.Boolean,System.String)">
+  sendUIEffect(ushort, short, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, bool reliable, string arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_System_Boolean_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,System.Boolean,System.String,System.String)">
+  sendUIEffect(ushort, short, bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, bool reliable, string arg0, string arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_System_Boolean_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,System.Boolean,System.String,System.String,System.String)">
+  sendUIEffect(ushort, short, bool, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, bool reliable, string arg0, string arg1, string arg2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffect_" data-uid="SDG.Unturned.EffectManager.sendUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffect_System_UInt16_System_Int16_System_Boolean_System_String_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffect(System.UInt16,System.Int16,System.Boolean,System.String,System.String,System.String,System.String)">
+  sendUIEffect(ushort, short, bool, string, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffect(ushort id, short key, bool reliable, string arg0, string arg1, string arg2, string arg3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectImageURL_" data-uid="SDG.Unturned.EffectManager.sendUIEffectImageURL*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectImageURL_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffectImageURL(System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String,System.String,System.Boolean,System.Boolean)">
+  sendUIEffectImageURL(short, ITransportConnection, bool, string, string, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffectImageURL(short key, ITransportConnection transportConnection, bool reliable, string childNameOrPath, string url, bool shouldCache = true, bool forceRefresh = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>shouldCache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, client will download the image once and re-use it for subsequent calls.</p>
+</dd>
+    <dt><code>forceRefresh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, client will destroy any cached copy of the image and re-acquire it.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectImageURL_" data-uid="SDG.Unturned.EffectManager.sendUIEffectImageURL*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectImageURL_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffectImageURL(System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.String)">
+  sendUIEffectImageURL(short, CSteamID, bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffectImageURL(short key, CSteamID steamID, bool reliable, string childNameOrPath, string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectImageURL_" data-uid="SDG.Unturned.EffectManager.sendUIEffectImageURL*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectImageURL_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffectImageURL(System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.String,System.Boolean,System.Boolean)">
+  sendUIEffectImageURL(short, CSteamID, bool, string, string, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffectImageURL(short key, CSteamID steamID, bool reliable, string childNameOrPath, string url, bool shouldCache = true, bool forceRefresh = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>shouldCache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>forceRefresh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectText_" data-uid="SDG.Unturned.EffectManager.sendUIEffectText*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectText_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffectText(System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String,System.String)">
+  sendUIEffectText(short, ITransportConnection, bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffectText(short key, ITransportConnection transportConnection, bool reliable, string childNameOrPath, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectText_" data-uid="SDG.Unturned.EffectManager.sendUIEffectText*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectText_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.sendUIEffectText(System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.String)">
+  sendUIEffectText(short, CSteamID, bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffectText(short key, CSteamID steamID, bool reliable, string childNameOrPath, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectVisibility_" data-uid="SDG.Unturned.EffectManager.sendUIEffectVisibility*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectVisibility_System_Int16_SDG_NetTransport_ITransportConnection_System_Boolean_System_String_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffectVisibility(System.Int16,SDG.NetTransport.ITransportConnection,System.Boolean,System.String,System.Boolean)">
+  sendUIEffectVisibility(short, ITransportConnection, bool, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendUIEffectVisibility(short key, ITransportConnection transportConnection, bool reliable, string childNameOrPath, bool visible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>visible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_sendUIEffectVisibility_" data-uid="SDG.Unturned.EffectManager.sendUIEffectVisibility*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_sendUIEffectVisibility_System_Int16_Steamworks_CSteamID_System_Boolean_System_String_System_Boolean_" data-uid="SDG.Unturned.EffectManager.sendUIEffectVisibility(System.Int16,Steamworks.CSteamID,System.Boolean,System.String,System.Boolean)">
+  sendUIEffectVisibility(short, CSteamID, bool, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void sendUIEffectVisibility(short key, CSteamID steamID, bool reliable, string childNameOrPath, bool visible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reliable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>visible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectClearAll_" data-uid="SDG.Unturned.EffectManager.tellEffectClearAll*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectClearAll_Steamworks_CSteamID_" data-uid="SDG.Unturned.EffectManager.tellEffectClearAll(Steamworks.CSteamID)">
+  tellEffectClearAll(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectClearAll(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectClearByID_" data-uid="SDG.Unturned.EffectManager.tellEffectClearByID*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectClearByID_Steamworks_CSteamID_System_UInt16_" data-uid="SDG.Unturned.EffectManager.tellEffectClearByID(Steamworks.CSteamID,System.UInt16)">
+  tellEffectClearByID(CSteamID, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectClearByID(CSteamID steamID, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectClicked_" data-uid="SDG.Unturned.EffectManager.tellEffectClicked*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectClicked_Steamworks_CSteamID_System_String_" data-uid="SDG.Unturned.EffectManager.tellEffectClicked(Steamworks.CSteamID,System.String)">
+  tellEffectClicked(CSteamID, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectClicked(CSteamID steamID, string buttonName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>buttonName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectPoint_" data-uid="SDG.Unturned.EffectManager.tellEffectPoint*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectPoint_Steamworks_CSteamID_System_UInt16_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.tellEffectPoint(Steamworks.CSteamID,System.UInt16,UnityEngine.Vector3)">
+  tellEffectPoint(CSteamID, ushort, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectPoint(CSteamID steamID, ushort id, Vector3 point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectPointNormal_" data-uid="SDG.Unturned.EffectManager.tellEffectPointNormal*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectPointNormal_Steamworks_CSteamID_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.tellEffectPointNormal(Steamworks.CSteamID,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  tellEffectPointNormal(CSteamID, ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectPointNormal(CSteamID steamID, ushort id, Vector3 point, Vector3 normal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectPointNormal_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.tellEffectPointNormal_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectPointNormal_NonUniformScale_Steamworks_CSteamID_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.tellEffectPointNormal_NonUniformScale(Steamworks.CSteamID,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+  tellEffectPointNormal_NonUniformScale(CSteamID, ushort, Vector3, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectPointNormal_NonUniformScale(CSteamID steamID, ushort id, Vector3 point, Vector3 normal, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectPointNormal_UniformScale_" data-uid="SDG.Unturned.EffectManager.tellEffectPointNormal_UniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectPointNormal_UniformScale_Steamworks_CSteamID_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.tellEffectPointNormal_UniformScale(Steamworks.CSteamID,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+  tellEffectPointNormal_UniformScale(CSteamID, ushort, Vector3, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectPointNormal_UniformScale(CSteamID steamID, ushort id, Vector3 point, Vector3 normal, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectPoint_NonUniformScale_" data-uid="SDG.Unturned.EffectManager.tellEffectPoint_NonUniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectPoint_NonUniformScale_Steamworks_CSteamID_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.EffectManager.tellEffectPoint_NonUniformScale(Steamworks.CSteamID,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  tellEffectPoint_NonUniformScale(CSteamID, ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectPoint_NonUniformScale(CSteamID steamID, ushort id, Vector3 point, Vector3 scale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectPoint_UniformScale_" data-uid="SDG.Unturned.EffectManager.tellEffectPoint_UniformScale*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectPoint_UniformScale_Steamworks_CSteamID_System_UInt16_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.EffectManager.tellEffectPoint_UniformScale(Steamworks.CSteamID,System.UInt16,UnityEngine.Vector3,System.Single)">
+  tellEffectPoint_UniformScale(CSteamID, ushort, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectPoint_UniformScale(CSteamID steamID, ushort id, Vector3 point, float uniformScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>uniformScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellEffectTextCommitted_" data-uid="SDG.Unturned.EffectManager.tellEffectTextCommitted*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellEffectTextCommitted_Steamworks_CSteamID_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.tellEffectTextCommitted(Steamworks.CSteamID,System.String,System.String)">
+  tellEffectTextCommitted(CSteamID, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellEffectTextCommitted(CSteamID steamID, string inputFieldName, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>inputFieldName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffect_" data-uid="SDG.Unturned.EffectManager.tellUIEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffect_Steamworks_CSteamID_System_UInt16_System_Int16_" data-uid="SDG.Unturned.EffectManager.tellUIEffect(Steamworks.CSteamID,System.UInt16,System.Int16)">
+  tellUIEffect(CSteamID, ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffect(CSteamID steamID, ushort id, short key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffect1Arg_" data-uid="SDG.Unturned.EffectManager.tellUIEffect1Arg*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffect1Arg_Steamworks_CSteamID_System_UInt16_System_Int16_System_String_" data-uid="SDG.Unturned.EffectManager.tellUIEffect1Arg(Steamworks.CSteamID,System.UInt16,System.Int16,System.String)">
+  tellUIEffect1Arg(CSteamID, ushort, short, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffect1Arg(CSteamID steamID, ushort id, short key, string arg0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffect2Args_" data-uid="SDG.Unturned.EffectManager.tellUIEffect2Args*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffect2Args_Steamworks_CSteamID_System_UInt16_System_Int16_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.tellUIEffect2Args(Steamworks.CSteamID,System.UInt16,System.Int16,System.String,System.String)">
+  tellUIEffect2Args(CSteamID, ushort, short, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffect2Args(CSteamID steamID, ushort id, short key, string arg0, string arg1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffect3Args_" data-uid="SDG.Unturned.EffectManager.tellUIEffect3Args*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffect3Args_Steamworks_CSteamID_System_UInt16_System_Int16_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.tellUIEffect3Args(Steamworks.CSteamID,System.UInt16,System.Int16,System.String,System.String,System.String)">
+  tellUIEffect3Args(CSteamID, ushort, short, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffect3Args(CSteamID steamID, ushort id, short key, string arg0, string arg1, string arg2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffect4Args_" data-uid="SDG.Unturned.EffectManager.tellUIEffect4Args*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffect4Args_Steamworks_CSteamID_System_UInt16_System_Int16_System_String_System_String_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.tellUIEffect4Args(Steamworks.CSteamID,System.UInt16,System.Int16,System.String,System.String,System.String,System.String)">
+  tellUIEffect4Args(CSteamID, ushort, short, string, string, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffect4Args(CSteamID steamID, ushort id, short key, string arg0, string arg1, string arg2, string arg3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>arg0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>arg3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffectImageURL_" data-uid="SDG.Unturned.EffectManager.tellUIEffectImageURL*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffectImageURL_Steamworks_CSteamID_System_Int16_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.EffectManager.tellUIEffectImageURL(Steamworks.CSteamID,System.Int16,System.String,System.String,System.Boolean,System.Boolean)">
+  tellUIEffectImageURL(CSteamID, short, string, string, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffectImageURL(CSteamID steamID, short key, string childNameOrPath, string url, bool shouldCache, bool forceRefresh)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>shouldCache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>forceRefresh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffectText_" data-uid="SDG.Unturned.EffectManager.tellUIEffectText*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffectText_Steamworks_CSteamID_System_Int16_System_String_System_String_" data-uid="SDG.Unturned.EffectManager.tellUIEffectText(Steamworks.CSteamID,System.Int16,System.String,System.String)">
+  tellUIEffectText(CSteamID, short, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffectText(CSteamID steamID, short key, string childNameOrPath, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_tellUIEffectVisibility_" data-uid="SDG.Unturned.EffectManager.tellUIEffectVisibility*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_tellUIEffectVisibility_Steamworks_CSteamID_System_Int16_System_String_System_Boolean_" data-uid="SDG.Unturned.EffectManager.tellUIEffectVisibility(Steamworks.CSteamID,System.Int16,System.String,System.Boolean)">
+  tellUIEffectVisibility(CSteamID, short, string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellUIEffectVisibility(CSteamID steamID, short key, string childNameOrPath, bool visible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+    <dt><code>childNameOrPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>visible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_EffectManager_triggerEffect_" data-uid="SDG.Unturned.EffectManager.triggerEffect*"></a>
+
+  <h3 id="SDG_Unturned_EffectManager_triggerEffect_SDG_Unturned_TriggerEffectParameters_" data-uid="SDG.Unturned.EffectManager.triggerEffect(SDG.Unturned.TriggerEffectParameters)">
+  triggerEffect(TriggerEffectParameters)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Helper for sending and spawning effects.
+Newer and refactored code should use this method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void triggerEffect(TriggerEffectParameters parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="SDG.Unturned.TriggerEffectParameters.html">TriggerEffectParameters</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

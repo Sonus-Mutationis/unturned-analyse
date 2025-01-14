@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UseableGun | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UseableGun | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.UseableGun">
+
+
+
+  <h1 id="SDG_Unturned_UseableGun" data-uid="SDG.Unturned.UseableGun" class="text-break">
+Class UseableGun  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UseableGun : Useable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.Useable.html">Useable</a></div>
+      <div><span class="xref">UseableGun</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.Useable.html#SDG_Unturned_Useable_isUseableShowingMenu">Useable.isUseableShowingMenu</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_UseableGun__ctor_" data-uid="SDG.Unturned.UseableGun.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun__ctor" data-uid="SDG.Unturned.UseableGun.#ctor">
+  UseableGun()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UseableGun()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_UseableGun_canInspect_" data-uid="SDG.Unturned.UseableGun.canInspect*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_canInspect" data-uid="SDG.Unturned.UseableGun.canInspect">
+  canInspect
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool canInspect { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_equippedGunAsset_" data-uid="SDG.Unturned.UseableGun.equippedGunAsset*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_equippedGunAsset" data-uid="SDG.Unturned.UseableGun.equippedGunAsset">
+  equippedGunAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemGunAsset equippedGunAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemGunAsset.html">ItemGunAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_isAiming_" data-uid="SDG.Unturned.UseableGun.isAiming*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_isAiming" data-uid="SDG.Unturned.UseableGun.isAiming">
+  isAiming
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isAiming { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_UseableGun_GetVehicleTurretEventHook_" data-uid="SDG.Unturned.UseableGun.GetVehicleTurretEventHook*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_GetVehicleTurretEventHook" data-uid="SDG.Unturned.UseableGun.GetVehicleTurretEventHook">
+  GetVehicleTurretEventHook()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected VehicleTurretEventHook GetVehicleTurretEventHook()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleTurretEventHook.html">VehicleTurretEventHook</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceiveAttachBarrel_" data-uid="SDG.Unturned.UseableGun.ReceiveAttachBarrel*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceiveAttachBarrel_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.ReceiveAttachBarrel(System.Byte,System.Byte,System.Byte,System.Byte[])">
+  ReceiveAttachBarrel(byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askAttachBarrel&quot;)]
+public void ReceiveAttachBarrel(byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceiveAttachGrip_" data-uid="SDG.Unturned.UseableGun.ReceiveAttachGrip*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceiveAttachGrip_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.ReceiveAttachGrip(System.Byte,System.Byte,System.Byte,System.Byte[])">
+  ReceiveAttachGrip(byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askAttachGrip&quot;)]
+public void ReceiveAttachGrip(byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceiveAttachMagazine_" data-uid="SDG.Unturned.UseableGun.ReceiveAttachMagazine*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceiveAttachMagazine_SDG_Unturned_ServerInvocationContext__System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.ReceiveAttachMagazine(SDG.Unturned.ServerInvocationContext@,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  ReceiveAttachMagazine(in ServerInvocationContext, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askAttachMagazine&quot;)]
+public void ReceiveAttachMagazine(in ServerInvocationContext context, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceiveAttachSight_" data-uid="SDG.Unturned.UseableGun.ReceiveAttachSight*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceiveAttachSight_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.ReceiveAttachSight(System.Byte,System.Byte,System.Byte,System.Byte[])">
+  ReceiveAttachSight(byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askAttachSight&quot;)]
+public void ReceiveAttachSight(byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceiveAttachTactical_" data-uid="SDG.Unturned.UseableGun.ReceiveAttachTactical*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceiveAttachTactical_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.ReceiveAttachTactical(System.Byte,System.Byte,System.Byte,System.Byte[])">
+  ReceiveAttachTactical(byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askAttachTactical&quot;)]
+public void ReceiveAttachTactical(byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceiveChangeFiremode_" data-uid="SDG.Unturned.UseableGun.ReceiveChangeFiremode*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceiveChangeFiremode_SDG_Unturned_EFiremode_" data-uid="SDG.Unturned.UseableGun.ReceiveChangeFiremode(SDG.Unturned.EFiremode)">
+  ReceiveChangeFiremode(EFiremode)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askFiremode&quot;)]
+public void ReceiveChangeFiremode(EFiremode newFiremode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newFiremode</code> <a class="xref" href="SDG.Unturned.EFiremode.html">EFiremode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceivePlayAimStart_" data-uid="SDG.Unturned.UseableGun.ReceivePlayAimStart*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceivePlayAimStart" data-uid="SDG.Unturned.UseableGun.ReceivePlayAimStart">
+  ReceivePlayAimStart()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askAimStart&quot;)]
+public void ReceivePlayAimStart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceivePlayAimStop_" data-uid="SDG.Unturned.UseableGun.ReceivePlayAimStop*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceivePlayAimStop" data-uid="SDG.Unturned.UseableGun.ReceivePlayAimStop">
+  ReceivePlayAimStop()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askAimStop&quot;)]
+public void ReceivePlayAimStop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceivePlayChamberJammed_" data-uid="SDG.Unturned.UseableGun.ReceivePlayChamberJammed*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceivePlayChamberJammed_System_Byte_" data-uid="SDG.Unturned.UseableGun.ReceivePlayChamberJammed(System.Byte)">
+  ReceivePlayChamberJammed(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Request from the server to play a gun jammed animation.
+Since client can't predict chamber jams we fixup the predicted ammo count.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askPlayChamberJammed&quot;)]
+public void ReceivePlayChamberJammed(byte correctedAmmo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>correctedAmmo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceivePlayProject_" data-uid="SDG.Unturned.UseableGun.ReceivePlayProject*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceivePlayProject_UnityEngine_Vector3_UnityEngine_Vector3_System_UInt16_System_UInt16_" data-uid="SDG.Unturned.UseableGun.ReceivePlayProject(UnityEngine.Vector3,UnityEngine.Vector3,System.UInt16,System.UInt16)">
+  ReceivePlayProject(Vector3, Vector3, ushort, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askProject&quot;)]
+public void ReceivePlayProject(Vector3 origin, Vector3 direction, ushort barrelId, ushort magazineId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>barrelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>magazineId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceivePlayReload_" data-uid="SDG.Unturned.UseableGun.ReceivePlayReload*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceivePlayReload_System_Boolean_" data-uid="SDG.Unturned.UseableGun.ReceivePlayReload(System.Boolean)">
+  ReceivePlayReload(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askReload&quot;)]
+public void ReceivePlayReload(bool newHammer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newHammer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ReceivePlayShoot_" data-uid="SDG.Unturned.UseableGun.ReceivePlayShoot*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ReceivePlayShoot" data-uid="SDG.Unturned.UseableGun.ReceivePlayShoot">
+  ReceivePlayShoot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askShoot&quot;)]
+public void ReceivePlayShoot()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_ServerPlayReload_" data-uid="SDG.Unturned.UseableGun.ServerPlayReload*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_ServerPlayReload_System_Boolean_" data-uid="SDG.Unturned.UseableGun.ServerPlayReload(System.Boolean)">
+  ServerPlayReload(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Requested for plugin use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerPlayReload(bool shouldHammer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shouldHammer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAimStart_" data-uid="SDG.Unturned.UseableGun.askAimStart*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAimStart_Steamworks_CSteamID_" data-uid="SDG.Unturned.UseableGun.askAimStart(Steamworks.CSteamID)">
+  askAimStart(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAimStart(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAimStop_" data-uid="SDG.Unturned.UseableGun.askAimStop*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAimStop_Steamworks_CSteamID_" data-uid="SDG.Unturned.UseableGun.askAimStop(Steamworks.CSteamID)">
+  askAimStop(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAimStop(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAttachBarrel_" data-uid="SDG.Unturned.UseableGun.askAttachBarrel*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAttachBarrel_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.askAttachBarrel(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  askAttachBarrel(CSteamID, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAttachBarrel(CSteamID steamID, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAttachGrip_" data-uid="SDG.Unturned.UseableGun.askAttachGrip*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAttachGrip_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.askAttachGrip(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  askAttachGrip(CSteamID, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAttachGrip(CSteamID steamID, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAttachMagazine_" data-uid="SDG.Unturned.UseableGun.askAttachMagazine*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAttachMagazine_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.askAttachMagazine(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  askAttachMagazine(CSteamID, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAttachMagazine(CSteamID steamID, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAttachSight_" data-uid="SDG.Unturned.UseableGun.askAttachSight*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAttachSight_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.askAttachSight(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  askAttachSight(CSteamID, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAttachSight(CSteamID steamID, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askAttachTactical_" data-uid="SDG.Unturned.UseableGun.askAttachTactical*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askAttachTactical_Steamworks_CSteamID_System_Byte_System_Byte_System_Byte_System_Byte___" data-uid="SDG.Unturned.UseableGun.askAttachTactical(Steamworks.CSteamID,System.Byte,System.Byte,System.Byte,System.Byte[])">
+  askAttachTactical(CSteamID, byte, byte, byte, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAttachTactical(CSteamID steamID, byte page, byte x, byte y, byte[] hash)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hash</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askFiremode_" data-uid="SDG.Unturned.UseableGun.askFiremode*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askFiremode_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.UseableGun.askFiremode(Steamworks.CSteamID,System.Byte)">
+  askFiremode(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askFiremode(CSteamID steamID, byte id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askInteractGun_" data-uid="SDG.Unturned.UseableGun.askInteractGun*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askInteractGun" data-uid="SDG.Unturned.UseableGun.askInteractGun">
+  askInteractGun()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askInteractGun()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askPlayChamberJammed_" data-uid="SDG.Unturned.UseableGun.askPlayChamberJammed*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askPlayChamberJammed_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.UseableGun.askPlayChamberJammed(Steamworks.CSteamID,System.Byte)">
+  askPlayChamberJammed(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askPlayChamberJammed(CSteamID steamID, byte correctedAmmo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>correctedAmmo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askProject_" data-uid="SDG.Unturned.UseableGun.askProject*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askProject_Steamworks_CSteamID_UnityEngine_Vector3_UnityEngine_Vector3_System_UInt16_System_UInt16_" data-uid="SDG.Unturned.UseableGun.askProject(Steamworks.CSteamID,UnityEngine.Vector3,UnityEngine.Vector3,System.UInt16,System.UInt16)">
+  askProject(CSteamID, Vector3, Vector3, ushort, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askProject(CSteamID steamID, Vector3 origin, Vector3 direction, ushort barrelId, ushort magazineId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>barrelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>magazineId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askReload_" data-uid="SDG.Unturned.UseableGun.askReload*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askReload_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.UseableGun.askReload(Steamworks.CSteamID,System.Boolean)">
+  askReload(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askReload(CSteamID steamID, bool newHammer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newHammer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_askShoot_" data-uid="SDG.Unturned.UseableGun.askShoot*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_askShoot_Steamworks_CSteamID_" data-uid="SDG.Unturned.UseableGun.askShoot(Steamworks.CSteamID)">
+  askShoot(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askShoot(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_dequip_" data-uid="SDG.Unturned.UseableGun.dequip*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_dequip" data-uid="SDG.Unturned.UseableGun.dequip">
+  dequip()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void dequip()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_equip_" data-uid="SDG.Unturned.UseableGun.equip*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_equip" data-uid="SDG.Unturned.UseableGun.equip">
+  equip()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void equip()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_simulate_" data-uid="SDG.Unturned.UseableGun.simulate*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_simulate_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.UseableGun.simulate(System.UInt32,System.Boolean)">
+  simulate(uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void simulate(uint simulation, bool inputSteady)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>inputSteady</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_startPrimary_" data-uid="SDG.Unturned.UseableGun.startPrimary*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_startPrimary" data-uid="SDG.Unturned.UseableGun.startPrimary">
+  startPrimary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool startPrimary()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if primary action was started and stopPrimary should be called in the future.
+Useful to allow input to be held until action executes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_startSecondary_" data-uid="SDG.Unturned.UseableGun.startSecondary*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_startSecondary" data-uid="SDG.Unturned.UseableGun.startSecondary">
+  startSecondary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool startSecondary()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if secondary action was started and stopSecondary should be called in the future.
+Useful to allow input to be held until action executes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_stopPrimary_" data-uid="SDG.Unturned.UseableGun.stopPrimary*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_stopPrimary" data-uid="SDG.Unturned.UseableGun.stopPrimary">
+  stopPrimary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void stopPrimary()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_stopSecondary_" data-uid="SDG.Unturned.UseableGun.stopSecondary*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_stopSecondary" data-uid="SDG.Unturned.UseableGun.stopSecondary">
+  stopSecondary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void stopSecondary()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_tick_" data-uid="SDG.Unturned.UseableGun.tick*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_tick" data-uid="SDG.Unturned.UseableGun.tick">
+  tick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void tick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_tock_" data-uid="SDG.Unturned.UseableGun.tock*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_tock_System_UInt32_" data-uid="SDG.Unturned.UseableGun.tock(System.UInt32)">
+  tock(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void tock(uint clock)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>clock</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableGun_updateState_" data-uid="SDG.Unturned.UseableGun.updateState*"></a>
+
+  <h3 id="SDG_Unturned_UseableGun_updateState_System_Byte___" data-uid="SDG.Unturned.UseableGun.updateState(System.Byte[])">
+  updateState(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void updateState(byte[] newState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_OnAimingChanged_Global" data-uid="SDG.Unturned.UseableGun.OnAimingChanged_Global">
+  OnAimingChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;UseableGun&gt; OnAimingChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_OnReloading_Global" data-uid="SDG.Unturned.UseableGun.OnReloading_Global">
+  OnReloading_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;UseableGun&gt; OnReloading_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onBulletHit" data-uid="SDG.Unturned.UseableGun.onBulletHit">
+  onBulletHit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plugin-only event when bullet hit is received from client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.BulletHitHandler onBulletHit</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.BulletHitHandler.html">BulletHitHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onBulletSpawned" data-uid="SDG.Unturned.UseableGun.onBulletSpawned">
+  onBulletSpawned
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plugin-only event when bullet is fired on server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.BulletSpawnedHandler onBulletSpawned</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.BulletSpawnedHandler.html">BulletSpawnedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onChangeBarrelRequested" data-uid="SDG.Unturned.UseableGun.onChangeBarrelRequested">
+  onChangeBarrelRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.ChangeAttachmentRequestHandler onChangeBarrelRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.ChangeAttachmentRequestHandler.html">ChangeAttachmentRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onChangeGripRequested" data-uid="SDG.Unturned.UseableGun.onChangeGripRequested">
+  onChangeGripRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.ChangeAttachmentRequestHandler onChangeGripRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.ChangeAttachmentRequestHandler.html">ChangeAttachmentRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onChangeMagazineRequested" data-uid="SDG.Unturned.UseableGun.onChangeMagazineRequested">
+  onChangeMagazineRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.ChangeAttachmentRequestHandler onChangeMagazineRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.ChangeAttachmentRequestHandler.html">ChangeAttachmentRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onChangeSightRequested" data-uid="SDG.Unturned.UseableGun.onChangeSightRequested">
+  onChangeSightRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.ChangeAttachmentRequestHandler onChangeSightRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.ChangeAttachmentRequestHandler.html">ChangeAttachmentRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onChangeTacticalRequested" data-uid="SDG.Unturned.UseableGun.onChangeTacticalRequested">
+  onChangeTacticalRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.ChangeAttachmentRequestHandler onChangeTacticalRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.ChangeAttachmentRequestHandler.html">ChangeAttachmentRequestHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_UseableGun_onProjectileSpawned" data-uid="SDG.Unturned.UseableGun.onProjectileSpawned">
+  onProjectileSpawned
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Plugin-only event when projectile is spawned on server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event UseableGun.ProjectileSpawnedHandler onProjectileSpawned</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.UseableGun.html">UseableGun</a>.<a class="xref" href="SDG.Unturned.UseableGun.ProjectileSpawnedHandler.html">ProjectileSpawnedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

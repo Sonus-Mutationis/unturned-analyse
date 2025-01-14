@@ -1,0 +1,2580 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SteamPlayer | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SteamPlayer | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.SteamPlayer">
+
+
+
+  <h1 id="SDG_Unturned_SteamPlayer" data-uid="SDG.Unturned.SteamPlayer" class="text-break">
+Class SteamPlayer  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SteamPlayer : SteamConnectedClientBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamConnectedClientBase.html">SteamConnectedClientBase</a></div>
+      <div><span class="xref">SteamPlayer</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamConnectedClientBase.html#SDG_Unturned_SteamConnectedClientBase_incrementNumPingRequestsReceived">SteamConnectedClientBase.incrementNumPingRequestsReceived()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamConnectedClientBase.html#SDG_Unturned_SteamConnectedClientBase_numPingRequestsReceived">SteamConnectedClientBase.numPingRequestsReceived</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamConnectedClientBase.html#SDG_Unturned_SteamConnectedClientBase_realtimeSinceFirstPingRequest">SteamConnectedClientBase.realtimeSinceFirstPingRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamConnectedClientBase.html#SDG_Unturned_SteamConnectedClientBase_averagePingRequestsReceivedPerSecond">SteamConnectedClientBase.averagePingRequestsReceivedPerSecond</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamConnectedClientBase.html#SDG_Unturned_SteamConnectedClientBase_transportConnection">SteamConnectedClientBase.transportConnection</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_SteamPlayer__ctor_" data-uid="SDG.Unturned.SteamPlayer.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer__ctor_SDG_NetTransport_ITransportConnection_SDG_Unturned_NetId_SDG_Unturned_SteamPlayerID_UnityEngine_Transform_System_Boolean_System_Boolean_System_Int32_System_Byte_System_Byte_System_Byte_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_System_Boolean_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32___System_String___System_String___SDG_Unturned_EPlayerSkillset_System_String_Steamworks_CSteamID_SDG_Unturned_EClientPlatform_" data-uid="SDG.Unturned.SteamPlayer.#ctor(SDG.NetTransport.ITransportConnection,SDG.Unturned.NetId,SDG.Unturned.SteamPlayerID,UnityEngine.Transform,System.Boolean,System.Boolean,System.Int32,System.Byte,System.Byte,System.Byte,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32[],System.String[],System.String[],SDG.Unturned.EPlayerSkillset,System.String,Steamworks.CSteamID,SDG.Unturned.EClientPlatform)">
+  SteamPlayer(ITransportConnection, NetId, SteamPlayerID, Transform, bool, bool, int, byte, byte, byte, Color, Color, Color, bool, int, int, int, int, int, int, int, int[], string[], string[], EPlayerSkillset, string, CSteamID, EClientPlatform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SteamPlayer(ITransportConnection transportConnection, NetId netId, SteamPlayerID newPlayerID, Transform newModel, bool newPro, bool newAdmin, int newChannel, byte newFace, byte newHair, byte newBeard, Color newSkin, Color newColor, Color newMarkerColor, bool newHand, int newShirtItem, int newPantsItem, int newHatItem, int newBackpackItem, int newVestItem, int newMaskItem, int newGlassesItem, int[] newSkinItems, string[] newSkinTags, string[] newSkinDynamicProps, EPlayerSkillset newSkillset, string newLanguage, CSteamID newLobbyID, EClientPlatform clientPlatform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transportConnection</code> <span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+    <dt><code>netId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+    <dt><code>newPlayerID</code> <a class="xref" href="SDG.Unturned.SteamPlayerID.html">SteamPlayerID</a></dt>
+    <dd></dd>
+    <dt><code>newModel</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>newPro</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newAdmin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newChannel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newFace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHair</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBeard</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSkin</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>newColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>newMarkerColor</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>newHand</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newShirtItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newPantsItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newHatItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newBackpackItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newVestItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newMaskItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newGlassesItem</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newSkinItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+    <dt><code>newSkinTags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>newSkinDynamicProps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>newSkillset</code> <a class="xref" href="SDG.Unturned.EPlayerSkillset.html">EPlayerSkillset</a></dt>
+    <dd></dd>
+    <dt><code>newLanguage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>newLobbyID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>clientPlatform</code> <a class="xref" href="SDG.Unturned.EClientPlatform.html">EClientPlatform</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_OnSteamAuthTicketForWebApiReceived" data-uid="SDG.Unturned.SteamPlayer.OnSteamAuthTicketForWebApiReceived">
+  OnSteamAuthTicketForWebApiReceived
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;SteamPlayer, string, byte[]&gt; OnSteamAuthTicketForWebApiReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_backpackItem" data-uid="SDG.Unturned.SteamPlayer.backpackItem">
+  backpackItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int backpackItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_face" data-uid="SDG.Unturned.SteamPlayer.face">
+  face
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte face</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_glassesItem" data-uid="SDG.Unturned.SteamPlayer.glassesItem">
+  glassesItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int glassesItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_hatItem" data-uid="SDG.Unturned.SteamPlayer.hatItem">
+  hatItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int hatItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_isTextChatLocallyMuted" data-uid="SDG.Unturned.SteamPlayer.isTextChatLocallyMuted">
+  isTextChatLocallyMuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTextChatLocallyMuted</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_isVoiceChatLocallyMuted" data-uid="SDG.Unturned.SteamPlayer.isVoiceChatLocallyMuted">
+  isVoiceChatLocallyMuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isVoiceChatLocallyMuted</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_itemSkins" data-uid="SDG.Unturned.SteamPlayer.itemSkins">
+  itemSkins
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ushort, int&gt; itemSkins</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_lastChat" data-uid="SDG.Unturned.SteamPlayer.lastChat">
+  lastChat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lastChat</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_lastReceivedPingRequestRealtime" data-uid="SDG.Unturned.SteamPlayer.lastReceivedPingRequestRealtime">
+  lastReceivedPingRequestRealtime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lastReceivedPingRequestRealtime</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_maskItem" data-uid="SDG.Unturned.SteamPlayer.maskItem">
+  maskItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maskItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_modifiedItems" data-uid="SDG.Unturned.SteamPlayer.modifiedItems">
+  modifiedItems
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;ushort&gt; modifiedItems</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_nextVote" data-uid="SDG.Unturned.SteamPlayer.nextVote">
+  nextVote
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float nextVote</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_pantsItem" data-uid="SDG.Unturned.SteamPlayer.pantsItem">
+  pantsItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int pantsItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_rpcAllowedTimes" data-uid="SDG.Unturned.SteamPlayer.rpcAllowedTimes">
+  rpcAllowedTimes
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Next time method is allowed to be called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] rpcAllowedTimes</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_rpcCredits" data-uid="SDG.Unturned.SteamPlayer.rpcCredits">
+  rpcCredits
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This field should not have been externally used and will be removed in a future version.&quot;)]
+public float rpcCredits</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_shirtItem" data-uid="SDG.Unturned.SteamPlayer.shirtItem">
+  shirtItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int shirtItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_skinDynamicProps" data-uid="SDG.Unturned.SteamPlayer.skinDynamicProps">
+  skinDynamicProps
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] skinDynamicProps</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_skinItems" data-uid="SDG.Unturned.SteamPlayer.skinItems">
+  skinItems
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] skinItems</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_skinTags" data-uid="SDG.Unturned.SteamPlayer.skinTags">
+  skinTags
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] skinTags</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_timeLastPacketWasReceivedFromClient" data-uid="SDG.Unturned.SteamPlayer.timeLastPacketWasReceivedFromClient">
+  timeLastPacketWasReceivedFromClient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float timeLastPacketWasReceivedFromClient</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_timeLastPingRequestWasSentToClient" data-uid="SDG.Unturned.SteamPlayer.timeLastPingRequestWasSentToClient">
+  timeLastPingRequestWasSentToClient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float timeLastPingRequestWasSentToClient</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_vehicleSkins" data-uid="SDG.Unturned.SteamPlayer.vehicleSkins">
+  vehicleSkins
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This will be removed in a future version!&quot;)]
+public Dictionary&lt;ushort, int&gt; vehicleSkins</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamPlayer_vestItem" data-uid="SDG.Unturned.SteamPlayer.vestItem">
+  vestItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int vestItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_SteamPlayer_IsLeftHanded_" data-uid="SDG.Unturned.SteamPlayer.IsLeftHanded*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_IsLeftHanded" data-uid="SDG.Unturned.SteamPlayer.IsLeftHanded">
+  IsLeftHanded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLeftHanded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_IsLocalServerHost_" data-uid="SDG.Unturned.SteamPlayer.IsLocalServerHost*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_IsLocalServerHost" data-uid="SDG.Unturned.SteamPlayer.IsLocalServerHost">
+  IsLocalServerHost
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>True for offline or listen server host.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLocalServerHost { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_beard_" data-uid="SDG.Unturned.SteamPlayer.beard*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_beard" data-uid="SDG.Unturned.SteamPlayer.beard">
+  beard
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte beard { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_channel_" data-uid="SDG.Unturned.SteamPlayer.channel*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_channel" data-uid="SDG.Unturned.SteamPlayer.channel">
+  channel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int channel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_color_" data-uid="SDG.Unturned.SteamPlayer.color*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_color" data-uid="SDG.Unturned.SteamPlayer.color">
+  color
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color color { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_hair_" data-uid="SDG.Unturned.SteamPlayer.hair*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_hair" data-uid="SDG.Unturned.SteamPlayer.hair">
+  hair
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte hair { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_hand_" data-uid="SDG.Unturned.SteamPlayer.hand*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_hand" data-uid="SDG.Unturned.SteamPlayer.hand">
+  hand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to IsLeftHanded&quot;)]
+public bool hand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_isAdmin_" data-uid="SDG.Unturned.SteamPlayer.isAdmin*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_isAdmin" data-uid="SDG.Unturned.SteamPlayer.isAdmin">
+  isAdmin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isAdmin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_isPro_" data-uid="SDG.Unturned.SteamPlayer.isPro*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_isPro" data-uid="SDG.Unturned.SteamPlayer.isPro">
+  isPro
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPro { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_joined_" data-uid="SDG.Unturned.SteamPlayer.joined*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_joined" data-uid="SDG.Unturned.SteamPlayer.joined">
+  joined
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float joined { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_language_" data-uid="SDG.Unturned.SteamPlayer.language*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_language" data-uid="SDG.Unturned.SteamPlayer.language">
+  language
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string language { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_lobbyID_" data-uid="SDG.Unturned.SteamPlayer.lobbyID*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_lobbyID" data-uid="SDG.Unturned.SteamPlayer.lobbyID">
+  lobbyID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSteamID lobbyID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_markerColor_" data-uid="SDG.Unturned.SteamPlayer.markerColor*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_markerColor" data-uid="SDG.Unturned.SteamPlayer.markerColor">
+  markerColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color markerColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_model_" data-uid="SDG.Unturned.SteamPlayer.model*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_model" data-uid="SDG.Unturned.SteamPlayer.model">
+  model
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform model { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_ping_" data-uid="SDG.Unturned.SteamPlayer.ping*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_ping" data-uid="SDG.Unturned.SteamPlayer.ping">
+  ping
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ping { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_player_" data-uid="SDG.Unturned.SteamPlayer.player*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_player" data-uid="SDG.Unturned.SteamPlayer.player">
+  player
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Player player { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_playerID_" data-uid="SDG.Unturned.SteamPlayer.playerID*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_playerID" data-uid="SDG.Unturned.SteamPlayer.playerID">
+  playerID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SteamPlayerID playerID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SteamPlayerID.html">SteamPlayerID</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_skillset_" data-uid="SDG.Unturned.SteamPlayer.skillset*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_skillset" data-uid="SDG.Unturned.SteamPlayer.skillset">
+  skillset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerSkillset skillset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerSkillset.html">EPlayerSkillset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_skin_" data-uid="SDG.Unturned.SteamPlayer.skin*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_skin" data-uid="SDG.Unturned.SteamPlayer.skin">
+  skin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color skin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_SteamPlayer_Equals_" data-uid="SDG.Unturned.SteamPlayer.Equals*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_Equals_SDG_Unturned_SteamPlayer_" data-uid="SDG.Unturned.SteamPlayer.Equals(SDG.Unturned.SteamPlayer)">
+  Equals(SteamPlayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(SteamPlayer otherClient)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>otherClient</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_Equals_" data-uid="SDG.Unturned.SteamPlayer.Equals*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_Equals_System_Object_" data-uid="SDG.Unturned.SteamPlayer.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_GetHashCode_" data-uid="SDG.Unturned.SteamPlayer.GetHashCode*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_GetHashCode" data-uid="SDG.Unturned.SteamPlayer.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_GetNetId_" data-uid="SDG.Unturned.SteamPlayer.GetNetId*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_GetNetId" data-uid="SDG.Unturned.SteamPlayer.GetNetId">
+  GetNetId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetId GetNetId()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_GetVehicleSkinItemDefId_" data-uid="SDG.Unturned.SteamPlayer.GetVehicleSkinItemDefId*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_GetVehicleSkinItemDefId_SDG_Unturned_InteractableVehicle_System_Int32__" data-uid="SDG.Unturned.SteamPlayer.GetVehicleSkinItemDefId(SDG.Unturned.InteractableVehicle,System.Int32@)">
+  GetVehicleSkinItemDefId(InteractableVehicle, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Steam item definition ID equipped for given vehicle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetVehicleSkinItemDefId(InteractableVehicle vehicle, out int itemdefid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>itemdefid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if a skin was available.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_ReceiveGetSteamAuthTicketForWebApiRequest_" data-uid="SDG.Unturned.SteamPlayer.ReceiveGetSteamAuthTicketForWebApiRequest*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_ReceiveGetSteamAuthTicketForWebApiRequest_System_String_" data-uid="SDG.Unturned.SteamPlayer.ReceiveGetSteamAuthTicketForWebApiRequest(System.String)">
+  ReceiveGetSteamAuthTicketForWebApiRequest(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveGetSteamAuthTicketForWebApiRequest(string identity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>identity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_ReceiveGetSteamAuthTicketForWebApiResponse_" data-uid="SDG.Unturned.SteamPlayer.ReceiveGetSteamAuthTicketForWebApiResponse*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_ReceiveGetSteamAuthTicketForWebApiResponse_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.SteamPlayer.ReceiveGetSteamAuthTicketForWebApiResponse(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveGetSteamAuthTicketForWebApiResponse(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.SERVERSIDE)]
+public static void ReceiveGetSteamAuthTicketForWebApiResponse(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_RequestSteamAuthTicketForWebApi_" data-uid="SDG.Unturned.SteamPlayer.RequestSteamAuthTicketForWebApi*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_RequestSteamAuthTicketForWebApi_System_String_" data-uid="SDG.Unturned.SteamPlayer.RequestSteamAuthTicketForWebApi(System.String)">
+  RequestSteamAuthTicketForWebApi(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can be used by plugins to verify player is on a particular server.</p>
+<p>OnSteamAuthTicketForWebApiReceived will be invoked when the response is received.
+Note that the client doesn't send anything if the request to Steam fails, so plugins may wish to kick
+players if a certain amount of time passes. (e.g., if a cheat is canceling the request)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestSteamAuthTicketForWebApi(string identity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>identity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_SetTextChatLocallyMuted_" data-uid="SDG.Unturned.SteamPlayer.SetTextChatLocallyMuted*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_SetTextChatLocallyMuted_System_Boolean_" data-uid="SDG.Unturned.SteamPlayer.SetTextChatLocallyMuted(System.Boolean)">
+  SetTextChatLocallyMuted(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTextChatLocallyMuted(bool newTextChatLocallyMuted)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newTextChatLocallyMuted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_SetVoiceChatLocallyMuted_" data-uid="SDG.Unturned.SteamPlayer.SetVoiceChatLocallyMuted*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_SetVoiceChatLocallyMuted_System_Boolean_" data-uid="SDG.Unturned.SteamPlayer.SetVoiceChatLocallyMuted(System.Boolean)">
+  SetVoiceChatLocallyMuted(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVoiceChatLocallyMuted(bool newVoiceChatLocallyMuted)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newVoiceChatLocallyMuted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_ToString_" data-uid="SDG.Unturned.SteamPlayer.ToString*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_ToString" data-uid="SDG.Unturned.SteamPlayer.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_commitModifiedDynamicProps_" data-uid="SDG.Unturned.SteamPlayer.commitModifiedDynamicProps*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_commitModifiedDynamicProps" data-uid="SDG.Unturned.SteamPlayer.commitModifiedDynamicProps">
+  commitModifiedDynamicProps()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void commitModifiedDynamicProps()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getAddress_" data-uid="SDG.Unturned.SteamPlayer.getAddress*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getAddress" data-uid="SDG.Unturned.SteamPlayer.getAddress">
+  getAddress()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get real address of remote player NOT a relay server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPAddress getAddress()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.ipaddress">IPAddress</a></dt>
+    <dd><p>Null if address was unavailable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getAddressString_" data-uid="SDG.Unturned.SteamPlayer.getAddressString*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getAddressString_System_Boolean_" data-uid="SDG.Unturned.SteamPlayer.getAddressString(System.Boolean)">
+  getAddressString(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get string representation of remote end point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getAddressString(bool withPort)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>withPort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Null if address was unavailable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getDynamicEconDetails_" data-uid="SDG.Unturned.SteamPlayer.getDynamicEconDetails*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getDynamicEconDetails_System_UInt16_SDG_Provider_DynamicEconDetails__" data-uid="SDG.Unturned.SteamPlayer.getDynamicEconDetails(System.UInt16,SDG.Provider.DynamicEconDetails@)">
+  getDynamicEconDetails(ushort, out DynamicEconDetails)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Build econ details struct from tags and dynamic_props.
+Note that details cannot be modified because it's a struct and has copies of the data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getDynamicEconDetails(ushort itemID, out DynamicEconDetails details)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>details</code> <a class="xref" href="SDG.Provider.DynamicEconDetails.html">DynamicEconDetails</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getDynamicEconDetailsForItemDef_" data-uid="SDG.Unturned.SteamPlayer.getDynamicEconDetailsForItemDef*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getDynamicEconDetailsForItemDef_System_Int32_SDG_Provider_DynamicEconDetails__" data-uid="SDG.Unturned.SteamPlayer.getDynamicEconDetailsForItemDef(System.Int32,SDG.Provider.DynamicEconDetails@)">
+  getDynamicEconDetailsForItemDef(int, out DynamicEconDetails)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getDynamicEconDetailsForItemDef(int itemdefid, out DynamicEconDetails details)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemdefid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>details</code> <a class="xref" href="SDG.Provider.DynamicEconDetails.html">DynamicEconDetails</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getIPv4Address_" data-uid="SDG.Unturned.SteamPlayer.getIPv4Address*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getIPv4Address_System_UInt32__" data-uid="SDG.Unturned.SteamPlayer.getIPv4Address(System.UInt32@)">
+  getIPv4Address(out uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get real IPv4 address of remote player NOT the relay server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getIPv4Address(out uint address)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>address</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if address was available, and not flagged as a relay server.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getIPv4AddressOrZero_" data-uid="SDG.Unturned.SteamPlayer.getIPv4AddressOrZero*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getIPv4AddressOrZero" data-uid="SDG.Unturned.SteamPlayer.getIPv4AddressOrZero">
+  getIPv4AddressOrZero()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>See above, returns zero if failed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint getIPv4AddressOrZero()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getItemSkinItemDefID_" data-uid="SDG.Unturned.SteamPlayer.getItemSkinItemDefID*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getItemSkinItemDefID_System_UInt16_System_Int32__" data-uid="SDG.Unturned.SteamPlayer.getItemSkinItemDefID(System.UInt16,System.Int32@)">
+  getItemSkinItemDefID(ushort, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getItemSkinItemDefID(ushort itemID, out int itemdefid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>itemdefid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getParticleEffectForItemDef_" data-uid="SDG.Unturned.SteamPlayer.getParticleEffectForItemDef*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getParticleEffectForItemDef_System_Int32_" data-uid="SDG.Unturned.SteamPlayer.getParticleEffectForItemDef(System.Int32)">
+  getParticleEffectForItemDef(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort getParticleEffectForItemDef(int itemdefid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemdefid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getRagdollEffect_" data-uid="SDG.Unturned.SteamPlayer.getRagdollEffect*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getRagdollEffect_System_UInt16_SDG_Unturned_ERagdollEffect__" data-uid="SDG.Unturned.SteamPlayer.getRagdollEffect(System.UInt16,SDG.Unturned.ERagdollEffect@)">
+  getRagdollEffect(ushort, out ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getRagdollEffect(ushort itemID, out ERagdollEffect effect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>effect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getStatTrackerValue_" data-uid="SDG.Unturned.SteamPlayer.getStatTrackerValue*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getStatTrackerValue_System_UInt16_SDG_Provider_EStatTrackerType__System_Int32__" data-uid="SDG.Unturned.SteamPlayer.getStatTrackerValue(System.UInt16,SDG.Provider.EStatTrackerType@,System.Int32@)">
+  getStatTrackerValue(ushort, out EStatTrackerType, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getStatTrackerValue(ushort itemID, out EStatTrackerType type, out int kills)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Provider.EStatTrackerType.html">EStatTrackerType</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getTagsAndDynamicPropsForItem_" data-uid="SDG.Unturned.SteamPlayer.getTagsAndDynamicPropsForItem*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getTagsAndDynamicPropsForItem_System_Int32_System_String__System_String__" data-uid="SDG.Unturned.SteamPlayer.getTagsAndDynamicPropsForItem(System.Int32,System.String@,System.String@)">
+  getTagsAndDynamicPropsForItem(int, out string, out string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getTagsAndDynamicPropsForItem(int item, out string tags, out string dynamic_props)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>tags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>dynamic_props</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_getVehicleSkinItemDefID_" data-uid="SDG.Unturned.SteamPlayer.getVehicleSkinItemDefID*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_getVehicleSkinItemDefID_System_UInt16_System_Int32__" data-uid="SDG.Unturned.SteamPlayer.getVehicleSkinItemDefID(System.UInt16,System.Int32@)">
+  getVehicleSkinItemDefID(ushort, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This will be removed in a future version!&quot;)]
+public bool getVehicleSkinItemDefID(ushort vehicleID, out int itemdefid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicleID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>itemdefid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_incrementStatTrackerValue_" data-uid="SDG.Unturned.SteamPlayer.incrementStatTrackerValue*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_incrementStatTrackerValue_System_UInt16_SDG_Unturned_EPlayerStat_" data-uid="SDG.Unturned.SteamPlayer.incrementStatTrackerValue(System.UInt16,SDG.Unturned.EPlayerStat)">
+  incrementStatTrackerValue(ushort, EPlayerStat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void incrementStatTrackerValue(ushort itemID, EPlayerStat stat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>itemID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>stat</code> <a class="xref" href="SDG.Unturned.EPlayerStat.html">EPlayerStat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_isMemberOfSameGroupAs_" data-uid="SDG.Unturned.SteamPlayer.isMemberOfSameGroupAs*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_isMemberOfSameGroupAs_SDG_Unturned_Player_" data-uid="SDG.Unturned.SteamPlayer.isMemberOfSameGroupAs(SDG.Unturned.Player)">
+  isMemberOfSameGroupAs(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMemberOfSameGroupAs(Player other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if both players exist, are both members of groups, and are both members of the same group.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_isMemberOfSameGroupAs_" data-uid="SDG.Unturned.SteamPlayer.isMemberOfSameGroupAs*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_isMemberOfSameGroupAs_SDG_Unturned_SteamPlayer_" data-uid="SDG.Unturned.SteamPlayer.isMemberOfSameGroupAs(SDG.Unturned.SteamPlayer)">
+  isMemberOfSameGroupAs(SteamPlayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMemberOfSameGroupAs(SteamPlayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if both players exist, are both members of groups, and are both members of the same group.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamPlayer_lag_" data-uid="SDG.Unturned.SteamPlayer.lag*"></a>
+
+  <h3 id="SDG_Unturned_SteamPlayer_lag_System_Single_" data-uid="SDG.Unturned.SteamPlayer.lag(System.Single)">
+  lag(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add a recent ping sample to the average ping window.
+Updates ping based on the average of several recent ping samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void lag(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Most recent ping value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

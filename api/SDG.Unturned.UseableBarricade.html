@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UseableBarricade | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UseableBarricade | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.UseableBarricade">
+
+
+
+  <h1 id="SDG_Unturned_UseableBarricade" data-uid="SDG.Unturned.UseableBarricade" class="text-break">
+Class UseableBarricade  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UseableBarricade : Useable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.Useable.html">Useable</a></div>
+      <div><span class="xref">UseableBarricade</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.Useable.html#SDG_Unturned_Useable_stopPrimary">Useable.stopPrimary()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Useable.html#SDG_Unturned_Useable_tock_System_UInt32_">Useable.tock(uint)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Useable.html#SDG_Unturned_Useable_updateState_System_Byte___">Useable.updateState(byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Useable.html#SDG_Unturned_Useable_canInspect">Useable.canInspect</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Useable.html#SDG_Unturned_Useable_isUseableShowingMenu">Useable.isUseableShowingMenu</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_UseableBarricade__ctor_" data-uid="SDG.Unturned.UseableBarricade.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade__ctor" data-uid="SDG.Unturned.UseableBarricade.#ctor">
+  UseableBarricade()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UseableBarricade()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_UseableBarricade_equippedBarricadeAsset_" data-uid="SDG.Unturned.UseableBarricade.equippedBarricadeAsset*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_equippedBarricadeAsset" data-uid="SDG.Unturned.UseableBarricade.equippedBarricadeAsset">
+  equippedBarricadeAsset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemBarricadeAsset equippedBarricadeAsset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemBarricadeAsset.html">ItemBarricadeAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_UseableBarricade_OnDestroy_" data-uid="SDG.Unturned.UseableBarricade.OnDestroy*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_OnDestroy" data-uid="SDG.Unturned.UseableBarricade.OnDestroy">
+  OnDestroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_ReceiveBarricadeNone_" data-uid="SDG.Unturned.UseableBarricade.ReceiveBarricadeNone*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_ReceiveBarricadeNone_SDG_Unturned_ServerInvocationContext__UnityEngine_Vector3_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.UseableBarricade.ReceiveBarricadeNone(SDG.Unturned.ServerInvocationContext@,UnityEngine.Vector3,System.Single,System.Single,System.Single)">
+  ReceiveBarricadeNone(in ServerInvocationContext, Vector3, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10, legacyName = &quot;askBarricadeNone&quot;)]
+public void ReceiveBarricadeNone(in ServerInvocationContext context, Vector3 newPoint, float newAngle_X, float newAngle_Y, float newAngle_Z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>newPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle_X</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_ReceiveBarricadeVehicle_" data-uid="SDG.Unturned.UseableBarricade.ReceiveBarricadeVehicle*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_ReceiveBarricadeVehicle_SDG_Unturned_ServerInvocationContext__UnityEngine_Vector3_System_Single_System_Single_System_Single_SDG_Unturned_NetId_" data-uid="SDG.Unturned.UseableBarricade.ReceiveBarricadeVehicle(SDG.Unturned.ServerInvocationContext@,UnityEngine.Vector3,System.Single,System.Single,System.Single,SDG.Unturned.NetId)">
+  ReceiveBarricadeVehicle(in ServerInvocationContext, Vector3, float, float, float, NetId)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10)]
+public void ReceiveBarricadeVehicle(in ServerInvocationContext context, Vector3 newPoint, float newAngle_X, float newAngle_Y, float newAngle_Z, NetId regionNetId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>newPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle_X</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>regionNetId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_ReceivePlayBuild_" data-uid="SDG.Unturned.UseableBarricade.ReceivePlayBuild*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_ReceivePlayBuild" data-uid="SDG.Unturned.UseableBarricade.ReceivePlayBuild">
+  ReceivePlayBuild()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askBuild&quot;)]
+public void ReceivePlayBuild()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_askBarricadeNone_" data-uid="SDG.Unturned.UseableBarricade.askBarricadeNone*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_askBarricadeNone_Steamworks_CSteamID_UnityEngine_Vector3_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.UseableBarricade.askBarricadeNone(Steamworks.CSteamID,UnityEngine.Vector3,System.Single,System.Single,System.Single)">
+  askBarricadeNone(CSteamID, Vector3, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askBarricadeNone(CSteamID steamID, Vector3 newPoint, float newAngle_X, float newAngle_Y, float newAngle_Z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle_X</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_askBarricadeVehicle_" data-uid="SDG.Unturned.UseableBarricade.askBarricadeVehicle*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_askBarricadeVehicle_Steamworks_CSteamID_UnityEngine_Vector3_System_Single_System_Single_System_Single_System_UInt16_" data-uid="SDG.Unturned.UseableBarricade.askBarricadeVehicle(Steamworks.CSteamID,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.UInt16)">
+  askBarricadeVehicle(CSteamID, Vector3, float, float, float, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askBarricadeVehicle(CSteamID steamID, Vector3 newPoint, float newAngle_X, float newAngle_Y, float newAngle_Z, ushort plant)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle_X</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newAngle_Z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>plant</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_askBuild_" data-uid="SDG.Unturned.UseableBarricade.askBuild*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_askBuild_Steamworks_CSteamID_" data-uid="SDG.Unturned.UseableBarricade.askBuild(Steamworks.CSteamID)">
+  askBuild(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askBuild(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_dequip_" data-uid="SDG.Unturned.UseableBarricade.dequip*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_dequip" data-uid="SDG.Unturned.UseableBarricade.dequip">
+  dequip()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void dequip()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_equip_" data-uid="SDG.Unturned.UseableBarricade.equip*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_equip" data-uid="SDG.Unturned.UseableBarricade.equip">
+  equip()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void equip()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_simulate_" data-uid="SDG.Unturned.UseableBarricade.simulate*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_simulate_System_UInt32_System_Boolean_" data-uid="SDG.Unturned.UseableBarricade.simulate(System.UInt32,System.Boolean)">
+  simulate(uint, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void simulate(uint simulation, bool inputSteady)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>inputSteady</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_startPrimary_" data-uid="SDG.Unturned.UseableBarricade.startPrimary*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_startPrimary" data-uid="SDG.Unturned.UseableBarricade.startPrimary">
+  startPrimary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool startPrimary()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if primary action was started and stopPrimary should be called in the future.
+Useful to allow input to be held until action executes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_startSecondary_" data-uid="SDG.Unturned.UseableBarricade.startSecondary*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_startSecondary" data-uid="SDG.Unturned.UseableBarricade.startSecondary">
+  startSecondary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool startSecondary()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if secondary action was started and stopSecondary should be called in the future.
+Useful to allow input to be held until action executes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_stopSecondary_" data-uid="SDG.Unturned.UseableBarricade.stopSecondary*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_stopSecondary" data-uid="SDG.Unturned.UseableBarricade.stopSecondary">
+  stopSecondary()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void stopSecondary()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_UseableBarricade_tick_" data-uid="SDG.Unturned.UseableBarricade.tick*"></a>
+
+  <h3 id="SDG_Unturned_UseableBarricade_tick" data-uid="SDG.Unturned.UseableBarricade.tick">
+  tick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void tick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

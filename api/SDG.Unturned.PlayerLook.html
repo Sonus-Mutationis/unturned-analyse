@@ -1,0 +1,2259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerLook | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerLook | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerLook">
+
+
+
+  <h1 id="SDG_Unturned_PlayerLook" data-uid="SDG.Unturned.PlayerLook" class="text-break">
+Class PlayerLook  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerLook : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerLook</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLook__ctor_" data-uid="SDG.Unturned.PlayerLook.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook__ctor" data-uid="SDG.Unturned.PlayerLook.#ctor">
+  PlayerLook()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerLook()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_IsControllingFreecam" data-uid="SDG.Unturned.PlayerLook.IsControllingFreecam">
+  IsControllingFreecam
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, freecam controls take input priority.
+Previously named isOrbiting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsControllingFreecam</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_allowFreecamWithoutAdmin" data-uid="SDG.Unturned.PlayerLook.allowFreecamWithoutAdmin">
+  allowFreecamWithoutAdmin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can spectating be used without admin powers?
+Plugins can enable spectator mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool allowFreecamWithoutAdmin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_allowSpecStatsWithoutAdmin" data-uid="SDG.Unturned.PlayerLook.allowSpecStatsWithoutAdmin">
+  allowSpecStatsWithoutAdmin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can spectator overlays be used without admin powers?
+Plugins can enable specstats permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool allowSpecStatsWithoutAdmin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_allowWorkzoneWithoutAdmin" data-uid="SDG.Unturned.PlayerLook.allowWorkzoneWithoutAdmin">
+  allowWorkzoneWithoutAdmin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can workzone be used without admin powers?
+Plugins can enable workzone permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool allowWorkzoneWithoutAdmin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_angle" data-uid="SDG.Unturned.PlayerLook.angle">
+  angle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte angle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_characterYaw" data-uid="SDG.Unturned.PlayerLook.characterYaw">
+  characterYaw
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float characterYaw</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_explosionSmoothingSpeed" data-uid="SDG.Unturned.PlayerLook.explosionSmoothingSpeed">
+  explosionSmoothingSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float explosionSmoothingSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_freecamVerticalFieldOfView" data-uid="SDG.Unturned.PlayerLook.freecamVerticalFieldOfView">
+  freecamVerticalFieldOfView
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset to actual fov when first used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float freecamVerticalFieldOfView</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_isFocusing" data-uid="SDG.Unturned.PlayerLook.isFocusing">
+  isFocusing
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isFocusing</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_isIgnoringInput" data-uid="SDG.Unturned.PlayerLook.isIgnoringInput">
+  isIgnoringInput
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isIgnoringInput</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_isLocking" data-uid="SDG.Unturned.PlayerLook.isLocking">
+  isLocking
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isLocking</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_isSmoothing" data-uid="SDG.Unturned.PlayerLook.isSmoothing">
+  isSmoothing
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isSmoothing</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_isTracking" data-uid="SDG.Unturned.PlayerLook.isTracking">
+  isTracking
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTracking</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_isZoomed" data-uid="SDG.Unturned.PlayerLook.isZoomed">
+  isZoomed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool isZoomed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_lastAngle" data-uid="SDG.Unturned.PlayerLook.lastAngle">
+  lastAngle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte lastAngle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_lastRot" data-uid="SDG.Unturned.PlayerLook.lastRot">
+  lastRot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte lastRot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_lockPosition" data-uid="SDG.Unturned.PlayerLook.lockPosition">
+  lockPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 lockPosition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_onPerspectiveUpdated" data-uid="SDG.Unturned.PlayerLook.onPerspectiveUpdated">
+  onPerspectiveUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PerspectiveUpdated onPerspectiveUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PerspectiveUpdated.html">PerspectiveUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_orbitPosition" data-uid="SDG.Unturned.PlayerLook.orbitPosition">
+  orbitPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 orbitPosition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_orbitSpeed" data-uid="SDG.Unturned.PlayerLook.orbitSpeed">
+  orbitSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float orbitSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_rot" data-uid="SDG.Unturned.PlayerLook.rot">
+  rot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte rot</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_shouldUseZoomFactorForSensitivity" data-uid="SDG.Unturned.PlayerLook.shouldUseZoomFactorForSensitivity">
+  shouldUseZoomFactorForSensitivity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldUseZoomFactorForSensitivity</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerLook_targetExplosionLocalRotation" data-uid="SDG.Unturned.PlayerLook.targetExplosionLocalRotation">
+  targetExplosionLocalRotation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4SpringQ targetExplosionLocalRotation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4SpringQ.html">Rk4SpringQ</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLook_IsLocallyUsingFreecam_" data-uid="SDG.Unturned.PlayerLook.IsLocallyUsingFreecam*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_IsLocallyUsingFreecam" data-uid="SDG.Unturned.PlayerLook.IsLocallyUsingFreecam">
+  IsLocallyUsingFreecam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLocallyUsingFreecam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_aim_" data-uid="SDG.Unturned.PlayerLook.aim*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_aim" data-uid="SDG.Unturned.PlayerLook.aim">
+  aim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform aim { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_areSpecStatsVisible_" data-uid="SDG.Unturned.PlayerLook.areSpecStatsVisible*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_areSpecStatsVisible" data-uid="SDG.Unturned.PlayerLook.areSpecStatsVisible">
+  areSpecStatsVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should player stats be visible in spectator mode?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool areSpecStatsVisible { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_canUseFreecam_" data-uid="SDG.Unturned.PlayerLook.canUseFreecam*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_canUseFreecam" data-uid="SDG.Unturned.PlayerLook.canUseFreecam">
+  canUseFreecam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canUseFreecam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_canUseSpecStats_" data-uid="SDG.Unturned.PlayerLook.canUseSpecStats*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_canUseSpecStats" data-uid="SDG.Unturned.PlayerLook.canUseSpecStats">
+  canUseSpecStats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canUseSpecStats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_canUseWorkzone_" data-uid="SDG.Unturned.PlayerLook.canUseWorkzone*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_canUseWorkzone" data-uid="SDG.Unturned.PlayerLook.canUseWorkzone">
+  canUseWorkzone
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canUseWorkzone { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_characterCamera_" data-uid="SDG.Unturned.PlayerLook.characterCamera*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_characterCamera" data-uid="SDG.Unturned.PlayerLook.characterCamera">
+  characterCamera
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera characterCamera { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Camera</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_heightLook_" data-uid="SDG.Unturned.PlayerLook.heightLook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_heightLook" data-uid="SDG.Unturned.PlayerLook.heightLook">
+  heightLook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float heightLook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_isCam_" data-uid="SDG.Unturned.PlayerLook.isCam*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_isCam" data-uid="SDG.Unturned.PlayerLook.isCam">
+  isCam
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool isCam { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_isScopeActive_" data-uid="SDG.Unturned.PlayerLook.isScopeActive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_isScopeActive" data-uid="SDG.Unturned.PlayerLook.isScopeActive">
+  isScopeActive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isScopeActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_look_x_" data-uid="SDG.Unturned.PlayerLook.look_x*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_look_x" data-uid="SDG.Unturned.PlayerLook.look_x">
+  look_x
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float look_x { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_look_y_" data-uid="SDG.Unturned.PlayerLook.look_y*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_look_y" data-uid="SDG.Unturned.PlayerLook.look_y">
+  look_y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float look_y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_orbitPitch_" data-uid="SDG.Unturned.PlayerLook.orbitPitch*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_orbitPitch" data-uid="SDG.Unturned.PlayerLook.orbitPitch">
+  orbitPitch
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float orbitPitch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_orbitYaw_" data-uid="SDG.Unturned.PlayerLook.orbitYaw*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_orbitYaw" data-uid="SDG.Unturned.PlayerLook.orbitYaw">
+  orbitYaw
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float orbitYaw { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_perspective_" data-uid="SDG.Unturned.PlayerLook.perspective*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_perspective" data-uid="SDG.Unturned.PlayerLook.perspective">
+  perspective
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerPerspective perspective { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerPerspective.html">EPlayerPerspective</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_pitch_" data-uid="SDG.Unturned.PlayerLook.pitch*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_pitch" data-uid="SDG.Unturned.PlayerLook.pitch">
+  pitch
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unintuitively (to say the least), a pitch of 0 is up, 90 is forward, and 180 is down.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pitch { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_scopeCamera_" data-uid="SDG.Unturned.PlayerLook.scopeCamera*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_scopeCamera" data-uid="SDG.Unturned.PlayerLook.scopeCamera">
+  scopeCamera
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera scopeCamera { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Camera</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_scopeMaterial_" data-uid="SDG.Unturned.PlayerLook.scopeMaterial*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_scopeMaterial" data-uid="SDG.Unturned.PlayerLook.scopeMaterial">
+  scopeMaterial
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Material instantiated when dual-render scopes are enabled.
+Overrides the material of the gun sight attachment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Material scopeMaterial { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Material</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_yaw_" data-uid="SDG.Unturned.PlayerLook.yaw*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_yaw" data-uid="SDG.Unturned.PlayerLook.yaw">
+  yaw
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float yaw { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLook_GetEyesPositionWithoutLeaning_" data-uid="SDG.Unturned.PlayerLook.GetEyesPositionWithoutLeaning*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_GetEyesPositionWithoutLeaning" data-uid="SDG.Unturned.PlayerLook.GetEyesPositionWithoutLeaning">
+  GetEyesPositionWithoutLeaning()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get point of view in worldspace without the left/right leaning modifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetEyesPositionWithoutLeaning()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_ReceiveFreecamAllowed_" data-uid="SDG.Unturned.PlayerLook.ReceiveFreecamAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_ReceiveFreecamAllowed_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.ReceiveFreecamAllowed(System.Boolean)">
+  ReceiveFreecamAllowed(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the server to allow spectating without admin powers.
+Only used by plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellFreecamAllowed&quot;)]
+public void ReceiveFreecamAllowed(bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_ReceiveSpecStatsAllowed_" data-uid="SDG.Unturned.PlayerLook.ReceiveSpecStatsAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_ReceiveSpecStatsAllowed_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.ReceiveSpecStatsAllowed(System.Boolean)">
+  ReceiveSpecStatsAllowed(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the server to allow spectator overlays without admin powers.
+Only used by plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSpecStatsAllowed&quot;)]
+public void ReceiveSpecStatsAllowed(bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_ReceiveWorkzoneAllowed_" data-uid="SDG.Unturned.PlayerLook.ReceiveWorkzoneAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_ReceiveWorkzoneAllowed_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.ReceiveWorkzoneAllowed(System.Boolean)">
+  ReceiveWorkzoneAllowed(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called from the server to allow workzone without admin powers.
+Only used by plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWorkzoneAllowed&quot;)]
+public void ReceiveWorkzoneAllowed(bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_disableOverlay_" data-uid="SDG.Unturned.PlayerLook.disableOverlay*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_disableOverlay" data-uid="SDG.Unturned.PlayerLook.disableOverlay">
+  disableOverlay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void disableOverlay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_disableScope_" data-uid="SDG.Unturned.PlayerLook.disableScope*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_disableScope" data-uid="SDG.Unturned.PlayerLook.disableScope">
+  disableScope()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void disableScope()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_disableZoom_" data-uid="SDG.Unturned.PlayerLook.disableZoom*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_disableZoom" data-uid="SDG.Unturned.PlayerLook.disableZoom">
+  disableZoom()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void disableZoom()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_enableOverlay_" data-uid="SDG.Unturned.PlayerLook.enableOverlay*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_enableOverlay" data-uid="SDG.Unturned.PlayerLook.enableOverlay">
+  enableOverlay()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void enableOverlay()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_enableScope_" data-uid="SDG.Unturned.PlayerLook.enableScope*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_enableScope_System_Single_SDG_Unturned_ItemSightAsset_" data-uid="SDG.Unturned.PlayerLook.enableScope(System.Single,SDG.Unturned.ItemSightAsset)">
+  enableScope(float, ItemSightAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void enableScope(float zoom, ItemSightAsset sightAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zoom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>sightAsset</code> <a class="xref" href="SDG.Unturned.ItemSightAsset.html">ItemSightAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_enableZoom_" data-uid="SDG.Unturned.PlayerLook.enableZoom*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_enableZoom_System_Single_" data-uid="SDG.Unturned.PlayerLook.enableZoom(System.Single)">
+  enableZoom(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void enableZoom(float zoom)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zoom</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_getEyesPosition_" data-uid="SDG.Unturned.PlayerLook.getEyesPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_getEyesPosition" data-uid="SDG.Unturned.PlayerLook.getEyesPosition">
+  getEyesPosition()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get point-of-view in world-space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 getEyesPosition()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_recoil_" data-uid="SDG.Unturned.PlayerLook.recoil*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_recoil_System_Single_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.PlayerLook.recoil(System.Single,System.Single,System.Single,System.Single)">
+  recoil(float, float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void recoil(float x, float y, float h, float v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>h</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>v</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_sendFreecamAllowed_" data-uid="SDG.Unturned.PlayerLook.sendFreecamAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_sendFreecamAllowed_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.sendFreecamAllowed(System.Boolean)">
+  sendFreecamAllowed(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allow use of spectator mode without admin powers.
+Only used by plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendFreecamAllowed(bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_sendSpecStatsAllowed_" data-uid="SDG.Unturned.PlayerLook.sendSpecStatsAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_sendSpecStatsAllowed_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.sendSpecStatsAllowed(System.Boolean)">
+  sendSpecStatsAllowed(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allow use of spectator overlay mode without admin powers.
+Only used by plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSpecStatsAllowed(bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_sendWorkzoneAllowed_" data-uid="SDG.Unturned.PlayerLook.sendWorkzoneAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_sendWorkzoneAllowed_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.sendWorkzoneAllowed(System.Boolean)">
+  sendWorkzoneAllowed(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allow use of workzone mode without admin powers.
+Only used by plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendWorkzoneAllowed(bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_setPerspective_" data-uid="SDG.Unturned.PlayerLook.setPerspective*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_setPerspective_SDG_Unturned_EPlayerPerspective_" data-uid="SDG.Unturned.PlayerLook.setPerspective(SDG.Unturned.EPlayerPerspective)">
+  setPerspective(EPlayerPerspective)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;this was never supported server-side&quot;)]
+public void setPerspective(EPlayerPerspective newPerspective)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPerspective</code> <a class="xref" href="SDG.Unturned.EPlayerPerspective.html">EPlayerPerspective</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_simulate_" data-uid="SDG.Unturned.PlayerLook.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_simulate_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.PlayerLook.simulate(System.Single,System.Single,System.Single)">
+  simulate(float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(float look_x, float look_y, float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>look_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>look_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_tellFreecamAllowed_" data-uid="SDG.Unturned.PlayerLook.tellFreecamAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_tellFreecamAllowed_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.tellFreecamAllowed(Steamworks.CSteamID,System.Boolean)">
+  tellFreecamAllowed(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellFreecamAllowed(CSteamID senderId, bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_tellSpecStatsAllowed_" data-uid="SDG.Unturned.PlayerLook.tellSpecStatsAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_tellSpecStatsAllowed_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.tellSpecStatsAllowed(Steamworks.CSteamID,System.Boolean)">
+  tellSpecStatsAllowed(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSpecStatsAllowed(CSteamID senderId, bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_tellWorkzoneAllowed_" data-uid="SDG.Unturned.PlayerLook.tellWorkzoneAllowed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_tellWorkzoneAllowed_Steamworks_CSteamID_System_Boolean_" data-uid="SDG.Unturned.PlayerLook.tellWorkzoneAllowed(Steamworks.CSteamID,System.Boolean)">
+  tellWorkzoneAllowed(CSteamID, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWorkzoneAllowed(CSteamID senderId, bool isAllowed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>senderId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>isAllowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_updateAim_" data-uid="SDG.Unturned.PlayerLook.updateAim*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_updateAim_System_Single_" data-uid="SDG.Unturned.PlayerLook.updateAim(System.Single)">
+  updateAim(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateAim(float delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_updateLook_" data-uid="SDG.Unturned.PlayerLook.updateLook*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_updateLook" data-uid="SDG.Unturned.PlayerLook.updateLook">
+  updateLook()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateLook()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_updateRot_" data-uid="SDG.Unturned.PlayerLook.updateRot*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_updateRot" data-uid="SDG.Unturned.PlayerLook.updateRot">
+  updateRot()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateRot()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLook_updateScope_" data-uid="SDG.Unturned.PlayerLook.updateScope*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLook_updateScope_SDG_Unturned_EGraphicQuality_" data-uid="SDG.Unturned.PlayerLook.updateScope(SDG.Unturned.EGraphicQuality)">
+  updateScope(EGraphicQuality)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateScope(EGraphicQuality quality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quality</code> <a class="xref" href="SDG.Unturned.EGraphicQuality.html">EGraphicQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

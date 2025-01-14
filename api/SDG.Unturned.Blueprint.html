@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Blueprint | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Blueprint | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.Blueprint">
+
+
+
+  <h1 id="SDG_Unturned_Blueprint" data-uid="SDG.Unturned.Blueprint" class="text-break">
+Class Blueprint  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Blueprint</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Blueprint</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_Blueprint__ctor_" data-uid="SDG.Unturned.Blueprint.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint__ctor_SDG_Unturned_ItemAsset_System_Byte_SDG_Unturned_EBlueprintType_SDG_Unturned_BlueprintSupply___SDG_Unturned_BlueprintOutput___System_UInt16_System_Boolean_System_UInt16_System_Byte_SDG_Unturned_EBlueprintSkill_System_Boolean_System_String_SDG_Unturned_INPCCondition___SDG_Unturned_NPCRewardsList_" data-uid="SDG.Unturned.Blueprint.#ctor(SDG.Unturned.ItemAsset,System.Byte,SDG.Unturned.EBlueprintType,SDG.Unturned.BlueprintSupply[],SDG.Unturned.BlueprintOutput[],System.UInt16,System.Boolean,System.UInt16,System.Byte,SDG.Unturned.EBlueprintSkill,System.Boolean,System.String,SDG.Unturned.INPCCondition[],SDG.Unturned.NPCRewardsList)">
+  Blueprint(ItemAsset, byte, EBlueprintType, BlueprintSupply[], BlueprintOutput[], ushort, bool, ushort, byte, EBlueprintSkill, bool, string, INPCCondition[], NPCRewardsList)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Blueprint(ItemAsset newSourceItem, byte newID, EBlueprintType newType, BlueprintSupply[] newSupplies, BlueprintOutput[] newOutputs, ushort newTool, bool newToolCritical, ushort newBuild, byte newLevel, EBlueprintSkill newSkill, bool newTransferState, string newMap, INPCCondition[] newQuestConditions, NPCRewardsList newQuestRewardsList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newSourceItem</code> <a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></dt>
+    <dd></dd>
+    <dt><code>newID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newType</code> <a class="xref" href="SDG.Unturned.EBlueprintType.html">EBlueprintType</a></dt>
+    <dd></dd>
+    <dt><code>newSupplies</code> <a class="xref" href="SDG.Unturned.BlueprintSupply.html">BlueprintSupply</a>[]</dt>
+    <dd></dd>
+    <dt><code>newOutputs</code> <a class="xref" href="SDG.Unturned.BlueprintOutput.html">BlueprintOutput</a>[]</dt>
+    <dd></dd>
+    <dt><code>newTool</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newToolCritical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newBuild</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newLevel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSkill</code> <a class="xref" href="SDG.Unturned.EBlueprintSkill.html">EBlueprintSkill</a></dt>
+    <dd></dd>
+    <dt><code>newTransferState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>newQuestConditions</code> <a class="xref" href="SDG.Unturned.INPCCondition.html">INPCCondition</a>[]</dt>
+    <dd></dd>
+    <dt><code>newQuestRewardsList</code> <a class="xref" href="SDG.Unturned.NPCRewardsList.html">NPCRewardsList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint__ctor_" data-uid="SDG.Unturned.Blueprint.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint__ctor_SDG_Unturned_ItemAsset_System_Byte_SDG_Unturned_EBlueprintType_SDG_Unturned_BlueprintSupply___SDG_Unturned_BlueprintOutput___System_UInt16_System_Boolean_System_UInt16_System_Guid_System_Byte_SDG_Unturned_EBlueprintSkill_System_Boolean_System_Boolean_System_String_SDG_Unturned_INPCCondition___SDG_Unturned_NPCRewardsList_" data-uid="SDG.Unturned.Blueprint.#ctor(SDG.Unturned.ItemAsset,System.Byte,SDG.Unturned.EBlueprintType,SDG.Unturned.BlueprintSupply[],SDG.Unturned.BlueprintOutput[],System.UInt16,System.Boolean,System.UInt16,System.Guid,System.Byte,SDG.Unturned.EBlueprintSkill,System.Boolean,System.Boolean,System.String,SDG.Unturned.INPCCondition[],SDG.Unturned.NPCRewardsList)">
+  Blueprint(ItemAsset, byte, EBlueprintType, BlueprintSupply[], BlueprintOutput[], ushort, bool, ushort, Guid, byte, EBlueprintSkill, bool, bool, string, INPCCondition[], NPCRewardsList)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Blueprint(ItemAsset newSourceItem, byte newID, EBlueprintType newType, BlueprintSupply[] newSupplies, BlueprintOutput[] newOutputs, ushort newTool, bool newToolCritical, ushort newBuild, Guid newBuildEffectGuid, byte newLevel, EBlueprintSkill newSkill, bool newTransferState, bool newWithoutAttachments, string newMap, INPCCondition[] newQuestConditions, NPCRewardsList newQuestRewardsList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newSourceItem</code> <a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></dt>
+    <dd></dd>
+    <dt><code>newID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newType</code> <a class="xref" href="SDG.Unturned.EBlueprintType.html">EBlueprintType</a></dt>
+    <dd></dd>
+    <dt><code>newSupplies</code> <a class="xref" href="SDG.Unturned.BlueprintSupply.html">BlueprintSupply</a>[]</dt>
+    <dd></dd>
+    <dt><code>newOutputs</code> <a class="xref" href="SDG.Unturned.BlueprintOutput.html">BlueprintOutput</a>[]</dt>
+    <dd></dd>
+    <dt><code>newTool</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newToolCritical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newBuild</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newBuildEffectGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>newLevel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSkill</code> <a class="xref" href="SDG.Unturned.EBlueprintSkill.html">EBlueprintSkill</a></dt>
+    <dd></dd>
+    <dt><code>newTransferState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newWithoutAttachments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>newQuestConditions</code> <a class="xref" href="SDG.Unturned.INPCCondition.html">INPCCondition</a>[]</dt>
+    <dd></dd>
+    <dt><code>newQuestRewardsList</code> <a class="xref" href="SDG.Unturned.NPCRewardsList.html">NPCRewardsList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_canBeVisibleWhenSearchedWithoutRequiredItems" data-uid="SDG.Unturned.Blueprint.canBeVisibleWhenSearchedWithoutRequiredItems">
+  canBeVisibleWhenSearchedWithoutRequiredItems
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>2023-05-27: requested by Renaxon because some Arid blueprints are debug-only and
+should not be visible when players search by name. (the 3.23.7.0 update made
+non-craftable blueprints searchable for Buak)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canBeVisibleWhenSearchedWithoutRequiredItems</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_hasItem" data-uid="SDG.Unturned.Blueprint.hasItem">
+  hasItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_hasSkills" data-uid="SDG.Unturned.Blueprint.hasSkills">
+  hasSkills
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSkills</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_hasSupplies" data-uid="SDG.Unturned.Blueprint.hasSupplies">
+  hasSupplies
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSupplies</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_hasTool" data-uid="SDG.Unturned.Blueprint.hasTool">
+  hasTool
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasTool</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_items" data-uid="SDG.Unturned.Blueprint.items">
+  items
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort items</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_products" data-uid="SDG.Unturned.Blueprint.products">
+  products
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort products</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_questRewardsList" data-uid="SDG.Unturned.Blueprint.questRewardsList">
+  questRewardsList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NPCRewardsList questRewardsList</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.NPCRewardsList.html">NPCRewardsList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_tools" data-uid="SDG.Unturned.Blueprint.tools">
+  tools
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort tools</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Blueprint_withoutAttachments" data-uid="SDG.Unturned.Blueprint.withoutAttachments">
+  withoutAttachments
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, and transferState is enabled, delete attached items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool withoutAttachments</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_Blueprint_BuildEffectGuid_" data-uid="SDG.Unturned.Blueprint.BuildEffectGuid*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_BuildEffectGuid" data-uid="SDG.Unturned.Blueprint.BuildEffectGuid">
+  BuildEffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid BuildEffectGuid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_build_" data-uid="SDG.Unturned.Blueprint.build*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_build" data-uid="SDG.Unturned.Blueprint.build">
+  build
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort build { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_id_" data-uid="SDG.Unturned.Blueprint.id*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_id" data-uid="SDG.Unturned.Blueprint.id">
+  id
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_level_" data-uid="SDG.Unturned.Blueprint.level*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_level" data-uid="SDG.Unturned.Blueprint.level">
+  level
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte level { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_map_" data-uid="SDG.Unturned.Blueprint.map*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_map" data-uid="SDG.Unturned.Blueprint.map">
+  map
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string map { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_outputs_" data-uid="SDG.Unturned.Blueprint.outputs*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_outputs" data-uid="SDG.Unturned.Blueprint.outputs">
+  outputs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlueprintOutput[] outputs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.BlueprintOutput.html">BlueprintOutput</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_questConditions_" data-uid="SDG.Unturned.Blueprint.questConditions*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_questConditions" data-uid="SDG.Unturned.Blueprint.questConditions">
+  questConditions
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Must match conditions to craft.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INPCCondition[] questConditions { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.INPCCondition.html">INPCCondition</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_questRewards_" data-uid="SDG.Unturned.Blueprint.questRewards*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_questRewards" data-uid="SDG.Unturned.Blueprint.questRewards">
+  questRewards
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Extra rewards given after crafting. Not displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public INPCReward[] questRewards { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.INPCReward.html">INPCReward</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_skill_" data-uid="SDG.Unturned.Blueprint.skill*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_skill" data-uid="SDG.Unturned.Blueprint.skill">
+  skill
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBlueprintSkill skill { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EBlueprintSkill.html">EBlueprintSkill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_sourceItem_" data-uid="SDG.Unturned.Blueprint.sourceItem*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_sourceItem" data-uid="SDG.Unturned.Blueprint.sourceItem">
+  sourceItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemAsset sourceItem { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ItemAsset.html">ItemAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_supplies_" data-uid="SDG.Unturned.Blueprint.supplies*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_supplies" data-uid="SDG.Unturned.Blueprint.supplies">
+  supplies
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlueprintSupply[] supplies { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.BlueprintSupply.html">BlueprintSupply</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_tool_" data-uid="SDG.Unturned.Blueprint.tool*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_tool" data-uid="SDG.Unturned.Blueprint.tool">
+  tool
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort tool { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_toolCritical_" data-uid="SDG.Unturned.Blueprint.toolCritical*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_toolCritical" data-uid="SDG.Unturned.Blueprint.toolCritical">
+  toolCritical
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool toolCritical { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_transferState_" data-uid="SDG.Unturned.Blueprint.transferState*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_transferState" data-uid="SDG.Unturned.Blueprint.transferState">
+  transferState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool transferState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_type_" data-uid="SDG.Unturned.Blueprint.type*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_type" data-uid="SDG.Unturned.Blueprint.type">
+  type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBlueprintType type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EBlueprintType.html">EBlueprintType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_Blueprint_ApplyConditions_" data-uid="SDG.Unturned.Blueprint.ApplyConditions*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_ApplyConditions_SDG_Unturned_Player_" data-uid="SDG.Unturned.Blueprint.ApplyConditions(SDG.Unturned.Player)">
+  ApplyConditions(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyConditions(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_FindBuildEffectAsset_" data-uid="SDG.Unturned.Blueprint.FindBuildEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_FindBuildEffectAsset" data-uid="SDG.Unturned.Blueprint.FindBuildEffectAsset">
+  FindBuildEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindBuildEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_GrantRewards_" data-uid="SDG.Unturned.Blueprint.GrantRewards*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_GrantRewards_SDG_Unturned_Player_" data-uid="SDG.Unturned.Blueprint.GrantRewards(SDG.Unturned.Player)">
+  GrantRewards(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GrantRewards(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_ToString_" data-uid="SDG.Unturned.Blueprint.ToString*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_ToString" data-uid="SDG.Unturned.Blueprint.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_applyConditions_" data-uid="SDG.Unturned.Blueprint.applyConditions*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_applyConditions_SDG_Unturned_Player_System_Boolean_" data-uid="SDG.Unturned.Blueprint.applyConditions(SDG.Unturned.Player,System.Boolean)">
+  applyConditions(Player, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Removed shouldSend parameter&quot;)]
+public void applyConditions(Player player, bool shouldSend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>shouldSend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_areConditionsMet_" data-uid="SDG.Unturned.Blueprint.areConditionsMet*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_areConditionsMet_SDG_Unturned_Player_" data-uid="SDG.Unturned.Blueprint.areConditionsMet(SDG.Unturned.Player)">
+  areConditionsMet(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool areConditionsMet(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Blueprint_grantRewards_" data-uid="SDG.Unturned.Blueprint.grantRewards*"></a>
+
+  <h3 id="SDG_Unturned_Blueprint_grantRewards_SDG_Unturned_Player_System_Boolean_" data-uid="SDG.Unturned.Blueprint.grantRewards(SDG.Unturned.Player,System.Boolean)">
+  grantRewards(Player, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Removed shouldSend parameter&quot;)]
+public void grantRewards(Player player, bool shouldSend)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>shouldSend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

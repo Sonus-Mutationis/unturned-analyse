@@ -1,0 +1,5486 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerQuests | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerQuests | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerQuests">
+
+
+
+  <h1 id="SDG_Unturned_PlayerQuests" data-uid="SDG.Unturned.PlayerQuests" class="text-break">
+Class PlayerQuests  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerQuests : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerQuests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerQuests__ctor_" data-uid="SDG.Unturned.PlayerQuests.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests__ctor" data-uid="SDG.Unturned.PlayerQuests.#ctor">
+  PlayerQuests()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerQuests()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_DEFAULT_RADIO_FREQUENCY" data-uid="SDG.Unturned.PlayerQuests.DEFAULT_RADIO_FREQUENCY">
+  DEFAULT_RADIO_FREQUENCY
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly uint DEFAULT_RADIO_FREQUENCY</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_SAVEDATA_VERSION" data-uid="SDG.Unturned.PlayerQuests.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_checkNPC" data-uid="SDG.Unturned.PlayerQuests.checkNPC">
+  checkNPC
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by DialogueTarget. Will be removed in a future version!&quot;)]
+public InteractableObjectNPC checkNPC</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableObjectNPC.html">InteractableObjectNPC</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupUpdated" data-uid="SDG.Unturned.PlayerQuests.groupUpdated">
+  groupUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GroupUpdatedHandler groupUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.GroupUpdatedHandler.html">GroupUpdatedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_npcSpawnId" data-uid="SDG.Unturned.PlayerQuests.npcSpawnId">
+  npcSpawnId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If set, default spawn logic will check for a location node or spawnpoint node matching name.
+Saved and loaded between sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string npcSpawnId</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_onExternalConditionsUpdated" data-uid="SDG.Unturned.PlayerQuests.onExternalConditionsUpdated">
+  onExternalConditionsUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExternalConditionsUpdated onExternalConditionsUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ExternalConditionsUpdated.html">ExternalConditionsUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_onFlagUpdated" data-uid="SDG.Unturned.PlayerQuests.onFlagUpdated">
+  onFlagUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlagUpdated onFlagUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.FlagUpdated.html">FlagUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_onFlagsUpdated" data-uid="SDG.Unturned.PlayerQuests.onFlagsUpdated">
+  onFlagsUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlagsUpdated onFlagsUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.FlagsUpdated.html">FlagsUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerQuests_DialogueTarget_" data-uid="SDG.Unturned.PlayerQuests.DialogueTarget*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_DialogueTarget" data-uid="SDG.Unturned.PlayerQuests.DialogueTarget">
+  DialogueTarget
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDialogueTarget DialogueTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.IDialogueTarget.html">IDialogueTarget</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_TrackedQuestID_" data-uid="SDG.Unturned.PlayerQuests.TrackedQuestID*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_TrackedQuestID" data-uid="SDG.Unturned.PlayerQuests.TrackedQuestID">
+  TrackedQuestID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by GetTrackedQuest&quot;)]
+public ushort TrackedQuestID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_canBeKickedFromGroup_" data-uid="SDG.Unturned.PlayerQuests.canBeKickedFromGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_canBeKickedFromGroup" data-uid="SDG.Unturned.PlayerQuests.canBeKickedFromGroup">
+  canBeKickedFromGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canBeKickedFromGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_canChangeGroupMembership_" data-uid="SDG.Unturned.PlayerQuests.canChangeGroupMembership*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_canChangeGroupMembership" data-uid="SDG.Unturned.PlayerQuests.canChangeGroupMembership">
+  canChangeGroupMembership
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check before allowing changes to this player's <a class="xref" href="SDG.Unturned.PlayerQuests.html#SDG_Unturned_PlayerQuests_groupID">groupID</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canChangeGroupMembership { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_flagsList_" data-uid="SDG.Unturned.PlayerQuests.flagsList*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_flagsList" data-uid="SDG.Unturned.PlayerQuests.flagsList">
+  flagsList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PlayerQuestFlag&gt; flagsList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.PlayerQuestFlag.html">PlayerQuestFlag</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_groupID_" data-uid="SDG.Unturned.PlayerQuests.groupID*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupID" data-uid="SDG.Unturned.PlayerQuests.groupID">
+  groupID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSteamID groupID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_groupInvites_" data-uid="SDG.Unturned.PlayerQuests.groupInvites*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupInvites" data-uid="SDG.Unturned.PlayerQuests.groupInvites">
+  groupInvites
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;CSteamID&gt; groupInvites { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<span class="xref">CSteamID</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_groupRank_" data-uid="SDG.Unturned.PlayerQuests.groupRank*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupRank" data-uid="SDG.Unturned.PlayerQuests.groupRank">
+  groupRank
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerGroupRank groupRank { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerGroupRank.html">EPlayerGroupRank</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToChangeName_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToChangeName*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToChangeName" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToChangeName">
+  hasPermissionToChangeName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can rename the group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToChangeName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToChangeRank_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToChangeRank*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToChangeRank" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToChangeRank">
+  hasPermissionToChangeRank
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can promote and demote members.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToChangeRank { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToCreateGroup_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToCreateGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToCreateGroup" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToCreateGroup">
+  hasPermissionToCreateGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToCreateGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToDeleteGroup_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToDeleteGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToDeleteGroup" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToDeleteGroup">
+  hasPermissionToDeleteGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToDeleteGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToInviteMembers_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToInviteMembers*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToInviteMembers" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToInviteMembers">
+  hasPermissionToInviteMembers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToInviteMembers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToKickMembers_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToKickMembers*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToKickMembers" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToKickMembers">
+  hasPermissionToKickMembers
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToKickMembers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasPermissionToLeaveGroup_" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToLeaveGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasPermissionToLeaveGroup" data-uid="SDG.Unturned.PlayerQuests.hasPermissionToLeaveGroup">
+  hasPermissionToLeaveGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasPermissionToLeaveGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_hasSpaceForMoreMembersInGroup_" data-uid="SDG.Unturned.PlayerQuests.hasSpaceForMoreMembersInGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_hasSpaceForMoreMembersInGroup" data-uid="SDG.Unturned.PlayerQuests.hasSpaceForMoreMembersInGroup">
+  hasSpaceForMoreMembersInGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSpaceForMoreMembersInGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_isMarkerPlaced_" data-uid="SDG.Unturned.PlayerQuests.isMarkerPlaced*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_isMarkerPlaced" data-uid="SDG.Unturned.PlayerQuests.isMarkerPlaced">
+  isMarkerPlaced
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMarkerPlaced { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_isMemberOfAGroup_" data-uid="SDG.Unturned.PlayerQuests.isMemberOfAGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_isMemberOfAGroup" data-uid="SDG.Unturned.PlayerQuests.isMemberOfAGroup">
+  isMemberOfAGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMemberOfAGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_markerPosition_" data-uid="SDG.Unturned.PlayerQuests.markerPosition*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_markerPosition" data-uid="SDG.Unturned.PlayerQuests.markerPosition">
+  markerPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 markerPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_markerTextOverride_" data-uid="SDG.Unturned.PlayerQuests.markerTextOverride*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_markerTextOverride" data-uid="SDG.Unturned.PlayerQuests.markerTextOverride">
+  markerTextOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string markerTextOverride { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_questsList_" data-uid="SDG.Unturned.PlayerQuests.questsList*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_questsList" data-uid="SDG.Unturned.PlayerQuests.questsList">
+  questsList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PlayerQuest&gt; questsList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.PlayerQuest.html">PlayerQuest</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_radioFrequency_" data-uid="SDG.Unturned.PlayerQuests.radioFrequency*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_radioFrequency" data-uid="SDG.Unturned.PlayerQuests.radioFrequency">
+  radioFrequency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint radioFrequency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_useMaxGroupMembersLimit_" data-uid="SDG.Unturned.PlayerQuests.useMaxGroupMembersLimit*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_useMaxGroupMembersLimit" data-uid="SDG.Unturned.PlayerQuests.useMaxGroupMembersLimit">
+  useMaxGroupMembersLimit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useMaxGroupMembersLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerQuests_AbandonQuest_" data-uid="SDG.Unturned.PlayerQuests.AbandonQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_AbandonQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.AbandonQuest(SDG.Unturned.QuestAsset)">
+  AbandonQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Identical to ServerRemoveQuest&quot;)]
+public void AbandonQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_AddQuest_" data-uid="SDG.Unturned.PlayerQuests.AddQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_AddQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.AddQuest(SDG.Unturned.QuestAsset)">
+  AddQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ClientAbandonQuest_" data-uid="SDG.Unturned.PlayerQuests.ClientAbandonQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ClientAbandonQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.ClientAbandonQuest(SDG.Unturned.QuestAsset)">
+  ClientAbandonQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called by quest details UI to request server to abandon quest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClientAbandonQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ClientChooseDialogueResponse_" data-uid="SDG.Unturned.PlayerQuests.ClientChooseDialogueResponse*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ClientChooseDialogueResponse_System_Guid_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.ClientChooseDialogueResponse(System.Guid,System.Byte)">
+  ClientChooseDialogueResponse(Guid, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClientChooseDialogueResponse(Guid assetGuid, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ClientChooseNextDialogue_" data-uid="SDG.Unturned.PlayerQuests.ClientChooseNextDialogue*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ClientChooseNextDialogue_System_Guid_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.ClientChooseNextDialogue(System.Guid,System.Byte)">
+  ClientChooseNextDialogue(Guid, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when there are no responses to choose, but server has indicated a next dialogue is available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClientChooseNextDialogue(Guid assetGuid, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ClientTrackQuest_" data-uid="SDG.Unturned.PlayerQuests.ClientTrackQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ClientTrackQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.ClientTrackQuest(SDG.Unturned.QuestAsset)">
+  ClientTrackQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClientTrackQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_CompleteQuest_" data-uid="SDG.Unturned.PlayerQuests.CompleteQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_CompleteQuest_SDG_Unturned_QuestAsset_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.CompleteQuest(SDG.Unturned.QuestAsset,System.Boolean)">
+  CompleteQuest(QuestAsset, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on server to finalize and remove quest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CompleteQuest(QuestAsset questAsset, bool ignoreNPC = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+    <dt><code>ignoreNPC</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_GetQuestStatus_" data-uid="SDG.Unturned.PlayerQuests.GetQuestStatus*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_GetQuestStatus_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.GetQuestStatus(SDG.Unturned.QuestAsset)">
+  GetQuestStatus(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ENPCQuestStatus GetQuestStatus(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ENPCQuestStatus.html">ENPCQuestStatus</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_GetTrackedQuest_" data-uid="SDG.Unturned.PlayerQuests.GetTrackedQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_GetTrackedQuest" data-uid="SDG.Unturned.PlayerQuests.GetTrackedQuest">
+  GetTrackedQuest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public QuestAsset GetTrackedQuest()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_IsCutsceneModeActive_" data-uid="SDG.Unturned.PlayerQuests.IsCutsceneModeActive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_IsCutsceneModeActive" data-uid="SDG.Unturned.PlayerQuests.IsCutsceneModeActive">
+  IsCutsceneModeActive()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, hide viewmodel and prevent using equipped item. For example, to prevent shooting gun on top of a
+first-person scene. This could be expanded in the future with other flags and options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCutsceneModeActive()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveAbandonQuestRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAbandonQuestRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveAbandonQuestRequest_System_Guid_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAbandonQuestRequest(System.Guid)">
+  ReceiveAbandonQuestRequest(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 5)]
+public void ReceiveAbandonQuestRequest(Guid assetGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveAcceptGroupInvitationRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAcceptGroupInvitationRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveAcceptGroupInvitationRequest_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAcceptGroupInvitationRequest(Steamworks.CSteamID)">
+  ReceiveAcceptGroupInvitationRequest(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askJoinGroupInvite&quot;)]
+public void ReceiveAcceptGroupInvitationRequest(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveAddGroupInviteClient_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAddGroupInviteClient*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveAddGroupInviteClient_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAddGroupInviteClient(Steamworks.CSteamID)">
+  ReceiveAddGroupInviteClient(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellAddGroupInvite&quot;)]
+public void ReceiveAddGroupInviteClient(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveAddGroupInviteRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAddGroupInviteRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveAddGroupInviteRequest_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAddGroupInviteRequest(Steamworks.CSteamID)">
+  ReceiveAddGroupInviteRequest(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askAddGroupInvite&quot;)]
+public void ReceiveAddGroupInviteRequest(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveAddQuest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAddQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveAddQuest_System_Guid_" data-uid="SDG.Unturned.PlayerQuests.ReceiveAddQuest(System.Guid)">
+  ReceiveAddQuest(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveAddQuest(Guid assetGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveBuyFromVendor_" data-uid="SDG.Unturned.PlayerQuests.ReceiveBuyFromVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveBuyFromVendor_SDG_Unturned_ServerInvocationContext__System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveBuyFromVendor(SDG.Unturned.ServerInvocationContext@,System.Guid,System.Byte,System.Boolean)">
+  ReceiveBuyFromVendor(in ServerInvocationContext, Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10, legacyName = &quot;askBuyFromVendor&quot;)]
+public void ReceiveBuyFromVendor(in ServerInvocationContext context, Guid assetGuid, byte index, bool asManyAsPossible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>asManyAsPossible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveChooseDefaultNextDialogueRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveChooseDefaultNextDialogueRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveChooseDefaultNextDialogueRequest_SDG_Unturned_ServerInvocationContext__System_Guid_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.ReceiveChooseDefaultNextDialogueRequest(SDG.Unturned.ServerInvocationContext@,System.Guid,System.Byte)">
+  ReceiveChooseDefaultNextDialogueRequest(in ServerInvocationContext, Guid, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 20)]
+public void ReceiveChooseDefaultNextDialogueRequest(in ServerInvocationContext context, Guid assetGuid, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveChooseDialogueResponseRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveChooseDialogueResponseRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveChooseDialogueResponseRequest_SDG_Unturned_ServerInvocationContext__System_Guid_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.ReceiveChooseDialogueResponseRequest(SDG.Unturned.ServerInvocationContext@,System.Guid,System.Byte)">
+  ReceiveChooseDialogueResponseRequest(in ServerInvocationContext, Guid, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 20)]
+public void ReceiveChooseDialogueResponseRequest(in ServerInvocationContext context, Guid assetGuid, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveCreateGroupRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveCreateGroupRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveCreateGroupRequest" data-uid="SDG.Unturned.PlayerQuests.ReceiveCreateGroupRequest">
+  ReceiveCreateGroupRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askCreateGroup&quot;)]
+public void ReceiveCreateGroupRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveCutsceneMode_" data-uid="SDG.Unturned.PlayerQuests.ReceiveCutsceneMode*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveCutsceneMode_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveCutsceneMode(System.Boolean)">
+  ReceiveCutsceneMode(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveCutsceneMode(bool newCutsceneMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newCutsceneMode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveDeclineGroupInvitationRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveDeclineGroupInvitationRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveDeclineGroupInvitationRequest_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveDeclineGroupInvitationRequest(Steamworks.CSteamID)">
+  ReceiveDeclineGroupInvitationRequest(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askJoinGroupInvite&quot;)]
+public void ReceiveDeclineGroupInvitationRequest(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveDeleteGroupRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveDeleteGroupRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveDeleteGroupRequest" data-uid="SDG.Unturned.PlayerQuests.ReceiveDeleteGroupRequest">
+  ReceiveDeleteGroupRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askDeleteGroup&quot;)]
+public void ReceiveDeleteGroupRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveDemoteRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveDemoteRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveDemoteRequest_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveDemoteRequest(Steamworks.CSteamID)">
+  ReceiveDemoteRequest(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askDemote&quot;)]
+public void ReceiveDemoteRequest(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveGroupState_" data-uid="SDG.Unturned.PlayerQuests.ReceiveGroupState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveGroupState_Steamworks_CSteamID_SDG_Unturned_EPlayerGroupRank_" data-uid="SDG.Unturned.PlayerQuests.ReceiveGroupState(Steamworks.CSteamID,SDG.Unturned.EPlayerGroupRank)">
+  ReceiveGroupState(CSteamID, EPlayerGroupRank)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSetGroup&quot;)]
+public void ReceiveGroupState(CSteamID newGroupID, EPlayerGroupRank newGroupRank)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newGroupRank</code> <a class="xref" href="SDG.Unturned.EPlayerGroupRank.html">EPlayerGroupRank</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveKickFromGroup_" data-uid="SDG.Unturned.PlayerQuests.ReceiveKickFromGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveKickFromGroup_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveKickFromGroup(Steamworks.CSteamID)">
+  ReceiveKickFromGroup(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askKickFromGroup&quot;)]
+public void ReceiveKickFromGroup(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveLeaveGroupRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveLeaveGroupRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveLeaveGroupRequest" data-uid="SDG.Unturned.PlayerQuests.ReceiveLeaveGroupRequest">
+  ReceiveLeaveGroupRequest()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askLeaveGroup&quot;)]
+public void ReceiveLeaveGroupRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveMarkerState_" data-uid="SDG.Unturned.PlayerQuests.ReceiveMarkerState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveMarkerState_System_Boolean_UnityEngine_Vector3_System_String_" data-uid="SDG.Unturned.PlayerQuests.ReceiveMarkerState(System.Boolean,UnityEngine.Vector3,System.String)">
+  ReceiveMarkerState(bool, Vector3, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSetMarker&quot;)]
+public void ReceiveMarkerState(bool newIsMarkerPlaced, Vector3 newMarkerPosition, string newMarkerTextOverride)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newIsMarkerPlaced</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMarkerPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newMarkerTextOverride</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveOpenDialogue_" data-uid="SDG.Unturned.PlayerQuests.ReceiveOpenDialogue*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveOpenDialogue_SDG_Unturned_ClientInvocationContext__System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveOpenDialogue(SDG.Unturned.ClientInvocationContext@,System.Guid,System.Byte,System.Boolean)">
+  ReceiveOpenDialogue(in ClientInvocationContext, Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveOpenDialogue(in ClientInvocationContext context, Guid dialogueAssetGuid, byte messageIndex, bool hasNextDialogue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>dialogueAssetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>messageIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hasNextDialogue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveOpenVendor_" data-uid="SDG.Unturned.PlayerQuests.ReceiveOpenVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveOpenVendor_SDG_Unturned_ClientInvocationContext__System_Guid_System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveOpenVendor(SDG.Unturned.ClientInvocationContext@,System.Guid,System.Guid,System.Byte,System.Boolean)">
+  ReceiveOpenVendor(in ClientInvocationContext, Guid, Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveOpenVendor(in ClientInvocationContext context, Guid vendorAssetGuid, Guid dialogueAssetGuid, byte messageIndex, bool hasNextDialogue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>vendorAssetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>dialogueAssetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>messageIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hasNextDialogue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceivePromoteRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceivePromoteRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceivePromoteRequest_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceivePromoteRequest(Steamworks.CSteamID)">
+  ReceivePromoteRequest(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askPromote&quot;)]
+public void ReceivePromoteRequest(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveQuests_" data-uid="SDG.Unturned.PlayerQuests.ReceiveQuests*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveQuests_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerQuests.ReceiveQuests(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveQuests(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveQuests(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveRadioFrequencyState_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRadioFrequencyState*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveRadioFrequencyState_System_UInt32_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRadioFrequencyState(System.UInt32)">
+  ReceiveRadioFrequencyState(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSetRadioFrequency&quot;)]
+public void ReceiveRadioFrequencyState(uint newRadioFrequency)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newRadioFrequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveRemoveFlag_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRemoveFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveRemoveFlag_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRemoveFlag(System.UInt16)">
+  ReceiveRemoveFlag(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellRemoveFlag&quot;)]
+public void ReceiveRemoveFlag(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveRemoveGroupInviteClient_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRemoveGroupInviteClient*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveRemoveGroupInviteClient_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRemoveGroupInviteClient(Steamworks.CSteamID)">
+  ReceiveRemoveGroupInviteClient(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveRemoveGroupInviteClient(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveRemoveQuest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRemoveQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveRemoveQuest_System_Guid_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRemoveQuest(System.Guid,System.Boolean)">
+  ReceiveRemoveQuest(Guid, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveRemoveQuest(Guid assetGuid, bool wasCompleted)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>wasCompleted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveRenameGroupRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRenameGroupRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveRenameGroupRequest_System_String_" data-uid="SDG.Unturned.PlayerQuests.ReceiveRenameGroupRequest(System.String)">
+  ReceiveRenameGroupRequest(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 2, legacyName = &quot;askRenameGroup&quot;)]
+public void ReceiveRenameGroupRequest(string newName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveSellToVendor_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSellToVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveSellToVendor_SDG_Unturned_ServerInvocationContext__System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSellToVendor(SDG.Unturned.ServerInvocationContext@,System.Guid,System.Byte,System.Boolean)">
+  ReceiveSellToVendor(in ServerInvocationContext, Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 10, legacyName = &quot;askSellToVendor&quot;)]
+public void ReceiveSellToVendor(in ServerInvocationContext context, Guid assetGuid, byte index, bool asManyAsPossible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>asManyAsPossible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveSetFlag_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSetFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveSetFlag_System_UInt16_System_Int16_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSetFlag(System.UInt16,System.Int16)">
+  ReceiveSetFlag(ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellSetFlag&quot;)]
+public void ReceiveSetFlag(ushort id, short value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveSetMarkerRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSetMarkerRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveSetMarkerRequest_System_Boolean_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSetMarkerRequest(System.Boolean,UnityEngine.Vector3)">
+  ReceiveSetMarkerRequest(bool, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 5, legacyName = &quot;askSetMarker&quot;)]
+public void ReceiveSetMarkerRequest(bool newIsMarkerPlaced, Vector3 newMarkerPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newIsMarkerPlaced</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMarkerPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveSetRadioFrequencyRequest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSetRadioFrequencyRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveSetRadioFrequencyRequest_System_UInt32_" data-uid="SDG.Unturned.PlayerQuests.ReceiveSetRadioFrequencyRequest(System.UInt32)">
+  ReceiveSetRadioFrequencyRequest(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 5, legacyName = &quot;askSetRadioFrequency&quot;)]
+public void ReceiveSetRadioFrequencyRequest(uint newRadioFrequency)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newRadioFrequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveTalkWithNpcResponse_" data-uid="SDG.Unturned.PlayerQuests.ReceiveTalkWithNpcResponse*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveTalkWithNpcResponse_SDG_Unturned_ClientInvocationContext__SDG_Unturned_NetId_System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ReceiveTalkWithNpcResponse(SDG.Unturned.ClientInvocationContext@,SDG.Unturned.NetId,System.Guid,System.Byte,System.Boolean)">
+  ReceiveTalkWithNpcResponse(in ClientInvocationContext, NetId, Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceiveTalkWithNpcResponse(in ClientInvocationContext context, NetId targetNpcNetId, Guid dialogueAssetGuid, byte messageIndex, bool hasNextDialogue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+    <dt><code>targetNpcNetId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+    <dt><code>dialogueAssetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>messageIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hasNextDialogue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ReceiveTrackQuest_" data-uid="SDG.Unturned.PlayerQuests.ReceiveTrackQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ReceiveTrackQuest_System_Guid_" data-uid="SDG.Unturned.PlayerQuests.ReceiveTrackQuest(System.Guid)">
+  ReceiveTrackQuest(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 5)]
+public void ReceiveTrackQuest(Guid assetGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_RemoveQuest_" data-uid="SDG.Unturned.PlayerQuests.RemoveQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_RemoveQuest_SDG_Unturned_QuestAsset_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.RemoveQuest(SDG.Unturned.QuestAsset,System.Boolean)">
+  RemoveQuest(QuestAsset, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveQuest(QuestAsset questAsset, bool wasCompleted = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+    <dt><code>wasCompleted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_SendAcceptGroupInvitation_" data-uid="SDG.Unturned.PlayerQuests.SendAcceptGroupInvitation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_SendAcceptGroupInvitation_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.SendAcceptGroupInvitation(Steamworks.CSteamID)">
+  SendAcceptGroupInvitation(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendAcceptGroupInvitation(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_SendDeclineGroupInvitation_" data-uid="SDG.Unturned.PlayerQuests.SendDeclineGroupInvitation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_SendDeclineGroupInvitation_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.SendDeclineGroupInvitation(Steamworks.CSteamID)">
+  SendDeclineGroupInvitation(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendDeclineGroupInvitation(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerAddQuest_" data-uid="SDG.Unturned.PlayerQuests.ServerAddQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerAddQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.ServerAddQuest(SDG.Unturned.QuestAsset)">
+  ServerAddQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerAddQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerAssignToGroup_" data-uid="SDG.Unturned.PlayerQuests.ServerAssignToGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerAssignToGroup_Steamworks_CSteamID_SDG_Unturned_EPlayerGroupRank_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ServerAssignToGroup(Steamworks.CSteamID,SDG.Unturned.EPlayerGroupRank,System.Boolean)">
+  ServerAssignToGroup(CSteamID, EPlayerGroupRank, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ServerAssignToGroup(CSteamID newGroupID, EPlayerGroupRank newRank, bool bypassMemberLimit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newRank</code> <a class="xref" href="SDG.Unturned.EPlayerGroupRank.html">EPlayerGroupRank</a></dt>
+    <dd></dd>
+    <dt><code>bypassMemberLimit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerAssignToMainGroup_" data-uid="SDG.Unturned.PlayerQuests.ServerAssignToMainGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerAssignToMainGroup" data-uid="SDG.Unturned.PlayerQuests.ServerAssignToMainGroup">
+  ServerAssignToMainGroup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set player's group to their Steam group (if any) without testing restrictions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerAssignToMainGroup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerRemoveGroupInvitation_" data-uid="SDG.Unturned.PlayerQuests.ServerRemoveGroupInvitation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerRemoveGroupInvitation_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.ServerRemoveGroupInvitation(Steamworks.CSteamID)">
+  ServerRemoveGroupInvitation(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ServerRemoveGroupInvitation(CSteamID groupId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>groupId</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerRemoveQuest_" data-uid="SDG.Unturned.PlayerQuests.ServerRemoveQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerRemoveQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.ServerRemoveQuest(SDG.Unturned.QuestAsset)">
+  ServerRemoveQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerRemoveQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerRemoveQuest_" data-uid="SDG.Unturned.PlayerQuests.ServerRemoveQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerRemoveQuest_SDG_Unturned_QuestAsset_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ServerRemoveQuest(SDG.Unturned.QuestAsset,System.Boolean)">
+  ServerRemoveQuest(QuestAsset, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerRemoveQuest(QuestAsset questAsset, bool wasCompleted = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+    <dt><code>wasCompleted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_ServerSetCutsceneModeActive_" data-uid="SDG.Unturned.PlayerQuests.ServerSetCutsceneModeActive*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_ServerSetCutsceneModeActive_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.ServerSetCutsceneModeActive(System.Boolean)">
+  ServerSetCutsceneModeActive(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerSetCutsceneModeActive(bool active)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>active</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_TrackQuest_" data-uid="SDG.Unturned.PlayerQuests.TrackQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_TrackQuest_SDG_Unturned_QuestAsset_" data-uid="SDG.Unturned.PlayerQuests.TrackQuest(SDG.Unturned.QuestAsset)">
+  TrackQuest(QuestAsset)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TrackQuest(QuestAsset questAsset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>questAsset</code> <a class="xref" href="SDG.Unturned.QuestAsset.html">QuestAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_abandonQuest_" data-uid="SDG.Unturned.PlayerQuests.abandonQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_abandonQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.abandonQuest(System.UInt16)">
+  abandonQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void abandonQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_addQuest_" data-uid="SDG.Unturned.PlayerQuests.addQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_addQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.addQuest(System.UInt16)">
+  addQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void addQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askAbandonQuest_" data-uid="SDG.Unturned.PlayerQuests.askAbandonQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askAbandonQuest_Steamworks_CSteamID_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.askAbandonQuest(Steamworks.CSteamID,System.UInt16)">
+  askAbandonQuest(CSteamID, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAbandonQuest(CSteamID steamID, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askAddGroupInvite_" data-uid="SDG.Unturned.PlayerQuests.askAddGroupInvite*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askAddGroupInvite_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askAddGroupInvite(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askAddGroupInvite(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askAddGroupInvite(CSteamID steamID, CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askBuyFromVendor_" data-uid="SDG.Unturned.PlayerQuests.askBuyFromVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askBuyFromVendor_Steamworks_CSteamID_System_UInt16_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.askBuyFromVendor(Steamworks.CSteamID,System.UInt16,System.Byte)">
+  askBuyFromVendor(CSteamID, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askBuyFromVendor(CSteamID steamID, ushort id, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askCreateGroup_" data-uid="SDG.Unturned.PlayerQuests.askCreateGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askCreateGroup_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askCreateGroup(Steamworks.CSteamID)">
+  askCreateGroup(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askCreateGroup(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askDeleteGroup_" data-uid="SDG.Unturned.PlayerQuests.askDeleteGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askDeleteGroup_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askDeleteGroup(Steamworks.CSteamID)">
+  askDeleteGroup(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askDeleteGroup(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askDemote_" data-uid="SDG.Unturned.PlayerQuests.askDemote*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askDemote_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askDemote(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askDemote(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askDemote(CSteamID steamID, CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askIgnoreGroupInvite_" data-uid="SDG.Unturned.PlayerQuests.askIgnoreGroupInvite*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askIgnoreGroupInvite_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askIgnoreGroupInvite(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askIgnoreGroupInvite(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askIgnoreGroupInvite(CSteamID steamID, CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askJoinGroupInvite_" data-uid="SDG.Unturned.PlayerQuests.askJoinGroupInvite*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askJoinGroupInvite_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askJoinGroupInvite(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askJoinGroupInvite(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askJoinGroupInvite(CSteamID steamID, CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askKickFromGroup_" data-uid="SDG.Unturned.PlayerQuests.askKickFromGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askKickFromGroup_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askKickFromGroup(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askKickFromGroup(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askKickFromGroup(CSteamID steamID, CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askLeaveGroup_" data-uid="SDG.Unturned.PlayerQuests.askLeaveGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askLeaveGroup_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askLeaveGroup(Steamworks.CSteamID)">
+  askLeaveGroup(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askLeaveGroup(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askPromote_" data-uid="SDG.Unturned.PlayerQuests.askPromote*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askPromote_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askPromote(Steamworks.CSteamID,Steamworks.CSteamID)">
+  askPromote(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askPromote(CSteamID steamID, CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askQuests_" data-uid="SDG.Unturned.PlayerQuests.askQuests*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askQuests_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.askQuests(Steamworks.CSteamID)">
+  askQuests(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askQuests(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askRenameGroup_" data-uid="SDG.Unturned.PlayerQuests.askRenameGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askRenameGroup_Steamworks_CSteamID_System_String_" data-uid="SDG.Unturned.PlayerQuests.askRenameGroup(Steamworks.CSteamID,System.String)">
+  askRenameGroup(CSteamID, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askRenameGroup(CSteamID steamID, string newName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askSellToVendor_" data-uid="SDG.Unturned.PlayerQuests.askSellToVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askSellToVendor_Steamworks_CSteamID_System_UInt16_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.askSellToVendor(Steamworks.CSteamID,System.UInt16,System.Byte)">
+  askSellToVendor(CSteamID, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSellToVendor(CSteamID steamID, ushort id, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askSetMarker_" data-uid="SDG.Unturned.PlayerQuests.askSetMarker*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askSetMarker_Steamworks_CSteamID_System_Boolean_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerQuests.askSetMarker(Steamworks.CSteamID,System.Boolean,UnityEngine.Vector3)">
+  askSetMarker(CSteamID, bool, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSetMarker(CSteamID steamID, bool newIsMarkerPlaced, Vector3 newMarkerPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newIsMarkerPlaced</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMarkerPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askSetRadioFrequency_" data-uid="SDG.Unturned.PlayerQuests.askSetRadioFrequency*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askSetRadioFrequency_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.PlayerQuests.askSetRadioFrequency(Steamworks.CSteamID,System.UInt32)">
+  askSetRadioFrequency(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askSetRadioFrequency(CSteamID steamID, uint newRadioFrequency)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newRadioFrequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_askTrackQuest_" data-uid="SDG.Unturned.PlayerQuests.askTrackQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_askTrackQuest_Steamworks_CSteamID_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.askTrackQuest(Steamworks.CSteamID,System.UInt16)">
+  askTrackQuest(CSteamID, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askTrackQuest(CSteamID steamID, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_changeRank_" data-uid="SDG.Unturned.PlayerQuests.changeRank*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_changeRank_SDG_Unturned_EPlayerGroupRank_" data-uid="SDG.Unturned.PlayerQuests.changeRank(SDG.Unturned.EPlayerGroupRank)">
+  changeRank(EPlayerGroupRank)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Call serverside to replicate new rank to clients</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void changeRank(EPlayerGroupRank newRank)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newRank</code> <a class="xref" href="SDG.Unturned.EPlayerGroupRank.html">EPlayerGroupRank</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_completeQuest_" data-uid="SDG.Unturned.PlayerQuests.completeQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_completeQuest_System_UInt16_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.completeQuest(System.UInt16,System.Boolean)">
+  completeQuest(ushort, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void completeQuest(ushort id, bool ignoreNPC = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>ignoreNPC</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_countValidQuests_" data-uid="SDG.Unturned.PlayerQuests.countValidQuests*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_countValidQuests" data-uid="SDG.Unturned.PlayerQuests.countValidQuests">
+  countValidQuests()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int countValidQuests()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_deleteGroup_" data-uid="SDG.Unturned.PlayerQuests.deleteGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_deleteGroup" data-uid="SDG.Unturned.PlayerQuests.deleteGroup">
+  deleteGroup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void deleteGroup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_getFlag_" data-uid="SDG.Unturned.PlayerQuests.getFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_getFlag_System_UInt16_System_Int16__" data-uid="SDG.Unturned.PlayerQuests.getFlag(System.UInt16,System.Int16@)">
+  getFlag(ushort, out short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getFlag(ushort id, out short value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_getQuest_" data-uid="SDG.Unturned.PlayerQuests.getQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_getQuest_System_UInt16_SDG_Unturned_PlayerQuest__" data-uid="SDG.Unturned.PlayerQuests.getQuest(System.UInt16,SDG.Unturned.PlayerQuest@)">
+  getQuest(ushort, out PlayerQuest)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool getQuest(ushort id, out PlayerQuest quest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>quest</code> <a class="xref" href="SDG.Unturned.PlayerQuest.html">PlayerQuest</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_getQuestStatus_" data-uid="SDG.Unturned.PlayerQuests.getQuestStatus*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_getQuestStatus_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.getQuestStatus(System.UInt16)">
+  getQuestStatus(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ENPCQuestStatus getQuestStatus(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ENPCQuestStatus.html">ENPCQuestStatus</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_isMemberOfGroup_" data-uid="SDG.Unturned.PlayerQuests.isMemberOfGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_isMemberOfGroup_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.isMemberOfGroup(Steamworks.CSteamID)">
+  isMemberOfGroup(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMemberOfGroup(CSteamID groupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>groupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_isMemberOfSameGroupAs_" data-uid="SDG.Unturned.PlayerQuests.isMemberOfSameGroupAs*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_isMemberOfSameGroupAs_SDG_Unturned_Player_" data-uid="SDG.Unturned.PlayerQuests.isMemberOfSameGroupAs(SDG.Unturned.Player)">
+  isMemberOfSameGroupAs(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMemberOfSameGroupAs(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_leaveGroup_" data-uid="SDG.Unturned.PlayerQuests.leaveGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_leaveGroup_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.leaveGroup(System.Boolean)">
+  leaveGroup(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void leaveGroup(bool force = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Ignores group changing rules when true.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_load_" data-uid="SDG.Unturned.PlayerQuests.load*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_load" data-uid="SDG.Unturned.PlayerQuests.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_removeFlag_" data-uid="SDG.Unturned.PlayerQuests.removeFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_removeFlag_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.removeFlag(System.UInt16)">
+  removeFlag(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void removeFlag(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_removeQuest_" data-uid="SDG.Unturned.PlayerQuests.removeQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_removeQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.removeQuest(System.UInt16)">
+  removeQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void removeQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_replicateSetMarker_" data-uid="SDG.Unturned.PlayerQuests.replicateSetMarker*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_replicateSetMarker_System_Boolean_UnityEngine_Vector3_System_String_" data-uid="SDG.Unturned.PlayerQuests.replicateSetMarker(System.Boolean,UnityEngine.Vector3,System.String)">
+  replicateSetMarker(bool, Vector3, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called serverside to set marker on clients.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void replicateSetMarker(bool newIsMarkerPlaced, Vector3 newMarkerPosition, string newMarkerTextOverride = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newIsMarkerPlaced</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMarkerPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newMarkerTextOverride</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_save_" data-uid="SDG.Unturned.PlayerQuests.save*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_save" data-uid="SDG.Unturned.PlayerQuests.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendAbandonQuest_" data-uid="SDG.Unturned.PlayerQuests.sendAbandonQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendAbandonQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.sendAbandonQuest(System.UInt16)">
+  sendAbandonQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendAbandonQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendAddGroupInvite_" data-uid="SDG.Unturned.PlayerQuests.sendAddGroupInvite*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendAddGroupInvite_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.sendAddGroupInvite(Steamworks.CSteamID)">
+  sendAddGroupInvite(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serverside send packet telling player about this invite</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendAddGroupInvite(CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendAddQuest_" data-uid="SDG.Unturned.PlayerQuests.sendAddQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendAddQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.sendAddQuest(System.UInt16)">
+  sendAddQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendAddQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendAskAddGroupInvite_" data-uid="SDG.Unturned.PlayerQuests.sendAskAddGroupInvite*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendAskAddGroupInvite_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.sendAskAddGroupInvite(Steamworks.CSteamID)">
+  sendAskAddGroupInvite(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendAskAddGroupInvite(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendBuyFromVendor_" data-uid="SDG.Unturned.PlayerQuests.sendBuyFromVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendBuyFromVendor_System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.sendBuyFromVendor(System.Guid,System.Byte,System.Boolean)">
+  sendBuyFromVendor(Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendBuyFromVendor(Guid assetGuid, byte index, bool asManyAsPossible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>asManyAsPossible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendBuyFromVendor_" data-uid="SDG.Unturned.PlayerQuests.sendBuyFromVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendBuyFromVendor_System_UInt16_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.sendBuyFromVendor(System.UInt16,System.Byte)">
+  sendBuyFromVendor(ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendBuyFromVendor(ushort id, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendCreateGroup_" data-uid="SDG.Unturned.PlayerQuests.sendCreateGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendCreateGroup" data-uid="SDG.Unturned.PlayerQuests.sendCreateGroup">
+  sendCreateGroup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendCreateGroup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendDeleteGroup_" data-uid="SDG.Unturned.PlayerQuests.sendDeleteGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendDeleteGroup" data-uid="SDG.Unturned.PlayerQuests.sendDeleteGroup">
+  sendDeleteGroup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendDeleteGroup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendDemote_" data-uid="SDG.Unturned.PlayerQuests.sendDemote*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendDemote_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.sendDemote(Steamworks.CSteamID)">
+  sendDemote(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendDemote(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendKickFromGroup_" data-uid="SDG.Unturned.PlayerQuests.sendKickFromGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendKickFromGroup_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.sendKickFromGroup(Steamworks.CSteamID)">
+  sendKickFromGroup(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendKickFromGroup(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendLeaveGroup_" data-uid="SDG.Unturned.PlayerQuests.sendLeaveGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendLeaveGroup" data-uid="SDG.Unturned.PlayerQuests.sendLeaveGroup">
+  sendLeaveGroup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendLeaveGroup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendPromote_" data-uid="SDG.Unturned.PlayerQuests.sendPromote*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendPromote_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.sendPromote(Steamworks.CSteamID)">
+  sendPromote(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendPromote(CSteamID targetID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendRemoveFlag_" data-uid="SDG.Unturned.PlayerQuests.sendRemoveFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendRemoveFlag_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.sendRemoveFlag(System.UInt16)">
+  sendRemoveFlag(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendRemoveFlag(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendRemoveQuest_" data-uid="SDG.Unturned.PlayerQuests.sendRemoveQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendRemoveQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.sendRemoveQuest(System.UInt16)">
+  sendRemoveQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendRemoveQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendRenameGroup_" data-uid="SDG.Unturned.PlayerQuests.sendRenameGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendRenameGroup_System_String_" data-uid="SDG.Unturned.PlayerQuests.sendRenameGroup(System.String)">
+  sendRenameGroup(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendRenameGroup(string newName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendSellToVendor_" data-uid="SDG.Unturned.PlayerQuests.sendSellToVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendSellToVendor_System_Guid_System_Byte_System_Boolean_" data-uid="SDG.Unturned.PlayerQuests.sendSellToVendor(System.Guid,System.Byte,System.Boolean)">
+  sendSellToVendor(Guid, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSellToVendor(Guid assetGuid, byte index, bool asManyAsPossible)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>asManyAsPossible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendSellToVendor_" data-uid="SDG.Unturned.PlayerQuests.sendSellToVendor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendSellToVendor_System_UInt16_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.sendSellToVendor(System.UInt16,System.Byte)">
+  sendSellToVendor(ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendSellToVendor(ushort id, byte index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendSetFlag_" data-uid="SDG.Unturned.PlayerQuests.sendSetFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendSetFlag_System_UInt16_System_Int16_" data-uid="SDG.Unturned.PlayerQuests.sendSetFlag(System.UInt16,System.Int16)">
+  sendSetFlag(ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSetFlag(ushort id, short value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendSetMarker_" data-uid="SDG.Unturned.PlayerQuests.sendSetMarker*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendSetMarker_System_Boolean_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerQuests.sendSetMarker(System.Boolean,UnityEngine.Vector3)">
+  sendSetMarker(bool, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ask server to set marker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSetMarker(bool newIsMarkerPlaced, Vector3 newMarkerPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newIsMarkerPlaced</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMarkerPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendSetRadioFrequency_" data-uid="SDG.Unturned.PlayerQuests.sendSetRadioFrequency*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendSetRadioFrequency_System_UInt32_" data-uid="SDG.Unturned.PlayerQuests.sendSetRadioFrequency(System.UInt32)">
+  sendSetRadioFrequency(uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendSetRadioFrequency(uint newRadioFrequency)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newRadioFrequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_sendTrackQuest_" data-uid="SDG.Unturned.PlayerQuests.sendTrackQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_sendTrackQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.sendTrackQuest(System.UInt16)">
+  sendTrackQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendTrackQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_setFlag_" data-uid="SDG.Unturned.PlayerQuests.setFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_setFlag_System_UInt16_System_Int16_" data-uid="SDG.Unturned.PlayerQuests.setFlag(System.UInt16,System.Int16)">
+  setFlag(ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setFlag(ushort id, short value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellAddGroupInvite_" data-uid="SDG.Unturned.PlayerQuests.tellAddGroupInvite*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellAddGroupInvite_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.tellAddGroupInvite(Steamworks.CSteamID,Steamworks.CSteamID)">
+  tellAddGroupInvite(CSteamID, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellAddGroupInvite(CSteamID steamID, CSteamID newGroupID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellAddQuest_" data-uid="SDG.Unturned.PlayerQuests.tellAddQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellAddQuest_Steamworks_CSteamID_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.tellAddQuest(Steamworks.CSteamID,System.UInt16)">
+  tellAddQuest(CSteamID, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellAddQuest(CSteamID steamID, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellQuests_" data-uid="SDG.Unturned.PlayerQuests.tellQuests*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellQuests_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerQuests.tellQuests(Steamworks.CSteamID)">
+  tellQuests(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellQuests(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellRemoveFlag_" data-uid="SDG.Unturned.PlayerQuests.tellRemoveFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellRemoveFlag_Steamworks_CSteamID_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.tellRemoveFlag(Steamworks.CSteamID,System.UInt16)">
+  tellRemoveFlag(CSteamID, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellRemoveFlag(CSteamID steamID, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellRemoveQuest_" data-uid="SDG.Unturned.PlayerQuests.tellRemoveQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellRemoveQuest_Steamworks_CSteamID_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.tellRemoveQuest(Steamworks.CSteamID,System.UInt16)">
+  tellRemoveQuest(CSteamID, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellRemoveQuest(CSteamID steamID, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellSetFlag_" data-uid="SDG.Unturned.PlayerQuests.tellSetFlag*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellSetFlag_Steamworks_CSteamID_System_UInt16_System_Int16_" data-uid="SDG.Unturned.PlayerQuests.tellSetFlag(Steamworks.CSteamID,System.UInt16,System.Int16)">
+  tellSetFlag(CSteamID, ushort, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSetFlag(CSteamID steamID, ushort id, short value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellSetGroup_" data-uid="SDG.Unturned.PlayerQuests.tellSetGroup*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellSetGroup_Steamworks_CSteamID_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.tellSetGroup(Steamworks.CSteamID,Steamworks.CSteamID,System.Byte)">
+  tellSetGroup(CSteamID, CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSetGroup(CSteamID steamID, CSteamID newGroupID, byte newGroupRank)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newGroupID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newGroupRank</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellSetMarker_" data-uid="SDG.Unturned.PlayerQuests.tellSetMarker*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellSetMarker_Steamworks_CSteamID_System_Boolean_UnityEngine_Vector3_System_String_" data-uid="SDG.Unturned.PlayerQuests.tellSetMarker(Steamworks.CSteamID,System.Boolean,UnityEngine.Vector3,System.String)">
+  tellSetMarker(CSteamID, bool, Vector3, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSetMarker(CSteamID steamID, bool newIsMarkerPlaced, Vector3 newMarkerPosition, string newMarkerTextOverride)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newIsMarkerPlaced</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newMarkerPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newMarkerTextOverride</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_tellSetRadioFrequency_" data-uid="SDG.Unturned.PlayerQuests.tellSetRadioFrequency*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_tellSetRadioFrequency_Steamworks_CSteamID_System_UInt32_" data-uid="SDG.Unturned.PlayerQuests.tellSetRadioFrequency(Steamworks.CSteamID,System.UInt32)">
+  tellSetRadioFrequency(CSteamID, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellSetRadioFrequency(CSteamID steamID, uint newRadioFrequency)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newRadioFrequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackAnimalKill_" data-uid="SDG.Unturned.PlayerQuests.trackAnimalKill*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackAnimalKill_SDG_Unturned_Animal_" data-uid="SDG.Unturned.PlayerQuests.trackAnimalKill(SDG.Unturned.Animal)">
+  trackAnimalKill(Animal)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void trackAnimalKill(Animal animal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animal</code> <a class="xref" href="SDG.Unturned.Animal.html">Animal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackHordeKill_" data-uid="SDG.Unturned.PlayerQuests.trackHordeKill*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackHordeKill" data-uid="SDG.Unturned.PlayerQuests.trackHordeKill">
+  trackHordeKill()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void trackHordeKill()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackObjectKill_" data-uid="SDG.Unturned.PlayerQuests.trackObjectKill*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackObjectKill_System_Guid_System_Byte_" data-uid="SDG.Unturned.PlayerQuests.trackObjectKill(System.Guid,System.Byte)">
+  trackObjectKill(Guid, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void trackObjectKill(Guid objectGuid, byte nav)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>nav</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackPlayerKill_" data-uid="SDG.Unturned.PlayerQuests.trackPlayerKill*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackPlayerKill_SDG_Unturned_Player_" data-uid="SDG.Unturned.PlayerQuests.trackPlayerKill(SDG.Unturned.Player)">
+  trackPlayerKill(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void trackPlayerKill(Player enemyPlayer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enemyPlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackQuest_" data-uid="SDG.Unturned.PlayerQuests.trackQuest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackQuest_System_UInt16_" data-uid="SDG.Unturned.PlayerQuests.trackQuest(System.UInt16)">
+  trackQuest(ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void trackQuest(ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackTreeKill_" data-uid="SDG.Unturned.PlayerQuests.trackTreeKill*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackTreeKill_System_Guid_" data-uid="SDG.Unturned.PlayerQuests.trackTreeKill(System.Guid)">
+  trackTreeKill(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void trackTreeKill(Guid treeGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>treeGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerQuests_trackZombieKill_" data-uid="SDG.Unturned.PlayerQuests.trackZombieKill*"></a>
+
+  <h3 id="SDG_Unturned_PlayerQuests_trackZombieKill_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.PlayerQuests.trackZombieKill(SDG.Unturned.Zombie)">
+  trackZombieKill(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void trackZombieKill(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_TrackedQuestUpdated" data-uid="SDG.Unturned.PlayerQuests.TrackedQuestUpdated">
+  TrackedQuestUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event TrackedQuestUpdated TrackedQuestUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TrackedQuestUpdated.html">TrackedQuestUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupIDChanged" data-uid="SDG.Unturned.PlayerQuests.groupIDChanged">
+  groupIDChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event GroupIDChangedHandler groupIDChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.GroupIDChangedHandler.html">GroupIDChangedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupInvitesChanged" data-uid="SDG.Unturned.PlayerQuests.groupInvitesChanged">
+  groupInvitesChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event GroupInvitesChangedHandler groupInvitesChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.GroupInvitesChangedHandler.html">GroupInvitesChangedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_groupRankChanged" data-uid="SDG.Unturned.PlayerQuests.groupRankChanged">
+  groupRankChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event GroupRankChangedHandler groupRankChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.GroupRankChangedHandler.html">GroupRankChangedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_onAnyFlagChanged" data-uid="SDG.Unturned.PlayerQuests.onAnyFlagChanged">
+  onAnyFlagChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event specifically for plugins to listen to global quest progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event PlayerQuests.AnyFlagChangedHandler onAnyFlagChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerQuests.html">PlayerQuests</a>.<a class="xref" href="SDG.Unturned.PlayerQuests.AnyFlagChangedHandler.html">AnyFlagChangedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_onGroupChanged" data-uid="SDG.Unturned.PlayerQuests.onGroupChanged">
+  onGroupChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event for plugins when group or rank changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event PlayerQuests.GroupChangedCallback onGroupChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerQuests.html">PlayerQuests</a>.<a class="xref" href="SDG.Unturned.PlayerQuests.GroupChangedCallback.html">GroupChangedCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerQuests_questCompleted" data-uid="SDG.Unturned.PlayerQuests.questCompleted">
+  questCompleted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event QuestCompletedHandler questCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.QuestCompletedHandler.html">QuestCompletedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SteamChannel | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SteamChannel | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.SteamChannel">
+
+
+
+  <h1 id="SDG_Unturned_SteamChannel" data-uid="SDG.Unturned.SteamChannel" class="text-break">
+Class SteamChannel  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SteamChannel : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SteamChannel</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_SteamChannel__ctor_" data-uid="SDG.Unturned.SteamChannel.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel__ctor" data-uid="SDG.Unturned.SteamChannel.#ctor">
+  SteamChannel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SteamChannel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_CHANNEL_ID_HEADER_SIZE" data-uid="SDG.Unturned.SteamChannel.CHANNEL_ID_HEADER_SIZE">
+  CHANNEL_ID_HEADER_SIZE
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If changing header size remember to update PlayerManager and allocPlayerChannelId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CHANNEL_ID_HEADER_SIZE = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_RPC_HEADER_SIZE" data-uid="SDG.Unturned.SteamChannel.RPC_HEADER_SIZE">
+  RPC_HEADER_SIZE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RPC_HEADER_SIZE = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_VOICE_DATA_OFFSET" data-uid="SDG.Unturned.SteamChannel.VOICE_DATA_OFFSET">
+  VOICE_DATA_OFFSET
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>How far to shift compressed voice data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public const int VOICE_DATA_OFFSET = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_VOICE_HEADER_SIZE" data-uid="SDG.Unturned.SteamChannel.VOICE_HEADER_SIZE">
+  VOICE_HEADER_SIZE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public const int VOICE_HEADER_SIZE = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_id" data-uid="SDG.Unturned.SteamChannel.id">
+  id
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int id</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_isOwner" data-uid="SDG.Unturned.SteamChannel.isOwner">
+  isOwner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to IsLocalPlayer&quot;)]
+public bool isOwner</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_onTriggerReceive" data-uid="SDG.Unturned.SteamChannel.onTriggerReceive">
+  onTriggerReceive
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Don't use this. Originally added so that Rocketmod didn't have to inject into the game's assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Will be deprecated soon. Please discuss on the issue tracker and we will find an alternative.&quot;)]
+public static TriggerReceive onTriggerReceive</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TriggerReceive.html">TriggerReceive</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_onTriggerSend" data-uid="SDG.Unturned.SteamChannel.onTriggerSend">
+  onTriggerSend
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Don't use this. Originally added so that Rocketmod didn't have to inject into the game's assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Will be deprecated soon. Please discuss on the issue tracker and we will find an alternative.&quot;)]
+public static TriggerSend onTriggerSend</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TriggerSend.html">TriggerSend</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_SteamChannel_owner" data-uid="SDG.Unturned.SteamChannel.owner">
+  owner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SteamPlayer owner</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_SteamChannel_IsLocalPlayer_" data-uid="SDG.Unturned.SteamChannel.IsLocalPlayer*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_IsLocalPlayer" data-uid="SDG.Unturned.SteamChannel.IsLocalPlayer">
+  IsLocalPlayer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, this object is owned by a locally-controlled player.
+For example, some code is not run for &quot;remote&quot; players.
+Always true in singleplayer. Always false on dedicated server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLocalPlayer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_calls_" data-uid="SDG.Unturned.SteamChannel.calls*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_calls" data-uid="SDG.Unturned.SteamChannel.calls">
+  calls
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SteamChannelMethod[] calls { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.SteamChannelMethod.html">SteamChannelMethod</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_longBinaryData_" data-uid="SDG.Unturned.SteamChannel.longBinaryData*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_longBinaryData" data-uid="SDG.Unturned.SteamChannel.longBinaryData">
+  longBinaryData
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool longBinaryData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_SteamChannel_EnumerateClients_RemoteNotOwner_" data-uid="SDG.Unturned.SteamChannel.EnumerateClients_RemoteNotOwner*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_EnumerateClients_RemoteNotOwner" data-uid="SDG.Unturned.SteamChannel.EnumerateClients_RemoteNotOwner">
+  EnumerateClients_RemoteNotOwner()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by GatherRemoteClientConnectionsExcludingOwner&quot;)]
+public IEnumerable&lt;ITransportConnection&gt; EnumerateClients_RemoteNotOwner()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">ITransportConnection</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_EnumerateClients_RemoteNotOwnerWithinSphere_" data-uid="SDG.Unturned.SteamChannel.EnumerateClients_RemoteNotOwnerWithinSphere*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_EnumerateClients_RemoteNotOwnerWithinSphere_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.SteamChannel.EnumerateClients_RemoteNotOwnerWithinSphere(UnityEngine.Vector3,System.Single)">
+  EnumerateClients_RemoteNotOwnerWithinSphere(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by GatherRemoteClientConnectionsWithinSphereExcludingOwner&quot;)]
+public IEnumerable&lt;ITransportConnection&gt; EnumerateClients_RemoteNotOwnerWithinSphere(Vector3 position, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">ITransportConnection</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_EnumerateClients_WithinSphereOrOwner_" data-uid="SDG.Unturned.SteamChannel.EnumerateClients_WithinSphereOrOwner*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_EnumerateClients_WithinSphereOrOwner_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.SteamChannel.EnumerateClients_WithinSphereOrOwner(UnityEngine.Vector3,System.Single)">
+  EnumerateClients_WithinSphereOrOwner(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by GatherOwnerAndClientConnectionsWithinSphere&quot;)]
+public IEnumerable&lt;ITransportConnection&gt; EnumerateClients_WithinSphereOrOwner(Vector3 position, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">ITransportConnection</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_GatherOwnerAndClientConnectionsWithinSphere_" data-uid="SDG.Unturned.SteamChannel.GatherOwnerAndClientConnectionsWithinSphere*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_GatherOwnerAndClientConnectionsWithinSphere_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.SteamChannel.GatherOwnerAndClientConnectionsWithinSphere(UnityEngine.Vector3,System.Single)">
+  GatherOwnerAndClientConnectionsWithinSphere(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PooledTransportConnectionList GatherOwnerAndClientConnectionsWithinSphere(Vector3 position, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PooledTransportConnectionList.html">PooledTransportConnectionList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_GatherRemoteClientConnectionsExcludingOwner_" data-uid="SDG.Unturned.SteamChannel.GatherRemoteClientConnectionsExcludingOwner*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_GatherRemoteClientConnectionsExcludingOwner" data-uid="SDG.Unturned.SteamChannel.GatherRemoteClientConnectionsExcludingOwner">
+  GatherRemoteClientConnectionsExcludingOwner()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replacement for ESteamCall.NOT_OWNER.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PooledTransportConnectionList GatherRemoteClientConnectionsExcludingOwner()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PooledTransportConnectionList.html">PooledTransportConnectionList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_GatherRemoteClientConnectionsWithinSphereExcludingOwner_" data-uid="SDG.Unturned.SteamChannel.GatherRemoteClientConnectionsWithinSphereExcludingOwner*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_GatherRemoteClientConnectionsWithinSphereExcludingOwner_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.SteamChannel.GatherRemoteClientConnectionsWithinSphereExcludingOwner(UnityEngine.Vector3,System.Single)">
+  GatherRemoteClientConnectionsWithinSphereExcludingOwner(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PooledTransportConnectionList GatherRemoteClientConnectionsWithinSphereExcludingOwner(Vector3 position, float radius)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PooledTransportConnectionList.html">PooledTransportConnectionList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_GetOwnerTransportConnection_" data-uid="SDG.Unturned.SteamChannel.GetOwnerTransportConnection*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_GetOwnerTransportConnection" data-uid="SDG.Unturned.SteamChannel.GetOwnerTransportConnection">
+  GetOwnerTransportConnection()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Use on server when invoking client methods on the owning player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITransportConnection GetOwnerTransportConnection()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITransportConnection</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_checkOwner_" data-uid="SDG.Unturned.SteamChannel.checkOwner*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_checkOwner_Steamworks_CSteamID_" data-uid="SDG.Unturned.SteamChannel.checkOwner(Steamworks.CSteamID)">
+  checkOwner(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool checkOwner(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_checkServer_" data-uid="SDG.Unturned.SteamChannel.checkServer*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_checkServer_Steamworks_CSteamID_" data-uid="SDG.Unturned.SteamChannel.checkServer(Steamworks.CSteamID)">
+  checkServer(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool checkServer(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_closeWrite_" data-uid="SDG.Unturned.SteamChannel.closeWrite*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_closeWrite_System_String_SDG_Unturned_ESteamCall_SDG_Unturned_ESteamPacket_" data-uid="SDG.Unturned.SteamChannel.closeWrite(System.String,SDG.Unturned.ESteamCall,SDG.Unturned.ESteamPacket)">
+  closeWrite(string, ESteamCall, ESteamPacket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void closeWrite(string name, ESteamCall mode, ESteamPacket type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_closeWrite_" data-uid="SDG.Unturned.SteamChannel.closeWrite*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_closeWrite_System_String_SDG_Unturned_ESteamCall_System_Byte_SDG_Unturned_ESteamPacket_" data-uid="SDG.Unturned.SteamChannel.closeWrite(System.String,SDG.Unturned.ESteamCall,System.Byte,SDG.Unturned.ESteamPacket)">
+  closeWrite(string, ESteamCall, byte, ESteamPacket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void closeWrite(string name, ESteamCall mode, byte bound, ESteamPacket type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_closeWrite_" data-uid="SDG.Unturned.SteamChannel.closeWrite*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_closeWrite_System_String_SDG_Unturned_ESteamCall_System_Byte_System_Byte_System_Byte_SDG_Unturned_ESteamPacket_" data-uid="SDG.Unturned.SteamChannel.closeWrite(System.String,SDG.Unturned.ESteamCall,System.Byte,System.Byte,System.Byte,SDG.Unturned.ESteamPacket)">
+  closeWrite(string, ESteamCall, byte, byte, byte, ESteamPacket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void closeWrite(string name, ESteamCall mode, byte x, byte y, byte area, ESteamPacket type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_closeWrite_" data-uid="SDG.Unturned.SteamChannel.closeWrite*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_closeWrite_System_String_Steamworks_CSteamID_SDG_Unturned_ESteamPacket_" data-uid="SDG.Unturned.SteamChannel.closeWrite(System.String,Steamworks.CSteamID,SDG.Unturned.ESteamPacket)">
+  closeWrite(string, CSteamID, ESteamPacket)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void closeWrite(string name, CSteamID steamID, ESteamPacket type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_decodeVoicePacket_" data-uid="SDG.Unturned.SteamChannel.decodeVoicePacket*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_decodeVoicePacket_System_Byte___System_UInt32__System_Boolean__" data-uid="SDG.Unturned.SteamChannel.decodeVoicePacket(System.Byte[],System.UInt32@,System.Boolean@)">
+  decodeVoicePacket(byte[], out uint, out bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Decode voice parameters from byte array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void decodeVoicePacket(byte[] packet, out uint compressedSize, out bool usingWalkieTalkie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>compressedSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>usingWalkieTalkie</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_encodeVoicePacket_" data-uid="SDG.Unturned.SteamChannel.encodeVoicePacket*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_encodeVoicePacket_System_Byte_System_Int32__System_Byte____System_Byte___System_UInt16_System_Boolean_" data-uid="SDG.Unturned.SteamChannel.encodeVoicePacket(System.Byte,System.Int32@,System.Byte[]@,System.Byte[],System.UInt16,System.Boolean)">
+  encodeVoicePacket(byte, out int, out byte[], byte[], ushort, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Encode byte array of voice data to send.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void encodeVoicePacket(byte callIndex, out int size, out byte[] packet, byte[] bytes, ushort length, bool usingWalkieTalkie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>bytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>usingWalkieTalkie</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_getCall_" data-uid="SDG.Unturned.SteamChannel.getCall*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_getCall_System_String_" data-uid="SDG.Unturned.SteamChannel.getCall(System.String)">
+  getCall(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public int getCall(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_getPacket_" data-uid="SDG.Unturned.SteamChannel.getPacket*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_getPacket_SDG_Unturned_ESteamPacket_System_Int32_System_Int32__System_Byte____" data-uid="SDG.Unturned.SteamChannel.getPacket(SDG.Unturned.ESteamPacket,System.Int32,System.Int32@,System.Byte[]@)">
+  getPacket(ESteamPacket, int, out int, out byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void getPacket(ESteamPacket type, int index, out int size, out byte[] packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_getPacket_" data-uid="SDG.Unturned.SteamChannel.getPacket*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_getPacket_SDG_Unturned_ESteamPacket_System_Int32_System_Int32__System_Byte____System_Object___" data-uid="SDG.Unturned.SteamChannel.getPacket(SDG.Unturned.ESteamPacket,System.Int32,System.Int32@,System.Byte[]@,System.Object[])">
+  getPacket(ESteamPacket, int, out int, out byte[], params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void getPacket(ESteamPacket type, int index, out int size, out byte[] packet, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_markDirty_" data-uid="SDG.Unturned.SteamChannel.markDirty*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_markDirty" data-uid="SDG.Unturned.SteamChannel.markDirty">
+  markDirty()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls array needs rebuilding the next time it is used.
+Should be invoked when adding/removing components with RPCs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void markDirty()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_openWrite_" data-uid="SDG.Unturned.SteamChannel.openWrite*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_openWrite" data-uid="SDG.Unturned.SteamChannel.openWrite">
+  openWrite()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void openWrite()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_read_" data-uid="SDG.Unturned.SteamChannel.read*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_read_System_Type_" data-uid="SDG.Unturned.SteamChannel.read(System.Type)">
+  read(Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public object read(Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_read_" data-uid="SDG.Unturned.SteamChannel.read*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_read_System_Type_System_Type_System_Type_" data-uid="SDG.Unturned.SteamChannel.read(System.Type,System.Type,System.Type)">
+  read(Type, Type, Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public object[] read(Type type_0, Type type_1, Type type_2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_read_" data-uid="SDG.Unturned.SteamChannel.read*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_read_System_Type_System_Type_System_Type_System_Type_" data-uid="SDG.Unturned.SteamChannel.read(System.Type,System.Type,System.Type,System.Type)">
+  read(Type, Type, Type, Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public object[] read(Type type_0, Type type_1, Type type_2, Type type_3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_read_" data-uid="SDG.Unturned.SteamChannel.read*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_read_System_Type_System_Type_System_Type_System_Type_System_Type_System_Type_" data-uid="SDG.Unturned.SteamChannel.read(System.Type,System.Type,System.Type,System.Type,System.Type,System.Type)">
+  read(Type, Type, Type, Type, Type, Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public object[] read(Type type_0, Type type_1, Type type_2, Type type_3, Type type_4, Type type_5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_4</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_5</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_read_" data-uid="SDG.Unturned.SteamChannel.read*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_read_System_Type_System_Type_System_Type_System_Type_System_Type_System_Type_System_Type_" data-uid="SDG.Unturned.SteamChannel.read(System.Type,System.Type,System.Type,System.Type,System.Type,System.Type,System.Type)">
+  read(Type, Type, Type, Type, Type, Type, Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public object[] read(Type type_0, Type type_1, Type type_2, Type type_3, Type type_4, Type type_5, Type type_6)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_4</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_5</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+    <dt><code>type_6</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_read_" data-uid="SDG.Unturned.SteamChannel.read*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_read_System_Type___" data-uid="SDG.Unturned.SteamChannel.read(System.Type[])">
+  read(params Type[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public object[] read(params Type[] types)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>types</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_receive_" data-uid="SDG.Unturned.SteamChannel.receive*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_receive_Steamworks_CSteamID_System_Byte___System_Int32_System_Int32_" data-uid="SDG.Unturned.SteamChannel.receive(Steamworks.CSteamID,System.Byte[],System.Int32,System.Int32)">
+  receive(CSteamID, byte[], int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public bool receive(CSteamID steamID, byte[] packet, int offset, int size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the call succeeded, or false if the sender should be refused.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_SDG_Unturned_ESteamCall_SDG_Unturned_ESteamPacket_System_Int32_System_Byte___" data-uid="SDG.Unturned.SteamChannel.send(SDG.Unturned.ESteamCall,SDG.Unturned.ESteamPacket,System.Int32,System.Byte[])">
+  send(ESteamCall, ESteamPacket, int, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(ESteamCall mode, ESteamPacket type, int size, byte[] packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_SDG_Unturned_ESteamCall_System_Byte_SDG_Unturned_ESteamPacket_System_Int32_System_Byte___" data-uid="SDG.Unturned.SteamChannel.send(SDG.Unturned.ESteamCall,System.Byte,SDG.Unturned.ESteamPacket,System.Int32,System.Byte[])">
+  send(ESteamCall, byte, ESteamPacket, int, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(ESteamCall mode, byte bound, ESteamPacket type, int size, byte[] packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_SDG_Unturned_ESteamCall_System_Byte_System_Byte_System_Byte_SDG_Unturned_ESteamPacket_System_Int32_System_Byte___" data-uid="SDG.Unturned.SteamChannel.send(SDG.Unturned.ESteamCall,System.Byte,System.Byte,System.Byte,SDG.Unturned.ESteamPacket,System.Int32,System.Byte[])">
+  send(ESteamCall, byte, byte, byte, ESteamPacket, int, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(ESteamCall mode, byte x, byte y, byte area, ESteamPacket type, int size, byte[] packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_SDG_Unturned_ESteamCall_UnityEngine_Vector3_System_Single_SDG_Unturned_ESteamPacket_System_Int32_System_Byte___" data-uid="SDG.Unturned.SteamChannel.send(SDG.Unturned.ESteamCall,UnityEngine.Vector3,System.Single,SDG.Unturned.ESteamPacket,System.Int32,System.Byte[])">
+  send(ESteamCall, Vector3, float, ESteamPacket, int, byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(ESteamCall mode, Vector3 point, float radius, ESteamPacket type, int size, byte[] packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_System_String_SDG_Unturned_ESteamCall_SDG_Unturned_ESteamPacket_System_Object___" data-uid="SDG.Unturned.SteamChannel.send(System.String,SDG.Unturned.ESteamCall,SDG.Unturned.ESteamPacket,System.Object[])">
+  send(string, ESteamCall, ESteamPacket, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(string name, ESteamCall mode, ESteamPacket type, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_System_String_SDG_Unturned_ESteamCall_System_Byte_SDG_Unturned_ESteamPacket_System_Object___" data-uid="SDG.Unturned.SteamChannel.send(System.String,SDG.Unturned.ESteamCall,System.Byte,SDG.Unturned.ESteamPacket,System.Object[])">
+  send(string, ESteamCall, byte, ESteamPacket, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(string name, ESteamCall mode, byte bound, ESteamPacket type, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_System_String_SDG_Unturned_ESteamCall_System_Byte_System_Byte_System_Byte_SDG_Unturned_ESteamPacket_System_Object___" data-uid="SDG.Unturned.SteamChannel.send(System.String,SDG.Unturned.ESteamCall,System.Byte,System.Byte,System.Byte,SDG.Unturned.ESteamPacket,System.Object[])">
+  send(string, ESteamCall, byte, byte, byte, ESteamPacket, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(string name, ESteamCall mode, byte x, byte y, byte area, ESteamPacket type, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>area</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_System_String_SDG_Unturned_ESteamCall_UnityEngine_Vector3_System_Single_SDG_Unturned_ESteamPacket_System_Object___" data-uid="SDG.Unturned.SteamChannel.send(System.String,SDG.Unturned.ESteamCall,UnityEngine.Vector3,System.Single,SDG.Unturned.ESteamPacket,System.Object[])">
+  send(string, ESteamCall, Vector3, float, ESteamPacket, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(string name, ESteamCall mode, Vector3 point, float radius, ESteamPacket type, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.ESteamCall.html">ESteamCall</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_send_" data-uid="SDG.Unturned.SteamChannel.send*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_send_System_String_Steamworks_CSteamID_SDG_Unturned_ESteamPacket_System_Object___" data-uid="SDG.Unturned.SteamChannel.send(System.String,Steamworks.CSteamID,SDG.Unturned.ESteamPacket,System.Object[])">
+  send(string, CSteamID, ESteamPacket, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void send(string name, CSteamID steamID, ESteamPacket type, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_sendAside_" data-uid="SDG.Unturned.SteamChannel.sendAside*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_sendAside_System_String_Steamworks_CSteamID_SDG_Unturned_ESteamPacket_System_Object___" data-uid="SDG.Unturned.SteamChannel.sendAside(System.String,Steamworks.CSteamID,SDG.Unturned.ESteamPacket,System.Object[])">
+  sendAside(string, CSteamID, ESteamPacket, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendAside(string name, CSteamID steamID, ESteamPacket type, params object[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="SDG.Unturned.ESteamPacket.html">ESteamPacket</a></dt>
+    <dd></dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_sendVoicePacket_" data-uid="SDG.Unturned.SteamChannel.sendVoicePacket*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_sendVoicePacket_SDG_Unturned_SteamPlayer_System_Byte___System_Int32_" data-uid="SDG.Unturned.SteamChannel.sendVoicePacket(SDG.Unturned.SteamPlayer,System.Byte[],System.Int32)">
+  sendVoicePacket(SteamPlayer, byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void sendVoicePacket(SteamPlayer player, byte[] packet, int packetSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>packetSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_setup_" data-uid="SDG.Unturned.SteamChannel.setup*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_setup" data-uid="SDG.Unturned.SteamChannel.setup">
+  setup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_write_" data-uid="SDG.Unturned.SteamChannel.write*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_write_System_Object_" data-uid="SDG.Unturned.SteamChannel.write(System.Object)">
+  write(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void write(object objects)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_write_" data-uid="SDG.Unturned.SteamChannel.write*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_write_System_Object_System_Object_System_Object_" data-uid="SDG.Unturned.SteamChannel.write(System.Object,System.Object,System.Object)">
+  write(object, object, object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void write(object object_0, object object_1, object object_2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>object_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_write_" data-uid="SDG.Unturned.SteamChannel.write*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_write_System_Object_System_Object_System_Object_System_Object_" data-uid="SDG.Unturned.SteamChannel.write(System.Object,System.Object,System.Object,System.Object)">
+  write(object, object, object, object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void write(object object_0, object object_1, object object_2, object object_3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>object_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_write_" data-uid="SDG.Unturned.SteamChannel.write*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_write_System_Object_System_Object_System_Object_System_Object_System_Object_System_Object_" data-uid="SDG.Unturned.SteamChannel.write(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+  write(object, object, object, object, object, object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void write(object object_0, object object_1, object object_2, object object_3, object object_4, object object_5)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>object_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_4</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_5</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_write_" data-uid="SDG.Unturned.SteamChannel.write*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_write_System_Object_System_Object_System_Object_System_Object_System_Object_System_Object_System_Object_" data-uid="SDG.Unturned.SteamChannel.write(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+  write(object, object, object, object, object, object, object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void write(object object_0, object object_1, object object_2, object object_3, object object_4, object object_5, object object_6)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>object_0</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_4</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_5</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>object_6</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_SteamChannel_write_" data-uid="SDG.Unturned.SteamChannel.write*"></a>
+
+  <h3 id="SDG_Unturned_SteamChannel_write_System_Object___" data-uid="SDG.Unturned.SteamChannel.write(System.Object[])">
+  write(params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void write(params object[] objects)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

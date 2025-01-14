@@ -1,0 +1,6022 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VehicleAsset | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VehicleAsset | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.VehicleAsset">
+
+
+
+  <h1 id="SDG_Unturned_VehicleAsset" data-uid="SDG.Unturned.VehicleAsset" class="text-break">
+Class VehicleAsset  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class VehicleAsset : Asset, IAssetErrorContext, ISkinableAsset</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.Asset.html">Asset</a></div>
+      <div><span class="xref">VehicleAsset</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IAssetErrorContext.html">IAssetErrorContext</a></div>
+      <div><a class="xref" href="SDG.Unturned.ISkinableAsset.html">ISkinableAsset</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_name">Asset.name</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_id">Asset.id</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GUID">Asset.GUID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_absoluteOriginFilePath">Asset.absoluteOriginFilePath</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_requiredShaderUpgrade">Asset.requiredShaderUpgrade</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreNPOT">Asset.ignoreNPOT</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getFilePath">Asset.getFilePath()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getReferenceTo__1">Asset.getReferenceTo&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetOriginName">Asset.GetOriginName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_clearHash">Asset.clearHash()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_appendHash_System_Byte___">Asset.appendHash(byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetTypeNameWithoutSuffix">Asset.GetTypeNameWithoutSuffix()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_GetTypeFriendlyName">Asset.GetTypeFriendlyName()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_getTypeNameAndIdDisplayString">Asset.getTypeNameAndIdDisplayString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ToString">Asset.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_LoadRedirectableAsset__1_SDG_Unturned_Bundle_System_String_SDG_Unturned_DatDictionary_System_String_">Asset.LoadRedirectableAsset&lt;T&gt;(Bundle, string, DatDictionary, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_loadRequiredAsset__1_SDG_Unturned_Bundle_System_String_">Asset.loadRequiredAsset&lt;T&gt;(Bundle, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_validateAnimation_UnityEngine_Animation_System_String_">Asset.validateAnimation(Animation, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_assetOrigin">Asset.assetOrigin</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_originMasterBundle">Asset.originMasterBundle</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_ignoreTextureReadable">Asset.ignoreTextureReadable</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_hash">Asset.hash</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_AssetErrorPrefix">Asset.AssetErrorPrefix</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.Asset.html#SDG_Unturned_Asset_OriginAllowsVanillaLegacyId">Asset.OriginAllowsVanillaLegacyId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_VehicleAsset__ctor_" data-uid="SDG.Unturned.VehicleAsset.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset__ctor" data-uid="SDG.Unturned.VehicleAsset.#ctor">
+  VehicleAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VehicleAsset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__albedoBase" data-uid="SDG.Unturned.VehicleAsset._albedoBase">
+  _albedoBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Texture2D _albedoBase</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Texture2D</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__brake" data-uid="SDG.Unturned.VehicleAsset._brake">
+  _brake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _brake</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__bumperMultiplier" data-uid="SDG.Unturned.VehicleAsset._bumperMultiplier">
+  _bumperMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _bumperMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__camFollowDistance" data-uid="SDG.Unturned.VehicleAsset._camFollowDistance">
+  _camFollowDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _camFollowDistance</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__emissionBase" data-uid="SDG.Unturned.VehicleAsset._emissionBase">
+  _emissionBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Texture2D _emissionBase</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Texture2D</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__engine" data-uid="SDG.Unturned.VehicleAsset._engine">
+  _engine
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EEngine _engine</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EEngine.html">EEngine</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__exit" data-uid="SDG.Unturned.VehicleAsset._exit">
+  _exit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _exit</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__explosion" data-uid="SDG.Unturned.VehicleAsset._explosion">
+  _explosion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _explosion</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__fuel" data-uid="SDG.Unturned.VehicleAsset._fuel">
+  _fuel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _fuel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__fuelMax" data-uid="SDG.Unturned.VehicleAsset._fuelMax">
+  _fuelMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _fuelMax</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__fuelMin" data-uid="SDG.Unturned.VehicleAsset._fuelMin">
+  _fuelMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _fuelMin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasBicycle" data-uid="SDG.Unturned.VehicleAsset._hasBicycle">
+  _hasBicycle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasBicycle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasCrawler" data-uid="SDG.Unturned.VehicleAsset._hasCrawler">
+  _hasCrawler
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasCrawler</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasHeadlights" data-uid="SDG.Unturned.VehicleAsset._hasHeadlights">
+  _hasHeadlights
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasHeadlights</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasHook" data-uid="SDG.Unturned.VehicleAsset._hasHook">
+  _hasHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasHook</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasLockMouse" data-uid="SDG.Unturned.VehicleAsset._hasLockMouse">
+  _hasLockMouse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasLockMouse</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasSirens" data-uid="SDG.Unturned.VehicleAsset._hasSirens">
+  _hasSirens
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasSirens</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasSleds" data-uid="SDG.Unturned.VehicleAsset._hasSleds">
+  _hasSleds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasSleds</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasTraction" data-uid="SDG.Unturned.VehicleAsset._hasTraction">
+  _hasTraction
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasTraction</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__hasZip" data-uid="SDG.Unturned.VehicleAsset._hasZip">
+  _hasZip
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _hasZip</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__health" data-uid="SDG.Unturned.VehicleAsset._health">
+  _health
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _health</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__healthMax" data-uid="SDG.Unturned.VehicleAsset._healthMax">
+  _healthMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _healthMax</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__healthMin" data-uid="SDG.Unturned.VehicleAsset._healthMin">
+  _healthMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _healthMin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__horn" data-uid="SDG.Unturned.VehicleAsset._horn">
+  _horn
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _horn</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__ignition" data-uid="SDG.Unturned.VehicleAsset._ignition">
+  _ignition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AudioClip _ignition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__lift" data-uid="SDG.Unturned.VehicleAsset._lift">
+  _lift
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _lift</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__metallicBase" data-uid="SDG.Unturned.VehicleAsset._metallicBase">
+  _metallicBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Texture2D _metallicBase</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Texture2D</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__numSeats" data-uid="SDG.Unturned.VehicleAsset._numSeats">
+  _numSeats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int _numSeats</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__passengerExplosionArmor" data-uid="SDG.Unturned.VehicleAsset._passengerExplosionArmor">
+  _passengerExplosionArmor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _passengerExplosionArmor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__pitchDrive" data-uid="SDG.Unturned.VehicleAsset._pitchDrive">
+  _pitchDrive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _pitchDrive</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__pitchIdle" data-uid="SDG.Unturned.VehicleAsset._pitchIdle">
+  _pitchIdle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _pitchIdle</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__rarity" data-uid="SDG.Unturned.VehicleAsset._rarity">
+  _rarity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EItemRarity _rarity</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EItemRarity.html">EItemRarity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__sharedSkinLookupID" data-uid="SDG.Unturned.VehicleAsset._sharedSkinLookupID">
+  _sharedSkinLookupID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _sharedSkinLookupID</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__sharedSkinName" data-uid="SDG.Unturned.VehicleAsset._sharedSkinName">
+  _sharedSkinName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _sharedSkinName</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__shouldVerifyHash" data-uid="SDG.Unturned.VehicleAsset._shouldVerifyHash">
+  _shouldVerifyHash
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _shouldVerifyHash</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__size2_z" data-uid="SDG.Unturned.VehicleAsset._size2_z">
+  _size2_z
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _size2_z</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__sqrDelta" data-uid="SDG.Unturned.VehicleAsset._sqrDelta">
+  _sqrDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _sqrDelta</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__steerMax" data-uid="SDG.Unturned.VehicleAsset._steerMax">
+  _steerMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _steerMax</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__steerMin" data-uid="SDG.Unturned.VehicleAsset._steerMin">
+  _steerMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _steerMin</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__turrets" data-uid="SDG.Unturned.VehicleAsset._turrets">
+  _turrets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TurretInfo[] _turrets</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TurretInfo.html">TurretInfo</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset__vehicleName" data-uid="SDG.Unturned.VehicleAsset._vehicleName">
+  _vehicleName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _vehicleName</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset_canTiresBeDamaged" data-uid="SDG.Unturned.VehicleAsset.canTiresBeDamaged">
+  canTiresBeDamaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canTiresBeDamaged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset_isVulnerable" data-uid="SDG.Unturned.VehicleAsset.isVulnerable">
+  isVulnerable
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>To non-explosions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isVulnerable</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset_isVulnerableToBumper" data-uid="SDG.Unturned.VehicleAsset.isVulnerableToBumper">
+  isVulnerableToBumper
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Crashing into stuff.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isVulnerableToBumper</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset_isVulnerableToEnvironment" data-uid="SDG.Unturned.VehicleAsset.isVulnerableToEnvironment">
+  isVulnerableToEnvironment
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mega zombie rocks, zombies, animals.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isVulnerableToEnvironment</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_VehicleAsset_isVulnerableToExplosions" data-uid="SDG.Unturned.VehicleAsset.isVulnerableToExplosions">
+  isVulnerableToExplosions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isVulnerableToExplosions</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_VehicleAsset_AllowsEngineRpmAndGearsInHud_" data-uid="SDG.Unturned.VehicleAsset.AllowsEngineRpmAndGearsInHud*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_AllowsEngineRpmAndGearsInHud" data-uid="SDG.Unturned.VehicleAsset.AllowsEngineRpmAndGearsInHud">
+  AllowsEngineRpmAndGearsInHud
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If this and UsesEngineRpmAndGears are true, HUD will show RPM and gear number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowsEngineRpmAndGearsInHud { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_BuildablePlacementRule_" data-uid="SDG.Unturned.VehicleAsset.BuildablePlacementRule*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_BuildablePlacementRule" data-uid="SDG.Unturned.VehicleAsset.BuildablePlacementRule">
+  BuildablePlacementRule
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EVehicleBuildablePlacementRule BuildablePlacementRule { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EVehicleBuildablePlacementRule.html">EVehicleBuildablePlacementRule</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_CanDecay_" data-uid="SDG.Unturned.VehicleAsset.CanDecay*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_CanDecay" data-uid="SDG.Unturned.VehicleAsset.CanDecay">
+  CanDecay
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanDecay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_CrawlerTrackSteeringMaxSpeedScale_" data-uid="SDG.Unturned.VehicleAsset.CrawlerTrackSteeringMaxSpeedScale*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_CrawlerTrackSteeringMaxSpeedScale" data-uid="SDG.Unturned.VehicleAsset.CrawlerTrackSteeringMaxSpeedScale">
+  CrawlerTrackSteeringMaxSpeedScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplier for <a class="xref" href="SDG.Unturned.VehicleAsset.html#SDG_Unturned_VehicleAsset_CrawlerTrackSteeringTorque">CrawlerTrackSteeringTorque</a> and <a class="xref" href="SDG.Unturned.VehicleAsset.html#SDG_Unturned_VehicleAsset_CrawlerTrackSteeringSidewaysFrictionMultiplier">CrawlerTrackSteeringSidewaysFrictionMultiplier</a>
+while at target maximum speed (for the current forward/backward direction).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CrawlerTrackSteeringMaxSpeedScale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_CrawlerTrackSteeringSidewaysFrictionMultiplier_" data-uid="SDG.Unturned.VehicleAsset.CrawlerTrackSteeringSidewaysFrictionMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_CrawlerTrackSteeringSidewaysFrictionMultiplier" data-uid="SDG.Unturned.VehicleAsset.CrawlerTrackSteeringSidewaysFrictionMultiplier">
+  CrawlerTrackSteeringSidewaysFrictionMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>When a wheel is in <span class="xref">SDG.Unturned.EWheelSteeringMode.CrawlerTrack</span> mode and a steering input is applied the
+<span class="xref">UnityEngine.WheelCollider.sidewaysFriction</span> stiffness is multiplied by this factor. This allows the vehicle
+to rotate in-place with a lower steering torque, which helps prevent the vehicle from going out of control
+while turning and accelerating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CrawlerTrackSteeringSidewaysFrictionMultiplier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_CrawlerTrackSteeringTorque_" data-uid="SDG.Unturned.VehicleAsset.CrawlerTrackSteeringTorque*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_CrawlerTrackSteeringTorque" data-uid="SDG.Unturned.VehicleAsset.CrawlerTrackSteeringTorque">
+  CrawlerTrackSteeringTorque
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Added or subtracted from wheel motor torque in <span class="xref">SDG.Unturned.EWheelSteeringMode.CrawlerTrack</span> mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CrawlerTrackSteeringTorque { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_DefaultPaintColors_" data-uid="SDG.Unturned.VehicleAsset.DefaultPaintColors*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_DefaultPaintColors" data-uid="SDG.Unturned.VehicleAsset.DefaultPaintColors">
+  DefaultPaintColors
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Null if vehicle doesn't support paint color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Color32&gt; DefaultPaintColors { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Color32</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_EngineIdleRpm_" data-uid="SDG.Unturned.VehicleAsset.EngineIdleRpm*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_EngineIdleRpm" data-uid="SDG.Unturned.VehicleAsset.EngineIdleRpm">
+  EngineIdleRpm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum engine RPM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EngineIdleRpm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_EngineMaxRpm_" data-uid="SDG.Unturned.VehicleAsset.EngineMaxRpm*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_EngineMaxRpm" data-uid="SDG.Unturned.VehicleAsset.EngineMaxRpm">
+  EngineMaxRpm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum engine RPM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EngineMaxRpm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_EngineMaxTorque_" data-uid="SDG.Unturned.VehicleAsset.EngineMaxTorque*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_EngineMaxTorque" data-uid="SDG.Unturned.VehicleAsset.EngineMaxTorque">
+  EngineMaxTorque
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum torque (multiplied by output of torque curve).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EngineMaxTorque { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_EngineRpmDecreaseRate_" data-uid="SDG.Unturned.VehicleAsset.EngineRpmDecreaseRate*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_EngineRpmDecreaseRate" data-uid="SDG.Unturned.VehicleAsset.EngineRpmDecreaseRate">
+  EngineRpmDecreaseRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>How quickly RPM can decrease in RPM/s.
+e.g., 1000 will take 2 seconds to go from 4000 to 2000 RPM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EngineRpmDecreaseRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_EngineRpmIncreaseRate_" data-uid="SDG.Unturned.VehicleAsset.EngineRpmIncreaseRate*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_EngineRpmIncreaseRate" data-uid="SDG.Unturned.VehicleAsset.EngineRpmIncreaseRate">
+  EngineRpmIncreaseRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>How quickly RPM can increase in RPM/s.
+e.g., 1000 will take 2 seconds to go from 2000 to 4000 RPM.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float EngineRpmIncreaseRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_ExplosionEffectGuid_" data-uid="SDG.Unturned.VehicleAsset.ExplosionEffectGuid*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_ExplosionEffectGuid" data-uid="SDG.Unturned.VehicleAsset.ExplosionEffectGuid">
+  ExplosionEffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid ExplosionEffectGuid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_ForwardGearsCount_" data-uid="SDG.Unturned.VehicleAsset.ForwardGearsCount*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_ForwardGearsCount" data-uid="SDG.Unturned.VehicleAsset.ForwardGearsCount">
+  ForwardGearsCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get number of forward gear ratios.
+Exposed for plugin use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ForwardGearsCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_FriendlyName_" data-uid="SDG.Unturned.VehicleAsset.FriendlyName*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_FriendlyName" data-uid="SDG.Unturned.VehicleAsset.FriendlyName">
+  FriendlyName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string FriendlyName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GearShiftDownThresholdRpm_" data-uid="SDG.Unturned.VehicleAsset.GearShiftDownThresholdRpm*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GearShiftDownThresholdRpm" data-uid="SDG.Unturned.VehicleAsset.GearShiftDownThresholdRpm">
+  GearShiftDownThresholdRpm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>When engine RPM dips below this value shift to the next lower gear if available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GearShiftDownThresholdRpm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GearShiftDuration_" data-uid="SDG.Unturned.VehicleAsset.GearShiftDuration*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GearShiftDuration" data-uid="SDG.Unturned.VehicleAsset.GearShiftDuration">
+  GearShiftDuration
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>How long after changing gears before throttle is engaged again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GearShiftDuration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GearShiftInterval_" data-uid="SDG.Unturned.VehicleAsset.GearShiftInterval*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GearShiftInterval" data-uid="SDG.Unturned.VehicleAsset.GearShiftInterval">
+  GearShiftInterval
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>How long between changing gears to allow another automatic gear change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GearShiftInterval { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GearShiftUpThresholdRpm_" data-uid="SDG.Unturned.VehicleAsset.GearShiftUpThresholdRpm*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GearShiftUpThresholdRpm" data-uid="SDG.Unturned.VehicleAsset.GearShiftUpThresholdRpm">
+  GearShiftUpThresholdRpm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>When engine RPM exceeds this value shift to the next higher gear if available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GearShiftUpThresholdRpm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_IsPaintable_" data-uid="SDG.Unturned.VehicleAsset.IsPaintable*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_IsPaintable" data-uid="SDG.Unturned.VehicleAsset.IsPaintable">
+  IsPaintable
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, Vehicle Paint items can be used on this vehicle.
+Always false if <a class="xref" href="SDG.Unturned.VehicleAsset.html#SDG_Unturned_VehicleAsset_SupportsPaintColor">SupportsPaintColor</a> is false.</p>
+<p>Certain vehicles may support paint colors without also being paintable by players. For example, the creator
+of a vehicle may want to use color variants without also allowing players to make it bright pink.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPaintable { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_PaintableVehicleSections_" data-uid="SDG.Unturned.VehicleAsset.PaintableVehicleSections*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_PaintableVehicleSections" data-uid="SDG.Unturned.VehicleAsset.PaintableVehicleSections">
+  PaintableVehicleSections
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Null if vehicle doesn't support paint color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PaintableVehicleSection[] PaintableVehicleSections { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PaintableVehicleSection.html">PaintableVehicleSection</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_ReverseGearsCount_" data-uid="SDG.Unturned.VehicleAsset.ReverseGearsCount*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_ReverseGearsCount" data-uid="SDG.Unturned.VehicleAsset.ReverseGearsCount">
+  ReverseGearsCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get number of reverse gear ratios.
+Exposed for plugin use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReverseGearsCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_SharedSkinLookupGuid_" data-uid="SDG.Unturned.VehicleAsset.SharedSkinLookupGuid*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_SharedSkinLookupGuid" data-uid="SDG.Unturned.VehicleAsset.SharedSkinLookupGuid">
+  SharedSkinLookupGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Please refer to: <a class="xref" href="SDG.Unturned.VehicleAsset.html#SDG_Unturned_VehicleAsset_FindSharedSkinVehicleAsset">FindSharedSkinVehicleAsset()</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid SharedSkinLookupGuid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_ShouldExplosionBurnMaterials_" data-uid="SDG.Unturned.VehicleAsset.ShouldExplosionBurnMaterials*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_ShouldExplosionBurnMaterials" data-uid="SDG.Unturned.VehicleAsset.ShouldExplosionBurnMaterials">
+  ShouldExplosionBurnMaterials
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldExplosionBurnMaterials { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_ShouldExplosionCauseDamage_" data-uid="SDG.Unturned.VehicleAsset.ShouldExplosionCauseDamage*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_ShouldExplosionCauseDamage" data-uid="SDG.Unturned.VehicleAsset.ShouldExplosionCauseDamage">
+  ShouldExplosionCauseDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If true, explosion will damage nearby entities and kill passengers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldExplosionCauseDamage { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_SteeringAngleTurnSpeed_" data-uid="SDG.Unturned.VehicleAsset.SteeringAngleTurnSpeed*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_SteeringAngleTurnSpeed" data-uid="SDG.Unturned.VehicleAsset.SteeringAngleTurnSpeed">
+  SteeringAngleTurnSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Steering angle rotation change in degrees per second.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SteeringAngleTurnSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_SupportsPaintColor_" data-uid="SDG.Unturned.VehicleAsset.SupportsPaintColor*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_SupportsPaintColor" data-uid="SDG.Unturned.VehicleAsset.SupportsPaintColor">
+  SupportsPaintColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsPaintColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_TargetForwardSpeed_" data-uid="SDG.Unturned.VehicleAsset.TargetForwardSpeed*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_TargetForwardSpeed" data-uid="SDG.Unturned.VehicleAsset.TargetForwardSpeed">
+  TargetForwardSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum speed to aim for while accelerating forward.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TargetForwardSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_TargetForwardVelocity_" data-uid="SDG.Unturned.VehicleAsset.TargetForwardVelocity*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_TargetForwardVelocity" data-uid="SDG.Unturned.VehicleAsset.TargetForwardVelocity">
+  TargetForwardVelocity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum velocity to aim for while accelerating forward.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TargetForwardVelocity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_TargetReverseSpeed_" data-uid="SDG.Unturned.VehicleAsset.TargetReverseSpeed*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_TargetReverseSpeed" data-uid="SDG.Unturned.VehicleAsset.TargetReverseSpeed">
+  TargetReverseSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum speed to aim for while accelerating backward.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TargetReverseSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_TargetReverseVelocity_" data-uid="SDG.Unturned.VehicleAsset.TargetReverseVelocity*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_TargetReverseVelocity" data-uid="SDG.Unturned.VehicleAsset.TargetReverseVelocity">
+  TargetReverseVelocity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum (negative) velocity to aim for while accelerating backward.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TargetReverseVelocity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_airSteerMax_" data-uid="SDG.Unturned.VehicleAsset.airSteerMax*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_airSteerMax" data-uid="SDG.Unturned.VehicleAsset.airSteerMax">
+  airSteerMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float airSteerMax { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_airSteerMin_" data-uid="SDG.Unturned.VehicleAsset.airSteerMin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_airSteerMin" data-uid="SDG.Unturned.VehicleAsset.airSteerMin">
+  airSteerMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float airSteerMin { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_airTurnResponsiveness_" data-uid="SDG.Unturned.VehicleAsset.airTurnResponsiveness*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_airTurnResponsiveness" data-uid="SDG.Unturned.VehicleAsset.airTurnResponsiveness">
+  airTurnResponsiveness
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float airTurnResponsiveness { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_albedoBase_" data-uid="SDG.Unturned.VehicleAsset.albedoBase*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_albedoBase" data-uid="SDG.Unturned.VehicleAsset.albedoBase">
+  albedoBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture albedoBase { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Texture</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_assetCategory_" data-uid="SDG.Unturned.VehicleAsset.assetCategory*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_assetCategory" data-uid="SDG.Unturned.VehicleAsset.assetCategory">
+  assetCategory
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override EAssetType assetCategory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EAssetType.html">EAssetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batteryBurnRate_" data-uid="SDG.Unturned.VehicleAsset.batteryBurnRate*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batteryBurnRate" data-uid="SDG.Unturned.VehicleAsset.batteryBurnRate">
+  batteryBurnRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Battery decrease per second.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float batteryBurnRate { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batteryChargeRate_" data-uid="SDG.Unturned.VehicleAsset.batteryChargeRate*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batteryChargeRate" data-uid="SDG.Unturned.VehicleAsset.batteryChargeRate">
+  batteryChargeRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Battery increase per second.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float batteryChargeRate { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batteryDriving_" data-uid="SDG.Unturned.VehicleAsset.batteryDriving*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batteryDriving" data-uid="SDG.Unturned.VehicleAsset.batteryDriving">
+  batteryDriving
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBatteryMode batteryDriving { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EBatteryMode.html">EBatteryMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batteryEmpty_" data-uid="SDG.Unturned.VehicleAsset.batteryEmpty*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batteryEmpty" data-uid="SDG.Unturned.VehicleAsset.batteryEmpty">
+  batteryEmpty
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBatteryMode batteryEmpty { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EBatteryMode.html">EBatteryMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batteryHeadlights_" data-uid="SDG.Unturned.VehicleAsset.batteryHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batteryHeadlights" data-uid="SDG.Unturned.VehicleAsset.batteryHeadlights">
+  batteryHeadlights
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBatteryMode batteryHeadlights { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EBatteryMode.html">EBatteryMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batterySirens_" data-uid="SDG.Unturned.VehicleAsset.batterySirens*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batterySirens" data-uid="SDG.Unturned.VehicleAsset.batterySirens">
+  batterySirens
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBatteryMode batterySirens { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EBatteryMode.html">EBatteryMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_batterySpawnChargeMultiplier_" data-uid="SDG.Unturned.VehicleAsset.batterySpawnChargeMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_batterySpawnChargeMultiplier" data-uid="SDG.Unturned.VehicleAsset.batterySpawnChargeMultiplier">
+  batterySpawnChargeMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Battery charge when first spawning in is multiplied by this [0, 1] number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float batterySpawnChargeMultiplier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_bicycleAnimSpeed_" data-uid="SDG.Unturned.VehicleAsset.bicycleAnimSpeed*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_bicycleAnimSpeed" data-uid="SDG.Unturned.VehicleAsset.bicycleAnimSpeed">
+  bicycleAnimSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float bicycleAnimSpeed { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_brake_" data-uid="SDG.Unturned.VehicleAsset.brake*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_brake" data-uid="SDG.Unturned.VehicleAsset.brake">
+  brake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float brake { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_bumperMultiplier_" data-uid="SDG.Unturned.VehicleAsset.bumperMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_bumperMultiplier" data-uid="SDG.Unturned.VehicleAsset.bumperMultiplier">
+  bumperMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float bumperMultiplier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_camDriverOffset_" data-uid="SDG.Unturned.VehicleAsset.camDriverOffset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_camDriverOffset" data-uid="SDG.Unturned.VehicleAsset.camDriverOffset">
+  camDriverOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Vertical first-person view translation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float camDriverOffset { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_camFollowDistance_" data-uid="SDG.Unturned.VehicleAsset.camFollowDistance*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_camFollowDistance" data-uid="SDG.Unturned.VehicleAsset.camFollowDistance">
+  camFollowDistance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float camFollowDistance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_camPassengerOffset_" data-uid="SDG.Unturned.VehicleAsset.camPassengerOffset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_camPassengerOffset" data-uid="SDG.Unturned.VehicleAsset.camPassengerOffset">
+  camPassengerOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Vertical first-person view translation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float camPassengerOffset { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_canBeLocked_" data-uid="SDG.Unturned.VehicleAsset.canBeLocked*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_canBeLocked" data-uid="SDG.Unturned.VehicleAsset.canBeLocked">
+  canBeLocked
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can players lock the vehicle to their clan/group?
+True by default, but mods want to be able to disable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canBeLocked { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_canRepairWhileSeated_" data-uid="SDG.Unturned.VehicleAsset.canRepairWhileSeated*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_canRepairWhileSeated" data-uid="SDG.Unturned.VehicleAsset.canRepairWhileSeated">
+  canRepairWhileSeated
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can this vehicle be repaired by a seated player?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canRepairWhileSeated { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_canSpawnWithBattery_" data-uid="SDG.Unturned.VehicleAsset.canSpawnWithBattery*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_canSpawnWithBattery" data-uid="SDG.Unturned.VehicleAsset.canSpawnWithBattery">
+  canSpawnWithBattery
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can this vehicle ever spawn with a charged battery?
+Uses game mode battery stats when true, or overrides by preventing battery spawn when false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canSpawnWithBattery { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_canStealBattery_" data-uid="SDG.Unturned.VehicleAsset.canStealBattery*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_canStealBattery" data-uid="SDG.Unturned.VehicleAsset.canStealBattery">
+  canStealBattery
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can players steal the battery?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canStealBattery { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_carjackForceMultiplier_" data-uid="SDG.Unturned.VehicleAsset.carjackForceMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_carjackForceMultiplier" data-uid="SDG.Unturned.VehicleAsset.carjackForceMultiplier">
+  carjackForceMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float carjackForceMultiplier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_centerOfMass_" data-uid="SDG.Unturned.VehicleAsset.centerOfMass*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_centerOfMass" data-uid="SDG.Unturned.VehicleAsset.centerOfMass">
+  centerOfMass
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If hasCenterOfMassOverride, use this value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 centerOfMass { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_childExplosionArmorMultiplier_" data-uid="SDG.Unturned.VehicleAsset.childExplosionArmorMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_childExplosionArmorMultiplier" data-uid="SDG.Unturned.VehicleAsset.childExplosionArmorMultiplier">
+  childExplosionArmorMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float childExplosionArmorMultiplier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_defaultBatteryGuid_" data-uid="SDG.Unturned.VehicleAsset.defaultBatteryGuid*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_defaultBatteryGuid" data-uid="SDG.Unturned.VehicleAsset.defaultBatteryGuid">
+  defaultBatteryGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Battery item given to the player when a specific battery hasn't been manually
+installed yet. Defaults to the vanilla car battery (098b13be34a7411db7736b7f866ada69).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid defaultBatteryGuid { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_dropsMax_" data-uid="SDG.Unturned.VehicleAsset.dropsMax*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_dropsMax" data-uid="SDG.Unturned.VehicleAsset.dropsMax">
+  dropsMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum number of items to drop on death.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte dropsMax { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_dropsMin_" data-uid="SDG.Unturned.VehicleAsset.dropsMin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_dropsMin" data-uid="SDG.Unturned.VehicleAsset.dropsMin">
+  dropsMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum number of items to drop on death.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte dropsMin { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_dropsTableId_" data-uid="SDG.Unturned.VehicleAsset.dropsTableId*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_dropsTableId" data-uid="SDG.Unturned.VehicleAsset.dropsTableId">
+  dropsTableId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Spawn table to drop items from on death.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort dropsTableId { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_emissionBase_" data-uid="SDG.Unturned.VehicleAsset.emissionBase*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_emissionBase" data-uid="SDG.Unturned.VehicleAsset.emissionBase">
+  emissionBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture emissionBase { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Texture</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_engine_" data-uid="SDG.Unturned.VehicleAsset.engine*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_engine" data-uid="SDG.Unturned.VehicleAsset.engine">
+  engine
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EEngine engine { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EEngine.html">EEngine</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_engineForceMultiplier_" data-uid="SDG.Unturned.VehicleAsset.engineForceMultiplier*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_engineForceMultiplier" data-uid="SDG.Unturned.VehicleAsset.engineForceMultiplier">
+  engineForceMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiplier for otherwise not-yet-configurable plane/heli/boat forces.
+Nelson 2024-03-06: Required for increasing mass of vehicles without significantly messing with behavior.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float engineForceMultiplier { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_exit_" data-uid="SDG.Unturned.VehicleAsset.exit*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_exit" data-uid="SDG.Unturned.VehicleAsset.exit">
+  exit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float exit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_explosion_" data-uid="SDG.Unturned.VehicleAsset.explosion*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_explosion" data-uid="SDG.Unturned.VehicleAsset.explosion">
+  explosion
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort explosion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_fuel_" data-uid="SDG.Unturned.VehicleAsset.fuel*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_fuel" data-uid="SDG.Unturned.VehicleAsset.fuel">
+  fuel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort fuel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_fuelBurnRate_" data-uid="SDG.Unturned.VehicleAsset.fuelBurnRate*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_fuelBurnRate" data-uid="SDG.Unturned.VehicleAsset.fuelBurnRate">
+  fuelBurnRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fuel decrease per second.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float fuelBurnRate { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_fuelMax_" data-uid="SDG.Unturned.VehicleAsset.fuelMax*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_fuelMax" data-uid="SDG.Unturned.VehicleAsset.fuelMax">
+  fuelMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort fuelMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_fuelMin_" data-uid="SDG.Unturned.VehicleAsset.fuelMin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_fuelMin" data-uid="SDG.Unturned.VehicleAsset.fuelMin">
+  fuelMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort fuelMin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasBicycle_" data-uid="SDG.Unturned.VehicleAsset.hasBicycle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasBicycle" data-uid="SDG.Unturned.VehicleAsset.hasBicycle">
+  hasBicycle
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>When true the bicycle animation is used and extra speed is stamina powered.
+Bad way to implement it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasBicycle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasCenterOfMassOverride_" data-uid="SDG.Unturned.VehicleAsset.hasCenterOfMassOverride*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasCenterOfMassOverride" data-uid="SDG.Unturned.VehicleAsset.hasCenterOfMassOverride">
+  hasCenterOfMassOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Was a center of mass specified in the .dat?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasCenterOfMassOverride { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasCrawler_" data-uid="SDG.Unturned.VehicleAsset.hasCrawler*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasCrawler" data-uid="SDG.Unturned.VehicleAsset.hasCrawler">
+  hasCrawler
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by VehicleWheelConfiguration. Only used for backwards compatibility.&quot;)]
+public bool hasCrawler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasHeadlights_" data-uid="SDG.Unturned.VehicleAsset.hasHeadlights*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasHeadlights" data-uid="SDG.Unturned.VehicleAsset.hasHeadlights">
+  hasHeadlights
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasHeadlights { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasHook_" data-uid="SDG.Unturned.VehicleAsset.hasHook*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasHook" data-uid="SDG.Unturned.VehicleAsset.hasHook">
+  hasHook
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasHook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasHorn_" data-uid="SDG.Unturned.VehicleAsset.hasHorn*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasHorn" data-uid="SDG.Unturned.VehicleAsset.hasHorn">
+  hasHorn
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasHorn { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasLockMouse_" data-uid="SDG.Unturned.VehicleAsset.hasLockMouse*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasLockMouse" data-uid="SDG.Unturned.VehicleAsset.hasLockMouse">
+  hasLockMouse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasLockMouse { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasSirens_" data-uid="SDG.Unturned.VehicleAsset.hasSirens*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasSirens" data-uid="SDG.Unturned.VehicleAsset.hasSirens">
+  hasSirens
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSirens { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasSleds_" data-uid="SDG.Unturned.VehicleAsset.hasSleds*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasSleds" data-uid="SDG.Unturned.VehicleAsset.hasSleds">
+  hasSleds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasSleds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasTraction_" data-uid="SDG.Unturned.VehicleAsset.hasTraction*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasTraction" data-uid="SDG.Unturned.VehicleAsset.hasTraction">
+  hasTraction
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasTraction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_hasZip_" data-uid="SDG.Unturned.VehicleAsset.hasZip*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_hasZip" data-uid="SDG.Unturned.VehicleAsset.hasZip">
+  hasZip
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasZip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_health_" data-uid="SDG.Unturned.VehicleAsset.health*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_health" data-uid="SDG.Unturned.VehicleAsset.health">
+  health
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort health { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_healthMax_" data-uid="SDG.Unturned.VehicleAsset.healthMax*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_healthMax" data-uid="SDG.Unturned.VehicleAsset.healthMax">
+  healthMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort healthMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_healthMin_" data-uid="SDG.Unturned.VehicleAsset.healthMin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_healthMin" data-uid="SDG.Unturned.VehicleAsset.healthMin">
+  healthMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort healthMin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_horn_" data-uid="SDG.Unturned.VehicleAsset.horn*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_horn" data-uid="SDG.Unturned.VehicleAsset.horn">
+  horn
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip horn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_ignition_" data-uid="SDG.Unturned.VehicleAsset.ignition*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_ignition" data-uid="SDG.Unturned.VehicleAsset.ignition">
+  ignition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip ignition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_isBatteryPowered_" data-uid="SDG.Unturned.VehicleAsset.isBatteryPowered*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_isBatteryPowered" data-uid="SDG.Unturned.VehicleAsset.isBatteryPowered">
+  isBatteryPowered
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBatteryPowered { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_isExplosive_" data-uid="SDG.Unturned.VehicleAsset.isExplosive*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_isExplosive" data-uid="SDG.Unturned.VehicleAsset.isExplosive">
+  isExplosive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Separated into ShouldExplosionCauseDamage and ShouldExplosionBurnMaterials.&quot;)]
+public bool isExplosive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_isReclined_" data-uid="SDG.Unturned.VehicleAsset.isReclined*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_isReclined" data-uid="SDG.Unturned.VehicleAsset.isReclined">
+  isReclined
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isReclined { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_isStaminaPowered_" data-uid="SDG.Unturned.VehicleAsset.isStaminaPowered*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_isStaminaPowered" data-uid="SDG.Unturned.VehicleAsset.isStaminaPowered">
+  isStaminaPowered
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isStaminaPowered { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_lift_" data-uid="SDG.Unturned.VehicleAsset.lift*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_lift" data-uid="SDG.Unturned.VehicleAsset.lift">
+  lift
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lift { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_maxExplosionForce_" data-uid="SDG.Unturned.VehicleAsset.maxExplosionForce*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_maxExplosionForce" data-uid="SDG.Unturned.VehicleAsset.maxExplosionForce">
+  maxExplosionForce
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 maxExplosionForce { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_metallicBase_" data-uid="SDG.Unturned.VehicleAsset.metallicBase*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_metallicBase" data-uid="SDG.Unturned.VehicleAsset.metallicBase">
+  metallicBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture metallicBase { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Texture</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_minExplosionForce_" data-uid="SDG.Unturned.VehicleAsset.minExplosionForce*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_minExplosionForce" data-uid="SDG.Unturned.VehicleAsset.minExplosionForce">
+  minExplosionForce
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 minExplosionForce { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_numSeats_" data-uid="SDG.Unturned.VehicleAsset.numSeats*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_numSeats" data-uid="SDG.Unturned.VehicleAsset.numSeats">
+  numSeats
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numSeats { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_numSteeringTires_" data-uid="SDG.Unturned.VehicleAsset.numSteeringTires*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_numSteeringTires" data-uid="SDG.Unturned.VehicleAsset.numSteeringTires">
+  numSteeringTires
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of tire visuals to rotate with steering wheel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by VehicleWheelConfiguration. Only used for backwards compatibility.&quot;)]
+public int numSteeringTires { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_passengerExplosionArmor_" data-uid="SDG.Unturned.VehicleAsset.passengerExplosionArmor*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_passengerExplosionArmor" data-uid="SDG.Unturned.VehicleAsset.passengerExplosionArmor">
+  passengerExplosionArmor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float passengerExplosionArmor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_physicsProfileRef_" data-uid="SDG.Unturned.VehicleAsset.physicsProfileRef*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_physicsProfileRef" data-uid="SDG.Unturned.VehicleAsset.physicsProfileRef">
+  physicsProfileRef
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AssetReference&lt;VehiclePhysicsProfileAsset&gt; physicsProfileRef { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Unturned.VehiclePhysicsProfileAsset.html">VehiclePhysicsProfileAsset</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_pitchDrive_" data-uid="SDG.Unturned.VehicleAsset.pitchDrive*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_pitchDrive" data-uid="SDG.Unturned.VehicleAsset.pitchDrive">
+  pitchDrive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pitchDrive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_pitchIdle_" data-uid="SDG.Unturned.VehicleAsset.pitchIdle*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_pitchIdle" data-uid="SDG.Unturned.VehicleAsset.pitchIdle">
+  pitchIdle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pitchIdle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_rarity_" data-uid="SDG.Unturned.VehicleAsset.rarity*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_rarity" data-uid="SDG.Unturned.VehicleAsset.rarity">
+  rarity
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EItemRarity rarity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EItemRarity.html">EItemRarity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_sharedSkinLookupID_" data-uid="SDG.Unturned.VehicleAsset.sharedSkinLookupID*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_sharedSkinLookupID" data-uid="SDG.Unturned.VehicleAsset.sharedSkinLookupID">
+  sharedSkinLookupID
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Please refer to: <a class="xref" href="SDG.Unturned.VehicleAsset.html#SDG_Unturned_VehicleAsset_FindSharedSkinVehicleAsset">FindSharedSkinVehicleAsset()</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public ushort sharedSkinLookupID { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_sharedSkinName_" data-uid="SDG.Unturned.VehicleAsset.sharedSkinName*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_sharedSkinName" data-uid="SDG.Unturned.VehicleAsset.sharedSkinName">
+  sharedSkinName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string sharedSkinName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_shouldSpawnSeatCapsules_" data-uid="SDG.Unturned.VehicleAsset.shouldSpawnSeatCapsules*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_shouldSpawnSeatCapsules" data-uid="SDG.Unturned.VehicleAsset.shouldSpawnSeatCapsules">
+  shouldSpawnSeatCapsules
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Should capsule colliders be added to seat transforms?
+Useful to prevent bikes from leaning into walls.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldSpawnSeatCapsules { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_shouldVerifyHash_" data-uid="SDG.Unturned.VehicleAsset.shouldVerifyHash*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_shouldVerifyHash" data-uid="SDG.Unturned.VehicleAsset.shouldVerifyHash">
+  shouldVerifyHash
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shouldVerifyHash { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_size2_z_" data-uid="SDG.Unturned.VehicleAsset.size2_z*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_size2_z" data-uid="SDG.Unturned.VehicleAsset.size2_z">
+  size2_z
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float size2_z { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_speedMax_" data-uid="SDG.Unturned.VehicleAsset.speedMax*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_speedMax" data-uid="SDG.Unturned.VehicleAsset.speedMax">
+  speedMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to TargetForwardVelocity.&quot;)]
+public float speedMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_speedMin_" data-uid="SDG.Unturned.VehicleAsset.speedMin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_speedMin" data-uid="SDG.Unturned.VehicleAsset.speedMin">
+  speedMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to TargetReverseVelocity.&quot;)]
+public float speedMin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_sqrDelta_" data-uid="SDG.Unturned.VehicleAsset.sqrDelta*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_sqrDelta" data-uid="SDG.Unturned.VehicleAsset.sqrDelta">
+  sqrDelta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sqrDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_staminaBoost_" data-uid="SDG.Unturned.VehicleAsset.staminaBoost*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_staminaBoost" data-uid="SDG.Unturned.VehicleAsset.staminaBoost">
+  staminaBoost
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float staminaBoost { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_steerMax_" data-uid="SDG.Unturned.VehicleAsset.steerMax*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_steerMax" data-uid="SDG.Unturned.VehicleAsset.steerMax">
+  steerMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Steering angle range at target maximum speed (for the current forward/backward direction).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float steerMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_steerMin_" data-uid="SDG.Unturned.VehicleAsset.steerMin*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_steerMin" data-uid="SDG.Unturned.VehicleAsset.steerMin">
+  steerMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Steering angle range at zero speed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float steerMin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_steeringTireIndices_" data-uid="SDG.Unturned.VehicleAsset.steeringTireIndices*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_steeringTireIndices" data-uid="SDG.Unturned.VehicleAsset.steeringTireIndices">
+  steeringTireIndices
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by VehicleWheelConfiguration. Only used for backwards compatibility.&quot;)]
+public int[] steeringTireIndices { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_supportsMobileBuildables_" data-uid="SDG.Unturned.VehicleAsset.supportsMobileBuildables*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_supportsMobileBuildables" data-uid="SDG.Unturned.VehicleAsset.supportsMobileBuildables">
+  supportsMobileBuildables
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can mobile barricades e.g. bed or sentry guns be placed on this vehicle?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by BuildablePlacementRule&quot;)]
+public bool supportsMobileBuildables { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_tireID_" data-uid="SDG.Unturned.VehicleAsset.tireID*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_tireID" data-uid="SDG.Unturned.VehicleAsset.tireID">
+  tireID
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Item ID of compatible tire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort tireID { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_trainCarLength_" data-uid="SDG.Unturned.VehicleAsset.trainCarLength*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_trainCarLength" data-uid="SDG.Unturned.VehicleAsset.trainCarLength">
+  trainCarLength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trainCarLength { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_trainTrackOffset_" data-uid="SDG.Unturned.VehicleAsset.trainTrackOffset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_trainTrackOffset" data-uid="SDG.Unturned.VehicleAsset.trainTrackOffset">
+  trainTrackOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trainTrackOffset { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_trainWheelOffset_" data-uid="SDG.Unturned.VehicleAsset.trainWheelOffset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_trainWheelOffset" data-uid="SDG.Unturned.VehicleAsset.trainWheelOffset">
+  trainWheelOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trainWheelOffset { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_trunkStorage_X_" data-uid="SDG.Unturned.VehicleAsset.trunkStorage_X*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_trunkStorage_X" data-uid="SDG.Unturned.VehicleAsset.trunkStorage_X">
+  trunkStorage_X
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte trunkStorage_X { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_trunkStorage_Y_" data-uid="SDG.Unturned.VehicleAsset.trunkStorage_Y*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_trunkStorage_Y" data-uid="SDG.Unturned.VehicleAsset.trunkStorage_Y">
+  trunkStorage_Y
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte trunkStorage_Y { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_turrets_" data-uid="SDG.Unturned.VehicleAsset.turrets*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_turrets" data-uid="SDG.Unturned.VehicleAsset.turrets">
+  turrets
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TurretInfo[] turrets { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.TurretInfo.html">TurretInfo</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_useStaminaBoost_" data-uid="SDG.Unturned.VehicleAsset.useStaminaBoost*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_useStaminaBoost" data-uid="SDG.Unturned.VehicleAsset.useStaminaBoost">
+  useStaminaBoost
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useStaminaBoost { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_validSpeedDown_" data-uid="SDG.Unturned.VehicleAsset.validSpeedDown*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_validSpeedDown" data-uid="SDG.Unturned.VehicleAsset.validSpeedDown">
+  validSpeedDown
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Client sends physics simulation results to server. If downward (-Y) speed exceeds this, mark the move invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float validSpeedDown { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_validSpeedUp_" data-uid="SDG.Unturned.VehicleAsset.validSpeedUp*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_validSpeedUp" data-uid="SDG.Unturned.VehicleAsset.validSpeedUp">
+  validSpeedUp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Client sends physics simulation results to server. If upward (+Y) speed exceeds this, mark the move invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float validSpeedUp { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_vehicleName_" data-uid="SDG.Unturned.VehicleAsset.vehicleName*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_vehicleName" data-uid="SDG.Unturned.VehicleAsset.vehicleName">
+  vehicleName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string vehicleName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_wheelColliderMassOverride_" data-uid="SDG.Unturned.VehicleAsset.wheelColliderMassOverride*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_wheelColliderMassOverride" data-uid="SDG.Unturned.VehicleAsset.wheelColliderMassOverride">
+  wheelColliderMassOverride
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If set, override the wheel collider mass with this value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float? wheelColliderMassOverride { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_VehicleAsset_DebugDumpWheelConfigurationToString_" data-uid="SDG.Unturned.VehicleAsset.DebugDumpWheelConfigurationToString*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_DebugDumpWheelConfigurationToString" data-uid="SDG.Unturned.VehicleAsset.DebugDumpWheelConfigurationToString">
+  DebugDumpWheelConfigurationToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DebugDumpWheelConfigurationToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_DebugDumpWheelConfigurationToStringBuilder_" data-uid="SDG.Unturned.VehicleAsset.DebugDumpWheelConfigurationToStringBuilder*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_DebugDumpWheelConfigurationToStringBuilder_System_Text_StringBuilder_" data-uid="SDG.Unturned.VehicleAsset.DebugDumpWheelConfigurationToStringBuilder(System.Text.StringBuilder)">
+  DebugDumpWheelConfigurationToStringBuilder(StringBuilder)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DebugDumpWheelConfigurationToStringBuilder(StringBuilder output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_FindExplosionEffectAsset_" data-uid="SDG.Unturned.VehicleAsset.FindExplosionEffectAsset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_FindExplosionEffectAsset" data-uid="SDG.Unturned.VehicleAsset.FindExplosionEffectAsset">
+  FindExplosionEffectAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectAsset FindExplosionEffectAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_FindSharedSkinVehicleAsset_" data-uid="SDG.Unturned.VehicleAsset.FindSharedSkinVehicleAsset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_FindSharedSkinVehicleAsset" data-uid="SDG.Unturned.VehicleAsset.FindSharedSkinVehicleAsset">
+  FindSharedSkinVehicleAsset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Supports redirects by VehicleRedirectorAsset.</p>
+<p>&quot;Shared Skins&quot; were implemented when there were several asset variants of each vehicle. For example,
+Off_Roader_Orange, Off_Roader_Purple, Off_Roader_Green, etc. Each vehicle had their &quot;shared skin&quot; set to
+the same ID, and the skin asset had its target ID set to the shared ID. This isn't as necessary after
+merging vanilla vehicle variants, but some mods may rely on it, and it needed GUID support now that the
+target vehicle might not have a legacy ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VehicleAsset FindSharedSkinVehicleAsset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VehicleAsset.html">VehicleAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GetEngineGearRatio_" data-uid="SDG.Unturned.VehicleAsset.GetEngineGearRatio*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GetEngineGearRatio_System_Int32_" data-uid="SDG.Unturned.VehicleAsset.GetEngineGearRatio(System.Int32)">
+  GetEngineGearRatio(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns reverseGearRatio for negative gears, actual value for valid gear number, otherwise zero.
+Exposed for plugin use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetEngineGearRatio(int gearNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gearNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GetOrLoadModel_" data-uid="SDG.Unturned.VehicleAsset.GetOrLoadModel*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GetOrLoadModel" data-uid="SDG.Unturned.VehicleAsset.GetOrLoadModel">
+  GetOrLoadModel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject GetOrLoadModel()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_GetRandomDefaultPaintColor_" data-uid="SDG.Unturned.VehicleAsset.GetRandomDefaultPaintColor*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_GetRandomDefaultPaintColor" data-uid="SDG.Unturned.VehicleAsset.GetRandomDefaultPaintColor">
+  GetRandomDefaultPaintColor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pick a random paint color according to <span class="xref">SDG.Unturned.VehicleAsset.defaultPaintColorMode</span>. Null if unsupported or not configured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color32? GetRandomDefaultPaintColor()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Color32</span>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_IsExplosionEffectRefNull_" data-uid="SDG.Unturned.VehicleAsset.IsExplosionEffectRefNull*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_IsExplosionEffectRefNull" data-uid="SDG.Unturned.VehicleAsset.IsExplosionEffectRefNull">
+  IsExplosionEffectRefNull()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsExplosionEffectRefNull()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_OnClientModelLoaded_" data-uid="SDG.Unturned.VehicleAsset.OnClientModelLoaded*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_OnClientModelLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.VehicleAsset.OnClientModelLoaded(UnityEngine.GameObject)">
+  OnClientModelLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Vehicle.prefab</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnClientModelLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_OnServerModelLoaded_" data-uid="SDG.Unturned.VehicleAsset.OnServerModelLoaded*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_OnServerModelLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.VehicleAsset.OnServerModelLoaded(UnityEngine.GameObject)">
+  OnServerModelLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clip.prefab</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnServerModelLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_PopulateAsset_" data-uid="SDG.Unturned.VehicleAsset.PopulateAsset*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_PopulateAsset_SDG_Unturned_Bundle_SDG_Unturned_DatDictionary_SDG_Unturned_Local_" data-uid="SDG.Unturned.VehicleAsset.PopulateAsset(SDG.Unturned.Bundle,SDG.Unturned.DatDictionary,SDG.Unturned.Local)">
+  PopulateAsset(Bundle, DatDictionary, Local)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void PopulateAsset(Bundle bundle, DatDictionary data, Local localization)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bundle</code> <a class="xref" href="SDG.Unturned.Bundle.html">Bundle</a></dt>
+    <dd></dd>
+    <dt><code>data</code> <span class="xref">DatDictionary</span></dt>
+    <dd></dd>
+    <dt><code>localization</code> <a class="xref" href="SDG.Unturned.Local.html">Local</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VehicleAsset_onModelLoaded_" data-uid="SDG.Unturned.VehicleAsset.onModelLoaded*"></a>
+
+  <h3 id="SDG_Unturned_VehicleAsset_onModelLoaded_UnityEngine_GameObject_" data-uid="SDG.Unturned.VehicleAsset.onModelLoaded(UnityEngine.GameObject)">
+  onModelLoaded(GameObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void onModelLoaded(GameObject asset)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

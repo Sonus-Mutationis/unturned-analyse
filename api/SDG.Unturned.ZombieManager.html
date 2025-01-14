@@ -1,0 +1,2982 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ZombieManager | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ZombieManager | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ZombieManager">
+
+
+
+  <h1 id="SDG_Unturned_ZombieManager" data-uid="SDG.Unturned.ZombieManager" class="text-break">
+Class ZombieManager  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ZombieManager : SteamCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><span class="xref">ZombieManager</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_ZombieManager__ctor_" data-uid="SDG.Unturned.ZombieManager.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager__ctor" data-uid="SDG.Unturned.ZombieManager.#ctor">
+  ZombieManager()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZombieManager()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_dl_attacks" data-uid="SDG.Unturned.ZombieManager.dl_attacks">
+  dl_attacks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] dl_attacks</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_dl_deaths" data-uid="SDG.Unturned.ZombieManager.dl_deaths">
+  dl_deaths
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] dl_deaths</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_dl_enemy_spotted" data-uid="SDG.Unturned.ZombieManager.dl_enemy_spotted">
+  dl_enemy_spotted
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] dl_enemy_spotted</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_dl_taunt" data-uid="SDG.Unturned.ZombieManager.dl_taunt">
+  dl_taunt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] dl_taunt</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_groans" data-uid="SDG.Unturned.ZombieManager.groans">
+  groans
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] groans</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_onWaveUpdated" data-uid="SDG.Unturned.ZombieManager.onWaveUpdated">
+  onWaveUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WaveUpdated onWaveUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.WaveUpdated.html">WaveUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_roars" data-uid="SDG.Unturned.ZombieManager.roars">
+  roars
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] roars</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_spits" data-uid="SDG.Unturned.ZombieManager.spits">
+  spits
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AudioClip[] spits</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_ZombieManager_wanderingCount" data-uid="SDG.Unturned.ZombieManager.wanderingCount">
+  wanderingCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int wanderingCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_ZombieManager_canSpareWanderer_" data-uid="SDG.Unturned.ZombieManager.canSpareWanderer*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_canSpareWanderer" data-uid="SDG.Unturned.ZombieManager.canSpareWanderer">
+  canSpareWanderer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool canSpareWanderer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_instance_" data-uid="SDG.Unturned.ZombieManager.instance*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_instance" data-uid="SDG.Unturned.ZombieManager.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exposed for Rocket transition to modules backwards compatibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ZombieManager instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ZombieManager.html">ZombieManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_regions_" data-uid="SDG.Unturned.ZombieManager.regions*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_regions" data-uid="SDG.Unturned.ZombieManager.regions">
+  regions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ZombieRegion[] regions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ZombieRegion.html">ZombieRegion</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tickingZombies_" data-uid="SDG.Unturned.ZombieManager.tickingZombies*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tickingZombies" data-uid="SDG.Unturned.ZombieManager.tickingZombies">
+  tickingZombies
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Zombie&gt; tickingZombies { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_waveIndex_" data-uid="SDG.Unturned.ZombieManager.waveIndex*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_waveIndex" data-uid="SDG.Unturned.ZombieManager.waveIndex">
+  waveIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int waveIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_waveReady_" data-uid="SDG.Unturned.ZombieManager.waveReady*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_waveReady" data-uid="SDG.Unturned.ZombieManager.waveReady">
+  waveReady
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool waveReady { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_waveRemaining_" data-uid="SDG.Unturned.ZombieManager.waveRemaining*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_waveRemaining" data-uid="SDG.Unturned.ZombieManager.waveRemaining">
+  waveRemaining
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int waveRemaining { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ZombieManager_EnumerateClients_" data-uid="SDG.Unturned.ZombieManager.EnumerateClients*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_EnumerateClients_System_Byte_" data-uid="SDG.Unturned.ZombieManager.EnumerateClients(System.Byte)">
+  EnumerateClients(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by GatherClientConnections&quot;)]
+public static IEnumerable&lt;ITransportConnection&gt; EnumerateClients(byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">ITransportConnection</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_EnumerateClients_Remote_" data-uid="SDG.Unturned.ZombieManager.EnumerateClients_Remote*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_EnumerateClients_Remote_System_Byte_" data-uid="SDG.Unturned.ZombieManager.EnumerateClients_Remote(System.Byte)">
+  EnumerateClients_Remote(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by GatherRemoteClientConnections&quot;)]
+public static IEnumerable&lt;ITransportConnection&gt; EnumerateClients_Remote(byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">ITransportConnection</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_GatherClientConnections_" data-uid="SDG.Unturned.ZombieManager.GatherClientConnections*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_GatherClientConnections_System_Byte_" data-uid="SDG.Unturned.ZombieManager.GatherClientConnections(System.Byte)">
+  GatherClientConnections(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PooledTransportConnectionList GatherClientConnections(byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PooledTransportConnectionList.html">PooledTransportConnectionList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_GatherRemoteClientConnections_" data-uid="SDG.Unturned.ZombieManager.GatherRemoteClientConnections*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_GatherRemoteClientConnections_System_Byte_" data-uid="SDG.Unturned.ZombieManager.GatherRemoteClientConnections(System.Byte)">
+  GatherRemoteClientConnections(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PooledTransportConnectionList GatherRemoteClientConnections(byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PooledTransportConnectionList.html">PooledTransportConnectionList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveBeacon_" data-uid="SDG.Unturned.ZombieManager.ReceiveBeacon*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveBeacon_System_Byte_System_Boolean_" data-uid="SDG.Unturned.ZombieManager.ReceiveBeacon(System.Byte,System.Boolean)">
+  ReceiveBeacon(byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellBeacon&quot;)]
+public static void ReceiveBeacon(byte reference, bool hasBeacon)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hasBeacon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveWave_" data-uid="SDG.Unturned.ZombieManager.ReceiveWave*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveWave_System_Boolean_System_Int32_" data-uid="SDG.Unturned.ZombieManager.ReceiveWave(System.Boolean,System.Int32)">
+  ReceiveWave(bool, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellWave&quot;)]
+public static void ReceiveWave(bool newWaveReady, int newWave)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newWaveReady</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newWave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieAcid_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieAcid*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieAcid_System_Byte_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieAcid(System.Byte,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  ReceiveZombieAcid(byte, ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieAcid&quot;)]
+public static void ReceiveZombieAcid(byte reference, ushort id, Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieAlive_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieAlive*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieAlive_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieAlive(System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,System.Byte)">
+  ReceiveZombieAlive(byte, ushort, byte, byte, byte, byte, byte, byte, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellZombieAlive&quot;)]
+public static void ReceiveZombieAlive(byte reference, ushort id, byte newType, byte newSpeciality, byte newShirt, byte newPants, byte newHat, byte newGear, Vector3 newPosition, byte newAngle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSpeciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newShirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newGear</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieAttack_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieAttack*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieAttack_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieAttack(System.Byte,System.UInt16,System.Byte)">
+  ReceiveZombieAttack(byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieAttack&quot;)]
+public static void ReceiveZombieAttack(byte reference, ushort id, byte attack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>attack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieBoulder_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieBoulder*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieBoulder_System_Byte_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieBoulder(System.Byte,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  ReceiveZombieBoulder(byte, ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieBoulder&quot;)]
+public static void ReceiveZombieBoulder(byte reference, ushort id, Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieBreath_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieBreath*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieBreath_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieBreath(System.Byte,System.UInt16)">
+  ReceiveZombieBreath(byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieBreath&quot;)]
+public static void ReceiveZombieBreath(byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieCharge_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieCharge*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieCharge_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieCharge(System.Byte,System.UInt16)">
+  ReceiveZombieCharge(byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieCharge&quot;)]
+public static void ReceiveZombieCharge(byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieDead_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieDead*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieDead_System_Byte_System_UInt16_UnityEngine_Vector3_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieDead(System.Byte,System.UInt16,UnityEngine.Vector3,SDG.Unturned.ERagdollEffect)">
+  ReceiveZombieDead(byte, ushort, Vector3, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellZombieDead&quot;)]
+public static void ReceiveZombieDead(byte reference, ushort id, Vector3 newRagdoll, ERagdollEffect newRagdollEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieSpark_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieSpark*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieSpark_System_Byte_System_UInt16_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieSpark(System.Byte,System.UInt16,UnityEngine.Vector3)">
+  ReceiveZombieSpark(byte, ushort, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieSpark&quot;)]
+public static void ReceiveZombieSpark(byte reference, ushort id, Vector3 target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieSpeciality_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieSpeciality*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieSpeciality_System_Byte_System_UInt16_SDG_Unturned_EZombieSpeciality_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieSpeciality(System.Byte,System.UInt16,SDG.Unturned.EZombieSpeciality)">
+  ReceiveZombieSpeciality(byte, ushort, EZombieSpeciality)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellZombieSpeciality&quot;)]
+public static void ReceiveZombieSpeciality(byte reference, ushort id, EZombieSpeciality speciality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>speciality</code> <a class="xref" href="SDG.Unturned.EZombieSpeciality.html">EZombieSpeciality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieSpit_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieSpit*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieSpit_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieSpit(System.Byte,System.UInt16)">
+  ReceiveZombieSpit(byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieSpit&quot;)]
+public static void ReceiveZombieSpit(byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieStartle_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStartle*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieStartle_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStartle(System.Byte,System.UInt16,System.Byte)">
+  ReceiveZombieStartle(byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieStartle&quot;)]
+public static void ReceiveZombieStartle(byte reference, ushort id, byte startle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>startle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieStates_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStates*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieStates_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStates(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveZombieStates(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveZombieStates(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieStomp_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStomp*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieStomp_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStomp(System.Byte,System.UInt16)">
+  ReceiveZombieStomp(byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieStomp&quot;)]
+public static void ReceiveZombieStomp(byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieStun_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStun*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieStun_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieStun(System.Byte,System.UInt16,System.Byte)">
+  ReceiveZombieStun(byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieStun&quot;)]
+public static void ReceiveZombieStun(byte reference, ushort id, byte stun)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>stun</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombieThrow_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieThrow*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombieThrow_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombieThrow(System.Byte,System.UInt16)">
+  ReceiveZombieThrow(byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;askZombieThrow&quot;)]
+public static void ReceiveZombieThrow(byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_ReceiveZombies_" data-uid="SDG.Unturned.ZombieManager.ReceiveZombies*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_ReceiveZombies_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ZombieManager.ReceiveZombies(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveZombies(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveZombies(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_addZombie_" data-uid="SDG.Unturned.ZombieManager.addZombie*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_addZombie_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_System_Single_System_Boolean_" data-uid="SDG.Unturned.ZombieManager.addZombie(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,System.Single,System.Boolean)">
+  addZombie(byte, byte, byte, byte, byte, byte, byte, byte, byte, Vector3, float, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void addZombie(byte bound, byte type, byte speciality, byte shirt, byte pants, byte hat, byte gear, byte move, byte idle, Vector3 position, float angle, bool isDead)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>speciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>shirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>pants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>gear</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>move</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>idle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>isDead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askWave_" data-uid="SDG.Unturned.ZombieManager.askWave*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askWave_Steamworks_CSteamID_" data-uid="SDG.Unturned.ZombieManager.askWave(Steamworks.CSteamID)">
+  askWave(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askWave(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieAcid_" data-uid="SDG.Unturned.ZombieManager.askZombieAcid*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieAcid_Steamworks_CSteamID_System_Byte_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.askZombieAcid(Steamworks.CSteamID,System.Byte,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  askZombieAcid(CSteamID, byte, ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieAcid(CSteamID steamID, byte reference, ushort id, Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieAttack_" data-uid="SDG.Unturned.ZombieManager.askZombieAttack*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieAttack_Steamworks_CSteamID_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.askZombieAttack(Steamworks.CSteamID,System.Byte,System.UInt16,System.Byte)">
+  askZombieAttack(CSteamID, byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieAttack(CSteamID steamID, byte reference, ushort id, byte attack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>attack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieBoulder_" data-uid="SDG.Unturned.ZombieManager.askZombieBoulder*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieBoulder_Steamworks_CSteamID_System_Byte_System_UInt16_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.askZombieBoulder(Steamworks.CSteamID,System.Byte,System.UInt16,UnityEngine.Vector3,UnityEngine.Vector3)">
+  askZombieBoulder(CSteamID, byte, ushort, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieBoulder(CSteamID steamID, byte reference, ushort id, Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieBreath_" data-uid="SDG.Unturned.ZombieManager.askZombieBreath*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieBreath_Steamworks_CSteamID_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.askZombieBreath(Steamworks.CSteamID,System.Byte,System.UInt16)">
+  askZombieBreath(CSteamID, byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieBreath(CSteamID steamID, byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieCharge_" data-uid="SDG.Unturned.ZombieManager.askZombieCharge*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieCharge_Steamworks_CSteamID_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.askZombieCharge(Steamworks.CSteamID,System.Byte,System.UInt16)">
+  askZombieCharge(CSteamID, byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieCharge(CSteamID steamID, byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieSpark_" data-uid="SDG.Unturned.ZombieManager.askZombieSpark*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieSpark_Steamworks_CSteamID_System_Byte_System_UInt16_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.askZombieSpark(Steamworks.CSteamID,System.Byte,System.UInt16,UnityEngine.Vector3)">
+  askZombieSpark(CSteamID, byte, ushort, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieSpark(CSteamID steamID, byte reference, ushort id, Vector3 target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieSpit_" data-uid="SDG.Unturned.ZombieManager.askZombieSpit*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieSpit_Steamworks_CSteamID_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.askZombieSpit(Steamworks.CSteamID,System.Byte,System.UInt16)">
+  askZombieSpit(CSteamID, byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieSpit(CSteamID steamID, byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieStartle_" data-uid="SDG.Unturned.ZombieManager.askZombieStartle*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieStartle_Steamworks_CSteamID_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.askZombieStartle(Steamworks.CSteamID,System.Byte,System.UInt16,System.Byte)">
+  askZombieStartle(CSteamID, byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieStartle(CSteamID steamID, byte reference, ushort id, byte startle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>startle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieStomp_" data-uid="SDG.Unturned.ZombieManager.askZombieStomp*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieStomp_Steamworks_CSteamID_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.askZombieStomp(Steamworks.CSteamID,System.Byte,System.UInt16)">
+  askZombieStomp(CSteamID, byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieStomp(CSteamID steamID, byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieStun_" data-uid="SDG.Unturned.ZombieManager.askZombieStun*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieStun_Steamworks_CSteamID_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.askZombieStun(Steamworks.CSteamID,System.Byte,System.UInt16,System.Byte)">
+  askZombieStun(CSteamID, byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieStun(CSteamID steamID, byte reference, ushort id, byte stun)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>stun</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombieThrow_" data-uid="SDG.Unturned.ZombieManager.askZombieThrow*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombieThrow_Steamworks_CSteamID_System_Byte_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.askZombieThrow(Steamworks.CSteamID,System.Byte,System.UInt16)">
+  askZombieThrow(CSteamID, byte, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombieThrow(CSteamID steamID, byte reference, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_askZombies_" data-uid="SDG.Unturned.ZombieManager.askZombies*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_askZombies_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.ZombieManager.askZombies(Steamworks.CSteamID,System.Byte)">
+  askZombies(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askZombies(CSteamID steamID, byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_dropLoot_" data-uid="SDG.Unturned.ZombieManager.dropLoot*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_dropLoot_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.dropLoot(SDG.Unturned.Zombie)">
+  dropLoot(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void dropLoot(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_generateZombies_" data-uid="SDG.Unturned.ZombieManager.generateZombies*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_generateZombies_System_Byte_" data-uid="SDG.Unturned.ZombieManager.generateZombies(System.Byte)">
+  generateZombies(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void generateZombies(byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_getDifficultyInBound_" data-uid="SDG.Unturned.ZombieManager.getDifficultyInBound*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_getDifficultyInBound_System_Byte_" data-uid="SDG.Unturned.ZombieManager.getDifficultyInBound(System.Byte)">
+  getDifficultyInBound(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find difficulty asset (if valid) for navigation bound index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ZombieDifficultyAsset getDifficultyInBound(byte bound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ZombieDifficultyAsset.html">ZombieDifficultyAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_getZombie_" data-uid="SDG.Unturned.ZombieManager.getZombie*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_getZombie_UnityEngine_Vector3_System_UInt16_" data-uid="SDG.Unturned.ZombieManager.getZombie(UnityEngine.Vector3,System.UInt16)">
+  getZombie(Vector3, ushort)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Zombie getZombie(Vector3 point, ushort id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_getZombiesInRadius_" data-uid="SDG.Unturned.ZombieManager.getZombiesInRadius*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_getZombiesInRadius_UnityEngine_Vector3_System_Single_System_Collections_Generic_List_SDG_Unturned_Zombie__" data-uid="SDG.Unturned.ZombieManager.getZombiesInRadius(UnityEngine.Vector3,System.Single,System.Collections.Generic.List{SDG.Unturned.Zombie})">
+  getZombiesInRadius(Vector3, float, List&lt;Zombie&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void getZombiesInRadius(Vector3 center, float sqrRadius, List&lt;Zombie&gt; result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>sqrRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_respawnZombies_" data-uid="SDG.Unturned.ZombieManager.respawnZombies*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_respawnZombies" data-uid="SDG.Unturned.ZombieManager.respawnZombies">
+  respawnZombies()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void respawnZombies()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieAcid_" data-uid="SDG.Unturned.ZombieManager.sendZombieAcid*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieAcid_SDG_Unturned_Zombie_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.sendZombieAcid(SDG.Unturned.Zombie,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendZombieAcid(Zombie, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieAcid(Zombie zombie, Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieAlive_" data-uid="SDG.Unturned.ZombieManager.sendZombieAlive*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieAlive_SDG_Unturned_Zombie_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.ZombieManager.sendZombieAlive(SDG.Unturned.Zombie,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,System.Byte)">
+  sendZombieAlive(Zombie, byte, byte, byte, byte, byte, byte, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieAlive(Zombie zombie, byte newType, byte newSpeciality, byte newShirt, byte newPants, byte newHat, byte newGear, Vector3 newPosition, byte newAngle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>newType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSpeciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newShirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newGear</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieAttack_" data-uid="SDG.Unturned.ZombieManager.sendZombieAttack*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieAttack_SDG_Unturned_Zombie_System_Byte_" data-uid="SDG.Unturned.ZombieManager.sendZombieAttack(SDG.Unturned.Zombie,System.Byte)">
+  sendZombieAttack(Zombie, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieAttack(Zombie zombie, byte attack)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>attack</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieBoulder_" data-uid="SDG.Unturned.ZombieManager.sendZombieBoulder*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieBoulder_SDG_Unturned_Zombie_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.sendZombieBoulder(SDG.Unturned.Zombie,UnityEngine.Vector3,UnityEngine.Vector3)">
+  sendZombieBoulder(Zombie, Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieBoulder(Zombie zombie, Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieBreath_" data-uid="SDG.Unturned.ZombieManager.sendZombieBreath*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieBreath_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.sendZombieBreath(SDG.Unturned.Zombie)">
+  sendZombieBreath(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieBreath(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieCharge_" data-uid="SDG.Unturned.ZombieManager.sendZombieCharge*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieCharge_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.sendZombieCharge(SDG.Unturned.Zombie)">
+  sendZombieCharge(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieCharge(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieDead_" data-uid="SDG.Unturned.ZombieManager.sendZombieDead*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieDead_SDG_Unturned_Zombie_UnityEngine_Vector3_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.ZombieManager.sendZombieDead(SDG.Unturned.Zombie,UnityEngine.Vector3,SDG.Unturned.ERagdollEffect)">
+  sendZombieDead(Zombie, Vector3, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieDead(Zombie zombie, Vector3 newRagdoll, ERagdollEffect newRagdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieSpark_" data-uid="SDG.Unturned.ZombieManager.sendZombieSpark*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieSpark_SDG_Unturned_Zombie_UnityEngine_Vector3_" data-uid="SDG.Unturned.ZombieManager.sendZombieSpark(SDG.Unturned.Zombie,UnityEngine.Vector3)">
+  sendZombieSpark(Zombie, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieSpark(Zombie zombie, Vector3 target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieSpeciality_" data-uid="SDG.Unturned.ZombieManager.sendZombieSpeciality*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieSpeciality_SDG_Unturned_Zombie_SDG_Unturned_EZombieSpeciality_" data-uid="SDG.Unturned.ZombieManager.sendZombieSpeciality(SDG.Unturned.Zombie,SDG.Unturned.EZombieSpeciality)">
+  sendZombieSpeciality(Zombie, EZombieSpeciality)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieSpeciality(Zombie zombie, EZombieSpeciality speciality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>speciality</code> <a class="xref" href="SDG.Unturned.EZombieSpeciality.html">EZombieSpeciality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieSpit_" data-uid="SDG.Unturned.ZombieManager.sendZombieSpit*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieSpit_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.sendZombieSpit(SDG.Unturned.Zombie)">
+  sendZombieSpit(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieSpit(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieStartle_" data-uid="SDG.Unturned.ZombieManager.sendZombieStartle*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieStartle_SDG_Unturned_Zombie_System_Byte_" data-uid="SDG.Unturned.ZombieManager.sendZombieStartle(SDG.Unturned.Zombie,System.Byte)">
+  sendZombieStartle(Zombie, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieStartle(Zombie zombie, byte startle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>startle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieStomp_" data-uid="SDG.Unturned.ZombieManager.sendZombieStomp*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieStomp_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.sendZombieStomp(SDG.Unturned.Zombie)">
+  sendZombieStomp(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieStomp(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieStun_" data-uid="SDG.Unturned.ZombieManager.sendZombieStun*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieStun_SDG_Unturned_Zombie_System_Byte_" data-uid="SDG.Unturned.ZombieManager.sendZombieStun(SDG.Unturned.Zombie,System.Byte)">
+  sendZombieStun(Zombie, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieStun(Zombie zombie, byte stun)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>stun</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_sendZombieThrow_" data-uid="SDG.Unturned.ZombieManager.sendZombieThrow*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_sendZombieThrow_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.sendZombieThrow(SDG.Unturned.Zombie)">
+  sendZombieThrow(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void sendZombieThrow(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_teleportZombieBackIntoMap_" data-uid="SDG.Unturned.ZombieManager.teleportZombieBackIntoMap*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_teleportZombieBackIntoMap_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.ZombieManager.teleportZombieBackIntoMap(SDG.Unturned.Zombie)">
+  teleportZombieBackIntoMap(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Find replacement spawnpoint for a zombie and teleport it there.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void teleportZombieBackIntoMap(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellBeacon_" data-uid="SDG.Unturned.ZombieManager.tellBeacon*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellBeacon_Steamworks_CSteamID_System_Byte_System_Boolean_" data-uid="SDG.Unturned.ZombieManager.tellBeacon(Steamworks.CSteamID,System.Byte,System.Boolean)">
+  tellBeacon(CSteamID, byte, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellBeacon(CSteamID steamID, byte reference, bool hasBeacon)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hasBeacon</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellWave_" data-uid="SDG.Unturned.ZombieManager.tellWave*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellWave_Steamworks_CSteamID_System_Boolean_System_Int32_" data-uid="SDG.Unturned.ZombieManager.tellWave(Steamworks.CSteamID,System.Boolean,System.Int32)">
+  tellWave(CSteamID, bool, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellWave(CSteamID steamID, bool newWaveReady, int newWave)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newWaveReady</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newWave</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellZombieAlive_" data-uid="SDG.Unturned.ZombieManager.tellZombieAlive*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellZombieAlive_Steamworks_CSteamID_System_Byte_System_UInt16_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.ZombieManager.tellZombieAlive(Steamworks.CSteamID,System.Byte,System.UInt16,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,System.Byte)">
+  tellZombieAlive(CSteamID, byte, ushort, byte, byte, byte, byte, byte, byte, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellZombieAlive(CSteamID steamID, byte reference, ushort id, byte newType, byte newSpeciality, byte newShirt, byte newPants, byte newHat, byte newGear, Vector3 newPosition, byte newAngle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSpeciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newShirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newGear</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellZombieDead_" data-uid="SDG.Unturned.ZombieManager.tellZombieDead*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellZombieDead_Steamworks_CSteamID_System_Byte_System_UInt16_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.ZombieManager.tellZombieDead(Steamworks.CSteamID,System.Byte,System.UInt16,UnityEngine.Vector3,System.Byte)">
+  tellZombieDead(CSteamID, byte, ushort, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellZombieDead(CSteamID steamID, byte reference, ushort id, Vector3 newRagdoll, byte newRagdollEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellZombieSpeciality_" data-uid="SDG.Unturned.ZombieManager.tellZombieSpeciality*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellZombieSpeciality_Steamworks_CSteamID_System_Byte_System_UInt16_System_Byte_" data-uid="SDG.Unturned.ZombieManager.tellZombieSpeciality(Steamworks.CSteamID,System.Byte,System.UInt16,System.Byte)">
+  tellZombieSpeciality(CSteamID, byte, ushort, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellZombieSpeciality(CSteamID steamID, byte reference, ushort id, byte speciality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>speciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellZombieStates_" data-uid="SDG.Unturned.ZombieManager.tellZombieStates*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellZombieStates_Steamworks_CSteamID_" data-uid="SDG.Unturned.ZombieManager.tellZombieStates(Steamworks.CSteamID)">
+  tellZombieStates(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellZombieStates(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ZombieManager_tellZombies_" data-uid="SDG.Unturned.ZombieManager.tellZombies*"></a>
+
+  <h3 id="SDG_Unturned_ZombieManager_tellZombies_Steamworks_CSteamID_" data-uid="SDG.Unturned.ZombieManager.tellZombies(Steamworks.CSteamID)">
+  tellZombies(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellZombies(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

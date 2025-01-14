@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerLife_NetMethods | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerLife_NetMethods | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerLife_NetMethods">
+
+
+
+  <h1 id="SDG_Unturned_PlayerLife_NetMethods" data-uid="SDG.Unturned.PlayerLife_NetMethods" class="text-break">
+Class PlayerLife_NetMethods  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedClass(typeof(PlayerLife))]
+public static class PlayerLife_NetMethods</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PlayerLife_NetMethods</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBleeding_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBleeding_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBleeding_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBleeding_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveBleeding_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveBleeding&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveBleeding_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBleeding_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBleeding_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBleeding_Write_SDG_NetPak_NetPakWriter_System_Boolean_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBleeding_Write(SDG.NetPak.NetPakWriter,System.Boolean)">
+  ReceiveBleeding_Write(NetPakWriter, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveBleeding&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveBleeding_Write(NetPakWriter writer, bool newBleeding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBroken_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBroken_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBroken_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBroken_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveBroken_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveBroken&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveBroken_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBroken_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBroken_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveBroken_Write_SDG_NetPak_NetPakWriter_System_Boolean_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveBroken_Write(SDG.NetPak.NetPakWriter,System.Boolean)">
+  ReceiveBroken_Write(NetPakWriter, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveBroken&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveBroken_Write(NetPakWriter writer, bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDamagedEvent_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDamagedEvent_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDamagedEvent_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDamagedEvent_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveDamagedEvent_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDamagedEvent&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveDamagedEvent_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDamagedEvent_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDamagedEvent_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDamagedEvent_Write_SDG_NetPak_NetPakWriter_System_Byte_UnityEngine_Vector3_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDamagedEvent_Write(SDG.NetPak.NetPakWriter,System.Byte,UnityEngine.Vector3)">
+  ReceiveDamagedEvent_Write(NetPakWriter, byte, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDamagedEvent&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveDamagedEvent_Write(NetPakWriter writer, byte damageAmount, Vector3 damageDirection)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>damageAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>damageDirection</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDead_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDead_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDead_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDead_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveDead_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDead&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveDead_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDead_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDead_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDead_Write_SDG_NetPak_NetPakWriter_UnityEngine_Vector3_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDead_Write(SDG.NetPak.NetPakWriter,UnityEngine.Vector3,SDG.Unturned.ERagdollEffect)">
+  ReceiveDead_Write(NetPakWriter, Vector3, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDead&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveDead_Write(NetPakWriter writer, Vector3 newRagdoll, ERagdollEffect newRagdollEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newRagdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDeath_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDeath_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDeath_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDeath_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveDeath_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDeath&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveDeath_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDeath_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDeath_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveDeath_Write_SDG_NetPak_NetPakWriter_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveDeath_Write(SDG.NetPak.NetPakWriter,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID)">
+  ReceiveDeath_Write(NetPakWriter, EDeathCause, ELimb, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveDeath&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveDeath_Write(NetPakWriter writer, EDeathCause newCause, ELimb newLimb, CSteamID newKiller)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newCause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>newLimb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>newKiller</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveFood_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveFood_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveFood_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveFood_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveFood_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveFood&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveFood_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveFood_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveFood_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveFood_Write_SDG_NetPak_NetPakWriter_System_Byte_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveFood_Write(SDG.NetPak.NetPakWriter,System.Byte)">
+  ReceiveFood_Write(NetPakWriter, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveFood&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveFood_Write(NetPakWriter writer, byte newFood)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveHealth_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveHealth_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveHealth_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveHealth_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveHealth_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveHealth&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveHealth_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveHealth_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveHealth_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveHealth_Write_SDG_NetPak_NetPakWriter_System_Byte_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveHealth_Write(SDG.NetPak.NetPakWriter,System.Byte)">
+  ReceiveHealth_Write(NetPakWriter, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveHealth&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveHealth_Write(NetPakWriter writer, byte newHealth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveLifeStats_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveLifeStats_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveLifeStats_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveLifeStats_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveLifeStats_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveLifeStats&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveLifeStats_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveLifeStats_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveLifeStats_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveLifeStats_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveLifeStats_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Boolean,System.Boolean)">
+  ReceiveLifeStats_Write(NetPakWriter, byte, byte, byte, byte, byte, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveLifeStats&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveLifeStats_Write(NetPakWriter writer, byte newHealth, byte newFood, byte newWater, byte newVirus, byte newOxygen, bool newBleeding, bool newBroken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newHealth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newFood</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newOxygen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newBleeding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newBroken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyHallucination_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyHallucination_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyHallucination_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyHallucination_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveModifyHallucination_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveModifyHallucination&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveModifyHallucination_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyHallucination_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyHallucination_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyHallucination_Write_SDG_NetPak_NetPakWriter_System_Int16_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyHallucination_Write(SDG.NetPak.NetPakWriter,System.Int16)">
+  ReceiveModifyHallucination_Write(NetPakWriter, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveModifyHallucination&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveModifyHallucination_Write(NetPakWriter writer, short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyStamina_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyStamina_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyStamina_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyStamina_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveModifyStamina_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveModifyStamina&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveModifyStamina_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyStamina_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyStamina_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyStamina_Write_SDG_NetPak_NetPakWriter_System_Int16_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyStamina_Write(SDG.NetPak.NetPakWriter,System.Int16)">
+  ReceiveModifyStamina_Write(NetPakWriter, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveModifyStamina&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveModifyStamina_Write(NetPakWriter writer, short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyWarmth_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyWarmth_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyWarmth_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyWarmth_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveModifyWarmth_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveModifyWarmth&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveModifyWarmth_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyWarmth_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyWarmth_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveModifyWarmth_Write_SDG_NetPak_NetPakWriter_System_Int16_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveModifyWarmth_Write(SDG.NetPak.NetPakWriter,System.Int16)">
+  ReceiveModifyWarmth_Write(NetPakWriter, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveModifyWarmth&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveModifyWarmth_Write(NetPakWriter writer, short delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRespawnRequest_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRespawnRequest_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRespawnRequest_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRespawnRequest_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveRespawnRequest_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveRespawnRequest&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveRespawnRequest_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRespawnRequest_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRespawnRequest_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRespawnRequest_Write_SDG_NetPak_NetPakWriter_System_Boolean_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRespawnRequest_Write(SDG.NetPak.NetPakWriter,System.Boolean)">
+  ReceiveRespawnRequest_Write(NetPakWriter, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveRespawnRequest&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveRespawnRequest_Write(NetPakWriter writer, bool atHome)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>atHome</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRevive_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRevive_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRevive_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRevive_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveRevive_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveRevive&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveRevive_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRevive_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRevive_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveRevive_Write_SDG_NetPak_NetPakWriter_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveRevive_Write(SDG.NetPak.NetPakWriter,UnityEngine.Vector3,System.Byte)">
+  ReceiveRevive_Write(NetPakWriter, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveRevive&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveRevive_Write(NetPakWriter writer, Vector3 position, byte angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveSuicideRequest_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveSuicideRequest_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveSuicideRequest_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveSuicideRequest_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveSuicideRequest_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSuicideRequest&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveSuicideRequest_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveSuicideRequest_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveSuicideRequest_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveSuicideRequest_Write_SDG_NetPak_NetPakWriter_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveSuicideRequest_Write(SDG.NetPak.NetPakWriter)">
+  ReceiveSuicideRequest_Write(NetPakWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSuicideRequest&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveSuicideRequest_Write(NetPakWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveVirus_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveVirus_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveVirus_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveVirus_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveVirus_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVirus&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveVirus_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveVirus_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveVirus_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveVirus_Write_SDG_NetPak_NetPakWriter_System_Byte_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveVirus_Write(SDG.NetPak.NetPakWriter,System.Byte)">
+  ReceiveVirus_Write(NetPakWriter, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVirus&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveVirus_Write(NetPakWriter writer, byte newVirus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newVirus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveWater_Read_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveWater_Read*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveWater_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveWater_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveWater_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveWater&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveWater_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerLife_NetMethods_ReceiveWater_Write_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveWater_Write*"></a>
+
+  <h3 id="SDG_Unturned_PlayerLife_NetMethods_ReceiveWater_Write_SDG_NetPak_NetPakWriter_System_Byte_" data-uid="SDG.Unturned.PlayerLife_NetMethods.ReceiveWater_Write(SDG.NetPak.NetPakWriter,System.Byte)">
+  ReceiveWater_Write(NetPakWriter, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveWater&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveWater_Write(NetPakWriter writer, byte newWater)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>newWater</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

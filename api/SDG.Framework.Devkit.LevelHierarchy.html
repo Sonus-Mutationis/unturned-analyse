@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LevelHierarchy | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LevelHierarchy | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Framework.Devkit.LevelHierarchy">
+
+
+
+  <h1 id="SDG_Framework_Devkit_LevelHierarchy" data-uid="SDG.Framework.Devkit.LevelHierarchy" class="text-break">
+Class LevelHierarchy  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Framework.html">Framework</a>.<a class="xref" href="SDG.Framework.Devkit.html">Devkit</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LevelHierarchy : IModuleNexus, IDirtyable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">LevelHierarchy</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.Modules.IModuleNexus.html">IModuleNexus</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.IDirtyable.html">IDirtyable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy__ctor_" data-uid="SDG.Framework.Devkit.LevelHierarchy.#ctor*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy__ctor" data-uid="SDG.Framework.Devkit.LevelHierarchy.#ctor">
+  LevelHierarchy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelHierarchy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy__isDirty" data-uid="SDG.Framework.Devkit.LevelHierarchy._isDirty">
+  _isDirty
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _isDirty</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_instance_" data-uid="SDG.Framework.Devkit.LevelHierarchy.instance*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_instance" data-uid="SDG.Framework.Devkit.LevelHierarchy.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LevelHierarchy instance { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Devkit.LevelHierarchy.html">LevelHierarchy</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_isDirty_" data-uid="SDG.Framework.Devkit.LevelHierarchy.isDirty*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_isDirty" data-uid="SDG.Framework.Devkit.LevelHierarchy.isDirty">
+  isDirty
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isDirty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_items_" data-uid="SDG.Framework.Devkit.LevelHierarchy.items*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_items" data-uid="SDG.Framework.Devkit.LevelHierarchy.items">
+  items
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IDevkitHierarchyItem&gt; items { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_AssignInstanceIdAndMarkDirty_" data-uid="SDG.Framework.Devkit.LevelHierarchy.AssignInstanceIdAndMarkDirty*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_AssignInstanceIdAndMarkDirty_SDG_Framework_Devkit_IDevkitHierarchyItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.AssignInstanceIdAndMarkDirty(SDG.Framework.Devkit.IDevkitHierarchyItem)">
+  AssignInstanceIdAndMarkDirty(IDevkitHierarchyItem)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AssignInstanceIdAndMarkDirty(IDevkitHierarchyItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_MarkDirty_" data-uid="SDG.Framework.Devkit.LevelHierarchy.MarkDirty*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_MarkDirty" data-uid="SDG.Framework.Devkit.LevelHierarchy.MarkDirty">
+  MarkDirty()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MarkDirty()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_addItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.addItem*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_addItem_SDG_Framework_Devkit_IDevkitHierarchyItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.addItem(SDG.Framework.Devkit.IDevkitHierarchyItem)">
+  addItem(IDevkitHierarchyItem)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void addItem(IDevkitHierarchyItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_generateUniqueInstanceID_" data-uid="SDG.Framework.Devkit.LevelHierarchy.generateUniqueInstanceID*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_generateUniqueInstanceID" data-uid="SDG.Framework.Devkit.LevelHierarchy.generateUniqueInstanceID">
+  generateUniqueInstanceID()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint generateUniqueInstanceID()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_handleLoadUpdated_" data-uid="SDG.Framework.Devkit.LevelHierarchy.handleLoadUpdated*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_handleLoadUpdated" data-uid="SDG.Framework.Devkit.LevelHierarchy.handleLoadUpdated">
+  handleLoadUpdated()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void handleLoadUpdated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_handleLoadingStep_" data-uid="SDG.Framework.Devkit.LevelHierarchy.handleLoadingStep*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_handleLoadingStep" data-uid="SDG.Framework.Devkit.LevelHierarchy.handleLoadingStep">
+  handleLoadingStep()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void handleLoadingStep()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_handleTransactionsChanged_" data-uid="SDG.Framework.Devkit.LevelHierarchy.handleTransactionsChanged*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_handleTransactionsChanged" data-uid="SDG.Framework.Devkit.LevelHierarchy.handleTransactionsChanged">
+  handleTransactionsChanged()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void handleTransactionsChanged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_initItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.initItem*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_initItem_SDG_Framework_Devkit_IDevkitHierarchyItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.initItem(SDG.Framework.Devkit.IDevkitHierarchyItem)">
+  initItem(IDevkitHierarchyItem)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Renamed to AssignInstanceIdAndMarkDirty&quot;)]
+public static void initItem(IDevkitHierarchyItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_initialize_" data-uid="SDG.Framework.Devkit.LevelHierarchy.initialize*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_initialize" data-uid="SDG.Framework.Devkit.LevelHierarchy.initialize">
+  initialize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Register components of this module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void initialize()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_load_" data-uid="SDG.Framework.Devkit.LevelHierarchy.load*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_load" data-uid="SDG.Framework.Devkit.LevelHierarchy.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_read_" data-uid="SDG.Framework.Devkit.LevelHierarchy.read*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_read_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_" data-uid="SDG.Framework.Devkit.LevelHierarchy.read(SDG.Framework.IO.FormattedFiles.IFormattedFileReader)">
+  read(IFormattedFileReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void read(IFormattedFileReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReader.html">IFormattedFileReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_removeItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.removeItem*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_removeItem_SDG_Framework_Devkit_IDevkitHierarchyItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.removeItem(SDG.Framework.Devkit.IDevkitHierarchyItem)">
+  removeItem(IDevkitHierarchyItem)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void removeItem(IDevkitHierarchyItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_save_" data-uid="SDG.Framework.Devkit.LevelHierarchy.save*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_save" data-uid="SDG.Framework.Devkit.LevelHierarchy.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_shutdown_" data-uid="SDG.Framework.Devkit.LevelHierarchy.shutdown*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_shutdown" data-uid="SDG.Framework.Devkit.LevelHierarchy.shutdown">
+  shutdown()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cleanup after this module.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void shutdown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_triggerItemAdded_" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerItemAdded*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_triggerItemAdded_SDG_Framework_Devkit_IDevkitHierarchyItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerItemAdded(SDG.Framework.Devkit.IDevkitHierarchyItem)">
+  triggerItemAdded(IDevkitHierarchyItem)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void triggerItemAdded(IDevkitHierarchyItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_triggerItemRemoved_" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerItemRemoved*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_triggerItemRemoved_SDG_Framework_Devkit_IDevkitHierarchyItem_" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerItemRemoved(SDG.Framework.Devkit.IDevkitHierarchyItem)">
+  triggerItemRemoved(IDevkitHierarchyItem)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void triggerItemRemoved(IDevkitHierarchyItem item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_triggerLoaded_" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerLoaded*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_triggerLoaded" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerLoaded">
+  triggerLoaded()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void triggerLoaded()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_triggerReady_" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerReady*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_triggerReady" data-uid="SDG.Framework.Devkit.LevelHierarchy.triggerReady">
+  triggerReady()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void triggerReady()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_LevelHierarchy_write_" data-uid="SDG.Framework.Devkit.LevelHierarchy.write*"></a>
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_write_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_" data-uid="SDG.Framework.Devkit.LevelHierarchy.write(SDG.Framework.IO.FormattedFiles.IFormattedFileWriter)">
+  write(IFormattedFileWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void write(IFormattedFileWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWriter.html">IFormattedFileWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_itemAdded" data-uid="SDG.Framework.Devkit.LevelHierarchy.itemAdded">
+  itemAdded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event LevelHiearchyItemAdded itemAdded</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Devkit.LevelHiearchyItemAdded.html">LevelHiearchyItemAdded</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_itemRemoved" data-uid="SDG.Framework.Devkit.LevelHierarchy.itemRemoved">
+  itemRemoved
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event LevelHierarchyItemRemoved itemRemoved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Devkit.LevelHierarchyItemRemoved.html">LevelHierarchyItemRemoved</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_loaded" data-uid="SDG.Framework.Devkit.LevelHierarchy.loaded">
+  loaded
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event LevelHierarchyLoaded loaded</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Devkit.LevelHierarchyLoaded.html">LevelHierarchyLoaded</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_LevelHierarchy_ready" data-uid="SDG.Framework.Devkit.LevelHierarchy.ready">
+  ready
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event LevelHierarchyReady ready</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Devkit.LevelHierarchyReady.html">LevelHierarchyReady</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

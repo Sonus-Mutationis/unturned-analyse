@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerAnimator | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerAnimator | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerAnimator">
+
+
+
+  <h1 id="SDG_Unturned_PlayerAnimator" data-uid="SDG.Unturned.PlayerAnimator" class="text-break">
+Class PlayerAnimator  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerAnimator : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerAnimator</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerAnimator__ctor_" data-uid="SDG.Unturned.PlayerAnimator.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator__ctor" data-uid="SDG.Unturned.PlayerAnimator.#ctor">
+  PlayerAnimator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerAnimator()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_SAVEDATA_VERSION" data-uid="SDG.Unturned.PlayerAnimator.SAVEDATA_VERSION">
+  SAVEDATA_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte SAVEDATA_VERSION</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_captorID" data-uid="SDG.Unturned.PlayerAnimator.captorID">
+  captorID
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CSteamID captorID</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_captorItem" data-uid="SDG.Unturned.PlayerAnimator.captorItem">
+  captorItem
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort captorItem</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_captorStrength" data-uid="SDG.Unturned.PlayerAnimator.captorStrength">
+  captorStrength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort captorStrength</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_drivingViewmodelCameraLocalPositionOffset" data-uid="SDG.Unturned.PlayerAnimator.drivingViewmodelCameraLocalPositionOffset">
+  drivingViewmodelCameraLocalPositionOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to hide viewmodel arms while using a vehicle turret gun.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 drivingViewmodelCameraLocalPositionOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_onGestureUpdated" data-uid="SDG.Unturned.PlayerAnimator.onGestureUpdated">
+  onGestureUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GestureUpdated onGestureUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.GestureUpdated.html">GestureUpdated</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_onInventoryGesture" data-uid="SDG.Unturned.PlayerAnimator.onInventoryGesture">
+  onInventoryGesture
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event for server plugins to monitor whether player is in-inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerAnimator.InventoryGestureListener onInventoryGesture</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerAnimator.html">PlayerAnimator</a>.<a class="xref" href="SDG.Unturned.PlayerAnimator.InventoryGestureListener.html">InventoryGestureListener</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_recoilViewmodelCameraMask" data-uid="SDG.Unturned.PlayerAnimator.recoilViewmodelCameraMask">
+  recoilViewmodelCameraMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 recoilViewmodelCameraMask</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_recoilViewmodelCameraOffset" data-uid="SDG.Unturned.PlayerAnimator.recoilViewmodelCameraOffset">
+  recoilViewmodelCameraOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Abruptly offset when gun is fired, then animated back toward zero.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4Spring3 recoilViewmodelCameraOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4Spring3.html">Rk4Spring3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_recoilViewmodelCameraRotation" data-uid="SDG.Unturned.PlayerAnimator.recoilViewmodelCameraRotation">
+  recoilViewmodelCameraRotation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Abruptly offset when gun is fired, then animated back toward zero.
+x = pitch, y = yaw, z = roll</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4Spring3 recoilViewmodelCameraRotation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4Spring3.html">Rk4Spring3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_rotationInputViewmodelRoll" data-uid="SDG.Unturned.PlayerAnimator.rotationInputViewmodelRoll">
+  rotationInputViewmodelRoll
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animated according to change in pitch/yaw input between frames so that gun rolls slightly while turning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4Spring3 rotationInputViewmodelRoll</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4Spring3.html">Rk4Spring3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_scopeSway" data-uid="SDG.Unturned.PlayerAnimator.scopeSway">
+  scopeSway
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Offsets main camera and aim rotation while aiming with a scoped gun.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 scopeSway</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelCamera" data-uid="SDG.Unturned.PlayerAnimator.viewmodelCamera">
+  viewmodelCamera
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Camera near world origin masking the first-person arms and weapon.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera viewmodelCamera</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Camera</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelCameraLocalPositionOffset" data-uid="SDG.Unturned.PlayerAnimator.viewmodelCameraLocalPositionOffset">
+  viewmodelCameraLocalPositionOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used by gun to hide viewmodel arms while aiming 2D scope, and by chainsaw to shake the viewmodel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 viewmodelCameraLocalPositionOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelCameraMovementLocalRotation" data-uid="SDG.Unturned.PlayerAnimator.viewmodelCameraMovementLocalRotation">
+  viewmodelCameraMovementLocalRotation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animated while playing is moving.
+x = pitch, y = roll</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4Spring2 viewmodelCameraMovementLocalRotation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4Spring2.html">Rk4Spring2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelCameraTransform" data-uid="SDG.Unturned.PlayerAnimator.viewmodelCameraTransform">
+  viewmodelCameraTransform
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Child of the first-person skull transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform viewmodelCameraTransform</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelExplosionSmoothingSpeed" data-uid="SDG.Unturned.PlayerAnimator.viewmodelExplosionSmoothingSpeed">
+  viewmodelExplosionSmoothingSpeed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float viewmodelExplosionSmoothingSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelItemInertiaMask" data-uid="SDG.Unturned.PlayerAnimator.viewmodelItemInertiaMask">
+  viewmodelItemInertiaMask
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Degrees per meter of item distance travelled.
+Pitch is driven by vertical displacement, yaw and roll are driven by horizontal.
+x = pitch, y = yaw, z = roll</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 viewmodelItemInertiaMask</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelItemInertiaRotation" data-uid="SDG.Unturned.PlayerAnimator.viewmodelItemInertiaRotation">
+  viewmodelItemInertiaRotation
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animated according to change in item position between frames so that animations have more inertia.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4Spring3 viewmodelItemInertiaRotation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4Spring3.html">Rk4Spring3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelMovementOffset" data-uid="SDG.Unturned.PlayerAnimator.viewmodelMovementOffset">
+  viewmodelMovementOffset
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animated while player is moving.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4Spring2 viewmodelMovementOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4Spring2.html">Rk4Spring2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelOffsetPreferenceMultiplier" data-uid="SDG.Unturned.PlayerAnimator.viewmodelOffsetPreferenceMultiplier">
+  viewmodelOffsetPreferenceMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>0 while aiming, 1 while not aiming.
+Players can customize the 3D position of the viewmodel on screen, but this needs
+to be blended out while aiming down sights otherwise it would not line up with
+the center of the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float viewmodelOffsetPreferenceMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelParentTransform" data-uid="SDG.Unturned.PlayerAnimator.viewmodelParentTransform">
+  viewmodelParentTransform
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Empty transform created at the world origin.
+The first-person Viewmodel transform is re-parented to this.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform viewmodelParentTransform</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelSwayMultiplier" data-uid="SDG.Unturned.PlayerAnimator.viewmodelSwayMultiplier">
+  viewmodelSwayMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Small number (0.1) while aiming, 1 while not aiming.
+Reduces viewmodel animation while aiming to make 3D sights more usable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float viewmodelSwayMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_viewmodelTargetExplosionLocalRotation" data-uid="SDG.Unturned.PlayerAnimator.viewmodelTargetExplosionLocalRotation">
+  viewmodelTargetExplosionLocalRotation
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rk4SpringQ viewmodelTargetExplosionLocalRotation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Rk4SpringQ.html">Rk4SpringQ</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerAnimator_bob_" data-uid="SDG.Unturned.PlayerAnimator.bob*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_bob" data-uid="SDG.Unturned.PlayerAnimator.bob">
+  bob
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float bob { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_firstSkeleton_" data-uid="SDG.Unturned.PlayerAnimator.firstSkeleton*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_firstSkeleton" data-uid="SDG.Unturned.PlayerAnimator.firstSkeleton">
+  firstSkeleton
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform firstSkeleton { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_gesture_" data-uid="SDG.Unturned.PlayerAnimator.gesture*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_gesture" data-uid="SDG.Unturned.PlayerAnimator.gesture">
+  gesture
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EPlayerGesture gesture { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPlayerGesture.html">EPlayerGesture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_lean_" data-uid="SDG.Unturned.PlayerAnimator.lean*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_lean" data-uid="SDG.Unturned.PlayerAnimator.lean">
+  lean
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int lean { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_leanLeft_" data-uid="SDG.Unturned.PlayerAnimator.leanLeft*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_leanLeft" data-uid="SDG.Unturned.PlayerAnimator.leanLeft">
+  leanLeft
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool leanLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_leanRight_" data-uid="SDG.Unturned.PlayerAnimator.leanRight*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_leanRight" data-uid="SDG.Unturned.PlayerAnimator.leanRight">
+  leanRight
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool leanRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_roll_" data-uid="SDG.Unturned.PlayerAnimator.roll*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_roll" data-uid="SDG.Unturned.PlayerAnimator.roll">
+  roll
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float roll { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_shoulder_" data-uid="SDG.Unturned.PlayerAnimator.shoulder*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_shoulder" data-uid="SDG.Unturned.PlayerAnimator.shoulder">
+  shoulder
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shoulder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_shoulder2_" data-uid="SDG.Unturned.PlayerAnimator.shoulder2*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_shoulder2" data-uid="SDG.Unturned.PlayerAnimator.shoulder2">
+  shoulder2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shoulder2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_side_" data-uid="SDG.Unturned.PlayerAnimator.side*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_side" data-uid="SDG.Unturned.PlayerAnimator.side">
+  side
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool side { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_speed_" data-uid="SDG.Unturned.PlayerAnimator.speed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_speed" data-uid="SDG.Unturned.PlayerAnimator.speed">
+  speed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float speed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_thirdSkeleton_" data-uid="SDG.Unturned.PlayerAnimator.thirdSkeleton*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_thirdSkeleton" data-uid="SDG.Unturned.PlayerAnimator.thirdSkeleton">
+  thirdSkeleton
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform thirdSkeleton { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_tilt_" data-uid="SDG.Unturned.PlayerAnimator.tilt*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_tilt" data-uid="SDG.Unturned.PlayerAnimator.tilt">
+  tilt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float tilt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerAnimator_AddBayonetViewmodelCameraOffset_" data-uid="SDG.Unturned.PlayerAnimator.AddBayonetViewmodelCameraOffset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_AddBayonetViewmodelCameraOffset_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.PlayerAnimator.AddBayonetViewmodelCameraOffset(System.Single,System.Single,System.Single)">
+  AddBayonetViewmodelCameraOffset(float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBayonetViewmodelCameraOffset(float fling_x, float fling_y, float fling_z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fling_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>fling_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>fling_z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_AddEquippedItemAnimation_" data-uid="SDG.Unturned.PlayerAnimator.AddEquippedItemAnimation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_AddEquippedItemAnimation_UnityEngine_AnimationClip_UnityEngine_Transform_UnityEngine_Transform_UnityEngine_Transform_" data-uid="SDG.Unturned.PlayerAnimator.AddEquippedItemAnimation(UnityEngine.AnimationClip,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform)">
+  AddEquippedItemAnimation(AnimationClip, Transform, Transform, Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddEquippedItemAnimation(AnimationClip clip, Transform firstPersonModel, Transform thirdPersonModel, Transform characterModel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>clip</code> <span class="xref">AnimationClip</span></dt>
+    <dd></dd>
+    <dt><code>firstPersonModel</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>thirdPersonModel</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>characterModel</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_AddRecoilViewmodelCameraOffset_" data-uid="SDG.Unturned.PlayerAnimator.AddRecoilViewmodelCameraOffset*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_AddRecoilViewmodelCameraOffset_System_Single_System_Single_System_Single_" data-uid="SDG.Unturned.PlayerAnimator.AddRecoilViewmodelCameraOffset(System.Single,System.Single,System.Single)">
+  AddRecoilViewmodelCameraOffset(float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRecoilViewmodelCameraOffset(float shake_x, float shake_y, float shake_z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shake_x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>shake_y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>shake_z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_AddRecoilViewmodelCameraRotation_" data-uid="SDG.Unturned.PlayerAnimator.AddRecoilViewmodelCameraRotation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_AddRecoilViewmodelCameraRotation_System_Single_System_Single_" data-uid="SDG.Unturned.PlayerAnimator.AddRecoilViewmodelCameraRotation(System.Single,System.Single)">
+  AddRecoilViewmodelCameraRotation(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRecoilViewmodelCameraRotation(float cameraYaw, float cameraPitch)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cameraYaw</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cameraPitch</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_GetAnimationLength_" data-uid="SDG.Unturned.PlayerAnimator.GetAnimationLength*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_GetAnimationLength_System_String_System_Boolean_" data-uid="SDG.Unturned.PlayerAnimator.GetAnimationLength(System.String,System.Boolean)">
+  GetAnimationLength(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAnimationLength(string name, bool scaled = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>scaled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, include current animation speed modifier.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_NotifyClothingIsVisible_" data-uid="SDG.Unturned.PlayerAnimator.NotifyClothingIsVisible*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_NotifyClothingIsVisible" data-uid="SDG.Unturned.PlayerAnimator.NotifyClothingIsVisible">
+  NotifyClothingIsVisible()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called by clothing to make mesh renderers visible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyClothingIsVisible()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_ReceiveGesture_" data-uid="SDG.Unturned.PlayerAnimator.ReceiveGesture*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_ReceiveGesture_SDG_Unturned_EPlayerGesture_" data-uid="SDG.Unturned.PlayerAnimator.ReceiveGesture(SDG.Unturned.EPlayerGesture)">
+  ReceiveGesture(EPlayerGesture)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellGesture&quot;)]
+public void ReceiveGesture(EPlayerGesture newGesture)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGesture</code> <a class="xref" href="SDG.Unturned.EPlayerGesture.html">EPlayerGesture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_ReceiveGestureRequest_" data-uid="SDG.Unturned.PlayerAnimator.ReceiveGestureRequest*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_ReceiveGestureRequest_SDG_Unturned_EPlayerGesture_" data-uid="SDG.Unturned.PlayerAnimator.ReceiveGestureRequest(SDG.Unturned.EPlayerGesture)">
+  ReceiveGestureRequest(EPlayerGesture)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rate limit is relatively high because this RPC handles open/close inventory notification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER, ratelimitHz = 15, legacyName = &quot;askGesture&quot;)]
+public void ReceiveGestureRequest(EPlayerGesture newGesture)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newGesture</code> <a class="xref" href="SDG.Unturned.EPlayerGesture.html">EPlayerGesture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_ReceiveLean_" data-uid="SDG.Unturned.PlayerAnimator.ReceiveLean*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_ReceiveLean_System_Byte_" data-uid="SDG.Unturned.PlayerAnimator.ReceiveLean(System.Byte)">
+  ReceiveLean(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER, legacyName = &quot;tellLean&quot;)]
+public void ReceiveLean(byte newLean)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newLean</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_askEmote_" data-uid="SDG.Unturned.PlayerAnimator.askEmote*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_askEmote_Steamworks_CSteamID_" data-uid="SDG.Unturned.PlayerAnimator.askEmote(Steamworks.CSteamID)">
+  askEmote(CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askEmote(CSteamID steamID)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_askGesture_" data-uid="SDG.Unturned.PlayerAnimator.askGesture*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_askGesture_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerAnimator.askGesture(Steamworks.CSteamID,System.Byte)">
+  askGesture(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askGesture(CSteamID steamID, byte id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_checkExists_" data-uid="SDG.Unturned.PlayerAnimator.checkExists*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_checkExists_System_String_" data-uid="SDG.Unturned.PlayerAnimator.checkExists(System.String)">
+  checkExists(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkExists(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_getAnimationLength_" data-uid="SDG.Unturned.PlayerAnimator.getAnimationLength*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_getAnimationLength_System_String_" data-uid="SDG.Unturned.PlayerAnimator.getAnimationLength(System.String)">
+  getAnimationLength(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float getAnimationLength(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_load_" data-uid="SDG.Unturned.PlayerAnimator.load*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_load" data-uid="SDG.Unturned.PlayerAnimator.load">
+  load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void load()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_mixAnimation_" data-uid="SDG.Unturned.PlayerAnimator.mixAnimation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_mixAnimation_System_String_" data-uid="SDG.Unturned.PlayerAnimator.mixAnimation(System.String)">
+  mixAnimation(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void mixAnimation(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_mixAnimation_" data-uid="SDG.Unturned.PlayerAnimator.mixAnimation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_mixAnimation_System_String_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerAnimator.mixAnimation(System.String,System.Boolean,System.Boolean)">
+  mixAnimation(string, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void mixAnimation(string name, bool mixLeftShoulder, bool mixRightShoulder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mixLeftShoulder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>mixRightShoulder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_mixAnimation_" data-uid="SDG.Unturned.PlayerAnimator.mixAnimation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_mixAnimation_System_String_System_Boolean_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerAnimator.mixAnimation(System.String,System.Boolean,System.Boolean,System.Boolean)">
+  mixAnimation(string, bool, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void mixAnimation(string name, bool mixLeftShoulder, bool mixRightShoulder, bool mixSkull)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mixLeftShoulder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>mixRightShoulder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>mixSkull</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_play_" data-uid="SDG.Unturned.PlayerAnimator.play*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_play_System_String_System_Boolean_" data-uid="SDG.Unturned.PlayerAnimator.play(System.String,System.Boolean)">
+  play(string, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void play(string name, bool smooth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>smooth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_removeAnimation_" data-uid="SDG.Unturned.PlayerAnimator.removeAnimation*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_removeAnimation_UnityEngine_AnimationClip_" data-uid="SDG.Unturned.PlayerAnimator.removeAnimation(UnityEngine.AnimationClip)">
+  removeAnimation(AnimationClip)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void removeAnimation(AnimationClip clip)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>clip</code> <span class="xref">AnimationClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_save_" data-uid="SDG.Unturned.PlayerAnimator.save*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_save" data-uid="SDG.Unturned.PlayerAnimator.save">
+  save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void save()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_sendGesture_" data-uid="SDG.Unturned.PlayerAnimator.sendGesture*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_sendGesture_SDG_Unturned_EPlayerGesture_System_Boolean_" data-uid="SDG.Unturned.PlayerAnimator.sendGesture(SDG.Unturned.EPlayerGesture,System.Boolean)">
+  sendGesture(EPlayerGesture, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendGesture(EPlayerGesture gesture, bool all)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gesture</code> <a class="xref" href="SDG.Unturned.EPlayerGesture.html">EPlayerGesture</a></dt>
+    <dd></dd>
+    <dt><code>all</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_setAnimationSpeed_" data-uid="SDG.Unturned.PlayerAnimator.setAnimationSpeed*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_setAnimationSpeed_System_String_System_Single_" data-uid="SDG.Unturned.PlayerAnimator.setAnimationSpeed(System.String,System.Single)">
+  setAnimationSpeed(string, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setAnimationSpeed(string name, float speed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>speed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_simulate_" data-uid="SDG.Unturned.PlayerAnimator.simulate*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_simulate_System_UInt32_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerAnimator.simulate(System.UInt32,System.Boolean,System.Boolean)">
+  simulate(uint, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void simulate(uint simulation, bool inputLeanLeft, bool inputLeanRight)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>simulation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>inputLeanLeft</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>inputLeanRight</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_stop_" data-uid="SDG.Unturned.PlayerAnimator.stop*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_stop_System_String_" data-uid="SDG.Unturned.PlayerAnimator.stop(System.String)">
+  stop(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void stop(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_tellGesture_" data-uid="SDG.Unturned.PlayerAnimator.tellGesture*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_tellGesture_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerAnimator.tellGesture(Steamworks.CSteamID,System.Byte)">
+  tellGesture(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellGesture(CSteamID steamID, byte id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerAnimator_tellLean_" data-uid="SDG.Unturned.PlayerAnimator.tellLean*"></a>
+
+  <h3 id="SDG_Unturned_PlayerAnimator_tellLean_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.PlayerAnimator.tellLean(Steamworks.CSteamID,System.Byte)">
+  tellLean(CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellLean(CSteamID steamID, byte newLean)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>steamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>newLean</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_OnGestureChanged_Global" data-uid="SDG.Unturned.PlayerAnimator.OnGestureChanged_Global">
+  OnGestureChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoked after tellGesture is called with the new gesture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerAnimator, EPlayerGesture&gt; OnGestureChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerAnimator.html">PlayerAnimator</a>, <a class="xref" href="SDG.Unturned.EPlayerGesture.html">EPlayerGesture</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerAnimator_OnLeanChanged_Global" data-uid="SDG.Unturned.PlayerAnimator.OnLeanChanged_Global">
+  OnLeanChanged_Global
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;PlayerAnimator&gt; OnLeanChanged_Global</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SDG.Unturned.PlayerAnimator.html">PlayerAnimator</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

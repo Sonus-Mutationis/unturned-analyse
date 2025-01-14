@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Zombie | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Zombie | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.Zombie">
+
+
+
+  <h1 id="SDG_Unturned_Zombie" data-uid="SDG.Unturned.Zombie" class="text-break">
+Class Zombie  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Zombie : MonoBehaviour, IExplosionDamageable, IEquatable&lt;IExplosionDamageable&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Zombie</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Unturned.IExplosionDamageable.html">IExplosionDamageable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="SDG.Unturned.IExplosionDamageable.html">IExplosionDamageable</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_Zombie__ctor_" data-uid="SDG.Unturned.Zombie.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_Zombie__ctor" data-uid="SDG.Unturned.Zombie.#ctor">
+  Zombie()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Zombie()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_Zombie_bound" data-uid="SDG.Unturned.Zombie.bound">
+  bound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte bound</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_gear" data-uid="SDG.Unturned.Zombie.gear">
+  gear
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte gear</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_hat" data-uid="SDG.Unturned.Zombie.hat">
+  hat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte hat</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_id" data-uid="SDG.Unturned.Zombie.id">
+  id
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort id</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_idleAnim" data-uid="SDG.Unturned.Zombie.idleAnim">
+  idleAnim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string idleAnim</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_isDead" data-uid="SDG.Unturned.Zombie.isDead">
+  isDead
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isDead</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_isUpdated" data-uid="SDG.Unturned.Zombie.isUpdated">
+  isUpdated
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isUpdated</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_pants" data-uid="SDG.Unturned.Zombie.pants">
+  pants
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte pants</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_shirt" data-uid="SDG.Unturned.Zombie.shirt">
+  shirt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte shirt</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_speciality" data-uid="SDG.Unturned.Zombie.speciality">
+  speciality
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EZombieSpeciality speciality</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EZombieSpeciality.html">EZombieSpeciality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_Zombie_type" data-uid="SDG.Unturned.Zombie.type">
+  type
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte type</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_Zombie_IsEligibleForExplosionDamage_" data-uid="SDG.Unturned.Zombie.IsEligibleForExplosionDamage*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_IsEligibleForExplosionDamage" data-uid="SDG.Unturned.Zombie.IsEligibleForExplosionDamage">
+  IsEligibleForExplosionDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to exclude dead entities from further evaluation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEligibleForExplosionDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_difficulty_" data-uid="SDG.Unturned.Zombie.difficulty*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_difficulty" data-uid="SDG.Unturned.Zombie.difficulty">
+  difficulty
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZombieDifficultyAsset difficulty { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ZombieDifficultyAsset.html">ZombieDifficultyAsset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_idle_" data-uid="SDG.Unturned.Zombie.idle*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_idle" data-uid="SDG.Unturned.Zombie.idle">
+  idle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte idle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_isBoss_" data-uid="SDG.Unturned.Zombie.isBoss*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_isBoss" data-uid="SDG.Unturned.Zombie.isBoss">
+  isBoss
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isBoss { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_isCutesy_" data-uid="SDG.Unturned.Zombie.isCutesy*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_isCutesy" data-uid="SDG.Unturned.Zombie.isCutesy">
+  isCutesy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isCutesy { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_isHunting_" data-uid="SDG.Unturned.Zombie.isHunting*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_isHunting" data-uid="SDG.Unturned.Zombie.isHunting">
+  isHunting
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isHunting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_isHyper_" data-uid="SDG.Unturned.Zombie.isHyper*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_isHyper" data-uid="SDG.Unturned.Zombie.isHyper">
+  isHyper
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isHyper { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_isMega_" data-uid="SDG.Unturned.Zombie.isMega*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_isMega" data-uid="SDG.Unturned.Zombie.isMega">
+  isMega
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Boss zombies are considered mega as well.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isMega { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_isRadioactive_" data-uid="SDG.Unturned.Zombie.isRadioactive*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_isRadioactive" data-uid="SDG.Unturned.Zombie.isRadioactive">
+  isRadioactive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isRadioactive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_lastDead_" data-uid="SDG.Unturned.Zombie.lastDead*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_lastDead" data-uid="SDG.Unturned.Zombie.lastDead">
+  lastDead
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lastDead { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_move_" data-uid="SDG.Unturned.Zombie.move*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_move" data-uid="SDG.Unturned.Zombie.move">
+  move
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte move { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_Zombie_ApplyExplosionDamage_" data-uid="SDG.Unturned.Zombie.ApplyExplosionDamage*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_ApplyExplosionDamage_SDG_Unturned_ExplosionParameters__SDG_Unturned_ExplosionDamageParameters__" data-uid="SDG.Unturned.Zombie.ApplyExplosionDamage(SDG.Unturned.ExplosionParameters@,SDG.Unturned.ExplosionDamageParameters@)">
+  ApplyExplosionDamage(in ExplosionParameters, ref ExplosionDamageParameters)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyExplosionDamage(in ExplosionParameters explosionParameters, ref ExplosionDamageParameters damageParameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>explosionParameters</code> <a class="xref" href="SDG.Unturned.ExplosionParameters.html">ExplosionParameters</a></dt>
+    <dd></dd>
+    <dt><code>damageParameters</code> <a class="xref" href="SDG.Unturned.ExplosionDamageParameters.html">ExplosionDamageParameters</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_Equals_" data-uid="SDG.Unturned.Zombie.Equals*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_Equals_SDG_Unturned_IExplosionDamageable_" data-uid="SDG.Unturned.Zombie.Equals(SDG.Unturned.IExplosionDamageable)">
+  Equals(IExplosionDamageable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(IExplosionDamageable obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="SDG.Unturned.IExplosionDamageable.html">IExplosionDamageable</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_GetClosestPointToExplosion_" data-uid="SDG.Unturned.Zombie.GetClosestPointToExplosion*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_GetClosestPointToExplosion_UnityEngine_Vector3_" data-uid="SDG.Unturned.Zombie.GetClosestPointToExplosion(UnityEngine.Vector3)">
+  GetClosestPointToExplosion(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to sort damage from nearest to furthest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetClosestPointToExplosion(Vector3 explosionCenter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>explosionCenter</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_GetHealth_" data-uid="SDG.Unturned.Zombie.GetHealth*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_GetHealth" data-uid="SDG.Unturned.Zombie.GetHealth">
+  GetHealth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetHealth()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_GetMaxHealth_" data-uid="SDG.Unturned.Zombie.GetMaxHealth*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_GetMaxHealth" data-uid="SDG.Unturned.Zombie.GetMaxHealth">
+  GetMaxHealth()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetMaxHealth()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_alert_" data-uid="SDG.Unturned.Zombie.alert*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_alert_SDG_Unturned_Player_" data-uid="SDG.Unturned.Zombie.alert(SDG.Unturned.Player)">
+  alert(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void alert(Player newPlayer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_alert_" data-uid="SDG.Unturned.Zombie.alert*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_alert_UnityEngine_Vector3_System_Boolean_" data-uid="SDG.Unturned.Zombie.alert(UnityEngine.Vector3,System.Boolean)">
+  alert(Vector3, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void alert(Vector3 newPosition, bool isStartling)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>isStartling</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askAcid_" data-uid="SDG.Unturned.Zombie.askAcid*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askAcid_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.Zombie.askAcid(UnityEngine.Vector3,UnityEngine.Vector3)">
+  askAcid(Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askAcid(Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askAttack_" data-uid="SDG.Unturned.Zombie.askAttack*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askAttack_System_Byte_" data-uid="SDG.Unturned.Zombie.askAttack(System.Byte)">
+  askAttack(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askAttack(byte id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askBoulder_" data-uid="SDG.Unturned.Zombie.askBoulder*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askBoulder_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="SDG.Unturned.Zombie.askBoulder(UnityEngine.Vector3,UnityEngine.Vector3)">
+  askBoulder(Vector3, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askBoulder(Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askBreath_" data-uid="SDG.Unturned.Zombie.askBreath*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askBreath" data-uid="SDG.Unturned.Zombie.askBreath">
+  askBreath()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askBreath()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askCharge_" data-uid="SDG.Unturned.Zombie.askCharge*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askCharge" data-uid="SDG.Unturned.Zombie.askCharge">
+  askCharge()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askCharge()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askDamage_" data-uid="SDG.Unturned.Zombie.askDamage*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askDamage_System_UInt16_UnityEngine_Vector3_SDG_Unturned_EPlayerKill__System_UInt32__System_Boolean_System_Boolean_SDG_Unturned_EZombieStunOverride_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.Zombie.askDamage(System.UInt16,UnityEngine.Vector3,SDG.Unturned.EPlayerKill@,System.UInt32@,System.Boolean,System.Boolean,SDG.Unturned.EZombieStunOverride,SDG.Unturned.ERagdollEffect)">
+  askDamage(ushort, Vector3, out EPlayerKill, out uint, bool, bool, EZombieStunOverride, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askDamage(ushort amount, Vector3 newRagdoll, out EPlayerKill kill, out uint xp, bool trackKill = true, bool dropLoot = true, EZombieStunOverride stunOverride = EZombieStunOverride.None, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>trackKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>dropLoot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>stunOverride</code> <a class="xref" href="SDG.Unturned.EZombieStunOverride.html">EZombieStunOverride</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askSpark_" data-uid="SDG.Unturned.Zombie.askSpark*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askSpark_UnityEngine_Vector3_" data-uid="SDG.Unturned.Zombie.askSpark(UnityEngine.Vector3)">
+  askSpark(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askSpark(Vector3 target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askSpit_" data-uid="SDG.Unturned.Zombie.askSpit*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askSpit" data-uid="SDG.Unturned.Zombie.askSpit">
+  askSpit()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askSpit()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askStartle_" data-uid="SDG.Unturned.Zombie.askStartle*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askStartle_System_Byte_" data-uid="SDG.Unturned.Zombie.askStartle(System.Byte)">
+  askStartle(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askStartle(byte id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askStomp_" data-uid="SDG.Unturned.Zombie.askStomp*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askStomp" data-uid="SDG.Unturned.Zombie.askStomp">
+  askStomp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askStomp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askStun_" data-uid="SDG.Unturned.Zombie.askStun*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askStun_System_Byte_" data-uid="SDG.Unturned.Zombie.askStun(System.Byte)">
+  askStun(byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askStun(byte id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_askThrow_" data-uid="SDG.Unturned.Zombie.askThrow*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_askThrow" data-uid="SDG.Unturned.Zombie.askThrow">
+  askThrow()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void askThrow()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_checkAlert_" data-uid="SDG.Unturned.Zombie.checkAlert*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_checkAlert_SDG_Unturned_Player_" data-uid="SDG.Unturned.Zombie.checkAlert(SDG.Unturned.Player)">
+  checkAlert(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool checkAlert(Player newPlayer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_getBulletResistance_" data-uid="SDG.Unturned.Zombie.getBulletResistance*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_getBulletResistance" data-uid="SDG.Unturned.Zombie.getBulletResistance">
+  getBulletResistance()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float getBulletResistance()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_getStunDamageThreshold_" data-uid="SDG.Unturned.Zombie.getStunDamageThreshold*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_getStunDamageThreshold" data-uid="SDG.Unturned.Zombie.getStunDamageThreshold">
+  getStunDamageThreshold()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>If damage exceeds this value, stun the zombie.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int getStunDamageThreshold()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_init_" data-uid="SDG.Unturned.Zombie.init*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_init" data-uid="SDG.Unturned.Zombie.init">
+  init()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_killWithFireExplosion_" data-uid="SDG.Unturned.Zombie.killWithFireExplosion*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_killWithFireExplosion" data-uid="SDG.Unturned.Zombie.killWithFireExplosion">
+  killWithFireExplosion()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used to kill night-only zombies at dawn.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void killWithFireExplosion()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_sendRevive_" data-uid="SDG.Unturned.Zombie.sendRevive*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_sendRevive_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.Zombie.sendRevive(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,System.Single)">
+  sendRevive(byte, byte, byte, byte, byte, byte, Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void sendRevive(byte type, byte speciality, byte shirt, byte pants, byte hat, byte gear, Vector3 position, float angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>speciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>shirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>pants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>hat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>gear</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_tellAlive_" data-uid="SDG.Unturned.Zombie.tellAlive*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_tellAlive_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_System_Byte_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.Zombie.tellAlive(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,UnityEngine.Vector3,System.Byte)">
+  tellAlive(byte, byte, byte, byte, byte, byte, Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tellAlive(byte newType, byte newSpeciality, byte newShirt, byte newPants, byte newHat, byte newGear, Vector3 newPosition, byte newAngle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newSpeciality</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newShirt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPants</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newHat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newGear</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_tellDead_" data-uid="SDG.Unturned.Zombie.tellDead*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_tellDead_UnityEngine_Vector3_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.Zombie.tellDead(UnityEngine.Vector3,SDG.Unturned.ERagdollEffect)">
+  tellDead(Vector3, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tellDead(Vector3 newRagdoll, ERagdollEffect ragdollEffect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newRagdoll</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_tellSpeciality_" data-uid="SDG.Unturned.Zombie.tellSpeciality*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_tellSpeciality_SDG_Unturned_EZombieSpeciality_" data-uid="SDG.Unturned.Zombie.tellSpeciality(SDG.Unturned.EZombieSpeciality)">
+  tellSpeciality(EZombieSpeciality)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tellSpeciality(EZombieSpeciality newSpeciality)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newSpeciality</code> <a class="xref" href="SDG.Unturned.EZombieSpeciality.html">EZombieSpeciality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_tellState_" data-uid="SDG.Unturned.Zombie.tellState*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_tellState_UnityEngine_Vector3_System_Byte_" data-uid="SDG.Unturned.Zombie.tellState(UnityEngine.Vector3,System.Byte)">
+  tellState(Vector3, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void tellState(Vector3 newPosition, byte newAngle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newAngle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_tellState_" data-uid="SDG.Unturned.Zombie.tellState*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_tellState_UnityEngine_Vector3_System_Single_" data-uid="SDG.Unturned.Zombie.tellState(UnityEngine.Vector3,System.Single)">
+  tellState(Vector3, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tellState(Vector3 newPosition, float newYaw)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>newYaw</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_tick_" data-uid="SDG.Unturned.Zombie.tick*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_tick" data-uid="SDG.Unturned.Zombie.tick">
+  tick()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void tick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_Zombie_updateStates_" data-uid="SDG.Unturned.Zombie.updateStates*"></a>
+
+  <h3 id="SDG_Unturned_Zombie_updateStates" data-uid="SDG.Unturned.Zombie.updateStates">
+  updateStates()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateStates()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

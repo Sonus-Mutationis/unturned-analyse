@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ChatManager_NetMethods | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ChatManager_NetMethods | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.ChatManager_NetMethods">
+
+
+
+  <h1 id="SDG_Unturned_ChatManager_NetMethods" data-uid="SDG.Unturned.ChatManager_NetMethods" class="text-break">
+Class ChatManager_NetMethods  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedClass(typeof(ChatManager))]
+public static class ChatManager_NetMethods</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ChatManager_NetMethods</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveCallVoteRequest_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveCallVoteRequest_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveCallVoteRequest_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveCallVoteRequest_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveCallVoteRequest_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveCallVoteRequest&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveCallVoteRequest_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveCallVoteRequest_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveCallVoteRequest_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveCallVoteRequest_Write_SDG_NetPak_NetPakWriter_Steamworks_CSteamID_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveCallVoteRequest_Write(SDG.NetPak.NetPakWriter,Steamworks.CSteamID)">
+  ReceiveCallVoteRequest_Write(NetPakWriter, CSteamID)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveCallVoteRequest&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveCallVoteRequest_Write(NetPakWriter writer, CSteamID target)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatEntry_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatEntry_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatEntry_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatEntry_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveChatEntry_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveChatEntry&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveChatEntry_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatEntry_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatEntry_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatEntry_Write_SDG_NetPak_NetPakWriter_Steamworks_CSteamID_System_String_SDG_Unturned_EChatMode_UnityEngine_Color_System_Boolean_System_String_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatEntry_Write(SDG.NetPak.NetPakWriter,Steamworks.CSteamID,System.String,SDG.Unturned.EChatMode,UnityEngine.Color,System.Boolean,System.String)">
+  ReceiveChatEntry_Write(NetPakWriter, CSteamID, string, EChatMode, Color, bool, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveChatEntry&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveChatEntry_Write(NetPakWriter writer, CSteamID owner, string iconURL, EChatMode mode, Color color, bool rich, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>owner</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>iconURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="SDG.Unturned.EChatMode.html">EChatMode</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd></dd>
+    <dt><code>rich</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatRequest_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatRequest_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatRequest_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatRequest_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveChatRequest_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveChatRequest&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveChatRequest_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatRequest_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatRequest_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveChatRequest_Write_SDG_NetPak_NetPakWriter_System_Byte_System_String_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveChatRequest_Write(SDG.NetPak.NetPakWriter,System.Byte,System.String)">
+  ReceiveChatRequest_Write(NetPakWriter, byte, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveChatRequest&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveChatRequest_Write(NetPakWriter writer, byte flags, string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>flags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveSubmitVoteRequest_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveSubmitVoteRequest_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveSubmitVoteRequest_Read_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveSubmitVoteRequest_Read(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveSubmitVoteRequest_Read(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSubmitVoteRequest&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveSubmitVoteRequest_Read(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveSubmitVoteRequest_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveSubmitVoteRequest_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveSubmitVoteRequest_Write_SDG_NetPak_NetPakWriter_System_Boolean_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveSubmitVoteRequest_Write(SDG.NetPak.NetPakWriter,System.Boolean)">
+  ReceiveSubmitVoteRequest_Write(NetPakWriter, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveSubmitVoteRequest&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveSubmitVoteRequest_Write(NetPakWriter writer, bool vote)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>vote</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteMessage_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteMessage_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteMessage_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteMessage_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveVoteMessage_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteMessage&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveVoteMessage_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteMessage_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteMessage_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteMessage_Write_SDG_NetPak_NetPakWriter_SDG_Unturned_EVotingMessage_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteMessage_Write(SDG.NetPak.NetPakWriter,SDG.Unturned.EVotingMessage)">
+  ReceiveVoteMessage_Write(NetPakWriter, EVotingMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteMessage&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveVoteMessage_Write(NetPakWriter writer, EVotingMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="SDG.Unturned.EVotingMessage.html">EVotingMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStart_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStart_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStart_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStart_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveVoteStart_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteStart&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveVoteStart_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStart_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStart_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStart_Write_SDG_NetPak_NetPakWriter_Steamworks_CSteamID_Steamworks_CSteamID_System_Byte_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStart_Write(SDG.NetPak.NetPakWriter,Steamworks.CSteamID,Steamworks.CSteamID,System.Byte)">
+  ReceiveVoteStart_Write(NetPakWriter, CSteamID, CSteamID, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteStart&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveVoteStart_Write(NetPakWriter writer, CSteamID origin, CSteamID target, byte votesNeeded)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>target</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>votesNeeded</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStop_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStop_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStop_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStop_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveVoteStop_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteStop&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveVoteStop_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStop_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStop_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteStop_Write_SDG_NetPak_NetPakWriter_SDG_Unturned_EVotingMessage_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteStop_Write(SDG.NetPak.NetPakWriter,SDG.Unturned.EVotingMessage)">
+  ReceiveVoteStop_Write(NetPakWriter, EVotingMessage)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteStop&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveVoteStop_Write(NetPakWriter writer, EVotingMessage message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="SDG.Unturned.EVotingMessage.html">EVotingMessage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteUpdate_Read_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteUpdate_Read*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteUpdate_Read_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteUpdate_Read(SDG.Unturned.ClientInvocationContext@)">
+  ReceiveVoteUpdate_Read(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteUpdate&quot;, ENetInvokableGeneratedMethodPurpose.Read)]
+public static void ReceiveVoteUpdate_Read(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteUpdate_Write_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteUpdate_Write*"></a>
+
+  <h3 id="SDG_Unturned_ChatManager_NetMethods_ReceiveVoteUpdate_Write_SDG_NetPak_NetPakWriter_System_Byte_System_Byte_" data-uid="SDG.Unturned.ChatManager_NetMethods.ReceiveVoteUpdate_Write(SDG.NetPak.NetPakWriter,System.Byte,System.Byte)">
+  ReceiveVoteUpdate_Write(NetPakWriter, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NetInvokableGeneratedMethod(&quot;ReceiveVoteUpdate&quot;, ENetInvokableGeneratedMethodPurpose.Write)]
+public static void ReceiveVoteUpdate_Write(NetPakWriter writer, byte voteYes, byte voteNo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.NetPak.NetPakWriter.html">NetPakWriter</a></dt>
+    <dd></dd>
+    <dt><code>voteYes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>voteNo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

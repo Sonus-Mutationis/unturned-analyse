@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DamageTool | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DamageTool | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.DamageTool">
+
+
+
+  <h1 id="SDG_Unturned_DamageTool" data-uid="SDG.Unturned.DamageTool" class="text-break">
+Class DamageTool  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DamageTool</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">DamageTool</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_DamageTool__ctor_" data-uid="SDG.Unturned.DamageTool.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool__ctor" data-uid="SDG.Unturned.DamageTool.#ctor">
+  DamageTool()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DamageTool()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_animalDamaged" data-uid="SDG.Unturned.DamageTool.animalDamaged">
+  animalDamaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use damageAnimalRequested&quot;)]
+public static DamageToolAnimalDamagedHandler animalDamaged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageToolAnimalDamagedHandler.html">DamageToolAnimalDamagedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_playerDamaged" data-uid="SDG.Unturned.DamageTool.playerDamaged">
+  playerDamaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use damagePlayerRequested&quot;)]
+public static DamageToolPlayerDamagedHandler playerDamaged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageToolPlayerDamagedHandler.html">DamageToolPlayerDamagedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_zombieDamaged" data-uid="SDG.Unturned.DamageTool.zombieDamaged">
+  zombieDamaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use damageZombieRequested&quot;)]
+public static DamageToolZombieDamagedHandler zombieDamaged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageToolZombieDamagedHandler.html">DamageToolZombieDamagedHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_DamageTool_GetZombieExplosionArmor_" data-uid="SDG.Unturned.DamageTool.GetZombieExplosionArmor*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_GetZombieExplosionArmor_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.DamageTool.GetZombieExplosionArmor(SDG.Unturned.Zombie)">
+  GetZombieExplosionArmor(Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Refer to getPlayerExplosionArmor for explanation of total/average.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetZombieExplosionArmor(Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_ReceiveSpawnBulletImpact_" data-uid="SDG.Unturned.DamageTool.ReceiveSpawnBulletImpact*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_ReceiveSpawnBulletImpact_UnityEngine_Vector3_UnityEngine_Vector3_System_String_UnityEngine_Transform_SDG_Unturned_NetId_" data-uid="SDG.Unturned.DamageTool.ReceiveSpawnBulletImpact(UnityEngine.Vector3,UnityEngine.Vector3,System.String,UnityEngine.Transform,SDG.Unturned.NetId)">
+  ReceiveSpawnBulletImpact(Vector3, Vector3, string, Transform, NetId)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveSpawnBulletImpact(Vector3 position, Vector3 normal, string materialName, Transform colliderTransform, NetId instigatorNetId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>materialName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>colliderTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>instigatorNetId</code> <a class="xref" href="SDG.Unturned.NetId.html">NetId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_ReceiveSpawnLegacyImpact_" data-uid="SDG.Unturned.DamageTool.ReceiveSpawnLegacyImpact*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_ReceiveSpawnLegacyImpact_UnityEngine_Vector3_UnityEngine_Vector3_System_String_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.ReceiveSpawnLegacyImpact(UnityEngine.Vector3,UnityEngine.Vector3,System.String,UnityEngine.Transform)">
+  ReceiveSpawnLegacyImpact(Vector3, Vector3, string, Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public static void ReceiveSpawnLegacyImpact(Vector3 position, Vector3 normal, string materialName, Transform colliderTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>materialName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>colliderTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_ServerTriggerImpactEffectForMagazinesV2_" data-uid="SDG.Unturned.DamageTool.ServerTriggerImpactEffectForMagazinesV2*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_ServerTriggerImpactEffectForMagazinesV2_SDG_Unturned_EffectAsset_UnityEngine_Vector3_UnityEngine_Vector3_SDG_Unturned_SteamPlayer_" data-uid="SDG.Unturned.DamageTool.ServerTriggerImpactEffectForMagazinesV2(SDG.Unturned.EffectAsset,UnityEngine.Vector3,UnityEngine.Vector3,SDG.Unturned.SteamPlayer)">
+  ServerTriggerImpactEffectForMagazinesV2(EffectAsset, Vector3, Vector3, SteamPlayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server spawn effect for all players within range and instigator receives effect regardless of distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ServerTriggerImpactEffectForMagazinesV2(EffectAsset asset, Vector3 position, Vector3 normal, SteamPlayer instigatingClient)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asset</code> <a class="xref" href="SDG.Unturned.EffectAsset.html">EffectAsset</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>instigatingClient</code> <a class="xref" href="SDG.Unturned.SteamPlayer.html">SteamPlayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_Animal_SDG_Unturned_ELimb_UnityEngine_Vector3_SDG_Unturned_IDamageMultiplier_System_Single_SDG_Unturned_EPlayerKill__System_UInt32__SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.Animal,SDG.Unturned.ELimb,UnityEngine.Vector3,SDG.Unturned.IDamageMultiplier,System.Single,SDG.Unturned.EPlayerKill@,System.UInt32@,SDG.Unturned.ERagdollEffect)">
+  damage(Animal, ELimb, Vector3, IDamageMultiplier, float, out EPlayerKill, out uint, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Legacy function replaced by damageAnimal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Animal animal, ELimb limb, Vector3 direction, IDamageMultiplier multiplier, float times, out EPlayerKill kill, out uint xp, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animal</code> <a class="xref" href="SDG.Unturned.Animal.html">Animal</a></dt>
+    <dd></dd>
+    <dt><code>limb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>multiplier</code> <a class="xref" href="SDG.Unturned.IDamageMultiplier.html">IDamageMultiplier</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_Animal_UnityEngine_Vector3_System_Single_System_Single_SDG_Unturned_EPlayerKill__System_UInt32__SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.Animal,UnityEngine.Vector3,System.Single,System.Single,SDG.Unturned.EPlayerKill@,System.UInt32@,SDG.Unturned.ERagdollEffect)">
+  damage(Animal, Vector3, float, float, out EPlayerKill, out uint, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Legacy function replaced by damageAnimal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Animal animal, Vector3 direction, float damage, float times, out EPlayerKill kill, out uint xp, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animal</code> <a class="xref" href="SDG.Unturned.Animal.html">Animal</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_InteractableVehicle_System_Boolean_UnityEngine_Vector3_System_Boolean_System_Single_System_Single_System_Boolean_SDG_Unturned_EPlayerKill__Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.InteractableVehicle,System.Boolean,UnityEngine.Vector3,System.Boolean,System.Single,System.Single,System.Boolean,SDG.Unturned.EPlayerKill@,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damage(InteractableVehicle, bool, Vector3, bool, float, float, bool, out EPlayerKill, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(InteractableVehicle vehicle, bool damageTires, Vector3 position, bool isRepairing, float vehicleDamage, float times, bool canRepair, out EPlayerKill kill, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vehicle</code> <a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+    <dt><code>damageTires</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>isRepairing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>vehicleDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>canRepair</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_Player_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_UnityEngine_Vector3_SDG_Unturned_IDamageMultiplier_System_Single_System_Boolean_SDG_Unturned_EPlayerKill__System_Boolean_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.Player,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID,UnityEngine.Vector3,SDG.Unturned.IDamageMultiplier,System.Single,System.Boolean,SDG.Unturned.EPlayerKill@,System.Boolean,SDG.Unturned.ERagdollEffect)">
+  damage(Player, EDeathCause, ELimb, CSteamID, Vector3, IDamageMultiplier, float, bool, out EPlayerKill, bool, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Player player, EDeathCause cause, ELimb limb, CSteamID killer, Vector3 direction, IDamageMultiplier multiplier, float times, bool armor, out EPlayerKill kill, bool trackKill = false, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>cause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>limb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>killer</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>multiplier</code> <a class="xref" href="SDG.Unturned.IDamageMultiplier.html">IDamageMultiplier</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>armor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>trackKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_Player_SDG_Unturned_EDeathCause_SDG_Unturned_ELimb_Steamworks_CSteamID_UnityEngine_Vector3_System_Single_System_Single_SDG_Unturned_EPlayerKill__System_Boolean_System_Boolean_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.Player,SDG.Unturned.EDeathCause,SDG.Unturned.ELimb,Steamworks.CSteamID,UnityEngine.Vector3,System.Single,System.Single,SDG.Unturned.EPlayerKill@,System.Boolean,System.Boolean,SDG.Unturned.ERagdollEffect)">
+  damage(Player, EDeathCause, ELimb, CSteamID, Vector3, float, float, out EPlayerKill, bool, bool, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Player player, EDeathCause cause, ELimb limb, CSteamID killer, Vector3 direction, float damage, float times, out EPlayerKill kill, bool applyGlobalArmorMultiplier = true, bool trackKill = false, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>cause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>limb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>killer</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>applyGlobalArmorMultiplier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>trackKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_Zombie_SDG_Unturned_ELimb_UnityEngine_Vector3_SDG_Unturned_IDamageMultiplier_System_Single_System_Boolean_SDG_Unturned_EPlayerKill__System_UInt32__SDG_Unturned_EZombieStunOverride_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.Zombie,SDG.Unturned.ELimb,UnityEngine.Vector3,SDG.Unturned.IDamageMultiplier,System.Single,System.Boolean,SDG.Unturned.EPlayerKill@,System.UInt32@,SDG.Unturned.EZombieStunOverride,SDG.Unturned.ERagdollEffect)">
+  damage(Zombie, ELimb, Vector3, IDamageMultiplier, float, bool, out EPlayerKill, out uint, EZombieStunOverride, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Legacy function replaced by damageZombie.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Zombie zombie, ELimb limb, Vector3 direction, IDamageMultiplier multiplier, float times, bool armor, out EPlayerKill kill, out uint xp, EZombieStunOverride zombieStunOverride = EZombieStunOverride.None, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>limb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>multiplier</code> <a class="xref" href="SDG.Unturned.IDamageMultiplier.html">IDamageMultiplier</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>armor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>zombieStunOverride</code> <a class="xref" href="SDG.Unturned.EZombieStunOverride.html">EZombieStunOverride</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_SDG_Unturned_Zombie_UnityEngine_Vector3_System_Single_System_Single_SDG_Unturned_EPlayerKill__System_UInt32__SDG_Unturned_EZombieStunOverride_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.damage(SDG.Unturned.Zombie,UnityEngine.Vector3,System.Single,System.Single,SDG.Unturned.EPlayerKill@,System.UInt32@,SDG.Unturned.EZombieStunOverride,SDG.Unturned.ERagdollEffect)">
+  damage(Zombie, Vector3, float, float, out EPlayerKill, out uint, EZombieStunOverride, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Legacy function replaced by damageZombie.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Zombie zombie, Vector3 direction, float damage, float times, out EPlayerKill kill, out uint xp, EZombieStunOverride zombieStunOverride = EZombieStunOverride.None, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>zombieStunOverride</code> <a class="xref" href="SDG.Unturned.EZombieStunOverride.html">EZombieStunOverride</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_UnityEngine_Transform_System_Boolean_System_Single_System_Single_SDG_Unturned_EPlayerKill__Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.DamageTool.damage(UnityEngine.Transform,System.Boolean,System.Single,System.Single,SDG.Unturned.EPlayerKill@,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damage(Transform, bool, float, float, out EPlayerKill, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Transform barricade, bool isRepairing, float barricadeDamage, float times, out EPlayerKill kill, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>barricade</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>isRepairing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>barricadeDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_UnityEngine_Transform_System_Boolean_UnityEngine_Vector3_System_Single_System_Single_SDG_Unturned_EPlayerKill__Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.DamageTool.damage(UnityEngine.Transform,System.Boolean,UnityEngine.Vector3,System.Single,System.Single,SDG.Unturned.EPlayerKill@,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damage(Transform, bool, Vector3, float, float, out EPlayerKill, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Transform structure, bool isRepairing, Vector3 direction, float structureDamage, float times, out EPlayerKill kill, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>structure</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>isRepairing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>structureDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_UnityEngine_Transform_UnityEngine_Vector3_System_Byte_System_Single_System_Single_SDG_Unturned_EPlayerKill__System_UInt32__Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.DamageTool.damage(UnityEngine.Transform,UnityEngine.Vector3,System.Byte,System.Single,System.Single,SDG.Unturned.EPlayerKill@,System.UInt32@,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damage(Transform, Vector3, byte, float, float, out EPlayerKill, out uint, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Transform obj, Vector3 direction, byte section, float objectDamage, float times, out EPlayerKill kill, out uint xp, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>section</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>objectDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damage_" data-uid="SDG.Unturned.DamageTool.damage*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damage_UnityEngine_Transform_UnityEngine_Vector3_System_Single_System_Single_System_Single_SDG_Unturned_EPlayerKill__System_UInt32__Steamworks_CSteamID_SDG_Unturned_EDamageOrigin_" data-uid="SDG.Unturned.DamageTool.damage(UnityEngine.Transform,UnityEngine.Vector3,System.Single,System.Single,System.Single,SDG.Unturned.EPlayerKill@,System.UInt32@,Steamworks.CSteamID,SDG.Unturned.EDamageOrigin)">
+  damage(Transform, Vector3, float, float, float, out EPlayerKill, out uint, CSteamID, EDamageOrigin)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damage(Transform resource, Vector3 direction, float resourceDamage, float times, float drops, out EPlayerKill kill, out uint xp, CSteamID instigatorSteamID = null, EDamageOrigin damageOrigin = EDamageOrigin.Unknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resource</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>resourceDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>times</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>drops</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+    <dt><code>instigatorSteamID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damageAnimal_" data-uid="SDG.Unturned.DamageTool.damageAnimal*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damageAnimal_SDG_Unturned_DamageAnimalParameters_SDG_Unturned_EPlayerKill__System_UInt32__" data-uid="SDG.Unturned.DamageTool.damageAnimal(SDG.Unturned.DamageAnimalParameters,SDG.Unturned.EPlayerKill@,System.UInt32@)">
+  damageAnimal(DamageAnimalParameters, out EPlayerKill, out uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Do damage to an animal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damageAnimal(DamageAnimalParameters parameters, out EPlayerKill kill, out uint xp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="SDG.Unturned.DamageAnimalParameters.html">DamageAnimalParameters</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damagePlayer_" data-uid="SDG.Unturned.DamageTool.damagePlayer*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damagePlayer_SDG_Unturned_DamagePlayerParameters_SDG_Unturned_EPlayerKill__" data-uid="SDG.Unturned.DamageTool.damagePlayer(SDG.Unturned.DamagePlayerParameters,SDG.Unturned.EPlayerKill@)">
+  damagePlayer(DamagePlayerParameters, out EPlayerKill)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damagePlayer(DamagePlayerParameters parameters, out EPlayerKill kill)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="SDG.Unturned.DamagePlayerParameters.html">DamagePlayerParameters</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_damageZombie_" data-uid="SDG.Unturned.DamageTool.damageZombie*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_damageZombie_SDG_Unturned_DamageZombieParameters_SDG_Unturned_EPlayerKill__System_UInt32__" data-uid="SDG.Unturned.DamageTool.damageZombie(SDG.Unturned.DamageZombieParameters,SDG.Unturned.EPlayerKill@,System.UInt32@)">
+  damageZombie(DamageZombieParameters, out EPlayerKill, out uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Do damage to a zombie.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void damageZombie(DamageZombieParameters parameters, out EPlayerKill kill, out uint xp)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="SDG.Unturned.DamageZombieParameters.html">DamageZombieParameters</a></dt>
+    <dd></dd>
+    <dt><code>kill</code> <a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a></dt>
+    <dd></dd>
+    <dt><code>xp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_explode_" data-uid="SDG.Unturned.DamageTool.explode*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_explode_SDG_Unturned_ExplosionParameters_System_Collections_Generic_List_SDG_Unturned_EPlayerKill___" data-uid="SDG.Unturned.DamageTool.explode(SDG.Unturned.ExplosionParameters,System.Collections.Generic.List{SDG.Unturned.EPlayerKill}@)">
+  explode(ExplosionParameters, out List&lt;EPlayerKill&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Do radial damage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void explode(ExplosionParameters parameters, out List&lt;EPlayerKill&gt; kills)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="SDG.Unturned.ExplosionParameters.html">ExplosionParameters</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_explode_" data-uid="SDG.Unturned.DamageTool.explode*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_explode_UnityEngine_Vector3_System_Single_SDG_Unturned_EDeathCause_Steamworks_CSteamID_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Collections_Generic_List_SDG_Unturned_EPlayerKill___SDG_Unturned_EExplosionDamageType_System_Single_System_Boolean_System_Boolean_SDG_Unturned_EDamageOrigin_SDG_Unturned_ERagdollEffect_" data-uid="SDG.Unturned.DamageTool.explode(UnityEngine.Vector3,System.Single,SDG.Unturned.EDeathCause,Steamworks.CSteamID,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Collections.Generic.List{SDG.Unturned.EPlayerKill}@,SDG.Unturned.EExplosionDamageType,System.Single,System.Boolean,System.Boolean,SDG.Unturned.EDamageOrigin,SDG.Unturned.ERagdollEffect)">
+  explode(Vector3, float, EDeathCause, CSteamID, float, float, float, float, float, float, float, float, out List&lt;EPlayerKill&gt;, EExplosionDamageType, float, bool, bool, EDamageOrigin, ERagdollEffect)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This unwieldy mess is the original explode function, but should be maintained for backwards compatibility with plugins.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void explode(Vector3 point, float damageRadius, EDeathCause cause, CSteamID killer, float playerDamage, float zombieDamage, float animalDamage, float barricadeDamage, float structureDamage, float vehicleDamage, float resourceDamage, float objectDamage, out List&lt;EPlayerKill&gt; kills, EExplosionDamageType damageType = EExplosionDamageType.CONVENTIONAL, float alertRadius = 32, bool playImpactEffect = true, bool penetrateBuildables = false, EDamageOrigin damageOrigin = EDamageOrigin.Unknown, ERagdollEffect ragdollEffect = ERagdollEffect.NONE)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>damageRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>cause</code> <a class="xref" href="SDG.Unturned.EDeathCause.html">EDeathCause</a></dt>
+    <dd></dd>
+    <dt><code>killer</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>playerDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>zombieDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>animalDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>barricadeDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>structureDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>vehicleDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>resourceDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>objectDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>kills</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Unturned.EPlayerKill.html">EPlayerKill</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>damageType</code> <a class="xref" href="SDG.Unturned.EExplosionDamageType.html">EExplosionDamageType</a></dt>
+    <dd></dd>
+    <dt><code>alertRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>playImpactEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>penetrateBuildables</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>damageOrigin</code> <a class="xref" href="SDG.Unturned.EDamageOrigin.html">EDamageOrigin</a></dt>
+    <dd></dd>
+    <dt><code>ragdollEffect</code> <a class="xref" href="SDG.Unturned.ERagdollEffect.html">ERagdollEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getAnimal_" data-uid="SDG.Unturned.DamageTool.getAnimal*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getAnimal_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getAnimal(UnityEngine.Transform)">
+  getAnimal(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animal getAnimal(Transform limb)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limb</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Animal.html">Animal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getBarricadeRootTransform_" data-uid="SDG.Unturned.DamageTool.getBarricadeRootTransform*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getBarricadeRootTransform_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getBarricadeRootTransform(UnityEngine.Transform)">
+  getBarricadeRootTransform(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform getBarricadeRootTransform(Transform barricadeTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>barricadeTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getLimb_" data-uid="SDG.Unturned.DamageTool.getLimb*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getLimb_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getLimb(UnityEngine.Transform)">
+  getLimb(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ELimb getLimb(Transform limb)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limb</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getMaterial_" data-uid="SDG.Unturned.DamageTool.getMaterial*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getMaterial_UnityEngine_Vector3_UnityEngine_Transform_UnityEngine_Collider_" data-uid="SDG.Unturned.DamageTool.getMaterial(UnityEngine.Vector3,UnityEngine.Transform,UnityEngine.Collider)">
+  getMaterial(Vector3, Transform, Collider)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Physics material enum replaced by string names&quot;)]
+public static EPhysicsMaterial getMaterial(Vector3 point, Transform transform, Collider collider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>transform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+    <dt><code>collider</code> <span class="xref">Collider</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.EPhysicsMaterial.html">EPhysicsMaterial</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getPlayer_" data-uid="SDG.Unturned.DamageTool.getPlayer*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getPlayer_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getPlayer(UnityEngine.Transform)">
+  getPlayer(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player getPlayer(Transform limb)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limb</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getPlayerArmor_" data-uid="SDG.Unturned.DamageTool.getPlayerArmor*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getPlayerArmor_SDG_Unturned_ELimb_SDG_Unturned_Player_" data-uid="SDG.Unturned.DamageTool.getPlayerArmor(SDG.Unturned.ELimb,SDG.Unturned.Player)">
+  getPlayerArmor(ELimb, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float getPlayerArmor(ELimb limb, Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getPlayerExplosionArmor_" data-uid="SDG.Unturned.DamageTool.getPlayerExplosionArmor*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getPlayerExplosionArmor_SDG_Unturned_Player_" data-uid="SDG.Unturned.DamageTool.getPlayerExplosionArmor(SDG.Unturned.Player)">
+  getPlayerExplosionArmor(Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get average explosionArmor of player's equipped clothing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float getPlayerExplosionArmor(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getResourceRootTransform_" data-uid="SDG.Unturned.DamageTool.getResourceRootTransform*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getResourceRootTransform_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getResourceRootTransform(UnityEngine.Transform)">
+  getResourceRootTransform(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Was necessary when trees were children of ground transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform getResourceRootTransform(Transform resourceTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resourceTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getStructureRootTransform_" data-uid="SDG.Unturned.DamageTool.getStructureRootTransform*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getStructureRootTransform_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getStructureRootTransform(UnityEngine.Transform)">
+  getStructureRootTransform(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Was necessary when structures were children of level transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform getStructureRootTransform(Transform structureTransform)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>structureTransform</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getVehicle_" data-uid="SDG.Unturned.DamageTool.getVehicle*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getVehicle_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getVehicle(UnityEngine.Transform)">
+  getVehicle(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InteractableVehicle getVehicle(Transform model)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>model</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.InteractableVehicle.html">InteractableVehicle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getZombie_" data-uid="SDG.Unturned.DamageTool.getZombie*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getZombie_UnityEngine_Transform_" data-uid="SDG.Unturned.DamageTool.getZombie(UnityEngine.Transform)">
+  getZombie(Transform)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Zombie getZombie(Transform limb)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limb</code> <span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_getZombieArmor_" data-uid="SDG.Unturned.DamageTool.getZombieArmor*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_getZombieArmor_SDG_Unturned_ELimb_SDG_Unturned_Zombie_" data-uid="SDG.Unturned.DamageTool.getZombieArmor(SDG.Unturned.ELimb,SDG.Unturned.Zombie)">
+  getZombieArmor(ELimb, Zombie)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float getZombieArmor(ELimb limb, Zombie zombie)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limb</code> <a class="xref" href="SDG.Unturned.ELimb.html">ELimb</a></dt>
+    <dd></dd>
+    <dt><code>zombie</code> <a class="xref" href="SDG.Unturned.Zombie.html">Zombie</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_impact_" data-uid="SDG.Unturned.DamageTool.impact*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_impact_UnityEngine_Vector3_UnityEngine_Vector3_SDG_Unturned_EPhysicsMaterial_System_Boolean_" data-uid="SDG.Unturned.DamageTool.impact(UnityEngine.Vector3,UnityEngine.Vector3,SDG.Unturned.EPhysicsMaterial,System.Boolean)">
+  impact(Vector3, Vector3, EPhysicsMaterial, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server spawn impact effect for all players within range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by separate melee and bullet impact methods&quot;)]
+public static void impact(Vector3 point, Vector3 normal, EPhysicsMaterial material, bool forceDynamic)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>material</code> <a class="xref" href="SDG.Unturned.EPhysicsMaterial.html">EPhysicsMaterial</a></dt>
+    <dd></dd>
+    <dt><code>forceDynamic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_impact_" data-uid="SDG.Unturned.DamageTool.impact*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_impact_UnityEngine_Vector3_UnityEngine_Vector3_SDG_Unturned_EPhysicsMaterial_System_Boolean_Steamworks_CSteamID_UnityEngine_Vector3_" data-uid="SDG.Unturned.DamageTool.impact(UnityEngine.Vector3,UnityEngine.Vector3,SDG.Unturned.EPhysicsMaterial,System.Boolean,Steamworks.CSteamID,UnityEngine.Vector3)">
+  impact(Vector3, Vector3, EPhysicsMaterial, bool, CSteamID, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server spawn impact effect for all players within range. Optional &quot;spectator&quot; receives effect regardless of distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by separate melee and bullet impact methods&quot;)]
+public static void impact(Vector3 point, Vector3 normal, EPhysicsMaterial material, bool forceDynamic, CSteamID spectatorID, Vector3 spectatorPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>material</code> <a class="xref" href="SDG.Unturned.EPhysicsMaterial.html">EPhysicsMaterial</a></dt>
+    <dd></dd>
+    <dt><code>forceDynamic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>spectatorID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>spectatorPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_impact_" data-uid="SDG.Unturned.DamageTool.impact*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_impact_UnityEngine_Vector3_UnityEngine_Vector3_System_UInt16_Steamworks_CSteamID_UnityEngine_Vector3_" data-uid="SDG.Unturned.DamageTool.impact(UnityEngine.Vector3,UnityEngine.Vector3,System.UInt16,Steamworks.CSteamID,UnityEngine.Vector3)">
+  impact(Vector3, Vector3, ushort, CSteamID, Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Server spawn effect by ID for all players within range. Optional &quot;spectator&quot; receives effect regardless of distance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by ServerTriggerImpactEffectForMagazinesV2&quot;)]
+public static void impact(Vector3 point, Vector3 normal, ushort id, CSteamID spectatorID, Vector3 spectatorPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>normal</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+    <dt><code>spectatorID</code> <span class="xref">CSteamID</span></dt>
+    <dd></dd>
+    <dt><code>spectatorPoint</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_isPlayerAllowedToDamagePlayer_" data-uid="SDG.Unturned.DamageTool.isPlayerAllowedToDamagePlayer*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_isPlayerAllowedToDamagePlayer_SDG_Unturned_Player_SDG_Unturned_Player_" data-uid="SDG.Unturned.DamageTool.isPlayerAllowedToDamagePlayer(SDG.Unturned.Player,SDG.Unturned.Player)">
+  isPlayerAllowedToDamagePlayer(Player, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isPlayerAllowedToDamagePlayer(Player instigator, Player victim)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instigator</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>victim</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_raycast_" data-uid="SDG.Unturned.DamageTool.raycast*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_raycast_UnityEngine_Ray_System_Single_System_Int32_" data-uid="SDG.Unturned.DamageTool.raycast(UnityEngine.Ray,System.Single,System.Int32)">
+  raycast(Ray, float, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RaycastInfo raycast(Ray ray, float range, int mask)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>range</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>mask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RaycastInfo.html">RaycastInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_DamageTool_raycast_" data-uid="SDG.Unturned.DamageTool.raycast*"></a>
+
+  <h3 id="SDG_Unturned_DamageTool_raycast_UnityEngine_Ray_System_Single_System_Int32_SDG_Unturned_Player_" data-uid="SDG.Unturned.DamageTool.raycast(UnityEngine.Ray,System.Single,System.Int32,SDG.Unturned.Player)">
+  raycast(Ray, float, int, Player)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RaycastInfo raycast(Ray ray, float range, int mask, Player ignorePlayer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>range</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>mask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ignorePlayer</code> <a class="xref" href="SDG.Unturned.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.RaycastInfo.html">RaycastInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_damageAnimalRequested" data-uid="SDG.Unturned.DamageTool.damageAnimalRequested">
+  damageAnimalRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replacement for animalDamaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event DamageTool.DamageAnimalHandler damageAnimalRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageTool.html">DamageTool</a>.<a class="xref" href="SDG.Unturned.DamageTool.DamageAnimalHandler.html">DamageAnimalHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_damagePlayerRequested" data-uid="SDG.Unturned.DamageTool.damagePlayerRequested">
+  damagePlayerRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replacement for playerDamaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event DamageTool.DamagePlayerHandler damagePlayerRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageTool.html">DamageTool</a>.<a class="xref" href="SDG.Unturned.DamageTool.DamagePlayerHandler.html">DamagePlayerHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_damageZombieRequested" data-uid="SDG.Unturned.DamageTool.damageZombieRequested">
+  damageZombieRequested
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replacement for zombieDamaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event DamageTool.DamageZombieHandler damageZombieRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageTool.html">DamageTool</a>.<a class="xref" href="SDG.Unturned.DamageTool.DamageZombieHandler.html">DamageZombieHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_DamageTool_onPlayerAllowedToDamagePlayer" data-uid="SDG.Unturned.DamageTool.onPlayerAllowedToDamagePlayer">
+  onPlayerAllowedToDamagePlayer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event DamageTool.PlayerAllowedToDamagePlayerHandler onPlayerAllowedToDamagePlayer</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.DamageTool.html">DamageTool</a>.<a class="xref" href="SDG.Unturned.DamageTool.PlayerAllowedToDamagePlayerHandler.html">PlayerAllowedToDamagePlayerHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

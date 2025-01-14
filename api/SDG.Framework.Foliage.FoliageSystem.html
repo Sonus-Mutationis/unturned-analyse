@@ -1,0 +1,1704 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FoliageSystem | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FoliageSystem | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Framework.Foliage.FoliageSystem">
+
+
+
+  <h1 id="SDG_Framework_Foliage_FoliageSystem" data-uid="SDG.Framework.Foliage.FoliageSystem" class="text-break">
+Class FoliageSystem  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Framework.html">Framework</a>.<a class="xref" href="SDG.Framework.Foliage.html">Foliage</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FoliageSystem : DevkitHierarchyItemBase, IDevkitHierarchyItem, IFormattedFileReadable, IFormattedFileWritable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html">DevkitHierarchyItemBase</a></div>
+      <div><span class="xref">FoliageSystem</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReadable.html">IFormattedFileReadable</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWritable.html">IFormattedFileWritable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_GetNetIdFromInstanceId">DevkitHierarchyItemBase.GetNetIdFromInstanceId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_instanceID">DevkitHierarchyItemBase.instanceID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_areaSelectGameObject">DevkitHierarchyItemBase.areaSelectGameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_ShouldSave">DevkitHierarchyItemBase.ShouldSave</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_CanBeSelected">DevkitHierarchyItemBase.CanBeSelected</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem__ctor_" data-uid="SDG.Framework.Foliage.FoliageSystem.#ctor*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem__ctor" data-uid="SDG.Framework.Foliage.FoliageSystem.#ctor">
+  FoliageSystem()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FoliageSystem()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_SPLATMAP_RESOLUTION_PER_TILE" data-uid="SDG.Framework.Foliage.FoliageSystem.SPLATMAP_RESOLUTION_PER_TILE">
+  SPLATMAP_RESOLUTION_PER_TILE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SPLATMAP_RESOLUTION_PER_TILE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_TILE_SIZE" data-uid="SDG.Framework.Foliage.FoliageSystem.TILE_SIZE">
+  TILE_SIZE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float TILE_SIZE</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_TILE_SIZE_INT" data-uid="SDG.Framework.Foliage.FoliageSystem.TILE_SIZE_INT">
+  TILE_SIZE_INT
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int TILE_SIZE_INT</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_activeTiles" data-uid="SDG.Framework.Foliage.FoliageSystem.activeTiles">
+  activeTiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Dictionary&lt;FoliageCoord, FoliageTile&gt; activeTiles</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="SDG.Framework.Foliage.FoliageCoord.html">FoliageCoord</a>, <a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeEnd" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeEnd">
+  bakeEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static FoliageSystemPostBakeHandler bakeEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemPostBakeHandler.html">FoliageSystemPostBakeHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeLocalPosition" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeLocalPosition">
+  bakeLocalPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Vector3 bakeLocalPosition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeQueue" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeQueue">
+  bakeQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Queue&lt;KeyValuePair&lt;FoliageTile, List&lt;IFoliageSurface&gt;&gt;&gt; bakeQueue</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1">Queue</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Framework.Foliage.IFoliageSurface.html">IFoliageSurface</a>&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_focusCamera" data-uid="SDG.Framework.Foliage.FoliageSystem.focusCamera">
+  focusCamera
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Camera focusCamera</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Camera</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_focusPosition" data-uid="SDG.Framework.Foliage.FoliageSystem.focusPosition">
+  focusPosition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 focusPosition</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_hiddenByHeightEditor" data-uid="SDG.Framework.Foliage.FoliageSystem.hiddenByHeightEditor">
+  hiddenByHeightEditor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hiddenByHeightEditor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_hiddenByMaterialEditor" data-uid="SDG.Framework.Foliage.FoliageSystem.hiddenByMaterialEditor">
+  hiddenByMaterialEditor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hiddenByMaterialEditor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_isFocused" data-uid="SDG.Framework.Foliage.FoliageSystem.isFocused">
+  isFocused
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isFocused</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_prevTiles" data-uid="SDG.Framework.Foliage.FoliageSystem.prevTiles">
+  prevTiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Dictionary&lt;FoliageCoord, FoliageTile&gt; prevTiles</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="SDG.Framework.Foliage.FoliageCoord.html">FoliageCoord</a>, <a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_storage" data-uid="SDG.Framework.Foliage.FoliageSystem.storage">
+  storage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implementation of tile data storage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static IFoliageStorage storage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.IFoliageStorage.html">IFoliageStorage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_tiles" data-uid="SDG.Framework.Foliage.FoliageSystem.tiles">
+  tiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Dictionary&lt;FoliageCoord, FoliageTile&gt; tiles</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="SDG.Framework.Foliage.FoliageCoord.html">FoliageCoord</a>, <a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_version" data-uid="SDG.Framework.Foliage.FoliageSystem.version">
+  version
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Version number associated with this particular system instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected uint version</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_bakeQueueProgress_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeQueueProgress*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeQueueProgress" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeQueueProgress">
+  bakeQueueProgress
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int bakeQueueProgress { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_bakeQueueTotal_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeQueueTotal*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeQueueTotal" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeQueueTotal">
+  bakeQueueTotal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int bakeQueueTotal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_bakeSettings_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeSettings*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeSettings" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeSettings">
+  bakeSettings
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Settings configured when starting the bake.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FoliageBakeSettings bakeSettings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageBakeSettings.html">FoliageBakeSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_instance_" data-uid="SDG.Framework.Foliage.FoliageSystem.instance*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_instance" data-uid="SDG.Framework.Foliage.FoliageSystem.instance">
+  instance
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FoliageSystem instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystem.html">FoliageSystem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_surfaces_" data-uid="SDG.Framework.Foliage.FoliageSystem.surfaces*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_surfaces" data-uid="SDG.Framework.Foliage.FoliageSystem.surfaces">
+  surfaces
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;IFoliageSurface&gt; surfaces { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SDG.Framework.Foliage.IFoliageSurface.html">IFoliageSurface</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_Awake_" data-uid="SDG.Framework.Foliage.FoliageSystem.Awake*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_Awake" data-uid="SDG.Framework.Foliage.FoliageSystem.Awake">
+  Awake()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_CreateInLevelIfMissing_" data-uid="SDG.Framework.Foliage.FoliageSystem.CreateInLevelIfMissing*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_CreateInLevelIfMissing" data-uid="SDG.Framework.Foliage.FoliageSystem.CreateInLevelIfMissing">
+  CreateInLevelIfMissing()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateInLevelIfMissing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_OnDestroy_" data-uid="SDG.Framework.Foliage.FoliageSystem.OnDestroy*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_OnDestroy" data-uid="SDG.Framework.Foliage.FoliageSystem.OnDestroy">
+  OnDestroy()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDestroy()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_OnDisable_" data-uid="SDG.Framework.Foliage.FoliageSystem.OnDisable*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_OnDisable" data-uid="SDG.Framework.Foliage.FoliageSystem.OnDisable">
+  OnDisable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDisable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_OnEnable_" data-uid="SDG.Framework.Foliage.FoliageSystem.OnEnable*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_OnEnable" data-uid="SDG.Framework.Foliage.FoliageSystem.OnEnable">
+  OnEnable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnEnable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_Update_" data-uid="SDG.Framework.Foliage.FoliageSystem.Update*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_Update" data-uid="SDG.Framework.Foliage.FoliageSystem.Update">
+  Update()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_addCut_" data-uid="SDG.Framework.Foliage.FoliageSystem.addCut*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_addCut_SDG_Framework_Utilities_IShapeVolume_" data-uid="SDG.Framework.Foliage.FoliageSystem.addCut(SDG.Framework.Utilities.IShapeVolume)">
+  addCut(IShapeVolume)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public static void addCut(IShapeVolume cut)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cut</code> <a class="xref" href="SDG.Framework.Utilities.IShapeVolume.html">IShapeVolume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_addInstance_" data-uid="SDG.Framework.Foliage.FoliageSystem.addInstance*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_addInstance_SDG_Unturned_AssetReference_SDG_Framework_Foliage_FoliageInstancedMeshInfoAsset__UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Boolean_" data-uid="SDG.Framework.Foliage.FoliageSystem.addInstance(SDG.Unturned.AssetReference{SDG.Framework.Foliage.FoliageInstancedMeshInfoAsset},UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Boolean)">
+  addInstance(AssetReference&lt;FoliageInstancedMeshInfoAsset&gt;, Vector3, Quaternion, Vector3, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void addInstance(AssetReference&lt;FoliageInstancedMeshInfoAsset&gt; assetReference, Vector3 position, Quaternion rotation, Vector3 scale, bool clearWhenBaked)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assetReference</code> <a class="xref" href="SDG.Unturned.AssetReference-1.html">AssetReference</a>&lt;<a class="xref" href="SDG.Framework.Foliage.FoliageInstancedMeshInfoAsset.html">FoliageInstancedMeshInfoAsset</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>scale</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>clearWhenBaked</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_addSurface_" data-uid="SDG.Framework.Foliage.FoliageSystem.addSurface*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_addSurface_SDG_Framework_Foliage_IFoliageSurface_" data-uid="SDG.Framework.Foliage.FoliageSystem.addSurface(SDG.Framework.Foliage.IFoliageSurface)">
+  addSurface(IFoliageSurface)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void addSurface(IFoliageSurface surface)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>surface</code> <a class="xref" href="SDG.Framework.Foliage.IFoliageSurface.html">IFoliageSurface</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_bakeCancel_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeCancel*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeCancel" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeCancel">
+  bakeCancel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void bakeCancel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_bakeGlobal_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeGlobal*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeGlobal_SDG_Framework_Foliage_FoliageBakeSettings_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeGlobal(SDG.Framework.Foliage.FoliageBakeSettings)">
+  bakeGlobal(FoliageBakeSettings)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void bakeGlobal(FoliageBakeSettings bakeSettings)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bakeSettings</code> <a class="xref" href="SDG.Framework.Foliage.FoliageBakeSettings.html">FoliageBakeSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_bakeLocal_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeLocal*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_bakeLocal_SDG_Framework_Foliage_FoliageBakeSettings_" data-uid="SDG.Framework.Foliage.FoliageSystem.bakeLocal(SDG.Framework.Foliage.FoliageBakeSettings)">
+  bakeLocal(FoliageBakeSettings)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void bakeLocal(FoliageBakeSettings bakeSettings)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bakeSettings</code> <a class="xref" href="SDG.Framework.Foliage.FoliageBakeSettings.html">FoliageBakeSettings</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_clearAndReleaseTiles_" data-uid="SDG.Framework.Foliage.FoliageSystem.clearAndReleaseTiles*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_clearAndReleaseTiles" data-uid="SDG.Framework.Foliage.FoliageSystem.clearAndReleaseTiles">
+  clearAndReleaseTiles()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void clearAndReleaseTiles()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_getOrAddTile_" data-uid="SDG.Framework.Foliage.FoliageSystem.getOrAddTile*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_getOrAddTile_SDG_Framework_Foliage_FoliageCoord_" data-uid="SDG.Framework.Foliage.FoliageSystem.getOrAddTile(SDG.Framework.Foliage.FoliageCoord)">
+  getOrAddTile(FoliageCoord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FoliageTile getOrAddTile(FoliageCoord tileCoord)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tileCoord</code> <a class="xref" href="SDG.Framework.Foliage.FoliageCoord.html">FoliageCoord</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_getOrAddTile_" data-uid="SDG.Framework.Foliage.FoliageSystem.getOrAddTile*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_getOrAddTile_UnityEngine_Vector3_" data-uid="SDG.Framework.Foliage.FoliageSystem.getOrAddTile(UnityEngine.Vector3)">
+  getOrAddTile(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FoliageTile getOrAddTile(Vector3 worldPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>worldPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_getTile_" data-uid="SDG.Framework.Foliage.FoliageSystem.getTile*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_getTile_SDG_Framework_Foliage_FoliageCoord_" data-uid="SDG.Framework.Foliage.FoliageSystem.getTile(SDG.Framework.Foliage.FoliageCoord)">
+  getTile(FoliageCoord)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FoliageTile getTile(FoliageCoord tileCoord)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tileCoord</code> <a class="xref" href="SDG.Framework.Foliage.FoliageCoord.html">FoliageCoord</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_getTile_" data-uid="SDG.Framework.Foliage.FoliageSystem.getTile*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_getTile_UnityEngine_Vector3_" data-uid="SDG.Framework.Foliage.FoliageSystem.getTile(UnityEngine.Vector3)">
+  getTile(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FoliageTile getTile(Vector3 worldPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>worldPosition</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageTile.html">FoliageTile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_read_" data-uid="SDG.Framework.Foliage.FoliageSystem.read*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_read_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_" data-uid="SDG.Framework.Foliage.FoliageSystem.read(SDG.Framework.IO.FormattedFiles.IFormattedFileReader)">
+  read(IFormattedFileReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void read(IFormattedFileReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReader.html">IFormattedFileReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_removeSurface_" data-uid="SDG.Framework.Foliage.FoliageSystem.removeSurface*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_removeSurface_SDG_Framework_Foliage_IFoliageSurface_" data-uid="SDG.Framework.Foliage.FoliageSystem.removeSurface(SDG.Framework.Foliage.IFoliageSurface)">
+  removeSurface(IFoliageSurface)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void removeSurface(IFoliageSurface surface)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>surface</code> <a class="xref" href="SDG.Framework.Foliage.IFoliageSurface.html">IFoliageSurface</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_shutdownStorage_" data-uid="SDG.Framework.Foliage.FoliageSystem.shutdownStorage*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_shutdownStorage" data-uid="SDG.Framework.Foliage.FoliageSystem.shutdownStorage">
+  shutdownStorage()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static void shutdownStorage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_tickBakeQueue_" data-uid="SDG.Framework.Foliage.FoliageSystem.tickBakeQueue*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_tickBakeQueue" data-uid="SDG.Framework.Foliage.FoliageSystem.tickBakeQueue">
+  tickBakeQueue()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Automatically placing foliage onto tiles in editor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void tickBakeQueue()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Foliage_FoliageSystem_write_" data-uid="SDG.Framework.Foliage.FoliageSystem.write*"></a>
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_write_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_" data-uid="SDG.Framework.Foliage.FoliageSystem.write(SDG.Framework.IO.FormattedFiles.IFormattedFileWriter)">
+  write(IFormattedFileWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void write(IFormattedFileWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWriter.html">IFormattedFileWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_globalBake" data-uid="SDG.Framework.Foliage.FoliageSystem.globalBake">
+  globalBake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event FoliageSystemGlobalBakeHandler globalBake</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemGlobalBakeHandler.html">FoliageSystemGlobalBakeHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_localBake" data-uid="SDG.Framework.Foliage.FoliageSystem.localBake">
+  localBake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event FoliageSystemLocalBakeHandler localBake</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemLocalBakeHandler.html">FoliageSystemLocalBakeHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_postBake" data-uid="SDG.Framework.Foliage.FoliageSystem.postBake">
+  postBake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event FoliageSystemPostBakeHandler postBake</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemPostBakeHandler.html">FoliageSystemPostBakeHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_postBakeTile" data-uid="SDG.Framework.Foliage.FoliageSystem.postBakeTile">
+  postBakeTile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event FoliageSystemPostBakeTileHandler postBakeTile</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemPostBakeTileHandler.html">FoliageSystemPostBakeTileHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_preBake" data-uid="SDG.Framework.Foliage.FoliageSystem.preBake">
+  preBake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event FoliageSystemPreBakeHandler preBake</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemPreBakeHandler.html">FoliageSystemPreBakeHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Foliage_FoliageSystem_preBakeTile" data-uid="SDG.Framework.Foliage.FoliageSystem.preBakeTile">
+  preBakeTile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event FoliageSystemPreBakeTileHandler preBakeTile</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Framework.Foliage.FoliageSystemPreBakeTileHandler.html">FoliageSystemPreBakeTileHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

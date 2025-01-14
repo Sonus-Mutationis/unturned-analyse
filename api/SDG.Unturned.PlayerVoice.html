@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerVoice | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerVoice | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.PlayerVoice">
+
+
+
+  <h1 id="SDG_Unturned_PlayerVoice" data-uid="SDG.Unturned.PlayerVoice" class="text-break">
+Class PlayerVoice  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerVoice : PlayerCaller</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SteamCaller.html">SteamCaller</a></div>
+      <div><a class="xref" href="SDG.Unturned.PlayerCaller.html">PlayerCaller</a></div>
+      <div><span class="xref">PlayerVoice</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller__player">PlayerCaller._player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_GetNetId">PlayerCaller.GetNetId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.PlayerCaller.html#SDG_Unturned_PlayerCaller_player">PlayerCaller.player</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller__channel">SteamCaller._channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SteamCaller.html#SDG_Unturned_SteamCaller_channel">SteamCaller.channel</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerVoice__ctor_" data-uid="SDG.Unturned.PlayerVoice.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice__ctor" data-uid="SDG.Unturned.PlayerVoice.#ctor">
+  PlayerVoice()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerVoice()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerVoice_allowVoiceChat" data-uid="SDG.Unturned.PlayerVoice.allowVoiceChat">
+  allowVoiceChat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Replaced by ServerSetPermissions which is replicated to owner.&quot;)]
+public bool allowVoiceChat</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerVoice_hasUseableWalkieTalkie" data-uid="SDG.Unturned.PlayerVoice.hasUseableWalkieTalkie">
+  hasUseableWalkieTalkie
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is a UseableWalkieTalkie currently equipped?
+Set by useable's equip and dequip events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasUseableWalkieTalkie</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerVoice_canHearRadio_" data-uid="SDG.Unturned.PlayerVoice.canHearRadio*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_canHearRadio" data-uid="SDG.Unturned.PlayerVoice.canHearRadio">
+  canHearRadio
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Can this player currently hear global (radio) voice chat?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool canHearRadio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_hasEarpiece_" data-uid="SDG.Unturned.PlayerVoice.hasEarpiece*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_hasEarpiece" data-uid="SDG.Unturned.PlayerVoice.hasEarpiece">
+  hasEarpiece
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is the player wearing an earpiece?
+Allows global (radio) voice chat to be heard without equipping the walkie-talkie item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hasEarpiece { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_isTalking_" data-uid="SDG.Unturned.PlayerVoice.isTalking*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_isTalking" data-uid="SDG.Unturned.PlayerVoice.isTalking">
+  isTalking
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is this player broadcasting their voice?
+Used in the menus to show an indicator who's talking.
+Locally set when recording starts/stops, and remotely when voice data starts/stops being received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTalking { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_PlayerVoice_GetAllowTalkingWhileDead_" data-uid="SDG.Unturned.PlayerVoice.GetAllowTalkingWhileDead*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_GetAllowTalkingWhileDead" data-uid="SDG.Unturned.PlayerVoice.GetAllowTalkingWhileDead">
+  GetAllowTalkingWhileDead()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetAllowTalkingWhileDead()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_GetCustomAllowTalking_" data-uid="SDG.Unturned.PlayerVoice.GetCustomAllowTalking*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_GetCustomAllowTalking" data-uid="SDG.Unturned.PlayerVoice.GetCustomAllowTalking">
+  GetCustomAllowTalking()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetCustomAllowTalking()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_ReceivePermissions_" data-uid="SDG.Unturned.PlayerVoice.ReceivePermissions*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_ReceivePermissions_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerVoice.ReceivePermissions(System.Boolean,System.Boolean)">
+  ReceivePermissions(bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceivePermissions(bool allowTalkingWhileDead, bool customAllowTalking)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allowTalkingWhileDead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>customAllowTalking</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_ReceivePlayVoiceChat_" data-uid="SDG.Unturned.PlayerVoice.ReceivePlayVoiceChat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_ReceivePlayVoiceChat_SDG_Unturned_ClientInvocationContext__" data-uid="SDG.Unturned.PlayerVoice.ReceivePlayVoiceChat(SDG.Unturned.ClientInvocationContext@)">
+  ReceivePlayVoiceChat(in ClientInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called by server to relay voice data from clients.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_SERVER)]
+public void ReceivePlayVoiceChat(in ClientInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ClientInvocationContext.html">ClientInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_ReceiveVoiceChatRelay_" data-uid="SDG.Unturned.PlayerVoice.ReceiveVoiceChatRelay*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_ReceiveVoiceChatRelay_SDG_Unturned_ServerInvocationContext__" data-uid="SDG.Unturned.PlayerVoice.ReceiveVoiceChatRelay(SDG.Unturned.ServerInvocationContext@)">
+  ReceiveVoiceChatRelay(in ServerInvocationContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called by owner to relay voice data to clients.
+Not using rate limit attribute because it internally tracks bytes per second.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SteamCall(ESteamCallValidation.ONLY_FROM_OWNER)]
+public void ReceiveVoiceChatRelay(in ServerInvocationContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="SDG.Unturned.ServerInvocationContext.html">ServerInvocationContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_ServerSetPermissions_" data-uid="SDG.Unturned.PlayerVoice.ServerSetPermissions*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_ServerSetPermissions_System_Boolean_System_Boolean_" data-uid="SDG.Unturned.PlayerVoice.ServerSetPermissions(System.Boolean,System.Boolean)">
+  ServerSetPermissions(bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ServerSetPermissions(bool allowTalkingWhileDead, bool customAllowTalking)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>allowTalkingWhileDead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>customAllowTalking</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_askVoiceChat_" data-uid="SDG.Unturned.PlayerVoice.askVoiceChat*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_askVoiceChat_System_Byte___" data-uid="SDG.Unturned.PlayerVoice.askVoiceChat(System.Byte[])">
+  askVoiceChat(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void askVoiceChat(byte[] packet)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>packet</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_handleRelayVoiceCulling_Proximity_" data-uid="SDG.Unturned.PlayerVoice.handleRelayVoiceCulling_Proximity*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_handleRelayVoiceCulling_Proximity_SDG_Unturned_PlayerVoice_SDG_Unturned_PlayerVoice_" data-uid="SDG.Unturned.PlayerVoice.handleRelayVoiceCulling_Proximity(SDG.Unturned.PlayerVoice,SDG.Unturned.PlayerVoice)">
+  handleRelayVoiceCulling_Proximity(PlayerVoice, PlayerVoice)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default culling handler when speaking in proximity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool handleRelayVoiceCulling_Proximity(PlayerVoice speaker, PlayerVoice listener)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>speaker</code> <a class="xref" href="SDG.Unturned.PlayerVoice.html">PlayerVoice</a></dt>
+    <dd></dd>
+    <dt><code>listener</code> <a class="xref" href="SDG.Unturned.PlayerVoice.html">PlayerVoice</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_PlayerVoice_handleRelayVoiceCulling_RadioFrequency_" data-uid="SDG.Unturned.PlayerVoice.handleRelayVoiceCulling_RadioFrequency*"></a>
+
+  <h3 id="SDG_Unturned_PlayerVoice_handleRelayVoiceCulling_RadioFrequency_SDG_Unturned_PlayerVoice_SDG_Unturned_PlayerVoice_" data-uid="SDG.Unturned.PlayerVoice.handleRelayVoiceCulling_RadioFrequency(SDG.Unturned.PlayerVoice,SDG.Unturned.PlayerVoice)">
+  handleRelayVoiceCulling_RadioFrequency(PlayerVoice, PlayerVoice)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default culling handler when speaking over walkie-talkie.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool handleRelayVoiceCulling_RadioFrequency(PlayerVoice speaker, PlayerVoice listener)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>speaker</code> <a class="xref" href="SDG.Unturned.PlayerVoice.html">PlayerVoice</a></dt>
+    <dd></dd>
+    <dt><code>listener</code> <a class="xref" href="SDG.Unturned.PlayerVoice.html">PlayerVoice</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SDG_Unturned_PlayerVoice_onRelayVoice" data-uid="SDG.Unturned.PlayerVoice.onRelayVoice">
+  onRelayVoice
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Only used by plugins.
+Called on server to allow plugins to override the default area and walkie-talkie voice channels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event PlayerVoice.RelayVoiceHandler onRelayVoice</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.PlayerVoice.html">PlayerVoice</a>.<a class="xref" href="SDG.Unturned.PlayerVoice.RelayVoiceHandler.html">RelayVoiceHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Unturned_PlayerVoice_onTalkingChanged" data-uid="SDG.Unturned.PlayerVoice.onTalkingChanged">
+  onTalkingChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Broadcasts after isTalking changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Talked onTalkingChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.Talked.html">Talked</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

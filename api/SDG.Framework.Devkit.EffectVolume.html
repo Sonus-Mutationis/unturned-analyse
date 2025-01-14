@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EffectVolume | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EffectVolume | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Framework.Devkit.EffectVolume">
+
+
+
+  <h1 id="SDG_Framework_Devkit_EffectVolume" data-uid="SDG.Framework.Devkit.EffectVolume" class="text-break">
+Class EffectVolume  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Framework.html">Framework</a>.<a class="xref" href="SDG.Framework.Devkit.html">Devkit</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EffectVolume : LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;, IDevkitHierarchyItem, IFormattedFileReadable, IFormattedFileWritable, IDevkitInteractableBeginSelectionHandler, IDevkitInteractableEndSelectionHandler, ITransformedHandler</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html">DevkitHierarchyItemBase</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html">DevkitHierarchyWorldItem</a></div>
+      <div><a class="xref" href="SDG.Unturned.VolumeBase.html">VolumeBase</a></div>
+      <div><a class="xref" href="SDG.Unturned.LevelVolume-2.html">LevelVolume</a>&lt;<a class="xref" href="SDG.Framework.Devkit.EffectVolume.html">EffectVolume</a>, <a class="xref" href="SDG.Framework.Devkit.EffectVolumeManager.html">EffectVolumeManager</a>&gt;</div>
+      <div><span class="xref">EffectVolume</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.Devkit.IDevkitHierarchyItem.html">IDevkitHierarchyItem</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReadable.html">IFormattedFileReadable</a></div>
+      <div><a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWritable.html">IFormattedFileWritable</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.Interactable.IDevkitInteractableBeginSelectionHandler.html">IDevkitInteractableBeginSelectionHandler</a></div>
+      <div><a class="xref" href="SDG.Framework.Devkit.Interactable.IDevkitInteractableEndSelectionHandler.html">IDevkitInteractableEndSelectionHandler</a></div>
+      <div><a class="xref" href="SDG.Unturned.ITransformedHandler.html">ITransformedHandler</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_falloffDistance">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.falloffDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_editorGameObject">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.editorGameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_editorMeshFilter">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.editorMeshFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_editorMeshRenderer">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.editorMeshRenderer</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_forceShouldAddCollider">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.forceShouldAddCollider</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_supportsBoxShape">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.supportsBoxShape</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_supportsSphereShape">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.supportsSphereShape</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_supportsFalloff">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.supportsFalloff</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_CreateMenu">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.CreateMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_beginSelection_SDG_Framework_Devkit_Interactable_InteractionData_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.beginSelection(InteractionData)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_endSelection_SDG_Framework_Devkit_Interactable_InteractionData_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.endSelection(InteractionData)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnTransformed_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Boolean_System_Boolean_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.OnTransformed(Vector3, Quaternion, Vector3, Vector3, Quaternion, Vector3, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_IsPositionInsideVolume_UnityEngine_Vector3_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.IsPositionInsideVolume(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_IsPositionInsideVolumeWithAlpha_UnityEngine_Vector3_System_Single__">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.IsPositionInsideVolumeWithAlpha(Vector3, out float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetBoxSize">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetBoxSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetBoxExtents">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetBoxExtents()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetInnerBoxSize">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetInnerBoxSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetInnerBoxExtents">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetInnerBoxExtents()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalInnerBoxSize">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetLocalInnerBoxSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalInnerBoxExtents">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetLocalInnerBoxExtents()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetSphereRadius">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalSphereRadius">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetLocalSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetWorldSpaceInnerSphereRadius">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetWorldSpaceInnerSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_GetLocalInnerSphereRadius">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.GetLocalInnerSphereRadius()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_SetSphereRadius_System_Single_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.SetSphereRadius(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_CalculateWorldBounds">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.CalculateWorldBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_CalculateLocalBounds">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.CalculateLocalBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_UpdateEditorVisibility_SDG_Unturned_ELevelVolumeVisibility_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.UpdateEditorVisibility(ELevelVolumeVisibility)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnEnable">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnDisable">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_readHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.readHierarchyItem(IFormattedFileReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_writeHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.writeHierarchyItem(IFormattedFileWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_Awake">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_Start">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_OnDestroy">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_AppendBaseMenu_SDG_Unturned_ISleekElement_">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.AppendBaseMenu(ISleekElement)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.LevelVolume-2.html#SDG_Unturned_LevelVolume_2_Shape">LevelVolume&lt;EffectVolume, EffectVolumeManager&gt;.Shape</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_read_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_">DevkitHierarchyWorldItem.read(IFormattedFileReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_write_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_">DevkitHierarchyWorldItem.write(IFormattedFileWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_inspectablePosition">DevkitHierarchyWorldItem.inspectablePosition</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_inspectableRotation">DevkitHierarchyWorldItem.inspectableRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyWorldItem.html#SDG_Framework_Devkit_DevkitHierarchyWorldItem_inspectableScale">DevkitHierarchyWorldItem.inspectableScale</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_GetNetIdFromInstanceId">DevkitHierarchyItemBase.GetNetIdFromInstanceId()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_instanceID">DevkitHierarchyItemBase.instanceID</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_areaSelectGameObject">DevkitHierarchyItemBase.areaSelectGameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_ShouldSave">DevkitHierarchyItemBase.ShouldSave</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Framework.Devkit.DevkitHierarchyItemBase.html#SDG_Framework_Devkit_DevkitHierarchyItemBase_CanBeSelected">DevkitHierarchyItemBase.CanBeSelected</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume__ctor_" data-uid="SDG.Framework.Devkit.EffectVolume.#ctor*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume__ctor" data-uid="SDG.Framework.Devkit.EffectVolume.#ctor">
+  EffectVolume()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EffectVolume()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume__audioRangeMultiplier" data-uid="SDG.Framework.Devkit.EffectVolume._audioRangeMultiplier">
+  _audioRangeMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _audioRangeMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume__emissionMultiplier" data-uid="SDG.Framework.Devkit.EffectVolume._emissionMultiplier">
+  _emissionMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float _emissionMultiplier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume__id" data-uid="SDG.Framework.Devkit.EffectVolume._id">
+  _id
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Kept because lots of modders have been using this script in Unity,
+so removing legacy effect id would break their content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ushort _id</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_effect" data-uid="SDG.Framework.Devkit.EffectVolume.effect">
+  effect
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform effect</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Transform</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_maxParticlesBase" data-uid="SDG.Framework.Devkit.EffectVolume.maxParticlesBase">
+  maxParticlesBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int maxParticlesBase</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_rateOverTimeBase" data-uid="SDG.Framework.Devkit.EffectVolume.rateOverTimeBase">
+  rateOverTimeBase
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float rateOverTimeBase</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_EffectGuid_" data-uid="SDG.Framework.Devkit.EffectVolume.EffectGuid*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_EffectGuid" data-uid="SDG.Framework.Devkit.EffectVolume.EffectGuid">
+  EffectGuid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid EffectGuid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_audioRangeMultiplier_" data-uid="SDG.Framework.Devkit.EffectVolume.audioRangeMultiplier*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_audioRangeMultiplier" data-uid="SDG.Framework.Devkit.EffectVolume.audioRangeMultiplier">
+  audioRangeMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float audioRangeMultiplier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_emissionMultiplier_" data-uid="SDG.Framework.Devkit.EffectVolume.emissionMultiplier*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_emissionMultiplier" data-uid="SDG.Framework.Devkit.EffectVolume.emissionMultiplier">
+  emissionMultiplier
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float emissionMultiplier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_id_" data-uid="SDG.Framework.Devkit.EffectVolume.id*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_id" data-uid="SDG.Framework.Devkit.EffectVolume.id">
+  id
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_Awake_" data-uid="SDG.Framework.Devkit.EffectVolume.Awake*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_Awake" data-uid="SDG.Framework.Devkit.EffectVolume.Awake">
+  Awake()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_CreateMenu_" data-uid="SDG.Framework.Devkit.EffectVolume.CreateMenu*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_CreateMenu" data-uid="SDG.Framework.Devkit.EffectVolume.CreateMenu">
+  CreateMenu()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ISleekElement CreateMenu()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ISleekElement</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_Start_" data-uid="SDG.Framework.Devkit.EffectVolume.Start*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_Start" data-uid="SDG.Framework.Devkit.EffectVolume.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_applyAudioRange_" data-uid="SDG.Framework.Devkit.EffectVolume.applyAudioRange*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_applyAudioRange" data-uid="SDG.Framework.Devkit.EffectVolume.applyAudioRange">
+  applyAudioRange()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void applyAudioRange()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_applyEmission_" data-uid="SDG.Framework.Devkit.EffectVolume.applyEmission*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_applyEmission" data-uid="SDG.Framework.Devkit.EffectVolume.applyEmission">
+  applyEmission()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void applyEmission()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_readHierarchyItem_" data-uid="SDG.Framework.Devkit.EffectVolume.readHierarchyItem*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_readHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileReader_" data-uid="SDG.Framework.Devkit.EffectVolume.readHierarchyItem(SDG.Framework.IO.FormattedFiles.IFormattedFileReader)">
+  readHierarchyItem(IFormattedFileReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void readHierarchyItem(IFormattedFileReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileReader.html">IFormattedFileReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Framework_Devkit_EffectVolume_writeHierarchyItem_" data-uid="SDG.Framework.Devkit.EffectVolume.writeHierarchyItem*"></a>
+
+  <h3 id="SDG_Framework_Devkit_EffectVolume_writeHierarchyItem_SDG_Framework_IO_FormattedFiles_IFormattedFileWriter_" data-uid="SDG.Framework.Devkit.EffectVolume.writeHierarchyItem(SDG.Framework.IO.FormattedFiles.IFormattedFileWriter)">
+  writeHierarchyItem(IFormattedFileWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void writeHierarchyItem(IFormattedFileWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="SDG.Framework.IO.FormattedFiles.IFormattedFileWriter.html">IFormattedFileWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

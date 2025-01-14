@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VolumesEditor | Unturned Analyse Doc </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VolumesEditor | Unturned Analyse Doc ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Unturned Analyse Doc">
+            Unturned Analyse Doc
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SDG.Unturned.VolumesEditor">
+
+
+
+  <h1 id="SDG_Unturned_VolumesEditor" data-uid="SDG.Unturned.VolumesEditor" class="text-break">
+Class VolumesEditor  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SDG.html">SDG</a>.<a class="xref" href="SDG.Unturned.html">Unturned</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class VolumesEditor : SelectionTool, IDevkitTool</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="SDG.Unturned.SelectionTool.html">SelectionTool</a></div>
+      <div><span class="xref">VolumesEditor</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SDG.Framework.Devkit.IDevkitTool.html">IDevkitTool</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_copyBuffer">SelectionTool.copyBuffer</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_copySelectionDelay">SelectionTool.copySelectionDelay</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_pendingClickSelection">SelectionTool.pendingClickSelection</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_handlePosition">SelectionTool.handlePosition</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_handleRotation">SelectionTool.handleRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_referencePosition">SelectionTool.referencePosition</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_referenceRotation">SelectionTool.referenceRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_referenceScale">SelectionTool.referenceScale</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_hasReferenceRotation">SelectionTool.hasReferenceRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_hasReferenceScale">SelectionTool.hasReferenceScale</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_beginAreaSelect">SelectionTool.beginAreaSelect</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_beginAreaSelectTime">SelectionTool.beginAreaSelectTime</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_isAreaSelecting">SelectionTool.isAreaSelecting</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_isDragging">SelectionTool.isDragging</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_areaSelection">SelectionTool.areaSelection</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_transformSelection">SelectionTool.transformSelection()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_moveHandle_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Boolean_System_Boolean_">SelectionTool.moveHandle(Vector3, Quaternion, Vector3, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_update">SelectionTool.update()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_equip">SelectionTool.equip()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_dequip">SelectionTool.dequip()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_handleGLRender">SelectionTool.handleGLRender()</a>
+    </div>
+    <div>
+      <a class="xref" href="SDG.Unturned.SelectionTool.html#SDG_Unturned_SelectionTool_mode">SelectionTool.mode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="SDG_Unturned_VolumesEditor__ctor_" data-uid="SDG.Unturned.VolumesEditor.#ctor*"></a>
+
+  <h3 id="SDG_Unturned_VolumesEditor__ctor" data-uid="SDG.Unturned.VolumesEditor.#ctor">
+  VolumesEditor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VolumesEditor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SDG_Unturned_VolumesEditor_activeVolumeManager_" data-uid="SDG.Unturned.VolumesEditor.activeVolumeManager*"></a>
+
+  <h3 id="SDG_Unturned_VolumesEditor_activeVolumeManager" data-uid="SDG.Unturned.VolumesEditor.activeVolumeManager">
+  activeVolumeManager
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VolumeManagerBase activeVolumeManager { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SDG.Unturned.VolumeManagerBase.html">VolumeManagerBase</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SDG_Unturned_VolumesEditor_EnumerateBoxSelectableObjects_" data-uid="SDG.Unturned.VolumesEditor.EnumerateBoxSelectableObjects*"></a>
+
+  <h3 id="SDG_Unturned_VolumesEditor_EnumerateBoxSelectableObjects" data-uid="SDG.Unturned.VolumesEditor.EnumerateBoxSelectableObjects">
+  EnumerateBoxSelectableObjects()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;GameObject&gt; EnumerateBoxSelectableObjects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">GameObject</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumesEditor_HasBoxSelectableObjects_" data-uid="SDG.Unturned.VolumesEditor.HasBoxSelectableObjects*"></a>
+
+  <h3 id="SDG_Unturned_VolumesEditor_HasBoxSelectableObjects" data-uid="SDG.Unturned.VolumesEditor.HasBoxSelectableObjects">
+  HasBoxSelectableObjects()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool HasBoxSelectableObjects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumesEditor_RaycastSelectableObjects_" data-uid="SDG.Unturned.VolumesEditor.RaycastSelectableObjects*"></a>
+
+  <h3 id="SDG_Unturned_VolumesEditor_RaycastSelectableObjects_UnityEngine_Ray_UnityEngine_RaycastHit__" data-uid="SDG.Unturned.VolumesEditor.RaycastSelectableObjects(UnityEngine.Ray,UnityEngine.RaycastHit@)">
+  RaycastSelectableObjects(Ray, out RaycastHit)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool RaycastSelectableObjects(Ray ray, out RaycastHit hitInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ray</code> <span class="xref">Ray</span></dt>
+    <dd></dd>
+    <dt><code>hitInfo</code> <span class="xref">RaycastHit</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SDG_Unturned_VolumesEditor_RequestInstantiation_" data-uid="SDG.Unturned.VolumesEditor.RequestInstantiation*"></a>
+
+  <h3 id="SDG_Unturned_VolumesEditor_RequestInstantiation_UnityEngine_Vector3_" data-uid="SDG.Unturned.VolumesEditor.RequestInstantiation(UnityEngine.Vector3)">
+  RequestInstantiation(Vector3)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RequestInstantiation(Vector3 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
