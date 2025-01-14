@@ -61,7 +61,7 @@ jobs:
         run: |
           $ErrorActionPreference = "Continue"
           git add -A
-          git diff HEAD -q --exit-code
+          git diff --quiet HEAD --exit-code
           if ($?) {
             Write-Host "No changes to commit!"
             exit 0
