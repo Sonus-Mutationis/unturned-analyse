@@ -9,8 +9,6 @@ A platform for analyzing Unturned's core code and simplifying plugin development
 
 You can download [Assembly-CSharp.xml](https://github.com/Sonus-Mutationis/unturned-analyse/blob/main/assembly/Assembly-CSharp.xml) and [Assembly-CSharp.dll](https://github.com/Sonus-Mutationis/unturned-analyse/blob/main/assembly/Assembly-CSharp.dll), then use [dnSpy](https://github.com/dnSpy/dnSpy)/[ILSpy](https://github.com/icsharpcode/ILSpy)/[dotPeek](https://www.jetbrains.com/decompiler/) to analyze the DLL file. This will help you take your understanding beyond Nelson's documentation to the next level!
 
-The XML merging tool is being developed in Python and is currently a work in progress.
-
 ## For Documentation Contributors
 
 You can navigate to the `xml-documentation` directory in this repository and create files named `<namespace>.<class-name>.xml`. We implement a "one class, one XML file" system, which allows for better management of custom documentation files without getting confused by automatically generated XML documentation.
@@ -18,20 +16,21 @@ You can navigate to the `xml-documentation` directory in this repository and cre
 Like this:
 
 ```xml
-<member name="T:TestNamespace.Player">
-  <summary>Represents a player in the game.</summary>
-  <remarks>
-    This class is used to interact with a player in the game, such as sending messages, killing them, or teleporting them to a different location.
-  </remarks>
-  <example>
-    Here's an example of how to use the <see cref="T:TestNamespace.Player"/> class:
-
-    <code>
-      Player player = UnturnedPlayer.FromCSteamID(steamID);
-      player.Teleport(new Vector3(100, 100, 100));
-    </code>
-  </example>
-</member>
+<!-- TestNamespace.TestClass.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <member name="T:TestNamespace.TestClass">
+    <summary>This is a test class.</summary>
+    <remarks>This class is used for testing purposes.</remarks>
+    <example>Here's an example of how to use this class:</example>
+  </member>
+  <member name="M:TestNamespace.TestClass.TestMethod">
+    <summary>This is a test method.</summary>
+    <remarks>This method is used for testing purposes.</remarks>
+    <example>Here's an example of how to use this method:</example>
+  </member>
+  <!-- Add more members as needed -->
+</doc>
 ```
 
 The `summary` tag is used to provide a brief description of the class, while the `remarks` tag is used to provide more detailed information. The `example` tag is used to provide an example of how to use the class.

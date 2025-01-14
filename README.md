@@ -10,7 +10,6 @@ You can download [Assembly-CSharp.xml](https://github.com/Sonus-Mutationis/untur
 
 You can navigate to the `xml-documentation` directory in this repository and create files named `<namespace>.<class-name>.xml`. We implement a "one class, one XML file" system, which allows for better management of custom documentation files without getting confused by automatically generated XML documentation.
 
-The XML merging tool is being developed in Python and is currently a work in progress.
 
 Like this:
 
