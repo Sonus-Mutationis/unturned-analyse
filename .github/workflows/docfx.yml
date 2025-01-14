@@ -30,12 +30,12 @@ jobs:
           New-Item -Path "$env:GITHUB_WORKSPACE/source" -Name "assembly" -ItemType Directory -Force
           Copy-Item -Path "$env:GITHUB_WORKSPACE/main/assembly/*.dll" -Destination "$env:GITHUB_WORKSPACE/source/assembly" -Force
           Copy-Item -Path "$env:GITHUB_WORKSPACE/main/assembly/*.xml" -Destination "$env:GITHUB_WORKSPACE/source/assembly" -Force
-          Copy-Item -Path "$env:GITHUB_WORKSPACE/main/docfx.json" -Destination "$env:GITHUB_WORKSPACE/source/" -Force
-          Copy-Item -Path "$env:GITHUB_WORKSPACE/main/index.md" -Destination "$env:GITHUB_WORKSPACE/source/" -Force
-          Copy-Item -Path "$env:GITHUB_WORKSPACE/main/toc.yml" -Destination "$env:GITHUB_WORKSPACE/source/" -Force
 
       - name: Copy Docs Files
         run: |
+          Copy-Item -Path "$env:GITHUB_WORKSPACE/main/docfx.json" -Destination "$env:GITHUB_WORKSPACE/source/" -Force
+          Copy-Item -Path "$env:GITHUB_WORKSPACE/main/index.md" -Destination "$env:GITHUB_WORKSPACE/source/" -Force
+          Copy-Item -Path "$env:GITHUB_WORKSPACE/main/toc.yml" -Destination "$env:GITHUB_WORKSPACE/source/" -Force
           New-Item -Path "$env:GITHUB_WORKSPACE/source" -Name "docs" -ItemType Directory -Force
           Copy-Item -Path "$env:GITHUB_WORKSPACE/main/docs/*" -Destination "$env:GITHUB_WORKSPACE/source/docs" -Force
 
