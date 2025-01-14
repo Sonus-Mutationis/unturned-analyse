@@ -15,20 +15,21 @@ The XML merging tool is being developed in Python and is currently a work in pro
 Like this:
 
 ```xml
-<member name="T:TestNamespace.Player">
-  <summary>Represents a player in the game.</summary>
-  <remarks>
-    This class is used to interact with a player in the game, such as sending messages, killing them, or teleporting them to a different location.
-  </remarks>
-  <example>
-    Here's an example of how to use the <see cref="T:TestNamespace.Player"/> class:
-
-    <code>
-      Player player = UnturnedPlayer.FromCSteamID(steamID);
-      player.Teleport(new Vector3(100, 100, 100));
-    </code>
-  </example>
-</member>
+<!-- TestNamespace.TestClass.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <member name="T:TestNamespace.TestClass">
+    <summary>This is a test class.</summary>
+    <remarks>This class is used for testing purposes.</remarks>
+    <example>Here's an example of how to use this class:</example>
+  </member>
+  <member name="M:TestNamespace.TestClass.TestMethod">
+    <summary>This is a test method.</summary>
+    <remarks>This method is used for testing purposes.</remarks>
+    <example>Here's an example of how to use this method:</example>
+  </member>
+  <!-- Add more members as needed -->
+</doc>
 ```
 
 The `summary` tag is used to provide a brief description of the class, while the `remarks` tag is used to provide more detailed information. The `example` tag is used to provide an example of how to use the class.
